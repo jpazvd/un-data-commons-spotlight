@@ -1,0 +1,44 @@
+{
+  "spotlight": "01-child-marriage",
+  "retrieved_on": "2026-10-23",
+  "indicator": {
+    "sdg_indicator": "5.3.1",
+    "sdg_series_code": "SP_DYN_MRBF18",
+    "series_description": "Proportion of women aged 20-24 years who were married or in a union before age 18 (%)",
+    "dimensions": {"Age": "20-24", "Sex": "FEMALE"},
+    "data_commons_variable_dcid": "undata/sdg/SP_DYN_MRBF18.AGE--Y20T24__SEX--F",
+    "data_commons_provenance": "undata/p/SDG",
+    "data_commons_facet_id": "3722936608695937273"
+  },
+  "data_commons_calls": [
+    {
+      "tool": "search_indicators",
+      "args": {"query": "women aged 20-24 married or in union before age 18",
+               "places": ["World", "Niger", "Bangladesh", "India"],
+               "include_topics": false}
+    },
+    {
+      "tool": "get_variable_metadata",
+      "args": {"variable_dcids": ["undata/sdg/SP_DYN_MRBF18.AGE--Y20T24__SEX--F"],
+               "entity_dcids": ["Earth", "country/NER", "country/BGD", "country/IND"]}
+    },
+    {
+      "tool": "get_observations",
+      "args": {"variable_dcid": "undata/sdg/SP_DYN_MRBF18.AGE--Y20T24__SEX--F",
+               "place_dcid": "Earth", "date": "all"},
+      "saved_as": "data/world.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {"variable_dcid": "undata/sdg/SP_DYN_MRBF18.AGE--Y20T24__SEX--F",
+               "parent_place_dcid": "Earth", "child_place_type": "Country", "date": "latest"},
+      "saved_as": "data/countries_latest.csv"
+    }
+  ],
+  "custodian_api_equivalent": {
+    "description": "Same series from the UN SDG Global Database API (UNSD). Verified on 2026-10-23: the World records (geoAreaCode 1) match data/world.csv exactly, and Niger (geoAreaCode 562) returns 76.3 for 2012 (source DHS 2012).",
+    "url": "https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SP_DYN_MRBF18&pageSize=10000",
+    "filters": {"dimensions.Age": "20-24", "dimensions.Sex": "FEMALE"},
+    "refresh_command": "python scripts/fetch_sdg_api.py spotlights/01-child-marriage"
+  }
+}

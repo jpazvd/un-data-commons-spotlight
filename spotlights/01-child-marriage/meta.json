@@ -3,6 +3,8 @@
   "slug": "01-child-marriage",
   "title": "Child marriage",
   "sdg_indicator": "5.3.1",
+  "sdg_series_code": "SP_DYN_MRBF18",
+  "dimensions": {"Age": "20-24", "Sex": "FEMALE"},
   "variable_dcid": "undata/sdg/SP_DYN_MRBF18.AGE--Y20T24__SEX--F",
   "variable_name": "Proportion of women who were married or in a union before age 18 [Age=20 to 24 years old, Sex=Female]",
   "unit": "Percent",
