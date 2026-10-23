@@ -28,6 +28,14 @@ scripts/
   fetch_sdg_api.py            Re-pull a series from the UN SDG API and compare with the snapshot
 ```
 
+## Experiments
+
+Banner style: from Spotlight 02 the banner template is not chosen by hand. It is read from
+[`experiments/001-banner-ground/assignment.csv`](experiments/001-banner-ground/assignment.csv), a seeded random
+assignment registered before the experiment started. See
+[`PREREGISTRATION.md`](experiments/001-banner-ground/PREREGISTRATION.md) for the question, design, outcomes,
+power and decision rule, and `analyze.py` for the pre-specified analysis.
+
 ## Reproduce a banner
 
 ```bash
