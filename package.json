@@ -1,0 +1,10 @@
+{
+  "name": "un-data-commons-spotlight",
+  "private": true,
+  "description": "Fonts used to render the Spotlight banners (installed locally so renders are reproducible).",
+  "dependencies": {
+    "@fontsource-variable/archivo": "5.3.0",
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "@fontsource/ibm-plex-sans": "5.3.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "world_first": {
+    "year": 2005,
+    "value": 24.2
+  },
+  "world_last": {
+    "year": 2025,
+    "value": 18.5
+  },
+  "observed_pace_pts_per_year": 0.29,
+  "required_pace_pts_per_year": 3.69,
+  "required_over_observed": 12.9,
+  "value_at_current_pace_in_target_year": 17.0,
+  "target": {
+    "value": 0.0,
+    "year": 2030
+  },
+  "top_countries": [
+    {
+      "name": "Niger",
+      "year": 2012,
+      "value": 76.3
+    },
+    {
+      "name": "Central African Republic",
+      "year": 2019,
+      "value": 61.0
+    },
+    {
+      "name": "Chad",
+      "year": 2019,
+      "value": 60.6
+    },
+    {
+      "name": "South Sudan",
+      "year": 2010,
+      "value": 51.5
+    },
+    {
+      "name": "Burkina Faso",
+      "year": 2015,
+      "value": 51.3
+    },
+    {
+      "name": "Mali",
+      "year": 2024,
+      "value": 48.5
+    }
+  ],
+  "n_countries": 144,
+  "n_latest_at_or_before_cutoff": 83,
+  "share_latest_at_or_before_cutoff_pct": 58,
+  "stale_cutoff_year": 2020,
+  "oldest_latest_estimate": {
+    "name": "Brazil",
+    "year": 2006
+  }
+}

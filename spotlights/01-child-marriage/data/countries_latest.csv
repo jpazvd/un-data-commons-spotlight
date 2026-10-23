@@ -1,0 +1,145 @@
+dcid,name,year,value
+country/AFG,Afghanistan,2023,28.7
+country/AGO,Angola,2024,23.1
+country/ALB,Albania,2018,11.8
+country/ARG,Argentina,2020,15.5
+country/ARM,Armenia,2016,5.3
+country/AZE,Azerbaijan,2023,15
+country/BDI,Burundi,2017,19
+country/BEL,Belgium,2020,0.1
+country/BEN,Benin,2022,27.5
+country/BFA,Burkina Faso,2015,51.3
+country/BGD,Bangladesh,2025,47.2
+country/BIH,Bosnia and Herzegovina,2012,3.5
+country/BLR,Belarus,2019,4.7
+country/BLZ,Belize,2016,33.5
+country/BOL,Bolivia,2023,14.5
+country/BRA,Brazil,2006,26.2
+country/BRB,Barbados,2012,29.2
+country/BTN,Bhutan,2023,9
+country/CAF,Central African Republic,2019,61
+country/CHL,Chile,2024,0
+country/CHN,China,2020,2.8
+country/CIV,Côte d'Ivoire,2021,25.8
+country/CMR,Cameroon,2018,29.8
+country/COD,Congo [DRC],2024,29.9
+country/COG,Congo [Republic],2015,27.3
+country/COL,Colombia,2015,23.4
+country/COM,Comoros,2022,20.7
+country/CPV,Cape Verde,2018,8.4
+country/CRI,Costa Rica,2018,17.1
+country/CUB,Cuba,2019,29.4
+country/DJI,Djibouti,2019,6.5
+country/DNK,Denmark,2021,0.7
+country/DOM,Dominican Republic,2019,31.5
+country/DZA,Algeria,2019,3.8
+country/ECU,Ecuador,2018,22.2
+country/EGY,Egypt,2021,15.8
+country/ERI,Eritrea,2010,40.7
+country/ETH,Ethiopia,2016,40.3
+country/FIN,Finland,2017,0.1
+country/FJI,Fiji,2021,4
+country/GAB,Gabon,2021,13.3
+country/GBR,United Kingdom,2021,0
+country/GEO,Georgia,2022,9.4
+country/GHA,Ghana,2022,16.1
+country/GIN,Guinea,2018,46.5
+country/GMB,Gambia,2020,23.1
+country/GNB,Guinea-Bissau,2019,25.7
+country/GNQ,Equatorial Guinea,2011,29.5
+country/GTM,Guatemala,2015,29.5
+country/GUY,Guyana,2020,32.3
+country/HND,Honduras,2019,34
+country/HTI,Haiti,2017,14.9
+country/IDN,Indonesia,2017,16.3
+country/IND,India,2021,23.3
+country/IRN,Iran,2010,16.7
+country/IRQ,Iraq,2018,27.9
+country/ISR,Israel,2022,0.8
+country/JAM,Jamaica,2022,26.9
+country/JOR,Jordan,2023,9.9
+country/KAZ,Kazakhstan,2024,6.1
+country/KEN,Kenya,2022,12.5
+country/KGZ,Kyrgyzstan,2023,9.2
+country/KHM,Cambodia,2022,17.9
+country/KIR,Kiribati,2019,18.4
+country/LAO,Laos,2023,30.5
+country/LBN,Lebanon,2016,6
+country/LBR,Liberia,2020,24.9
+country/LBY,Libya,2025,4.1
+country/LCA,Saint Lucia,2012,24
+country/LKA,Sri Lanka,2016,9.8
+country/LSO,Lesotho,2024,13.4
+country/LTU,Lithuania,2022,0.2
+country/MAR,Morocco,2018,13.7
+country/MDA,Moldova,2012,12.2
+country/MDG,Madagascar,2021,38.8
+country/MDV,Maldives,2017,2.2
+country/MEX,Mexico,2023,18.2
+country/MHL,Marshall Islands,2007,26.3
+country/MKD,North Macedonia,2019,7.5
+country/MLI,Mali,2024,48.5
+country/MMR,Myanmar,2016,16
+country/MNE,Montenegro,2018,5.8
+country/MNG,Mongolia,2023,8.1
+country/MOZ,Mozambique,2023,48.4
+country/MRT,Mauritania,2021,36.6
+country/MWI,Malawi,2024,38.7
+country/NAM,Namibia,2013,6.9
+country/NER,Niger,2012,76.3
+country/NGA,Nigeria,2024,33.4
+country/NIC,Nicaragua,2012,35.2
+country/NOR,Norway,2022,0
+country/NPL,Nepal,2022,34.9
+country/NRU,Nauru,2023,18.2
+country/OMN,Oman,2014,4
+country/PAK,Pakistan,2018,18.3
+country/PAN,Panama,2013,26.4
+country/PER,Peru,2024,17.9
+country/PHL,Philippines,2022,9.4
+country/PNG,Papua New Guinea,2018,27.3
+country/PRK,North Korea,2017,0.1
+country/PRY,Paraguay,2016,21.6
+country/PSE,Palestinian Territories,2020,13.4
+country/QAT,Qatar,2023,1.7
+country/ROU,Romania,2021,6.9
+country/RUS,Russia,2017,6.2
+country/RWA,Rwanda,2020,5.5
+country/SAU,Saudi Arabia,2024,3.4
+country/SDN,Sudan,2014,34.2
+country/SEN,Senegal,2023,30.2
+country/SGP,Singapore,2025,0.1
+country/SLB,Solomon Islands,2015,21.3
+country/SLE,Sierra Leone,2019,29.6
+country/SLV,El Salvador,2021,19.7
+country/SOM,Somalia,2006,45.3
+country/SRB,Serbia,2019,5.5
+country/SSD,South Sudan,2010,51.5
+country/STP,São Tomé and Príncipe,2019,28
+country/SUR,Suriname,2018,36
+country/SWZ,Eswatini,2022,1.9
+country/SYR,Syria,2006,13.3
+country/TCA,Turks and Caicos Islands,2020,23.3
+country/TCD,Chad,2019,60.6
+country/TGO,Togo,2017,24.8
+country/THA,Thailand,2022,17
+country/TJK,Tajikistan,2023,8.8
+country/TKM,Turkmenistan,2024,6.1
+country/TLS,Timor-Leste,2016,14.9
+country/TON,Tonga,2019,10.1
+country/TTO,Trinidad and Tobago,2022,4.2
+country/TUN,Tunisia,2023,2.4
+country/TUR,Türkiye,2018,14.7
+country/TUV,Tuvalu,2020,1.8
+country/TZA,Tanzania,2022,29.1
+country/UGA,Uganda,2016,34
+country/UKR,Ukraine,2012,9.1
+country/URY,Uruguay,2013,24.6
+country/UZB,Uzbekistan,2022,3.4
+country/VNM,Vietnam,2021,14.6
+country/VUT,Vanuatu,2023,20.9
+country/WSM,Samoa,2020,7.4
+country/YEM,Yemen,2023,29.6
+country/ZAF,South Africa,2016,3.6
+country/ZMB,Zambia,2024,23.9
+country/ZWE,Zimbabwe,2019,33.7

@@ -1,0 +1,16 @@
+{
+  "spotlight": 1,
+  "slug": "01-child-marriage",
+  "title": "Child marriage",
+  "sdg_indicator": "5.3.1",
+  "variable_dcid": "undata/sdg/SP_DYN_MRBF18.AGE--Y20T24__SEX--F",
+  "variable_name": "Proportion of women who were married or in a union before age 18 [Age=20 to 24 years old, Sex=Female]",
+  "unit": "Percent",
+  "provenance_id": "undata/p/SDG",
+  "source": "United Nations, SDG Global Database (United Nations Statistics Division)",
+  "source_url": "https://unstats.un.org/sdgs/dataportal",
+  "facet_id": "3722936608695937273",
+  "retrieved_via": "UN System Data Commons (MCP connector): get_observations(Earth, date=all); get_child_observations(parent=Earth, child_place_type=Country, date=latest)",
+  "retrieved_on": "2026-10-23",
+  "notes": "Country values are each country's latest available year in the database. Country display names follow the Data Commons place names, with a few updated to current UN short names (North Macedonia, Timor-Leste, Türkiye)."
+}
