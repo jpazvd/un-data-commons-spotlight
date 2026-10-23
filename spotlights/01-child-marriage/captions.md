@@ -20,6 +20,6 @@ SDG 5.3.1, UN System Data Commons #SDGs #DataForChildren
 
 ## Bluesky
 
-Nearly 1 in 5 women aged 20–24 was married before 18 (18.5%, 2025). Since 2005 the rate fell ~0.3 pts a year; ending child marriage by 2030 needs ~13x that pace. And 58% of countries' latest data predate 2021.
+Nearly 1 in 5 women aged 20–24 was married before 18 (18.5%, 2025). Since 2005 it fell ~0.3 pts a year; ending child marriage by 2030 needs ~13x that pace. And 58% of countries' latest data predate 2021.
 
-SDG 5.3.1 via UN System Data Commons. Data + code: github.com/jpazvd/un-data-commons-spotlight
+SDG 5.3.1, UN System Data Commons. Data + code: github.com/jpazvd/un-data-commons-spotlight
