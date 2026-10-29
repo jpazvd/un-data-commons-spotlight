@@ -6,7 +6,7 @@ Nearly 1 in 5 women aged 20–24 worldwide was married or in a union before turn
 
 That is progress of about 0.3 percentage points a year. Ending child marriage by 2030 (SDG target 5.3) would need about 3.7 points a year, roughly 13 times the pace of the last two decades.
 
-A statistician's note: for 58% of the 144 countries with data, the latest estimate is from 2020 or earlier. That includes three of the six countries with the highest rates. We cannot track progress we do not measure regularly.
+A statistician's note: for 58% of the 144 countries with data, the latest estimate is from 2020 or earlier. That includes five of the six countries with the highest rates. We cannot track progress we do not measure regularly.
 
 Data: UN SDG Global Database (indicator 5.3.1), via the UN System Data Commons. Data, code and banner: https://github.com/jpazvd/un-data-commons-spotlight
 
@@ -23,3 +23,7 @@ SDG 5.3.1, UN System Data Commons #SDGs #DataForChildren
 Nearly 1 in 5 women aged 20–24 was married before 18 (18.5%, 2025). Since 2005 it fell ~0.3 pts a year; ending child marriage by 2030 needs ~13x that pace. And 58% of countries' latest data predate 2021.
 
 SDG 5.3.1, UN System Data Commons. Data + code: github.com/jpazvd/un-data-commons-spotlight
+
+## Correction
+
+2026-10-29: the statistician's note and the banner first said that three of the six countries with the highest rates have a latest estimate from 2020 or earlier. The committed data (stats.json) give five: Niger 2012, Central African Republic 2019, Chad 2019, South Sudan 2010 and Burkina Faso 2015; only Mali's estimate (2024) is more recent. The text above and the banner are corrected; the posts already published carry the original wording.

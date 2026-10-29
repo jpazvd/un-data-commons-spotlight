@@ -4,9 +4,13 @@ A recurring series of banners, each highlighting one statistic on children and w
 [UN System Data Commons](https://unstats.un.org/sdgs/dataportal). Every number on a banner is
 derived from the data committed in this repository, by the scripts committed here.
 
-| # | Topic | SDG indicator | Date |
-|---|-------|---------------|------|
+<!-- spotlights:start -->
+| # | Topic | SDG indicator | Data retrieved |
+|---|-------|---------------|----------------|
 | 01 | [Child marriage](spotlights/01-child-marriage) | 5.3.1 | 2026-10-23 |
+<!-- spotlights:end -->
+
+The table is rebuilt from each Spotlight's `meta.json` when content is published (`scripts/build_readme_table.py`).
 
 ## Layout
 
@@ -24,9 +28,17 @@ spotlights/<NN-slug>/
   captions.md                 LinkedIn and X post text
 scripts/
   compute_stats.py            Data -> stats.json
-  render_banner.py            banner.dc.html -> PNG/JPEG
+  render_banner.py            banner.dc.html (or any .dc.html design) -> PNG/JPEG
   fetch_sdg_api.py            Re-pull a series from the UN SDG API and compare with the snapshot
 ```
+
+## Banner templates
+
+| Dark | Light |
+| --- | --- |
+| ![Template D, dark](templates/banner-D-dark.jpg) | ![Template D, light](templates/banner-D-light.jpg) |
+
+Earlier designs and why they were retired: [docs/design-history](docs/design-history/README.md).
 
 ## Experiments
 
@@ -41,11 +53,15 @@ power and decision rule, and `analyze.py` for the pre-specified analysis.
 ```bash
 pip install -r requirements.txt
 python -m playwright install chromium
-npm install                      # banner fonts (Archivo, IBM Plex) into node_modules/
+npm install                      # banner fonts (@fontsource packages) into node_modules/
 
 python scripts/compute_stats.py spotlights/01-child-marriage   # re-derives every figure
 python scripts/render_banner.py spotlights/01-child-marriage   # re-renders the banner
+python scripts/render_banner.py templates/banner-D-dark.dc.html  # any design file: writes banner-D-dark.png/.jpg beside it
 ```
+
+The renderer loads the families and weights named in the design's `<helmet>` font link from `node_modules/`, and
+stops if one is missing, so a render never silently falls back to a system font.
 
 `compute_stats.py` options: `--target-value` and `--target-year` (default 0 by 2030),
 `--stale-cutoff` (default 2020; latest estimates in or before this year count as stale),
@@ -76,3 +92,8 @@ SDG series code and dimensions, the Data Commons variable (DCID), the provenance
 source, and the retrieval date.
 Country values are each country's latest available year, so they are not directly comparable
 across countries. Please cite the original custodian source shown on each banner.
+
+## Licence and citation
+
+Code: MIT. Banners, captions and text: CC BY 4.0. Data: the custodian sources' terms (see each Spotlight's
+`meta.json`). How to cite: [`CITATION.cff`](CITATION.cff). Each published Spotlight has a tag, `spotlight-NN`.

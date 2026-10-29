@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these banners, data snapshots or code, please cite them as below, and cite the custodian data source named in each Spotlight."
+title: "UN Data Commons Spotlight"
+type: software
+authors:
+  - family-names: "Azevedo"
+    given-names: "João Pedro"
+repository-code: "https://github.com/jpazvd/un-data-commons-spotlight"
+license:
+  - MIT          # code
+  - CC-BY-4.0    # banners, captions and text (LICENSE-CONTENT.md)
+date-released: 2026-10-23
+keywords:
+  - official statistics
+  - SDG indicators
+  - children
+  - UN System Data Commons
+  - reproducibility

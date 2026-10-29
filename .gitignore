@@ -1,3 +1,34 @@
-node_modules/
+########################################################################
+# .gitignore for the PUBLIC repo jpazvd/un-data-commons-spotlight.
+# Maintained in the private repo and copied by sync-to-public. Edit there.
+# Strategy: ignore everything, then whitelist what belongs in public.
+########################################################################
+*
+!.gitignore
+!.gitattributes
+!README.md
+!LICENSE
+!LICENSE-CONTENT.md
+!CITATION.cff
+!CHANGELOG.md
+!requirements.txt
+!package.json
+!package-lock.json
+!*/
+!/spotlights/**
+!/scripts/*.py
+!/templates/*.dc.html
+!/templates/*.png
+!/templates/*.jpg
+!/experiments/**
+!/docs/design-history/**
+*.log
+*.render.html
 __pycache__/
-.render.html
+node_modules/
+# Defense in depth: never public
+.github/
+internal/
+drafts/
+notes/
+.env*
