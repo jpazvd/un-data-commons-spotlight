@@ -40,6 +40,7 @@ FONTS = {
         "@fontsource/ibm-plex-sans-condensed/files/ibm-plex-sans-condensed-latin-{w}-normal.woff2",
     "Source Serif 4": "@fontsource/source-serif-4/files/source-serif-4-latin-{w}-normal.woff2",
     "Source Sans 3": "@fontsource/source-sans-3/files/source-sans-3-latin-{w}-normal.woff2",
+    "Space Grotesk": "@fontsource/space-grotesk/files/space-grotesk-latin-{w}-normal.woff2",
 }
 # Variable fonts: one file covers the weight range, plus their other axes.
 VARIABLE = {"Archivo": ("100 900", "font-stretch:62% 125%;")}
