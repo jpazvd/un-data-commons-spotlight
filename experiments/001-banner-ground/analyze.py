@@ -15,7 +15,8 @@ Outcomes (per post, measured 7-10 days after publication):
 Estimand: ratio dark / light, from the mean within-block difference in the log outcome
 (complete blocks only; the 2x2 design balances link placement within each block).
 Inference: exact randomisation test over the 4 allowed dark assignments per block
-(one odd and one even Spotlight dark), and a 90% interval from a block bootstrap.
+(one body and one first-comment Spotlight dark: one odd and one even number in the original
+slots), and a 90% interval from a block bootstrap.
 The link-placement effect (first comment / body) is estimated the same way, descriptively:
 it was not randomised, it alternates by Spotlight number.
 """
@@ -82,11 +83,14 @@ def main():
 
     ground = {b: [(int(assign[k]["ground"] == "dark"), y) for k, y in v] for b, v in complete.items()}
     est = st.mean(block_effects(ground, None))
-    # exact randomisation distribution: in each block, one odd and one even Spotlight are dark
+    # exact randomisation distribution: in each block, one body and one first-comment Spotlight are
+    # dark. The strata come from link_placement, not the number's parity: they coincide for the
+    # original slots, and a make-up (PREREGISTRATION.md, Deviations) keeps its slot's placement.
     perms = []
     for b, v in complete.items():
-        odd = [k for k, _ in v if int(k) % 2]; even = [k for k, _ in v if not int(k) % 2]
-        perms.append([{o, e} for o in odd for e in even])
+        body = [k for k, _ in v if assign[k]["link_placement"] == "body"]
+        first = [k for k, _ in v if assign[k]["link_placement"] == "first_comment"]
+        perms.append([{o, e} for o in body for e in first])
     ys = {b: dict(v) for b, v in complete.items()}
     null = []
     for combo in itertools.product(*perms):

@@ -18,6 +18,9 @@ Checks, per spotlight folder:
      Experiment 001: a Spotlight listed in assignment.csv declares exactly that arm in meta.json; banner.png
      and banner.dc.html use the assigned ground; the repo link is in the LinkedIn body (body arm) or only in
      the "LinkedIn first comment" (first_comment arm). A Spotlight not listed declares no experiment.
+     assignment.csv itself: no Spotlight is listed twice (the last row would silently win); a row above 33
+     in one of the original blocks is a make-up and copies one of that block's slots exactly; at most one
+     Spotlight per slot has a folder.
   5. With --base (published content is frozen):
      - every Spotlight on the base ref is still there under the same name, with data/*.csv and
        retrieval.json unchanged (new files under data/api_refresh/ are allowed);
@@ -173,6 +176,27 @@ def check_banner(spot, assignment):
             fail(spot.name, "assigned the link in the first comment, but the LinkedIn caption carries it too")
 
 
+def check_assignment(rows, spots):
+    """Duplicate ids, make-ups that copy no slot, and slots with more than one Spotlight folder."""
+    ids = [r["spotlight"] for r in rows]
+    for i in sorted({i for i in ids if ids.count(i) > 1}):
+        failures.append(f"assignment.csv: Spotlight {i} is listed more than once")
+    slot = lambda r: (r["block"], r["link_placement"], r["ground"], r["template"])
+    original = [r for r in rows if 2 <= int(r["spotlight"]) <= 33]  # the pre-registered slots
+    slots, blocks = {slot(r) for r in original}, {r["block"] for r in original}
+    with_folder = {int(p.name.split("-")[0]) for p in spots}
+    members = {}
+    for r in rows:
+        if int(r["spotlight"]) > 33 and r["block"] in blocks and slot(r) not in slots:
+            failures.append(f"assignment.csv: make-up {r['spotlight']} does not copy a slot of block {r['block']}")
+            continue
+        members.setdefault(slot(r), []).append(r["spotlight"])
+    for s, nums in members.items():
+        if len([n for n in nums if int(n) in with_folder]) > 1:
+            failures.append(f"assignment.csv: block {s[0]} {s[2]}/{s[1]} has more than one Spotlight: "
+                            + ", ".join(nums))
+
+
 def check_frozen(base):
     for name in [n for n in git("ls-tree", "-d", "--name-only", f"{base}:spotlights").stdout.splitlines()
                  if SPOTLIGHT_NAME.match(n)]:
@@ -211,11 +235,13 @@ def main():
     a = ap.parse_args()
     sys.stdout.reconfigure(errors="backslashreplace")  # FAIL lines quote files; Windows consoles are not UTF-8
     apath = ROOT / EXP / "assignment.csv"
-    assignment = {}
+    rows = []
     if apath.exists():
         with open(apath, encoding="utf-8", newline="") as f:
-            assignment = {r["spotlight"]: r for r in csv.DictReader(f)}
+            rows = list(csv.DictReader(f))
+    assignment = {r["spotlight"]: r for r in rows}
     spots, misnamed = spotlight_dirs(ROOT / "spotlights")
+    check_assignment(rows, spots)
     for p in misnamed:
         fail(p.name, "not a Spotlight folder name (NN-slug); prefix it with _ to keep it private")
     numbers = [int(p.name.split("-")[0]) for p in spots]

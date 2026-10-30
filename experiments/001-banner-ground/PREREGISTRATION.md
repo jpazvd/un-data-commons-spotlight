@@ -78,4 +78,12 @@ share one format, so their variance should be lower than this mixed baseline; it
 
 ## Deviations
 
-None yet.
+- 2026-10-30: How a Spotlight dropped before publication is handled, set before any of Spotlights 02 to 33
+  was produced, so before any outcome data. Until now its slot would stay empty and its block of four would
+  drop out of the complete-block analysis. From now on a flawed Spotlight is fixed on its pull request rather
+  than closed; one that is closed anyway is re-run after Spotlight 33 as a make-up, with the next new number
+  and the vacated slot's block, ground, link placement and template (one row appended to `assignment.csv`,
+  and a dated line here). A make-up is posted later than the rest of its block, so that block is less
+  balanced in time. `analyze.py` now forms the randomisation strata from `link_placement` rather than from
+  the parity of the Spotlight number; for the 32 original slots the two are identical, so results without
+  make-ups do not change.
