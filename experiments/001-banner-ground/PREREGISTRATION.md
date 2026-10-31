@@ -93,3 +93,10 @@ share one format, so their variance should be lower than this mixed baseline; it
   requests, which a missed run or a closed pull request could lose: it records each post's Metricool id in
   `posts.csv` when it schedules the post, and appends the measurement to `outcomes.csv` on its own pull
   request, matched by that id. The outcomes and the 7-to-10-day window are unchanged.
+- 2026-10-31: The caption and headline rule changed, in both arms alike, before any of Spotlights 02 to 33 was
+  published, so before any outcome data (strategy document; production task STEP 2b). Where a target gives a pace,
+  the lead is now the required pace in the indicator's units, with the multiple only in the LinkedIn caption, and
+  the LinkedIn caption closes on where that pace has been reached. Spotlight 04 is rewritten to this rule on its
+  pull request; 02 and 03 are not pace cases; 05 onward follow it, so block 1 is published under one rule. The
+  arms, outcomes and analysis do not change. A comparison with earlier posts is not affected by the arms, but the
+  primary outcome may shift for reasons unrelated to the ground, so the baseline is not comparable on comments.
