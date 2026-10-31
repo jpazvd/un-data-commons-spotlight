@@ -30,6 +30,7 @@ scripts/
   compute_stats.py            Data -> stats.json
   render_banner.py            banner.dc.html (or any .dc.html design) -> PNG/JPEG
   fetch_sdg_api.py            Re-pull a series from the UN SDG API and compare with the snapshot
+  check_sdg_api.py            Same comparison, by script, for CI; writes the survey sources of the named countries
 ```
 
 ## Banner templates

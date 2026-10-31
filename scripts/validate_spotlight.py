@@ -10,10 +10,12 @@ and never published; any other name fails.
 Checks, per spotlight folder:
   1. Required files are present; no two folders share a number; meta.json has spotlight (= NN),
      slug (= the folder name), title, sdg_indicator and retrieved_on (the public README table is built from them).
-  2. stats.json reproduces exactly from the saved data with scripts/compute_stats.py
-     (arguments recovered from stats.json itself: target, stale cutoff, number of countries ranked).
+     From Spotlight 02 (house rule of 29 Oct 2026): target_basis, and target_value and target_year equal to
+     stats.json's target (both null when the basis is "none"; a per-country basis needs the same threshold).
+  2. stats.json reproduces exactly from the saved data with scripts/compute_stats.py (arguments recovered
+     from stats.json itself: target, direction, country threshold, stale cutoff, number of countries ranked).
   3. Captions: the sections exist; X <= 280 characters as X counts them (a URL is 23, CJK and emoji 2)
-     and Bluesky <= 300; no em-dashes.
+     and Bluesky <= 300; no em-dashes. From Spotlight 02, each of the three has a "Method: ..." line.
   4. Banner: banner.png is 2400x1260 (or 1200x630).
      Experiment 001: a Spotlight listed in assignment.csv declares exactly that arm in meta.json; banner.png
      and banner.dc.html use the assigned ground; the repo link is in the LinkedIn body (body arm) or only in
@@ -24,7 +26,7 @@ Checks, per spotlight folder:
   5. With --base (published content is frozen):
      - every Spotlight on the base ref is still there under the same name, with data/*.csv and
        retrieval.json unchanged (new files under data/api_refresh/ are allowed);
-     - assignment.csv and outcomes.csv only gain rows at the end; PREREGISTRATION.md only gains lines
+     - assignment.csv, posts.csv and outcomes.csv only gain rows at the end; PREREGISTRATION.md only gains lines
        (its "None yet." placeholder under Deviations may go).
 Exit code 1 if any check fails.
 """
@@ -37,6 +39,7 @@ REQUIRED = ["data/world.csv", "data/countries_latest.csv", "meta.json", "retriev
 GROUNDS = {"dark": "#0D2433", "light": "#F4F6F7"}
 LIMITS = {"X": 280, "Bluesky": 300}
 REPO_LINK = "github.com/jpazvd/un-data-commons-spotlight"
+HOUSE_RULE_FROM = 2  # target fields and method lines are required from Spotlight 02 (rule of 29 Oct 2026)
 SPOTLIGHT_NAME = re.compile(r"^(\d{2,3})-[a-z0-9]+(?:-[a-z0-9]+)*$")
 URL = re.compile(r"https?://\S+|\b(?:[a-z0-9-]+\.)+(?:com|org|net|int|io|dev|ai|gov|edu)(?:/\S*)?", re.I)
 
@@ -97,12 +100,33 @@ def check_meta(spot):
         fail(spot.name, f"meta.json spotlight={meta['spotlight']!r} but the folder number is {num}")
     if "slug" in meta and meta["slug"] != spot.name:
         fail(spot.name, f"meta.json slug={meta['slug']!r} but the folder is {spot.name!r}")
+    if num < HOUSE_RULE_FROM:
+        return
+    basis = meta.get("target_basis")
+    if not isinstance(basis, str) or not basis.strip():
+        fail(spot.name, 'meta.json has no target_basis (e.g. "SDG 5.3", "SDG 3.2 (per country)", "WHA 2030", '
+                        '"IA2030" or "none")')
+    elif basis == "none":
+        if any(meta.get(k, "absent") is not None for k in ("target_value", "target_year")):
+            fail(spot.name, 'meta.json target_basis is "none": target_value and target_year must both be present '
+                            'and null')
+    else:
+        stats = json.loads((spot / "stats.json").read_text(encoding="utf-8"))
+        for key, want in (("target_value", stats["target"]["value"]), ("target_year", stats["target"]["year"])):
+            if not isinstance(meta.get(key), (int, float)) or float(meta[key]) != float(want):
+                fail(spot.name, f"meta.json {key}={meta.get(key)!r} but stats.json's target says {want!r}")
+        if "per country" in basis and (stats.get("country_threshold") or {}).get("value") != meta.get("target_value"):
+            fail(spot.name, "a per-country target needs compute_stats.py --country-threshold <target_value>")
 
 
 def check_stats(spot):
     stats = json.loads((spot / "stats.json").read_text(encoding="utf-8"))
     args = ["--target-value", str(stats["target"]["value"]), "--target-year", str(stats["target"]["year"]),
             "--stale-cutoff", str(stats["stale_cutoff_year"]), "--top", str(len(stats["top_countries"]))]
+    if "better" in stats:
+        args += ["--better", stats["better"]]
+    if "country_threshold" in stats:
+        args += ["--country-threshold", str(stats["country_threshold"]["value"])]
     with tempfile.TemporaryDirectory() as tmp:
         t = pathlib.Path(tmp) / spot.name
         shutil.copytree(spot / "data", t / "data")
@@ -126,6 +150,10 @@ def check_captions(spot):
     for name, text in sec.items():
         if "—" in text:
             fail(spot.name, f"em-dash in the {name} caption")
+    if int(spot.name.split("-")[0]) >= HOUSE_RULE_FROM:
+        for name in ["LinkedIn", "X", "Bluesky"]:
+            if name in sec and not re.search(r"^Method: \S", sec[name], re.M):
+                fail(spot.name, f'the {name} caption has no "Method: ..." line (house rule)')
 
 
 def check_banner(spot, assignment):
@@ -259,6 +287,7 @@ def main():
         else:
             check_frozen(a.base)
             check_append_only(a.base, f"{EXP}/assignment.csv", rows=True)
+            check_append_only(a.base, f"{EXP}/posts.csv", rows=True)
             check_append_only(a.base, f"{EXP}/outcomes.csv", rows=True)
             check_append_only(a.base, f"{EXP}/PREREGISTRATION.md", rows=False)
     print(f"Checked {len(spots)} Spotlight(s).")

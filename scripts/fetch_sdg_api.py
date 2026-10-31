@@ -46,6 +46,21 @@ def matches(rec, dims):
     return all(str(d.get(k)) == str(v) for k, v in dims.items())
 
 
+def filter_rows(pages, series, dims):
+    """The records of `series` with the Spotlight's dimensions (shared with check_sdg_api.py)."""
+    rows = []
+    for p in pages:
+        for rec in p.get("data", []):
+            if rec.get("series") == series and matches(rec, dims) and rec.get("value") not in (None, ""):
+                rows.append({
+                    "m49": rec["geoAreaCode"], "name": rec["geoAreaName"],
+                    "year": int(float(rec["timePeriodStart"])), "value": float(rec["value"]),
+                    "reporting_type": (rec.get("dimensions") or {}).get("Reporting Type", ""),
+                    "source": rec.get("source") or "",
+                })
+    return rows
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("spotlight_dir", type=pathlib.Path)
@@ -61,16 +76,7 @@ def main():
     else:
         pages = fetch(series)
 
-    rows = []
-    for p in pages:
-        for rec in p.get("data", []):
-            if rec.get("series") == series and matches(rec, dims) and rec.get("value") not in (None, ""):
-                rows.append({
-                    "m49": rec["geoAreaCode"], "name": rec["geoAreaName"],
-                    "year": int(float(rec["timePeriodStart"])), "value": float(rec["value"]),
-                    "reporting_type": (rec.get("dimensions") or {}).get("Reporting Type", ""),
-                    "source": rec.get("source") or "",
-                })
+    rows = filter_rows(pages, series, dims)
     if not rows:
         sys.exit(f"No records for {series} with {dims}.")
 

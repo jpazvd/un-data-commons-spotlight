@@ -87,3 +87,9 @@ share one format, so their variance should be lower than this mixed baseline; it
   balanced in time. `analyze.py` now forms the randomisation strata from `link_placement` rather than from
   the parity of the Spotlight number; for the 32 original slots the two are identical, so results without
   make-ups do not change.
+- 2026-10-30: Two further changes, also before any outcome data. (a) Sensitivity check for make-ups:
+  `analyze.py` also reports the ground ratio without the blocks that hold a make-up; the primary estimate
+  is unchanged. (b) Outcomes are collected daily by the promotion task instead of on Spotlight pull
+  requests, which a missed run or a closed pull request could lose: it records each post's Metricool id in
+  `posts.csv` when it schedules the post, and appends the measurement to `outcomes.csv` on its own pull
+  request, matched by that id. The outcomes and the 7-to-10-day window are unchanged.

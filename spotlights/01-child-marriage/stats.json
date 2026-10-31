@@ -7,6 +7,8 @@
     "year": 2025,
     "value": 18.5
   },
+  "better": "lower",
+  "trend": "towards target",
   "observed_pace_pts_per_year": 0.29,
   "required_pace_pts_per_year": 3.69,
   "required_over_observed": 12.9,

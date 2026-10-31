@@ -57,30 +57,8 @@ def block_effects(blocks, factor):
     return eff
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--network", default="linkedin")
-    ap.add_argument("--outcome", default="comment_rate")
-    a = ap.parse_args()
-    assign, out = load()
-    rows = [r for r in out if r["network"] == a.network and r["spotlight"] in assign
-            and r["days_since_post"] and 7 <= float(r["days_since_post"]) <= 10]
-    data = {}
-    for r in rows:  # one measurement per Spotlight: the earliest in the 7-10 day window
-        k = r["spotlight"]
-        if k not in data or float(r["days_since_post"]) < float(data[k]["days_since_post"]):
-            data[k] = r
-    by_block = {}
-    for k, r in data.items():
-        y = value(r, a.outcome)
-        if y is not None:
-            by_block.setdefault(assign[k]["block"], []).append((k, y))
-    complete = {b: v for b, v in by_block.items() if len(v) == 4}
-    n_all = sum(len(v) for v in by_block.values())
-    print(f"{a.network} · {a.outcome}: {n_all} posts measured, {len(complete)} complete blocks of 4")
-    if not complete:
-        print("No complete block yet: nothing to estimate."); return
-
+def ground_result(complete, assign):
+    """The primary estimate over the given complete blocks, as the line main() prints."""
     ground = {b: [(int(assign[k]["ground"] == "dark"), y) for k, y in v] for b, v in complete.items()}
     est = st.mean(block_effects(ground, None))
     # exact randomisation distribution: in each block, one body and one first-comment Spotlight are
@@ -105,8 +83,43 @@ def main():
     boots.sort(); lo, hi = boots[int(0.05 * len(boots))], boots[int(0.95 * len(boots)) - 1]
     interval = (f"90% block-bootstrap interval {math.exp(lo):.2f} to {math.exp(hi):.2f}"
                 if len(complete) >= 4 else "no interval until 4 complete blocks")
-    print(f"Ground, dark / light: ratio {math.exp(est):.2f} ({interval}), "
-          f"randomisation p = {p:.3f} over {len(null)} assignments")
+    return (f"Ground, dark / light: ratio {math.exp(est):.2f} ({interval}), "
+            f"randomisation p = {p:.3f} over {len(null)} assignments")
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--network", default="linkedin")
+    ap.add_argument("--outcome", default="comment_rate")
+    a = ap.parse_args()
+    assign, out = load()
+    rows = [r for r in out if r["network"] == a.network and r["spotlight"] in assign
+            and r["days_since_post"] and 7 <= float(r["days_since_post"]) <= 10]
+    data = {}
+    for r in rows:  # one measurement per Spotlight: the earliest in the 7-10 day window
+        k = r["spotlight"]
+        if k not in data or float(r["days_since_post"]) < float(data[k]["days_since_post"]):
+            data[k] = r
+    by_block = {}
+    for k, r in data.items():
+        y = value(r, a.outcome)
+        if y is not None:
+            by_block.setdefault(assign[k]["block"], []).append((k, y))
+    complete = {b: v for b, v in by_block.items() if len(v) == 4}
+    n_all = sum(len(v) for v in by_block.values())
+    print(f"{a.network} · {a.outcome}: {n_all} posts measured, {len(complete)} complete blocks of 4")
+    if not complete:
+        print("No complete block yet: nothing to estimate."); return
+
+    print(ground_result(complete, assign))
+    # Sensitivity, pre-registered 30 Oct 2026 (PREREGISTRATION.md, Deviations): a make-up is posted
+    # months after the rest of its block, so also report the estimate without those blocks.
+    original = {r["block"] for k, r in assign.items() if 2 <= int(k) <= 33}
+    mixed = {b for b, v in complete.items() if b in original and any(int(k) > 33 for k, _ in v)}
+    if mixed:
+        rest = {b: v for b, v in complete.items() if b not in mixed}
+        print(f"Sensitivity, without the {len(mixed)} block(s) holding a make-up: "
+              + (ground_result(rest, assign) if rest else "no complete block left"))
 
     link = {b: [(int(assign[k]["link_placement"] == "first_comment"), y) for k, y in v] for b, v in complete.items()}
     le = st.mean(block_effects(link, None))
