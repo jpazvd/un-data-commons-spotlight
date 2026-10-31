@@ -11,7 +11,8 @@ Re-pulls the series named in retrieval.json, with the same filters as fetch_sdg_
     ISO code), its API record for the same year must have the same value. A value that matches another
     area is never accepted. Gives the survey source, and whether the API now has a later year for it.
 Writes <out>/top_country_sources_sdgapi.csv (the format of data/top_country_sources_sdgapi.csv) and
-<out>/summary.md, prints the summary, and exits 1 if anything differs or is missing.
+<out>/summary.md, prints the summary, and exits 1 if anything differs or is missing, or if the Spotlight
+already has a data/top_country_sources_sdgapi.csv that is not exactly this file.
 
 The sdg-api workflow runs this on every pull request that touches a Spotlight, because the cloud
 session that produces Spotlights cannot reach unstats.un.org and a page read through WebFetch is a
@@ -115,6 +116,14 @@ def main():
         w = csv.DictWriter(f, fieldnames=FIELDS, extrasaction="ignore", lineterminator="\n")
         w.writeheader()
         w.writerows({**r, "value": num(r["value"])} for r in matched)
+    committed = spot / "data" / "top_country_sources_sdgapi.csv"
+    if committed.exists():
+        same = (committed.read_text(encoding="utf-8").replace("\r\n", "\n")
+                == (a.out / "top_country_sources_sdgapi.csv").read_text(encoding="utf-8"))
+        ok = ok and same
+        out += ["", "data/top_country_sources_sdgapi.csv is this check's file." if same else
+                "**data/top_country_sources_sdgapi.csv differs from this check's file**: copy the file this check "
+                "produced, unchanged."]
     out += ["", "Result: **matches**" if ok else "Result: **differs or not matched**: explain in the pull request."]
     text = "\n".join(out) + "\n"
     (a.out / "summary.md").write_text(text, encoding="utf-8")
