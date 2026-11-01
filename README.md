@@ -8,6 +8,7 @@ derived from the data committed in this repository, by the scripts committed her
 | # | Topic | SDG indicator | Data retrieved |
 |---|-------|---------------|----------------|
 | 01 | [Child marriage](spotlights/01-child-marriage) | 5.3.1 | 2026-10-23 |
+| 02 | [Under-five mortality](spotlights/02-under-five-mortality) | 3.2.1 | 2026-10-31 |
 <!-- spotlights:end -->
 
 The table is rebuilt from each Spotlight's `meta.json` when content is published (`scripts/build_readme_table.py`).

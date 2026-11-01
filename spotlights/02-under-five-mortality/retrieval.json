@@ -1,0 +1,70 @@
+{
+  "spotlight": "02-under-five-mortality",
+  "retrieved_on": "2026-10-31",
+  "indicator": {
+    "sdg_indicator": "3.2.1",
+    "sdg_series_code": "SH_DYN_MORT",
+    "series_description": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX"
+    },
+    "data_commons_variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+    "data_commons_provenance": "undata/p/SDG",
+    "data_commons_facet_id": "2425806575015910660"
+  },
+  "data_commons_calls": [
+    {
+      "tool": "search_indicators",
+      "args": {
+        "query": "under-five mortality rate",
+        "places": ["World", "Nigeria", "Niger", "India", "Brazil"],
+        "include_topics": false
+      },
+      "note": "returned only WHO GHO disaggregations (undata/who/MORT_U5_RATE.*); refined below"
+    },
+    {
+      "tool": "search_indicators",
+      "args": {
+        "query": "SDG 3.2.1 under-five mortality rate deaths per 1,000 live births both sexes",
+        "places": ["World", "Nigeria", "Niger", "India", "Brazil"],
+        "include_topics": false
+      }
+    },
+    {
+      "tool": "get_variable_metadata",
+      "args": {
+        "variable_dcids": ["undata/sdg/SH_DYN_MORT.AGE--Y0T4"],
+        "entity_dcids": ["Earth", "country/NGA", "country/NER", "country/IND", "country/BRA"]
+      }
+    },
+    {
+      "tool": "get_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "place_dcid": "Earth",
+        "date": "all"
+      },
+      "saved_as": "data/world.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "saved_as": "data/countries_latest.csv"
+    }
+  ],
+  "custodian_api_equivalent": {
+    "description": "Same series from the UN SDG Global Database API (UNSD). Compared by script in the sdg-api pull request check (scripts/check_sdg_api.py), which writes data/top_country_sources_sdgapi.csv.",
+    "url": "https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SH_DYN_MORT&pageSize=10000",
+    "filters": {
+      "dimensions.Age": "<5Y",
+      "dimensions.Sex": "BOTHSEX"
+    },
+    "refresh_command": "python scripts/fetch_sdg_api.py spotlights/02-under-five-mortality"
+  }
+}

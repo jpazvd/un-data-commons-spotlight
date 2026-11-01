@@ -1,0 +1,31 @@
+{
+  "spotlight": 2,
+  "slug": "02-under-five-mortality",
+  "title": "Under-five mortality",
+  "sdg_indicator": "3.2.1",
+  "sdg_series_code": "SH_DYN_MORT",
+  "dimensions": {
+    "Age": "<5Y",
+    "Sex": "BOTHSEX"
+  },
+  "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+  "variable_name": "Mortality rate [Age=Under 5 years old]",
+  "unit": "Deaths per 1,000 live births",
+  "provenance_id": "undata/p/SDG",
+  "source": "United Nations, SDG Global Database (United Nations Statistics Division); custodian: UN Inter-agency Group for Child Mortality Estimation (UN IGME)",
+  "source_url": "https://unstats.un.org/sdgs/dataportal",
+  "facet_id": "2425806575015910660",
+  "retrieved_via": "UN System Data Commons (MCP connector): get_observations(Earth, date=all); get_child_observations(parent=Earth, child_place_type=Country, date=latest)",
+  "retrieved_on": "2026-10-31",
+  "target_value": 25,
+  "target_year": 2030,
+  "target_basis": "SDG 3.2 (per country)",
+  "notes": "SDG target 3.2 asks every country to reduce under-five mortality to at least as low as 25 per 1,000 live births by 2030, so the yardstick is a count of countries above that threshold in their latest estimate, not a world pace. Country values are UN IGME estimates; all refer to 2024 in this snapshot. Country display names are the Data Commons place names as retrieved. The 199 places include some territories (e.g. Anguilla, Montserrat).",
+  "experiment": {
+    "id": "001",
+    "block": 1,
+    "ground": "light",
+    "link_placement": "first_comment",
+    "template": "templates/banner-D-light.dc.html"
+  }
+}
