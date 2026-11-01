@@ -1,0 +1,22 @@
+{
+  "spotlight": 4,
+  "slug": "04-maternal-mortality",
+  "title": "Maternal mortality",
+  "sdg_indicator": "3.1.1",
+  "sdg_series_code": "SH_STA_MORT",
+  "dimensions": {"Sex": "FEMALE"},
+  "variable_dcid": "undata/sdg/SH_STA_MORT.SEX--F",
+  "variable_name": "Maternal mortality ratio [Sex=Female]",
+  "unit": "Maternal deaths per 100,000 live births",
+  "provenance_id": "undata/p/SDG",
+  "source": "United Nations, SDG Global Database (United Nations Statistics Division); custodian: UN Maternal Mortality Estimation Inter-Agency Group (MMEIG)",
+  "source_url": "https://unstats.un.org/sdgs/dataportal",
+  "facet_id": "5746826742182915890",
+  "retrieved_via": "UN System Data Commons (MCP connector): get_observations(Earth, date=all); get_child_observations(parent=Earth, child_place_type=Country, date=latest)",
+  "retrieved_on": "2026-10-31",
+  "target_value": 70,
+  "target_year": 2030,
+  "target_basis": "SDG 3.1",
+  "notes": "SDG target 3.1: reduce the global maternal mortality ratio to less than 70 per 100,000 live births by 2030. The pace compares the 2000 to 2023 average annual change with the change needed from 2023 to reach 70 in 2030. Country values are MMEIG estimates, all for 2023 in this snapshot. Country display names are the Data Commons place names as retrieved.",
+  "experiment": {"id": "001", "block": 1, "ground": "dark", "link_placement": "first_comment", "template": "templates/banner-D-dark.dc.html"}
+}

@@ -10,6 +10,7 @@ derived from the data committed in this repository, by the scripts committed her
 | 01 | [Child marriage](spotlights/01-child-marriage) | 5.3.1 | 2026-10-23 |
 | 02 | [Under-five mortality](spotlights/02-under-five-mortality) | 3.2.1 | 2026-10-31 |
 | 03 | [Women in parliament](spotlights/03-women-in-parliament) | 5.5.1 | 2026-10-31 |
+| 04 | [Maternal mortality](spotlights/04-maternal-mortality) | 3.1.1 | 2026-10-31 |
 <!-- spotlights:end -->
 
 The table is rebuilt from each Spotlight's `meta.json` when content is published (`scripts/build_readme_table.py`).

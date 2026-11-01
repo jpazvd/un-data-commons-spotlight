@@ -1,0 +1,25 @@
+{
+  "spotlight": "04-maternal-mortality",
+  "retrieved_on": "2026-10-31",
+  "indicator": {
+    "sdg_indicator": "3.1.1",
+    "sdg_series_code": "SH_STA_MORT",
+    "series_description": "Maternal mortality ratio (deaths per 100,000 live births)",
+    "dimensions": {"Sex": "FEMALE"},
+    "data_commons_variable_dcid": "undata/sdg/SH_STA_MORT.SEX--F",
+    "data_commons_provenance": "undata/p/SDG",
+    "data_commons_facet_id": "5746826742182915890"
+  },
+  "data_commons_calls": [
+    {"tool": "search_indicators", "args": {"query": "maternal mortality ratio per 100,000 live births", "places": ["World", "Nigeria", "Chad", "India", "Brazil"], "include_topics": false}},
+    {"tool": "get_variable_metadata", "args": {"variable_dcids": ["undata/sdg/SG_GEN_PARL.SEX--F", "undata/sdg/SH_STA_MORT.SEX--F"], "entity_dcids": ["Earth", "country/RWA", "country/IND", "country/NGA", "country/TCD"]}},
+    {"tool": "get_observations", "args": {"variable_dcid": "undata/sdg/SH_STA_MORT.SEX--F", "place_dcid": "Earth", "date": "all"}, "saved_as": "data/world.csv"},
+    {"tool": "get_child_observations", "args": {"variable_dcid": "undata/sdg/SH_STA_MORT.SEX--F", "parent_place_dcid": "Earth", "child_place_type": "Country", "date": "latest"}, "saved_as": "data/countries_latest.csv"}
+  ],
+  "custodian_api_equivalent": {
+    "description": "Same series from the UN SDG Global Database API (UNSD). Compared by script in the sdg-api pull request check (scripts/check_sdg_api.py), which writes data/top_country_sources_sdgapi.csv.",
+    "url": "https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SH_STA_MORT&pageSize=10000",
+    "filters": {"dimensions.Sex": "FEMALE"},
+    "refresh_command": "python scripts/fetch_sdg_api.py spotlights/04-maternal-mortality"
+  }
+}

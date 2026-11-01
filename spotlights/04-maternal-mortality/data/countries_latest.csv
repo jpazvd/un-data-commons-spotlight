@@ -1,0 +1,196 @@
+dcid,name,year,value
+country/AFG,Afghanistan,2023,520.50229
+country/AGO,Angola,2023,183.20193
+country/ALB,Albania,2023,6.86681
+country/AND,Andorra,2023,10.62672
+country/ARE,United Arab Emirates,2023,2.53869
+country/ARG,Argentina,2023,33.22814
+country/ARM,Armenia,2023,19.48496
+country/ATG,Antigua and Barbuda,2023,34.56839
+country/AUS,Australia,2023,2.333
+country/AUT,Austria,2023,6.10436
+country/AZE,Azerbaijan,2023,17.89597
+country/BDI,Burundi,2023,391.97468
+country/BEL,Belgium,2023,3.84351
+country/BEN,Benin,2023,518.23295
+country/BFA,Burkina Faso,2023,241.78671
+country/BGD,Bangladesh,2023,115.11493
+country/BGR,Bulgaria,2023,5.55967
+country/BHR,Bahrain,2023,16.78235
+country/BHS,Bahamas,2023,75.95361
+country/BIH,Bosnia and Herzegovina,2023,6.174
+country/BLR,Belarus,2023,1.09598
+country/BLZ,Belize,2023,66.80087
+country/BOL,Bolivia,2023,146.37428
+country/BRA,Brazil,2023,66.91036
+country/BRB,Barbados,2023,34.88119
+country/BRN,Brunei,2023,36.35405
+country/BTN,Bhutan,2023,46.64777
+country/BWA,Botswana,2023,155.09855
+country/CAF,Central African Republic,2023,691.74251
+country/CAN,Canada,2023,11.78479
+country/CHE,Switzerland,2023,5.46137
+country/CHL,Chile,2023,9.88497
+country/CHN,China,2023,16.25107
+country/CIV,Côte d'Ivoire,2023,358.95028
+country/CMR,Cameroon,2023,258.2254
+country/COD,Congo [DRC],2023,427.0455
+country/COG,Congo [Republic],2023,241.08875
+country/COK,Cook Islands,2023,0.10725
+country/COL,Colombia,2023,59.38166
+country/COM,Comoros,2023,178.87692
+country/CPV,Cape Verde,2023,40.03827
+country/CRI,Costa Rica,2023,24.1198
+country/CUB,Cuba,2023,34.79424
+country/CYP,Cyprus,2023,13.62431
+country/CZE,Czech Republic,2023,2.70406
+country/DEU,Germany,2023,3.62022
+country/DJI,Djibouti,2023,161.87568
+country/DMA,Dominica,2023,35.54812
+country/DNK,Denmark,2023,3.66575
+country/DOM,Dominican Republic,2023,124.47325
+country/DZA,Algeria,2023,62.48509
+country/ECU,Ecuador,2023,55.37107
+country/EGY,Egypt,2023,16.95241
+country/ERI,Eritrea,2023,291.35822
+country/ESP,Spain,2023,2.72275
+country/EST,Estonia,2023,4.96289
+country/ETH,Ethiopia,2023,194.93685
+country/FIN,Finland,2023,7.88007
+country/FJI,Fiji,2023,30.23569
+country/FRA,France,2023,7.30455
+country/FSM,Federated States of Micronesia,2023,128.75348
+country/GAB,Gabon,2023,232.66042
+country/GBR,United Kingdom,2023,8.30599
+country/GEO,Georgia,2023,19.69185
+country/GHA,Ghana,2023,234.32322
+country/GIN,Guinea,2023,494.11565
+country/GMB,Gambia,2023,354.35256
+country/GNB,Guinea-Bissau,2023,505.36803
+country/GNQ,Equatorial Guinea,2023,173.66294
+country/GRC,Greece,2023,4.78855
+country/GRD,Grenada,2023,48.24919
+country/GTM,Guatemala,2023,93.71639
+country/GUY,Guyana,2023,74.73033
+country/HND,Honduras,2023,46.74992
+country/HRV,Croatia,2023,3.04771
+country/HTI,Haiti,2023,327.56383
+country/HUN,Hungary,2023,11.65266
+country/IDN,Indonesia,2023,140.49918
+country/IND,India,2023,80.48182
+country/IRL,Ireland,2023,3.79013
+country/IRN,Iran,2023,15.84014
+country/IRQ,Iraq,2023,65.99088
+country/ISL,Iceland,2023,3.0221
+country/ISR,Israel,2023,2.49143
+country/ITA,Italy,2023,6.47682
+country/JAM,Jamaica,2023,130.14276
+country/JOR,Jordan,2023,30.77896
+country/JPN,Japan,2023,3.07828
+country/KAZ,Kazakhstan,2023,9.57878
+country/KEN,Kenya,2023,378.79578
+country/KGZ,Kyrgyzstan,2023,41.89503
+country/KHM,Cambodia,2023,137.38942
+country/KIR,Kiribati,2023,79.76224
+country/KNA,Saint Kitts and Nevis,2023,73.51601
+country/KOR,South Korea,2023,3.78934
+country/KWT,Kuwait,2023,7.75309
+country/LAO,Laos,2023,112.15137
+country/LBN,Lebanon,2023,14.97623
+country/LBR,Liberia,2023,627.71764
+country/LBY,Libya,2023,59.49735
+country/LCA,Saint Lucia,2023,43.96011
+country/LKA,Sri Lanka,2023,18.31821
+country/LSO,Lesotho,2023,478.02037
+country/LTU,Lithuania,2023,7.67441
+country/LUX,Luxembourg,2023,11.68882
+country/LVA,Latvia,2023,18.71678
+country/MAR,Morocco,2023,69.76916
+country/MCO,Monaco,2023,5.2201
+country/MDA,Moldova,2023,18.67839
+country/MDG,Madagascar,2023,445.42902
+country/MDV,Maldives,2023,31.82444
+country/MEX,Mexico,2023,42.10605
+country/MHL,Marshall Islands,2023,154.78926
+country/MKD,Macedonia [FYROM],2023,2.75812
+country/MLI,Mali,2023,367.33147
+country/MLT,Malta,2023,8.39304
+country/MMR,Myanmar,2023,184.63514
+country/MNE,Montenegro,2023,5.83283
+country/MNG,Mongolia,2023,40.51441
+country/MOZ,Mozambique,2023,82.21794
+country/MRT,Mauritania,2023,381.05409
+country/MUS,Mauritius,2023,65.90151
+country/MWI,Malawi,2023,224.95015
+country/MYS,Malaysia,2023,26.37991
+country/NAM,Namibia,2023,138.85587
+country/NER,Niger,2023,350.26833
+country/NGA,Nigeria,2023,992.82921
+country/NIC,Nicaragua,2023,60.3484
+country/NLD,Netherlands,2023,4.30275
+country/NOR,Norway,2023,1.30843
+country/NPL,Nepal,2023,142.00527
+country/NRU,Nauru,2023,273.37734
+country/NZL,New Zealand,2023,7.02621
+country/OMN,Oman,2023,12.54503
+country/PAK,Pakistan,2023,155.03274
+country/PAN,Panama,2023,37.00633
+country/PER,Peru,2023,51.44545
+country/PHL,Philippines,2023,83.75268
+country/PLW,Palau,2023,89.41672
+country/PNG,Papua New Guinea,2023,188.6495
+country/POL,Poland,2023,1.56712
+country/PRI,Puerto Rico,2023,11.02504
+country/PRK,North Korea,2023,66.90204
+country/PRT,Portugal,2023,14.94519
+country/PRY,Paraguay,2023,58.27149
+country/PSE,Palestinian Territories,2023,16.11319
+country/QAT,Qatar,2023,3.9216
+country/ROU,Romania,2023,11.68035
+country/RUS,Russia,2023,9.40281
+country/RWA,Rwanda,2023,229.4839
+country/SAU,Saudi Arabia,2023,7.35841
+country/SDN,Sudan,2023,255.7062
+country/SEN,Senegal,2023,237.44209
+country/SGP,Singapore,2023,6.12124
+country/SLB,Solomon Islands,2023,122.58949
+country/SLE,Sierra Leone,2023,353.56356
+country/SLV,El Salvador,2023,39.10834
+country/SMR,San Marino,2023,7.65699
+country/SOM,Somalia,2023,562.58481
+country/SRB,Serbia,2023,10.7385
+country/SSD,South Sudan,2023,691.82029
+country/STP,São Tomé and Príncipe,2023,75.36397
+country/SUR,Suriname,2023,83.64146
+country/SVK,Slovakia,2023,4.47117
+country/SVN,Slovenia,2023,3.32847
+country/SWE,Sweden,2023,4.0281
+country/SWZ,Eswatini,2023,117.93016
+country/SYC,Seychelles,2023,41.89188
+country/SYR,Syria,2023,20.37147
+country/TCD,Chad,2023,747.53985
+country/TGO,Togo,2023,348.90306
+country/THA,Thailand,2023,34.45035
+country/TJK,Tajikistan,2023,13.86166
+country/TKM,Turkmenistan,2023,4.52032
+country/TLS,East Timor,2023,192.35776
+country/TON,Tonga,2023,66.78012
+country/TTO,Trinidad and Tobago,2023,54.08376
+country/TUN,Tunisia,2023,35.71129
+country/TUR,Turkey,2023,14.62617
+country/TUV,Tuvalu,2023,169.70527
+country/TZA,Tanzania,2023,275.84379
+country/UGA,Uganda,2023,170.31048
+country/UKR,Ukraine,2023,14.94809
+country/URY,Uruguay,2023,15.30536
+country/USA,United States,2023,16.63253
+country/UZB,Uzbekistan,2023,26.46382
+country/VCT,Saint Vincent and the Grenadines,2023,55.83509
+country/VEN,Venezuela,2023,226.6855
+country/VNM,Vietnam,2023,47.61028
+country/VUT,Vanuatu,2023,100.04789
+country/WSM,Samoa,2023,101.48754
+country/YEM,Yemen,2023,118.40133
+country/ZAF,South Africa,2023,117.56654
+country/ZMB,Zambia,2023,85.45037
+country/ZWE,Zimbabwe,2023,357.61498

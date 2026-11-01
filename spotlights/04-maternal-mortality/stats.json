@@ -1,0 +1,60 @@
+{
+  "world_first": {
+    "year": 2000,
+    "value": 327.6
+  },
+  "world_last": {
+    "year": 2023,
+    "value": 197.3
+  },
+  "better": "lower",
+  "trend": "towards target",
+  "observed_pace_pts_per_year": 5.67,
+  "required_pace_pts_per_year": 18.19,
+  "required_over_observed": 3.2,
+  "value_at_current_pace_in_target_year": 157.6,
+  "target": {
+    "value": 70.0,
+    "year": 2030
+  },
+  "top_countries": [
+    {
+      "name": "Nigeria",
+      "year": 2023,
+      "value": 992.82921
+    },
+    {
+      "name": "Chad",
+      "year": 2023,
+      "value": 747.53985
+    },
+    {
+      "name": "South Sudan",
+      "year": 2023,
+      "value": 691.82029
+    },
+    {
+      "name": "Central African Republic",
+      "year": 2023,
+      "value": 691.74251
+    },
+    {
+      "name": "Liberia",
+      "year": 2023,
+      "value": 627.71764
+    },
+    {
+      "name": "Somalia",
+      "year": 2023,
+      "value": 562.58481
+    }
+  ],
+  "n_countries": 195,
+  "n_latest_at_or_before_cutoff": 0,
+  "share_latest_at_or_before_cutoff_pct": 0,
+  "stale_cutoff_year": 2020,
+  "oldest_latest_estimate": {
+    "name": "Afghanistan",
+    "year": 2023
+  }
+}
