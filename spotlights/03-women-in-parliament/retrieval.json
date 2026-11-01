@@ -1,0 +1,25 @@
+{
+  "spotlight": "03-women-in-parliament",
+  "retrieved_on": "2026-10-31",
+  "indicator": {
+    "sdg_indicator": "5.5.1",
+    "sdg_series_code": "SG_GEN_PARL",
+    "series_description": "Proportion of seats held by women in national parliaments (% of total number of seats)",
+    "dimensions": {"Sex": "FEMALE"},
+    "data_commons_variable_dcid": "undata/sdg/SG_GEN_PARL.SEX--F",
+    "data_commons_provenance": "undata/p/SDG",
+    "data_commons_facet_id": "3722936608695937273"
+  },
+  "data_commons_calls": [
+    {"tool": "search_indicators", "args": {"query": "proportion of seats held by women in national parliaments", "places": ["World", "Rwanda", "Mexico", "India", "Japan"], "include_topics": false}},
+    {"tool": "get_variable_metadata", "args": {"variable_dcids": ["undata/sdg/SG_GEN_PARL.SEX--F", "undata/sdg/SH_STA_MORT.SEX--F"], "entity_dcids": ["Earth", "country/RWA", "country/IND", "country/NGA", "country/TCD"]}},
+    {"tool": "get_observations", "args": {"variable_dcid": "undata/sdg/SG_GEN_PARL.SEX--F", "place_dcid": "Earth", "date": "all"}, "saved_as": "data/world.csv"},
+    {"tool": "get_child_observations", "args": {"variable_dcid": "undata/sdg/SG_GEN_PARL.SEX--F", "parent_place_dcid": "Earth", "child_place_type": "Country", "date": "latest"}, "saved_as": "data/countries_latest.csv"}
+  ],
+  "custodian_api_equivalent": {
+    "description": "Same series from the UN SDG Global Database API (UNSD). Compared by script in the sdg-api pull request check (scripts/check_sdg_api.py), which writes data/top_country_sources_sdgapi.csv.",
+    "url": "https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SG_GEN_PARL&pageSize=10000",
+    "filters": {"dimensions.Sex": "FEMALE"},
+    "refresh_command": "python scripts/fetch_sdg_api.py spotlights/03-women-in-parliament"
+  }
+}

@@ -1,0 +1,194 @@
+dcid,name,year,value
+country/AFG,Afghanistan,2022,27.02
+country/AGO,Angola,2026,41.36
+country/ALB,Albania,2026,34.29
+country/AND,Andorra,2026,50
+country/ARE,United Arab Emirates,2026,50
+country/ARG,Argentina,2026,40.86
+country/ARM,Armenia,2026,39.25
+country/ATG,Antigua and Barbuda,2026,5.88
+country/AUS,Australia,2026,46
+country/AUT,Austria,2026,35.52
+country/AZE,Azerbaijan,2026,20.8
+country/BDI,Burundi,2026,39.64
+country/BEL,Belgium,2026,40.67
+country/BEN,Benin,2026,26.61
+country/BFA,Burkina Faso,2026,18.31
+country/BGD,Bangladesh,2024,20.86
+country/BGR,Bulgaria,2026,25
+country/BHR,Bahrain,2026,20
+country/BHS,Bahamas,2026,17.95
+country/BIH,Bosnia and Herzegovina,2026,19.05
+country/BLR,Belarus,2026,33.94
+country/BLZ,Belize,2026,12.5
+country/BOL,Bolivia,2026,50.77
+country/BRA,Brazil,2026,17.15
+country/BRB,Barbados,2026,26.67
+country/BRN,Brunei,2026,11.43
+country/BTN,Bhutan,2026,4.26
+country/BWA,Botswana,2026,8.96
+country/CAF,Central African Republic,2026,11.43
+country/CAN,Canada,2026,30.32
+country/CHE,Switzerland,2026,39.7
+country/CHL,Chile,2026,34.84
+country/CHN,China,2026,26.54
+country/CIV,Côte d'Ivoire,2026,13.44
+country/CMR,Cameroon,2026,33.89
+country/COD,Congo [DRC],2026,12.8
+country/COG,Congo [Republic],2026,14.57
+country/COL,Colombia,2026,29.41
+country/COM,Comoros,2026,18.18
+country/CPV,Cape Verde,2026,45.83
+country/CRI,Costa Rica,2026,49.12
+country/CUB,Cuba,2026,57.17
+country/CYP,Cyprus,2026,14.29
+country/CZE,Czech Republic,2026,33.5
+country/DEU,Germany,2026,32.54
+country/DJI,Djibouti,2026,26.15
+country/DMA,Dominica,2026,40.62
+country/DNK,Denmark,2026,44.13
+country/DOM,Dominican Republic,2026,37.37
+country/DZA,Algeria,2026,7.86
+country/ECU,Ecuador,2026,43.05
+country/EGY,Egypt,2026,26.85
+country/ERI,Eritrea,2019,22
+country/ESP,Spain,2026,44
+country/EST,Estonia,2026,29.7
+country/ETH,Ethiopia,2026,41.91
+country/FIN,Finland,2026,45.5
+country/FJI,Fiji,2026,9.09
+country/FRA,France,2026,36.17
+country/FSM,Federated States of Micronesia,2026,21.43
+country/GAB,Gabon,2026,21.58
+country/GBR,United Kingdom,2026,40.62
+country/GEO,Georgia,2026,16.83
+country/GHA,Ghana,2026,14.49
+country/GIN,Guinea,2026,29.63
+country/GMB,Gambia,2026,8.62
+country/GNB,Guinea-Bissau,2025,9.8
+country/GNQ,Equatorial Guinea,2026,31
+country/GRC,Greece,2026,23.91
+country/GRD,Grenada,2026,31.25
+country/GTM,Guatemala,2026,20
+country/GUY,Guyana,2026,36.11
+country/HND,Honduras,2026,29.69
+country/HRV,Croatia,2026,32.67
+country/HTI,Haiti,2020,2.54
+country/HUN,Hungary,2026,15.58
+country/IDN,Indonesia,2026,22.24
+country/IND,India,2026,13.84
+country/IRL,Ireland,2026,25
+country/IRN,Iran,2026,4.91
+country/IRQ,Iraq,2026,25.53
+country/ISL,Iceland,2026,46.03
+country/ISR,Israel,2026,25.83
+country/ITA,Italy,2026,32.75
+country/JAM,Jamaica,2026,30.16
+country/JOR,Jordan,2026,19.57
+country/JPN,Japan,2026,15.48
+country/KAZ,Kazakhstan,2026,17.35
+country/KEN,Kenya,2026,22.99
+country/KGZ,Kyrgyzstan,2026,33.33
+country/KHM,Cambodia,2026,13.6
+country/KIR,Kiribati,2026,11.11
+country/KNA,Saint Kitts and Nevis,2026,31.25
+country/KOR,South Korea,2026,20.81
+country/KWT,Kuwait,2024,3.08
+country/LAO,Laos,2026,21.95
+country/LBN,Lebanon,2026,6.25
+country/LBR,Liberia,2026,10.96
+country/LBY,Libya,2026,16.47
+country/LCA,Saint Lucia,2026,10.53
+country/LIE,Liechtenstein,2026,32
+country/LKA,Sri Lanka,2026,9.78
+country/LSO,Lesotho,2026,25
+country/LTU,Lithuania,2026,28.37
+country/LUX,Luxembourg,2026,35
+country/LVA,Latvia,2026,37
+country/MAR,Morocco,2026,24.3
+country/MCO,Monaco,2026,45.83
+country/MDA,Moldova,2026,39.6
+country/MDG,Madagascar,2026,15.95
+country/MDV,Maldives,2026,3.23
+country/MEX,Mexico,2026,50.4
+country/MHL,Marshall Islands,2026,12.12
+country/MKD,Macedonia [FYROM],2026,39.17
+country/MLI,Mali,2026,30.08
+country/MLT,Malta,2026,29.11
+country/MMR,Myanmar,2022,15.29
+country/MNE,Montenegro,2026,27.16
+country/MNG,Mongolia,2026,25.4
+country/MOZ,Mozambique,2026,38
+country/MRT,Mauritania,2026,23.3
+country/MUS,Mauritius,2026,17.91
+country/MWI,Malawi,2026,21.43
+country/MYS,Malaysia,2026,13.57
+country/NAM,Namibia,2026,42.31
+country/NER,Niger,2026,19.59
+country/NGA,Nigeria,2026,4.21
+country/NIC,Nicaragua,2026,54.95
+country/NLD,Netherlands,2026,43.33
+country/NOR,Norway,2026,42.6
+country/NPL,Nepal,2025,33.45
+country/NRU,Nauru,2026,10.53
+country/NZL,New Zealand,2026,45.53
+country/OMN,Oman,2026,0
+country/PAK,Pakistan,2026,21.69
+country/PAN,Panama,2026,21.74
+country/PER,Peru,2026,41.54
+country/PHL,Philippines,2026,28.3
+country/PLW,Palau,2026,25
+country/PNG,Papua New Guinea,2026,2.7
+country/POL,Poland,2026,31.52
+country/PRK,North Korea,2026,17.61
+country/PRT,Portugal,2026,36.52
+country/PRY,Paraguay,2026,23.75
+country/QAT,Qatar,2026,6.12
+country/ROU,Romania,2026,22.73
+country/RUS,Russia,2026,17.93
+country/RWA,Rwanda,2026,63.75
+country/SAU,Saudi Arabia,2026,19.87
+country/SDN,Sudan,2019,27.65
+country/SEN,Senegal,2026,41.21
+country/SGP,Singapore,2026,32.32
+country/SLB,Solomon Islands,2026,6
+country/SLE,Sierra Leone,2026,28.19
+country/SLV,El Salvador,2026,31.67
+country/SMR,San Marino,2026,35
+country/SOM,Somalia,2026,18.98
+country/SRB,Serbia,2026,37.6
+country/SSD,South Sudan,2026,32.36
+country/STP,São Tomé and Príncipe,2026,14.55
+country/SUR,Suriname,2026,31.37
+country/SVK,Slovakia,2026,22
+country/SVN,Slovenia,2026,37.78
+country/SWE,Sweden,2026,44.7
+country/SWZ,Eswatini,2026,20.27
+country/SYC,Seychelles,2026,26.47
+country/SYR,Syria,2026,4.92
+country/TCD,Chad,2026,33.51
+country/TGO,Togo,2026,21.62
+country/THA,Thailand,2026,19.6
+country/TJK,Tajikistan,2026,29.03
+country/TKM,Turkmenistan,2026,25.41
+country/TLS,East Timor,2026,35.38
+country/TON,Tonga,2026,3.85
+country/TTO,Trinidad and Tobago,2026,23.81
+country/TUN,Tunisia,2026,15.79
+country/TUR,Turkey,2026,19.93
+country/TUV,Tuvalu,2026,0
+country/TZA,Tanzania,2026,37.6
+country/UGA,Uganda,2026,33.99
+country/UKR,Ukraine,2026,21.12
+country/URY,Uruguay,2026,30.3
+country/USA,United States,2026,28.87
+country/UZB,Uzbekistan,2026,39.19
+country/VCT,Saint Vincent and the Grenadines,2026,30.43
+country/VEN,Venezuela,2026,32.13
+country/VNM,Vietnam,2026,31.57
+country/VUT,Vanuatu,2026,1.92
+country/WSM,Samoa,2026,9.8
+country/YEM,Yemen,2026,0
+country/ZAF,South Africa,2026,44.75
+country/ZMB,Zambia,2026,14.97
+country/ZWE,Zimbabwe,2026,30.11

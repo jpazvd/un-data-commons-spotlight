@@ -100,3 +100,8 @@ share one format, so their variance should be lower than this mixed baseline; it
   pull request; 02 and 03 are not pace cases; 05 onward follow it, so block 1 is published under one rule. The
   arms, outcomes and analysis do not change. A comparison with earlier posts is not affected by the arms, but the
   primary outcome may shift for reasons unrelated to the ground, so the baseline is not comparable on comments.
+- 2026-10-31: Spotlights 03 and 04 were produced on request in the same session as Spotlight 02, ahead of the
+  three-day cadence. That session had already read `assignment.csv` for Spotlight 02, so their indicators were
+  chosen with their arms known, against the rule that the indicator is fixed first. The indicators were named
+  before their data were retrieved, content is not adapted to the arm, and no outcome data exist. Both stay in
+  block 1. Their posts are still spaced by the promotion task.

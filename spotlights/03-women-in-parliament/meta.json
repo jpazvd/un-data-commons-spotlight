@@ -1,0 +1,22 @@
+{
+  "spotlight": 3,
+  "slug": "03-women-in-parliament",
+  "title": "Women in parliament",
+  "sdg_indicator": "5.5.1",
+  "sdg_series_code": "SG_GEN_PARL",
+  "dimensions": {"Sex": "FEMALE"},
+  "variable_dcid": "undata/sdg/SG_GEN_PARL.SEX--F",
+  "variable_name": "Proportion of seats in national parliaments held by women [Sex=Female]",
+  "unit": "Percent",
+  "provenance_id": "undata/p/SDG",
+  "source": "United Nations, SDG Global Database (United Nations Statistics Division); custodian: Inter-Parliamentary Union (IPU)",
+  "source_url": "https://unstats.un.org/sdgs/dataportal",
+  "facet_id": "3722936608695937273",
+  "retrieved_via": "UN System Data Commons (MCP connector): get_observations(Earth, date=all); get_child_observations(parent=Earth, child_place_type=Country, date=latest)",
+  "retrieved_on": "2026-10-31",
+  "target_value": null,
+  "target_year": null,
+  "target_basis": "none",
+  "notes": "SDG target 5.5 (women's full and effective participation) sets no numeric value, so no pace or multiple is used; 50% is shown only as the parity reference. stats.json was computed without --target-value/--target-year, so its pace and trend fields refer to the script's default target and are not used. Country display names are the Data Commons place names as retrieved.",
+  "experiment": {"id": "001", "block": 1, "ground": "light", "link_placement": "body", "template": "templates/banner-D-light.dc.html"}
+}

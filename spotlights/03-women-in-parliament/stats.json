@@ -1,0 +1,55 @@
+{
+  "world_first": {
+    "year": 2000,
+    "value": 13.3
+  },
+  "world_last": {
+    "year": 2026,
+    "value": 27.4
+  },
+  "better": "higher",
+  "trend": "target met",
+  "observed_pace_pts_per_year": -0.54,
+  "required_pace_pts_per_year": 6.85,
+  "required_over_observed": null,
+  "value_at_current_pace_in_target_year": 29.6,
+  "target": {
+    "value": 0.0,
+    "year": 2030
+  },
+  "top_countries": [
+    {
+      "name": "Rwanda",
+      "year": 2026,
+      "value": 63.75
+    },
+    {
+      "name": "Cuba",
+      "year": 2026,
+      "value": 57.17
+    },
+    {
+      "name": "Nicaragua",
+      "year": 2026,
+      "value": 54.95
+    },
+    {
+      "name": "Bolivia",
+      "year": 2026,
+      "value": 50.77
+    },
+    {
+      "name": "Mexico",
+      "year": 2026,
+      "value": 50.4
+    }
+  ],
+  "n_countries": 193,
+  "n_latest_at_or_before_cutoff": 3,
+  "share_latest_at_or_before_cutoff_pct": 2,
+  "stale_cutoff_year": 2020,
+  "oldest_latest_estimate": {
+    "name": "Eritrea",
+    "year": 2019
+  }
+}
