@@ -12,9 +12,11 @@ Method: published aggregates, 2024.
 
 Data: ILO and UNICEF, UN SDG Global Database (series SL_TLF_CHLDEA, SL_TLF_CHLDEC, extracted 1 Nov 2026), via the UN System Data Commons.
 
-Data and code: https://github.com/jpazvd/un-data-commons-spotlight
-
 #OfficialStatistics #DataForChildren #SDG8
+
+## LinkedIn first comment
+
+Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
 ## X
 
@@ -22,8 +24,8 @@ Worldwide in 2024: 7.8% of children aged 5 to 17 engaged in economic activity. F
 
 ## Bluesky
 
-Worldwide in 2024: 7.8% of children aged 5 to 17 engaged in economic activity. From 21.5% in Sub-Saharan Africa to 0.8% in Europe and N. America. Method: published aggregates, 2024. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Worldwide in 2024: 7.8% of children aged 5 to 17 engaged in economic activity. From 21.5% in Sub-Saharan Africa to 0.8% in Europe and N. America. Method: published aggregates, 2024.
 
 ## Bluesky with feed tag
 
-Worldwide in 2024: 7.8% of children aged 5 to 17 engaged in economic activity. From 21.5% in Sub-Saharan Africa to 0.8% in Europe and N. America. Method: published aggregates, 2024. Data + code: github.com/jpazvd/un-data-commons-spotlight #EconSky
+Worldwide in 2024: 7.8% of children aged 5 to 17 engaged in economic activity. From 21.5% in Sub-Saharan Africa to 0.8% in Europe and N. America. Method: published aggregates, 2024. #EconSky

@@ -12,9 +12,15 @@ Method: each country's latest value in the database; 2020 or earlier counts as n
 
 Data: UN DESA Population Division and UNFPA, UN SDG Global Database (series SP_DYN_ADKL, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG3
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG3
+## Second comment
+
+Definition, UNICEF Reference Data Manager (MNCH_ABR): https://rdmapi.unicef.org/api/indicators/MNCH_ABR
 
 ## X
 
@@ -22,8 +28,8 @@ Adolescent birth rate: 14 countries with data in Central and Southern Asia; for 
 
 ## Bluesky
 
-Adolescent birth rate: 14 countries with data in Central and Southern Asia; for 5, nothing after 2020. Method: latest value per country; 2020 or earlier is not recent. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Adolescent birth rate: 14 countries with data in Central and Southern Asia; for 5, nothing after 2020. Method: latest value per country; 2020 or earlier is not recent.
 
 ## Bluesky with feed tag
 
-Adolescent birth rate: 14 countries with data in Central and Southern Asia; for 5, nothing after 2020. Method: latest value per country; 2020 or earlier is not recent. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+Adolescent birth rate: 14 countries with data in Central and Southern Asia; for 5, nothing after 2020. Method: latest value per country; 2020 or earlier is not recent. #PolicySky

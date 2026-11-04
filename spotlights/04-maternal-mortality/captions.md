@@ -20,6 +20,10 @@ Data: UN Maternal Mortality Estimation Inter-Agency Group (MMEIG), via the UN SD
 
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
+## Second comment
+
+Definition, UNICEF Reference Data Manager (MNCH_MMR): https://rdmapi.unicef.org/api/indicators/MNCH_MMR
+
 ## X
 
 Getting world maternal mortality below 70 per 100,000 live births by 2030 (SDG 3.1) means cutting it 18.2 a year. Since 2000 it has fallen 5.7 a year, from 327.6 to 197.3 in 2023.
@@ -32,6 +36,5 @@ Data: MMEIG #OfficialStatistics #SDG3
 
 Getting world maternal mortality below 70 per 100,000 live births by 2030 (SDG 3.1) means cutting it 18.2 a year. Since 2000 it has fallen 5.7 a year, from 327.6 to 197.3 in 2023.
 
-Method: linear, per year, 2000 to 2023 base.
+Method: linear, per year, 2000 to 2023 base. #EconSky
 
-Data + code: github.com/jpazvd/un-data-commons-spotlight #EconSky

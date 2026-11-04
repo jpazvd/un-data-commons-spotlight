@@ -2,7 +2,7 @@
 
 ## LinkedIn
 
-140 countries and areas have data on marriage before 15; for 81, the latest is from 2020 or earlier. Latest values 2006 to 2025; median year 2019.
+Marriage before 15: 140 countries with data; for 81, nothing after 2020. Latest values 2006 to 2025; median year 2019.
 
 Ending marriage before 15 by 2030 needs the share to fall 0.8 points a year, against 0.2 points a year since 2005.
 
@@ -14,18 +14,24 @@ Method: each country's latest value in the database; 2020 or earlier counts as n
 
 Data: UNICEF, UN SDG Global Database (series SP_DYN_MRBF15, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG5
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG5
+## Second comment
+
+Definition, UNICEF Reference Data Manager (PT_F_20-24_MRD_U15): https://rdmapi.unicef.org/api/indicators/PT_F_20-24_MRD_U15
 
 ## X
 
-140 countries and areas have data on marriage before 15; for 81, the latest is from 2020 or earlier. Ending marriage before 15 by 2030 needs the share to fall 0.8 points a year. Method: latest value per country; 2020 or earlier is not recent. Data: UNICEF. #OfficialStatistics
+Marriage before 15: 140 countries with data; for 81, nothing after 2020. Ending marriage before 15 by 2030 needs the share to fall 0.8 points a year. Method: latest value per country; 2020 or earlier is not recent. Data: UNICEF. #OfficialStatistics
 
 ## Bluesky
 
-140 countries and areas have data on marriage before 15; for 81, the latest is from 2020 or earlier. Ending marriage before 15 by 2030 needs the share to fall 0.8 points a year. Method: latest value per country; 2020 or earlier is not recent.
+Marriage before 15: 140 countries with data; for 81, nothing after 2020. Ending marriage before 15 by 2030 needs the share to fall 0.8 points a year. Method: latest value per country; 2020 or earlier is not recent.
 
 ## Bluesky with feed tag
 
-140 countries and areas have data on marriage before 15; for 81, the latest is from 2020 or earlier. Ending marriage before 15 by 2030 needs the share to fall 0.8 points a year. Method: latest value per country; 2020 or earlier is not recent. #PolicySky
+Marriage before 15: 140 countries with data; for 81, nothing after 2020. Ending marriage before 15 by 2030 needs the share to fall 0.8 points a year. Method: latest value per country; 2020 or earlier is not recent. #PolicySky

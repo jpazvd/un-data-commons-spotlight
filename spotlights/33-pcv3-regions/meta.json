@@ -8,6 +8,50 @@
   "target_year": null,
   "target_basis": "none",
   "experiment": {
+    "proposal": "P39",
+    "family": "pcv3",
+    "pace": 0,
+    "kind": "standard",
+    "place_type": "regions_compared",
+    "place": "SDG regions compared",
+    "place_dcids": [
+      "SubSaharanAfrica",
+      "undata-geo/G00103000",
+      "undata-geo/G00116000",
+      "undata-geo/G00122000",
+      "LatinAmericaAndCaribbean",
+      "undata-geo/G00145000",
+      "AustraliaAndNewZealand",
+      "undata-geo/G00126000",
+      "Earth"
+    ],
+    "breakdown": "none",
+    "frames_proposed": "T|L|G",
+    "feed_tag": "#PolicySky",
+    "frames_supported": "T|L|G",
+    "id": "003",
+    "versions": [
+      {
+        "version": "33-T",
+        "frame": "T",
+        "design": "E-light",
+        "template": "templates/banner-E-light.dc.html"
+      },
+      {
+        "version": "33-G",
+        "frame": "G",
+        "design": "E-dark",
+        "template": "templates/banner-E-dark.dc.html"
+      },
+      {
+        "version": "33-L",
+        "frame": "L",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      }
+    ]
+  },
+  "experiment_002": {
     "id": "002",
     "proposal": "P39",
     "family": "pcv3",

@@ -12,9 +12,13 @@ In your country, which single rule change (a quota, a party list rule, a reserve
 
 Method: share of seats held by women in lower or single chambers on 1 January, world series 2000 to 2026; country values are each country's latest year.
 
-Data: Inter-Parliamentary Union (IPU), Parline database, via the UN SDG Global Database (indicator 5.5.1) and the UN System Data Commons. Data and code: https://github.com/jpazvd/un-data-commons-spotlight
+Data: Inter-Parliamentary Union (IPU), Parline database, via the UN SDG Global Database (indicator 5.5.1) and the UN System Data Commons.
 
 #OfficialStatistics #SDG5
+
+## LinkedIn first comment
+
+Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
 ## X
 
@@ -28,6 +32,5 @@ Data: IPU, SDG 5.5.1 #OfficialStatistics #SDG5
 
 Women held 27.4% of seats in national parliaments worldwide in 2026, up from 13.3% in 2000. Highest: Rwanda 63.75%.
 
-Method: world share of seats, lower or single chambers, 1 January, 2000 to 2026.
+Method: world share of seats, lower or single chambers, 1 January, 2000 to 2026. #PolicySky
 
-Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky

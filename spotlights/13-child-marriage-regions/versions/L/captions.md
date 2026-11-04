@@ -14,9 +14,15 @@ Method: published aggregates, 2005 to 2025.
 
 Data: UNICEF, UN SDG Global Database (series SP_DYN_MRBF18, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG5
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG5
+## Second comment
+
+Definition, UNICEF Reference Data Manager (PT_F_20-24_MRD_U18): https://rdmapi.unicef.org/api/indicators/PT_F_20-24_MRD_U18
 
 ## X
 
@@ -24,8 +30,8 @@ Central and Southern Asia: child marriage down 22.7 points since 2005. Ending ch
 
 ## Bluesky
 
-Central and Southern Asia: child marriage down 22.7 points since 2005. Ending child marriage by 2030 needs the share in Sub-Saharan Africa to fall 6.1 points a year. Method: published aggregates, 2005 to 2025. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Central and Southern Asia: child marriage down 22.7 points since 2005. Ending child marriage by 2030 needs the share in Sub-Saharan Africa to fall 6.1 points a year. Method: published aggregates, 2005 to 2025.
 
 ## Bluesky with feed tag
 
-Central and Southern Asia: child marriage down 22.7 points since 2005. Ending child marriage by 2030 needs the share in Sub-Saharan Africa to fall 6.1 points a year. Method: published aggregates, 2005 to 2025. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+Central and Southern Asia: child marriage down 22.7 points since 2005. Ending child marriage by 2030 needs the share in Sub-Saharan Africa to fall 6.1 points a year. Method: published aggregates, 2005 to 2025. #PolicySky

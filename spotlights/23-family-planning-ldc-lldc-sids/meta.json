@@ -8,6 +8,45 @@
   "target_year": null,
   "target_basis": "none",
   "experiment": {
+    "proposal": "P29",
+    "family": "family_planning",
+    "pace": 0,
+    "kind": "standard",
+    "place_type": "groupings",
+    "place": "LDCs, LLDCs and SIDS compared with the World",
+    "place_dcids": [
+      "undata-geo/G00404000",
+      "undata-geo/G00403000",
+      "undata-geo/G00405000",
+      "Earth"
+    ],
+    "breakdown": "none",
+    "frames_proposed": "T|L|G|D",
+    "feed_tag": "#PolicySky",
+    "frames_supported": "T|L|G|D",
+    "id": "003",
+    "versions": [
+      {
+        "version": "23-G",
+        "frame": "G",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "23-L",
+        "frame": "L",
+        "design": "E-light",
+        "template": "templates/banner-E-light.dc.html"
+      },
+      {
+        "version": "23-D",
+        "frame": "D",
+        "design": "E-dark",
+        "template": "templates/banner-E-dark.dc.html"
+      }
+    ]
+  },
+  "experiment_002": {
     "id": "002",
     "proposal": "P29",
     "family": "family_planning",

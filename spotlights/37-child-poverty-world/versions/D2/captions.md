@@ -12,9 +12,11 @@ Method: each country's latest value in the database; 2020 or earlier counts as n
 
 Data: national statistical offices, UN SDG Global Database (series SD_MDP_CSMP, SD_MDP_MUHC, extracted 1 Nov 2026), via the UN System Data Commons.
 
-Data and code: https://github.com/jpazvd/un-data-commons-spotlight
-
 #OfficialStatistics #DataForChildren #SDG1
+
+## LinkedIn first comment
+
+Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
 ## X
 
@@ -22,8 +24,8 @@ Child multidimensional poverty: 37 of the 47 countries with data have nothing af
 
 ## Bluesky
 
-Child multidimensional poverty: 37 of the 47 countries with data have nothing after 2020. Latest values 2010 to 2024; median year 2010. Method: latest value per country; 2020 or earlier is not recent. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Child multidimensional poverty: 37 of the 47 countries with data have nothing after 2020. Latest values 2010 to 2024; median year 2010. Method: latest value per country; 2020 or earlier is not recent.
 
 ## Bluesky with feed tag
 
-Child multidimensional poverty: 37 of the 47 countries with data have nothing after 2020. Latest values 2010 to 2024; median year 2010. Method: latest value per country; 2020 or earlier is not recent. Data + code: github.com/jpazvd/un-data-commons-spotlight #EconSky
+Child multidimensional poverty: 37 of the 47 countries with data have nothing after 2020. Latest values 2010 to 2024; median year 2010. Method: latest value per country; 2020 or earlier is not recent. #EconSky

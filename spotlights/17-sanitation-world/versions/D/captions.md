@@ -2,30 +2,36 @@
 
 ## LinkedIn
 
-137 of 194 countries and areas have data on safely managed sanitation. Out of 194 in the eight SDG regions; latest values 2016 to 2024; median year 2024.
+137 of 194 countries and territories have data on safely managed sanitation. 137 of 194 countries and territories in the eight SDG regions have any data.
 
 Safely managed sanitation for all by 2030 needs coverage to rise 6.9 points a year, against 1.1 points a year since 2000.
 
-A statistician's note: "latest value" means each country's most recent estimate, so values sit in different years and are not directly comparable. A gap here is a gap in the data, not a judgement on any statistical office.
+A statistician's note: a region with few data points is not a region with a small problem; it is one where we know less. Most of these figures come from national household surveys.
 
-Which countries have found a way to measure safely managed sanitation more often, and what made it possible?
+Where has a country started measuring safely managed sanitation for the first time, and what made it possible?
 
-Method: each country's latest value in the database; 2020 or earlier counts as not recent.
+Method: countries and territories with any value in the database, by SDG region membership.
 
 Data: WHO/UNICEF JMP, UN SDG Global Database (series SH_SAN_SAFE, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG6
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG6
+## Second comment
+
+Definition, UNICEF Reference Data Manager (WS_PPL_S-SM): https://rdmapi.unicef.org/api/indicators/WS_PPL_S-SM
 
 ## X
 
-137 of 194 countries and areas have data on safely managed sanitation. Safely managed sanitation for all by 2030 needs coverage to rise 6.9 points a year. Method: latest value per country; 2020 or earlier is not recent. Data: WHO/UNICEF JMP. #OfficialStatistics
+137 of 194 countries and territories have data on safely managed sanitation. Safely managed sanitation for all by 2030 needs coverage to rise 6.9 points a year. Method: countries with any value in the database, by SDG region. Data: WHO/UNICEF JMP. #OfficialStatistics
 
 ## Bluesky
 
-137 of 194 countries and areas have data on safely managed sanitation. Safely managed sanitation for all by 2030 needs coverage to rise 6.9 points a year. Method: latest value per country; 2020 or earlier is not recent. Data + code: github.com/jpazvd/un-data-commons-spotlight
+137 of 194 countries and territories have data on safely managed sanitation. Safely managed sanitation for all by 2030 needs coverage to rise 6.9 points a year. Method: countries with any value in the database, by SDG region.
 
 ## Bluesky with feed tag
 
-137 of 194 countries and areas have data on safely managed sanitation. Safely managed sanitation for all by 2030 needs coverage to rise 6.9 points a year. Method: latest value per country; 2020 or earlier is not recent. Data + code: github.com/jpazvd/un-data-commons-spotlight #EconSky
+137 of 194 countries and territories have data on safely managed sanitation. Safely managed sanitation for all by 2030 needs coverage to rise 6.9 points a year. Method: countries with any value in the database, by SDG region. #EconSky

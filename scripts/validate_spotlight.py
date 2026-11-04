@@ -28,6 +28,9 @@ Checks, per spotlight folder:
      Experiment 001: a Spotlight listed in assignment.csv declares exactly that arm in meta.json; banner.png
      and banner.dc.html use the assigned ground; the repo link is in the LinkedIn body (body arm) or only in
      the "LinkedIn first comment" (first_comment arm). A Spotlight not listed declares no experiment.
+     A run-in Spotlight of experiment 003 (meta.json experiment {"id": "003", "role": "run-in", "palette": ...},
+     Spotlights 02 to 04 after 001 stopped) keeps 001's ground as its template E palette, is square, and has the
+     repo link in the first comment only, whatever 001's link-placement arm said.
      assignment.csv itself: no Spotlight is listed twice (the last row would silently win); a row above 33
      in one of the original blocks is a make-up and copies one of that block's slots exactly; at most one
      Spotlight per slot has a folder.
@@ -57,7 +60,10 @@ BANNER_SIZES = {(2400, 1260), (1200, 630), (2400, 2400), (1200, 1200)}  # templa
 LIMITS = {"X": 280, "Bluesky": 300}
 REPO_LINK = "github.com/jpazvd/un-data-commons-spotlight"
 EXP2 = "experiments/002-design-framing-time"
-DESIGN_GROUND = {"D-dark": "#0D2433", "D-light": "#F4F6F7", "Ink": "#FFFFFF"}
+EXP3 = "experiments/003-canvas-design-framing-time"
+DESIGN_GROUND = {"D-dark": "#0D2433", "D-light": "#F4F6F7", "Ink": "#FFFFFF", "E-dark": "#0D2433", "E-light": "#F4F6F7"}
+DESIGN_SIZES = {"E-dark": {(2400, 2400), (1200, 1200)}, "E-light": {(2400, 2400), (1200, 1200)}}  # others: landscape
+RDM_API = "https://rdmapi.unicef.org/api/indicators/"
 HOUSE_RULE_FROM = 2  # target fields and method lines are required from Spotlight 02 (rule of 29 Oct 2026)
 SPOTLIGHT_NAME = re.compile(r"^(\d{2,3})-[a-z0-9]+(?:-[a-z0-9]+)*$")
 URL = re.compile(r"https?://\S+|\b(?:[a-z0-9-]+\.)+(?:com|org|net|int|io|dev|ai|gov|edu)(?:/\S*)?", re.I)
@@ -241,9 +247,24 @@ def check_banner(spot, assignment):
     if not exp:
         fail(spot.name, f"assignment.csv assigns {row['ground']}/{row['link_placement']} but meta.json "
                         "has no experiment"); return
-    for key in ("block", "ground", "link_placement", "template"):
-        if str(exp.get(key)) != row[key]:
-            fail(spot.name, f"meta.json experiment.{key}={exp.get(key)!r} but assignment.csv says {row[key]!r}")
+    # A run-in Spotlight of experiment 003 (001 stopped before any post; 02 to 04 are 002's, then 003's,
+    # run-in): it keeps 001's ground, declares the template E palette, and the repo link is the first comment on
+    # every network (JP, 3 Nov 2026), so 001's link-placement arm no longer applies to it.
+    run_in = exp.get("id") == "003" and exp.get("role") == "run-in"
+    if run_in:
+        if exp.get("palette") != row["ground"] or (exp.get("from_001") or {}).get("ground") != row["ground"]:
+            fail(spot.name, f"run-in palette {exp.get('palette')!r} is not 001's assigned ground {row['ground']!r}")
+        if size not in {(2400, 2400), (1200, 1200)}:
+            fail(spot.name, f"a template E run-in banner must be square, banner.png is {size}")
+        row = {**row, "link_placement": "first_comment"}
+        sec_all = sections((spot / "captions.md").read_text(encoding="utf-8"))
+        for name in ("X", "Bluesky"):
+            if REPO_LINK in sec_all.get(name, ""):
+                fail(spot.name, f"run-in: the {name} caption carries the repo link (it is a thread reply, never the body)")
+    else:
+        for key in ("block", "ground", "link_placement", "template"):
+            if str(exp.get(key)) != row[key]:
+                fail(spot.name, f"meta.json experiment.{key}={exp.get(key)!r} but assignment.csv says {row[key]!r}")
     # The ground: what is posted (banner.png, all four corners) and its source.
     from PIL import Image
     want = GROUNDS[row["ground"]]
@@ -275,15 +296,30 @@ def check_banner(spot, assignment):
             fail(spot.name, "assigned the link in the first comment, but the LinkedIn caption carries it too")
 
 
-def is_002(spot):
+def topic_experiment(spot):
+    """"002" or "003" for a topic folder of that experiment (one subfolder per version), else None."""
     try:
-        return (json.loads((spot / "meta.json").read_text(encoding="utf-8")).get("experiment") or {}).get("id") == "002"
+        exp = (json.loads((spot / "meta.json").read_text(encoding="utf-8")).get("experiment") or {}).get("id")
     except (OSError, ValueError):
-        return False
+        return None
+    if exp == "003" and (meta_exp_role(spot) == "run-in"):
+        return None  # a run-in Spotlight (02 to 04) is a single-version folder, checked by the 001 rules
+    return exp if exp in ("002", "003") else None
 
 
-def check_002(spot, rows2):
-    """An experiment 002 topic folder (see the module docstring)."""
+def meta_exp_role(spot):
+    try:
+        return (json.loads((spot / "meta.json").read_text(encoding="utf-8")).get("experiment") or {}).get("role")
+    except (OSError, ValueError):
+        return None
+
+
+def is_002(spot):
+    return topic_experiment(spot) is not None
+
+
+def check_002(spot, rows2, exp="002"):
+    """An experiment 002 or 003 topic folder (see the module docstring). rows2: that experiment's assignment."""
     sys.path.insert(0, str(ROOT / "scripts"))
     import spotlight002
     need = ["data/world.csv", "data/countries_latest.csv", "data/membership.csv", "meta.json", "retrieval.json"]
@@ -301,8 +337,11 @@ def check_002(spot, rows2):
         fail(spot.name, 'target_basis "none" needs null target_value and target_year')
     want = sorted((r["frame"], r["design"]) for r in rows2 if r["spotlight"] == str(num) and r["network"] == "X")
     have = sorted((v["frame"], v["design"]) for v in meta["experiment"].get("versions", []))
+    rep = meta.get("replacement_of")
+    if rep:  # a replacement folder (Spotlight 22, 4 Nov 2026) holds only the frames it replaces
+        want = [w for w in want if w[0] in rep["frames"]]
     if want != have:
-        fail(spot.name, f"meta.json versions {have} but assignment.csv (002) says {want}")
+        fail(spot.name, f"meta.json versions {have} but assignment.csv ({exp}) says {want}")
     for frame, design in have:
         vdir = spot / "versions" / frame
         miss = [f for f in ("stats.json", "banner.dc.html", "banner.png", "captions.md") if not (vdir / f).exists()]
@@ -327,8 +366,11 @@ def check_002(spot, rows2):
                 fail(spot.name, f"version {frame}: em-dash in the {name} caption")
             if not re.search(r"(^|\s)Method: \S", text):
                 fail(spot.name, f"version {frame}: the {name} caption has no Method line")
-        if png_size(vdir / "banner.png") not in {(2400, 1260), (1200, 630)}:
-            fail(spot.name, f"version {frame}: banner.png is not 2400x1260")
+        sizes = DESIGN_SIZES.get(design, {(2400, 1260), (1200, 630)})
+        if png_size(vdir / "banner.png") not in sizes:
+            fail(spot.name, f"version {frame}: banner.png is not {'2400x2400' if design.startswith('E-') else '2400x1260'} ({design})")
+        if exp == "003":
+            check_003_version(spot, frame, design, sec, vdir)
         from PIL import Image
         rgb = tuple(int(DESIGN_GROUND[design][i:i + 2], 16) for i in (1, 3, 5))
         with Image.open(vdir / "banner.png") as im:
@@ -353,6 +395,31 @@ def check_002(spot, rows2):
             fail(spot.name, f"version {frame}: the headline does not name what is measured: {head!r}")
 
 
+def check_003_version(spot, frame, design, sec, vdir):
+    """Experiment 003 (4 Nov 2026): the repo link is the first comment on every network and never in the body; the
+    second comment is the Reference Data Manager record when the banner's subtitle comes from it (template E shows
+    "Definition: UNICEF Reference Data Manager, indicator <code>"); a template E version keeps e.meta.json."""
+    body, first, second = sec.get("LinkedIn", ""), sec.get("LinkedIn first comment"), sec.get("Second comment")
+    if first is None or REPO_LINK not in first:
+        fail(spot.name, f"version {frame}: 'LinkedIn first comment' must carry the repo link")
+    for name in ("LinkedIn", "X", "Bluesky", "Bluesky with feed tag"):
+        if REPO_LINK in sec.get(name, ""):
+            fail(spot.name, f"version {frame}: the {name} body carries the repo link (it is the first comment)")
+    html = (vdir / "banner.dc.html").read_text(encoding="utf-8")
+    m = re.search(r"Definition: UNICEF Reference Data Manager, indicator ([A-Za-z0-9_.-]+)", html)
+    if design.startswith("E-"):
+        if not (vdir / "e.meta.json").exists():
+            fail(spot.name, f"version {frame}: template E version without e.meta.json")
+        if m and (second is None or f"{RDM_API}{m.group(1)}" not in second):
+            fail(spot.name, f"version {frame}: the banner names RDM indicator {m.group(1)} but 'Second comment' has no link to its record")
+        if not m and second is not None:
+            fail(spot.name, f"version {frame}: a 'Second comment' but the banner names no RDM indicator")
+        if "countries and areas" in html:
+            fail(spot.name, f"version {frame}: house wording is 'countries and territories' (JP, 3 Nov 2026)")
+    if second is not None and not re.search(re.escape(RDM_API) + r"[A-Za-z0-9_.-]+", second):
+        fail(spot.name, f"version {frame}: 'Second comment' is not a Reference Data Manager record link")
+
+
 def spotlight_day(iso):
     y, m, d = (int(x) for x in iso.split("-"))
     return f"{d} {['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][m - 1]} {y}"
@@ -371,7 +438,7 @@ def check_assignment(rows, spots):
     slot = lambda r: (r["block"], r["link_placement"], r["ground"], r["template"])
     original = [r for r in rows if 2 <= int(r["spotlight"]) <= 33]  # the pre-registered slots
     slots, blocks = {slot(r) for r in original}, {r["block"] for r in original}
-    with_folder = {int(p.name.split("-")[0]) for p in spots if not is_002(p)}
+    with_folder = {int(p.name.split("-")[0]) for p in spots if not is_002(p)}  # 002 and 003 topics are not 001's
     members = {}
     for r in rows:
         if int(r["spotlight"]) > 33 and r["block"] in blocks and slot(r) not in slots:
@@ -388,6 +455,8 @@ def check_frozen(base):
     for name in [n for n in git("ls-tree", "-d", "--name-only", f"{base}:spotlights").stdout.splitlines()
                  if SPOTLIGHT_NAME.match(n)]:
         if not (ROOT / "spotlights" / name).is_dir():
+            if (ROOT / "spotlights" / f"_{name}").is_dir():  # retired (private, never published again), data kept
+                check_retired(base, name); continue
             fail(name, f"published on {base} but missing here (removed or renamed)"); continue
         r = git("diff", "--name-only", base, "--", f"spotlights/{name}/data", f"spotlights/{name}/retrieval.json")
         if r.returncode:
@@ -395,6 +464,23 @@ def check_frozen(base):
         changed = [p for p in r.stdout.splitlines() if f"spotlights/{name}/data/api_refresh/" not in p]
         if changed:
             fail(name, "published data snapshot changed: " + ", ".join(changed))
+
+
+def check_retired(base, name):
+    """spotlights/_<name> keeps every data file and retrieval.json of spotlights/<name> on the base, byte for byte."""
+    listing = git("ls-tree", "-r", base, "--", f"spotlights/{name}/data", f"spotlights/{name}/retrieval.json")
+    if listing.returncode:
+        fail(name, f"git ls-tree on {base} failed: {listing.stderr.strip()}"); return
+    for line in listing.stdout.splitlines():
+        blob, path = line.split()[2], line.split("\t")[1]
+        if f"spotlights/{name}/data/api_refresh/" in path:
+            continue
+        here = ROOT / "spotlights" / f"_{name}" / pathlib.Path(path).relative_to(f"spotlights/{name}")
+        if not here.exists():
+            fail(name, f"retired as _{name}, but {path} is missing there"); continue
+        h = subprocess.run(["git", "hash-object", str(here)], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+        if h != blob:
+            fail(name, f"retired as _{name}, but {path} changed")
 
 
 def check_append_only(base, rel, rows):
@@ -412,7 +498,7 @@ def check_append_only(base, rel, rows):
         return
     rest = iter(new_lines)
     for line in old_lines:
-        if line != "None yet." and not any(line == x for x in rest):
+        if line not in ("None yet.", "- (none yet)") and not any(line == x for x in rest):
             failures.append(f"{rel}: a line on {base} was changed or removed: {line[:80]!r}"); return
 
 
@@ -427,10 +513,13 @@ def main():
         with open(apath, encoding="utf-8", newline="") as f:
             rows = list(csv.DictReader(f))
     assignment = {r["spotlight"]: r for r in rows}
-    rows2 = []
+    rows2, rows3 = [], []
     if (ROOT / EXP2 / "assignment.csv").exists():
         with open(ROOT / EXP2 / "assignment.csv", encoding="utf-8", newline="") as f:
             rows2 = list(csv.DictReader(f))
+    if (ROOT / EXP3 / "assignment.csv").exists():
+        with open(ROOT / EXP3 / "assignment.csv", encoding="utf-8", newline="") as f:
+            rows3 = list(csv.DictReader(f))
     spots, misnamed = spotlight_dirs(ROOT / "spotlights")
     check_assignment(rows, spots)
     for p in misnamed:
@@ -438,10 +527,28 @@ def main():
     numbers = [int(p.name.split("-")[0]) for p in spots]
     for p in spots:
         if numbers.count(int(p.name.split("-")[0])) > 1:
-            fail(p.name, "another Spotlight folder has the same number")
+            # Allowed once: experiment 003 topic folders that replace one number's versions between them, each
+            # naming its frames (replacement_of.frames), with no frame in two folders (Spotlight 22, 4 Nov 2026).
+            same = [q for q in spots if q.name.split("-")[0] == p.name.split("-")[0]]
+            frames = []
+            for q in same:
+                try:
+                    mq = json.loads((q / "meta.json").read_text(encoding="utf-8"))
+                except (OSError, ValueError):
+                    mq = {}
+                if topic_experiment(q) != "003" or not (mq.get("replacement_of") or {}).get("frames"):
+                    fail(p.name, "another Spotlight folder has the same number"); break
+                frames += mq["replacement_of"]["frames"]
+            else:
+                if len(frames) != len(set(frames)):
+                    fail(p.name, "two folders of this number hold the same version frame")
+                num = p.name.split("-")[0]
+                want = sorted(r["frame"] for r in rows3 if r["spotlight"] == str(int(num)) and r["network"] == "X")
+                if sorted(frames) != want:
+                    fail(p.name, f"the folders of this number hold frames {sorted(frames)} but assignment.csv (003) has {want}")
     for spot in spots:
         if is_002(spot):
-            check_002(spot, rows2); continue
+            check_002(spot, rows3 if topic_experiment(spot) == "003" else rows2, topic_experiment(spot)); continue
         missing = [f for f in REQUIRED if not (spot / f).exists()]
         if missing:
             fail(spot.name, "missing " + ", ".join(missing)); continue
@@ -457,6 +564,8 @@ def main():
             check_append_only(a.base, f"{EXP}/PREREGISTRATION.md", rows=False)
             for name in ("assignment.csv", "posts.csv", "outcomes.csv", "topics.csv"):
                 check_append_only(a.base, f"{EXP2}/{name}", rows=True)
+                check_append_only(a.base, f"{EXP3}/{name}", rows=True)
+            check_append_only(a.base, f"{EXP2}/PREREGISTRATION.md", rows=False)
     print(f"Checked {len(spots)} Spotlight(s).")
     for f in failures:
         print("FAIL", f)

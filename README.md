@@ -28,7 +28,8 @@ derived from the data committed in this repository, by the scripts committed her
 | 19 | [School completion, Northern Africa and Western Asia, by wealth](spotlights/19-primary-completion-n-africa-w-asia) | 4.1.2 | 2026-11-01 |
 | 20 | [Safely managed drinking water, Northern Africa and Western Asia, by location](spotlights/20-water-n-africa-w-asia) | 6.1.1 | 2026-11-01 |
 | 21 | [School completion, Eastern and South-eastern Asia, by wealth](spotlights/21-primary-completion-east-se-asia) | 4.1.2 | 2026-11-01 |
-| 22 | [Safely managed drinking water, Eastern and South-eastern Asia, by location](spotlights/22-water-east-se-asia) | 6.1.1 | 2026-11-01 |
+| 22 | [Safely managed sanitation, Eastern and South-eastern Asia](spotlights/22-sanitation-east-se-asia) | 6.2.1 | 2026-11-04 |
+| 22 | [Safely managed drinking water, rural and urban, SDG regions that publish both](spotlights/22-water-regions-urban-rural) | 6.1.1 | 2026-11-04 |
 | 23 | [Family planning demand satisfied (modern methods), LDCs, LLDCs and SIDS compared with the World](spotlights/23-family-planning-ldc-lldc-sids) | 3.7.1 | 2026-11-01 |
 | 24 | [Skilled birth attendance, LDCs, LLDCs and SIDS compared with the World, by wealth](spotlights/24-birth-attendance-ldc-lldc-sids) | 3.1.2 | 2026-11-01 |
 | 25 | [Anaemia in women 15-49, LDCs, LLDCs and SIDS compared with the World](spotlights/25-anaemia-ldc-lldc-sids) | 2.2.3 | 2026-11-01 |

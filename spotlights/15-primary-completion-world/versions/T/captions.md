@@ -14,9 +14,15 @@ Method: linear, points per year, 2000 to 2024 for the trend and 2024 to 2030 for
 
 Data: UNESCO UIS, UN SDG Global Database (series SE_TOT_CPLR, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG4
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG4
+## Second comment
+
+Definition, UNICEF Reference Data Manager (ED_CR_L1): https://rdmapi.unicef.org/api/indicators/ED_CR_L1
 
 ## X
 
@@ -24,8 +30,8 @@ Primary completion for all by 2030 needs the rate to rise 2.0 points a year, 4.5
 
 ## Bluesky
 
-Primary completion for all by 2030 needs the rate to rise 2.0 points a year, 4.5 times its pace since 2000. Method: linear pace, 2000 to 2024; target year 2030. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Primary completion for all by 2030 needs the rate to rise 2.0 points a year, 4.5 times its pace since 2000. Method: linear pace, 2000 to 2024; target year 2030.
 
 ## Bluesky with feed tag
 
-Primary completion for all by 2030 needs the rate to rise 2.0 points a year, 4.5 times its pace since 2000. Method: linear pace, 2000 to 2024; target year 2030. Data + code: github.com/jpazvd/un-data-commons-spotlight #EduSky
+Primary completion for all by 2030 needs the rate to rise 2.0 points a year, 4.5 times its pace since 2000. Method: linear pace, 2000 to 2024; target year 2030. #EduSky

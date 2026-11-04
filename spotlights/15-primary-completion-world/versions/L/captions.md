@@ -14,9 +14,15 @@ Method: published series, 2000 to 2024; change in percentage points.
 
 Data: UNESCO UIS, UN SDG Global Database (series SE_TOT_CPLR, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG4
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG4
+## Second comment
+
+Definition, UNICEF Reference Data Manager (ED_CR_L1): https://rdmapi.unicef.org/api/indicators/ED_CR_L1
 
 ## X
 
@@ -24,8 +30,8 @@ Since 2000, primary completion has risen 10.7 points. From 77.3% in 2000 to 88.0
 
 ## Bluesky
 
-Since 2000, primary completion has risen 10.7 points. From 77.3% in 2000 to 88.0% in 2024: 0.4 points a year. Primary completion for all by 2030 needs the rate to rise 2.0 points a year. Method: published series, 2000 to 2024. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Since 2000, primary completion has risen 10.7 points. From 77.3% in 2000 to 88.0% in 2024: 0.4 points a year. Primary completion for all by 2030 needs the rate to rise 2.0 points a year. Method: published series, 2000 to 2024.
 
 ## Bluesky with feed tag
 
-Since 2000, primary completion has risen 10.7 points. From 77.3% in 2000 to 88.0% in 2024: 0.4 points a year. Primary completion for all by 2030 needs the rate to rise 2.0 points a year. Method: published series, 2000 to 2024. Data + code: github.com/jpazvd/un-data-commons-spotlight #EduSky
+Since 2000, primary completion has risen 10.7 points. From 77.3% in 2000 to 88.0% in 2024: 0.4 points a year. Primary completion for all by 2030 needs the rate to rise 2.0 points a year. Method: published series, 2000 to 2024. #EduSky

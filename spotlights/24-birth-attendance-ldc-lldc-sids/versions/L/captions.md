@@ -2,7 +2,7 @@
 
 ## LinkedIn
 
-Since 2000, skilled birth attendance has risen 46.7 points in LDCs, 43.6 in LLDCs and 18.3 in SIDS. LDCs: from 29.9% in 2000 to 76.6% in 2025. World: from 60.7% to 87.2%.
+Skilled birth attendance: up 46.7 points in LDCs, 43.6 in LLDCs and 18.3 in SIDS since 2000. LDCs: from 29.9% in 2000 to 76.6% in 2025. World: from 60.7% to 87.2%.
 
 A statistician's note: these are the custodian's published aggregates, not averages I computed from country values.
 
@@ -12,18 +12,24 @@ Method: published aggregates, 2000 to 2025.
 
 Data: UNICEF and WHO, UN SDG Global Database (series SH_STA_BRTC, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG3
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG3
+## Second comment
+
+Definition, UNICEF Reference Data Manager (MNCH_SAB): https://rdmapi.unicef.org/api/indicators/MNCH_SAB
 
 ## X
 
-Since 2000, skilled birth attendance has risen 46.7 points in LDCs, 43.6 in LLDCs and 18.3 in SIDS. LDCs: from 29.9% in 2000 to 76.6% in 2025. World: from 60.7% to 87.2%. Method: published aggregates, 2000 to 2025. Data: UNICEF and WHO. #OfficialStatistics #DataForChildren
+Skilled birth attendance: up 46.7 points in LDCs, 43.6 in LLDCs and 18.3 in SIDS since 2000. LDCs: from 29.9% in 2000 to 76.6% in 2025. World: from 60.7% to 87.2%. Method: published aggregates, 2000 to 2025. Data: UNICEF and WHO. #OfficialStatistics #DataForChildren
 
 ## Bluesky
 
-Since 2000, skilled birth attendance has risen 46.7 points in LDCs, 43.6 in LLDCs and 18.3 in SIDS. LDCs: from 29.9% in 2000 to 76.6% in 2025. World: from 60.7% to 87.2%. Method: published aggregates, 2000 to 2025. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Skilled birth attendance: up 46.7 points in LDCs, 43.6 in LLDCs and 18.3 in SIDS since 2000. LDCs: from 29.9% in 2000 to 76.6% in 2025. World: from 60.7% to 87.2%. Method: published aggregates, 2000 to 2025.
 
 ## Bluesky with feed tag
 
-Since 2000, skilled birth attendance has risen 46.7 points in LDCs, 43.6 in LLDCs and 18.3 in SIDS. LDCs: from 29.9% in 2000 to 76.6% in 2025. World: from 60.7% to 87.2%. Method: published aggregates, 2000 to 2025. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+Skilled birth attendance: up 46.7 points in LDCs, 43.6 in LLDCs and 18.3 in SIDS since 2000. LDCs: from 29.9% in 2000 to 76.6% in 2025. World: from 60.7% to 87.2%. Method: published aggregates, 2000 to 2025. #PolicySky

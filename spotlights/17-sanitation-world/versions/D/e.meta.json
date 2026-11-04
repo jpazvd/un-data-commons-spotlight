@@ -1,0 +1,38 @@
+{
+ "spotlight": 17,
+ "frame": "D",
+ "palette": "light",
+ "ok": true,
+ "slug": "17-sanitation-world",
+ "title": "Safely managed sanitation, World",
+ "sdg_indicator": "6.2.1",
+ "family": "sanitation",
+ "kind": "regions_data",
+ "custodian": "WHO/UNICEF JMP",
+ "design_as_built": "E-light",
+ "headline": "137 of 194 countries and territories have data on safely managed sanitation",
+ "headline_lines": 2,
+ "headline_px": 56,
+ "signal": "137 of 194",
+ "subtitle": "Proportion of population using an improved sanitation facility that is not shared with other households, from which excreta are safely disposed of in situ or removed and treated off-site",
+ "subtitle_from": "rdm:DEFINITION",
+ "rdm_helix_code": "WS_PPL_S-SM",
+ "rdm_url": "https://rdmapi.unicef.org/api/indicators/WS_PPL_S-SM",
+ "years": "137 of 194 countries and territories in the eight SDG regions have any data.",
+ "data_line": "Data: WHO/UNICEF JMP via UN SDG Global Database, series SH_SAN_SAFE, extracted 1 Nov 2026",
+ "chart_height": 541,
+ "chart_fill": 0.9739451433982684,
+ "flags": [
+  "revised after the review of 3 Nov 2026: stats_frame=D3, chart=regions_stacked"
+ ],
+ "revision": {
+  "stats_frame": "D3",
+  "chart": "regions_stacked"
+ },
+ "replacement_of": null,
+ "alt": "137 of 194 countries and territories have data on safely managed sanitation. 137 of 194 countries and territories in the eight SDG regions have any data. Australia and NZ: 2 of 2 countries and territories with data; Europe and N. America: 41 of 43 countries and territories with data; N. Africa and W. Asia: 21 of 24 countries and territories with data; E. and S.-E. Asia: 12 of 16 countries and territories with data; Sub-Saharan Africa: 30 of 48 countries and territories with data; Latin America, Caribbean: 17 of 33 countries and territories with data; Central and S. Asia: 7 of 14 countries and territories with data; Oceania (excl. Aus., NZ): 7 of 14 countries and territories with data",
+ "method": "Method: countries with any value in the database, by SDG region.",
+ "question": "Where has a country started measuring safely managed sanitation for the first time, and what made it possible?",
+ "first_comment": "Data and code: https://github.com/jpazvd/un-data-commons-spotlight",
+ "second_comment": "Definition, UNICEF Reference Data Manager (WS_PPL_S-SM): https://rdmapi.unicef.org/api/indicators/WS_PPL_S-SM"
+}

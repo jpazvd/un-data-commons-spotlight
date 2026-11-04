@@ -4,7 +4,9 @@
   "title": "Women in parliament",
   "sdg_indicator": "5.5.1",
   "sdg_series_code": "SG_GEN_PARL",
-  "dimensions": {"Sex": "FEMALE"},
+  "dimensions": {
+    "Sex": "FEMALE"
+  },
   "variable_dcid": "undata/sdg/SG_GEN_PARL.SEX--F",
   "variable_name": "Proportion of seats in national parliaments held by women [Sex=Female]",
   "unit": "Percent",
@@ -18,5 +20,21 @@
   "target_year": null,
   "target_basis": "none",
   "notes": "SDG target 5.5 (women's full and effective participation) sets no numeric value, so no pace or multiple is used; 50% is shown only as the parity reference. stats.json was computed without --target-value/--target-year, so its pace and trend fields refer to the script's default target and are not used. Country display names are the Data Commons place names as retrieved.",
-  "experiment": {"id": "001", "block": 1, "ground": "light", "link_placement": "body", "template": "templates/banner-D-light.dc.html"}
+  "experiment": {
+    "id": "003",
+    "role": "run-in",
+    "palette": "light",
+    "template": "templates/banner-E-light.dc.html",
+    "from_001": {
+      "id": "001",
+      "block": 1,
+      "ground": "light",
+      "link_placement": "body",
+      "template": "templates/banner-D-light.dc.html"
+    },
+    "note": "Experiment 001 stopped before any post (its Deviations, 1 Nov 2026); run-in of 002, then of 003 with template E (4 Nov 2026). Ground as 001 assigned; the repo link is the first comment on every network (JP, 3 Nov 2026)."
+  },
+  "rdm_helix_code": "none",
+  "subtitle": "The proportion of seats held by women in national parliaments, currently as of 1 January of reporting year",
+  "subtitle_from": "SDG metadata 5.5.1a (UN Statistics Division), see docs/revision-3-2026-11/pilot/sources.md"
 }

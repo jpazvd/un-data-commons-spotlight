@@ -87,9 +87,10 @@ REVISIONS = {
     "20-D": {"stats_frame": "D3", "chart": "regions_stacked"},
     "39-D": {"stats_frame": "D3", "chart": "regions_stacked"},
     "27-L": {"shade": (2020, 2021, "2020 to 2021")},              # shade the COVID-19 years to read the kink against them
-    "22-G": {"years_note": "five SDG regions publish no rural or urban aggregate for this series"},
-    # Copilot review of PR #32, 4 Nov 2026: the measure is the share of seats, so the share is the subject.
-    "39-L": {"headline": "Since 2000, women's share of parliament seats in Latin America and the Caribbean is up 21.4 points"},
+    "22-G": {"years_note": "only three SDG regions publish both rural and urban aggregates for this series"},
+    # Copilot review of PR #32, 4 Nov 2026: the measure is the share of seats, not women, so it does not "rise"; the
+    # version's own candidate ran to three lines, so the short name leads (copy002.names_construct checks it).
+    "39-L": {"headline": "Women in parliament, Latin America and the Caribbean: up 21.4 points since 2000"},
 }
 HOUSE_WORDS = [("countries and areas", "countries and territories")]  # JP, 3 Nov 2026
 
@@ -587,10 +588,14 @@ def build(topic, frame, palette, out_dir, png=False, tab=None):
     CURRENT["stats"] = st
     c = content(300)
     candidates = list(c["headlines"]) + ([c["headlines_last"][0]] if c.get("headlines_last") else [])
+    stale = None
     if chosen in candidates:
         candidates = [chosen] + [x for x in candidates if x != chosen]
-    elif chosen:
+    elif chosen and rev.get("headline"):  # an explicit revision wording leads, whatever copy002 proposes
         candidates = [chosen] + candidates
+    elif chosen:  # the version's banner carries a headline copy002 no longer proposes (its stats changed): not reused
+        stale = chosen
+        chosen = None
 
     def signal_for(head, cc):
         if cc.get("headlines_last") and head == cc["headlines_last"][0]:
@@ -667,6 +672,8 @@ def build(topic, frame, palette, out_dir, png=False, tab=None):
         flags.append(f"subtitle is long ({len(subtitle)} characters): shorten by hand or move to the caption")
     if chosen and head != chosen:
         flags.append(f"headline differs from the version's ({chosen!r}): three lines at 56 px")
+    if stale:
+        flags.append(f"the version's headline ({stale!r}) is not among copy002's candidates for its stats.json and was not reused")
     if hsize != 56:
         flags.append(f"headline at {hsize} px: no candidate fits two lines at 56 px")
     if m.get("fill") is not None and m["fill"] < 0.5:
@@ -686,7 +693,9 @@ def build(topic, frame, palette, out_dir, png=False, tab=None):
            "first_comment": "Data and code: https://github.com/jpazvd/un-data-commons-spotlight",
            "second_comment": (f"Definition, UNICEF Reference Data Manager ({code}): {url}" if url and origin.startswith("rdm:") else None)}
     (out_dir / f"{stem}.meta.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    return out
+    # For a caller that writes the version's captions (experiments/003-.../build_versions_e.py): the words as drawn,
+    # which copy002.captions takes, and the meta.json of the topic as read. Not written to the meta file.
+    return {**out, "content": cc, "topic_meta": meta}
 
 
 def write_page(out_dir, html_):

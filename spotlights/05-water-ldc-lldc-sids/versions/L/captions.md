@@ -14,9 +14,15 @@ Method: published aggregates, 2000 to 2024.
 
 Data: WHO/UNICEF JMP, UN SDG Global Database (series SH_H2O_SAFE, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG6
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG6
+## Second comment
+
+Definition, UNICEF Reference Data Manager (WS_PPL_W-SM): https://rdmapi.unicef.org/api/indicators/WS_PPL_W-SM
 
 ## X
 

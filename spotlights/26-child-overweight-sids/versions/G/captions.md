@@ -12,9 +12,15 @@ Method: latest year per country with both groups from the same survey (2010 to 2
 
 Data: WHO Global Health Observatory, UN System Data Commons (indicator NUT_ANTH_SH, extracted 1 Nov 2026).
 
+#OfficialStatistics #DataForChildren #SDG2
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG2
+## Second comment
+
+Definition, UNICEF Reference Data Manager (NT_ANT_WHZ_PO2): https://rdmapi.unicef.org/api/indicators/NT_ANT_WHZ_PO2
 
 ## X
 
@@ -22,8 +28,8 @@ In 18 of 25 SIDS, child overweight was higher in urban than in rural areas in th
 
 ## Bluesky
 
-In 18 of 25 SIDS, child overweight was higher in urban than in rural areas in the latest survey. Latest surveys with both groups, 2010 to 2022; median gap 0.6 points. Method: gap within each country's latest survey with both groups. Data + code: github.com/jpazvd/un-data-commons-spotlight
+In 18 of 25 SIDS, child overweight was higher in urban than in rural areas in the latest survey. Latest surveys with both groups, 2010 to 2022; median gap 0.6 points. Method: gap within each country's latest survey with both groups.
 
 ## Bluesky with feed tag
 
-In 18 of 25 SIDS, child overweight was higher in urban than in rural areas in the latest survey. Latest surveys with both groups, 2010 to 2022; median gap 0.6 points. Method: gap within each country's latest survey with both groups. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+In 18 of 25 SIDS, child overweight was higher in urban than in rural areas in the latest survey. Latest surveys with both groups, 2010 to 2022; median gap 0.6 points. Method: gap within each country's latest survey with both groups. #PolicySky

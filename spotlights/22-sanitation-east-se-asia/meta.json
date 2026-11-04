@@ -1,0 +1,78 @@
+{
+  "spotlight": 22,
+  "slug": "22-sanitation-east-se-asia",
+  "title": "Safely managed sanitation, Eastern and South-eastern Asia",
+  "sdg_indicator": "6.2.1",
+  "retrieved_on": "2026-11-04",
+  "target_value": 100,
+  "target_year": 2030,
+  "target_basis": "SDG 6.2",
+  "experiment": {
+    "proposal": "P24",
+    "family": "sanitation",
+    "pace": 1,
+    "kind": "standard",
+    "place_type": "region",
+    "place": "Eastern and South-eastern Asia",
+    "place_dcids": [
+      "undata-geo/G00122000"
+    ],
+    "breakdown": "location",
+    "frames_proposed": "T|L",
+    "feed_tag": "#EconSky",
+    "frames_supported": "T|L",
+    "id": "003",
+    "versions": [
+      {
+        "version": "22-L",
+        "frame": "L",
+        "design": "E-light",
+        "template": "templates/banner-E-light.dc.html"
+      },
+      {
+        "version": "22-T",
+        "frame": "T",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      }
+    ]
+  },
+  "replacement_of": {
+    "slug": "22-water-east-se-asia",
+    "reason": "JP, 4 Nov 2026: the safely managed drinking water series for the region drops from 76.5 (2014) to 65.0 (2015) and jumps 70.6 to 75.3 in 2024, a break in the published aggregate, so its trend and pace banners were rejected; sanitation for the same region, same custodian, has a continuous series.",
+    "frames": [
+      "L",
+      "T"
+    ]
+  },
+  "experiment_002": {
+    "id": "002",
+    "proposal": "P24",
+    "family": "sanitation",
+    "pace": 1,
+    "kind": "standard",
+    "place_type": "region",
+    "place": "Eastern and South-eastern Asia",
+    "place_dcids": [
+      "undata-geo/G00122000"
+    ],
+    "breakdown": "location",
+    "frames_proposed": "T|L",
+    "feed_tag": "#EconSky",
+    "versions": [
+      {
+        "version": "22-L",
+        "frame": "L",
+        "design": "D-light",
+        "template": "templates/banner-D-light.dc.html"
+      },
+      {
+        "version": "22-T",
+        "frame": "T",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      }
+    ],
+    "frames_supported": "T|L"
+  }
+}

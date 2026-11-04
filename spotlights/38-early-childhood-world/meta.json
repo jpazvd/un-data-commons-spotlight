@@ -8,6 +8,42 @@
   "target_year": null,
   "target_basis": "none",
   "experiment": {
+    "proposal": "P44",
+    "family": "ecd",
+    "pace": 0,
+    "kind": "data gap",
+    "place_type": "world",
+    "place": "World",
+    "place_dcids": [
+      "Earth"
+    ],
+    "breakdown": "none",
+    "frames_proposed": "D1|D2|D3",
+    "feed_tag": "#EduSky",
+    "frames_supported": "D1|D2|D3",
+    "id": "003",
+    "versions": [
+      {
+        "version": "38-D2",
+        "frame": "D2",
+        "design": "E-light",
+        "template": "templates/banner-E-light.dc.html"
+      },
+      {
+        "version": "38-D1",
+        "frame": "D1",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "38-D3",
+        "frame": "D3",
+        "design": "E-dark",
+        "template": "templates/banner-E-dark.dc.html"
+      }
+    ]
+  },
+  "experiment_002": {
     "id": "002",
     "proposal": "P44",
     "family": "ecd",

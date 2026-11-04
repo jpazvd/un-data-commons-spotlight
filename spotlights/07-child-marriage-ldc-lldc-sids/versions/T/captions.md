@@ -12,9 +12,15 @@ Method: linear, points per year, from each place's first published year to its l
 
 Data: UNICEF, UN SDG Global Database (series SP_DYN_MRBF18, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG5
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG5
+## Second comment
+
+Definition, UNICEF Reference Data Manager (PT_F_20-24_MRD_U18): https://rdmapi.unicef.org/api/indicators/PT_F_20-24_MRD_U18
 
 ## X
 
@@ -22,8 +28,8 @@ Ending child marriage by 2030 needs the share to fall 4.4 to 7.0 points a year i
 
 ## Bluesky
 
-Ending child marriage by 2030 needs the share to fall 4.4 to 7.0 points a year in LDCs, LLDCs and SIDS. Method: linear pace on published aggregates, from 2005 for LDCs. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Ending child marriage by 2030 needs the share to fall 4.4 to 7.0 points a year in LDCs, LLDCs and SIDS. Method: linear pace on published aggregates, from 2005 for LDCs.
 
 ## Bluesky with feed tag
 
-Ending child marriage by 2030 needs the share to fall 4.4 to 7.0 points a year in LDCs, LLDCs and SIDS. Method: linear pace on published aggregates, from 2005 for LDCs. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+Ending child marriage by 2030 needs the share to fall 4.4 to 7.0 points a year in LDCs, LLDCs and SIDS. Method: linear pace on published aggregates, from 2005 for LDCs. #PolicySky

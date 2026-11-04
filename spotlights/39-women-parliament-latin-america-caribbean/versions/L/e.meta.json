@@ -1,0 +1,37 @@
+{
+ "spotlight": 39,
+ "frame": "L",
+ "palette": "light",
+ "ok": true,
+ "slug": "39-women-parliament-latin-america-caribbean",
+ "title": "Women in national parliaments, Latin America and the Caribbean",
+ "sdg_indicator": "5.5.1",
+ "family": "women_parliament",
+ "kind": "trend",
+ "custodian": "IPU",
+ "design_as_built": "E-light",
+ "headline": "Women in parliament, Latin America and the Caribbean: up 21.4 points since 2000",
+ "headline_lines": 2,
+ "headline_px": 56,
+ "signal": "21.4 points",
+ "subtitle": "Proportion of seats in national parliaments held by women (sex: female)",
+ "subtitle_from": "sdg series name (retrieval.json variable_name, UN System Data Commons)",
+ "rdm_helix_code": "none",
+ "rdm_url": null,
+ "years": "From 15.2% in 2000 to 36.6% in 2026: 0.8 points a year.",
+ "data_line": "Data: IPU via UN SDG Global Database, series SG_GEN_PARL, extracted 1 Nov 2026",
+ "chart_height": 640,
+ "chart_fill": 0.7794184682091011,
+ "flags": [
+  "revised after the review of 3 Nov 2026: headline=Women in parliament, Latin America and the Caribbean: up 21.4 points since 2000"
+ ],
+ "revision": {
+  "headline": "Women in parliament, Latin America and the Caribbean: up 21.4 points since 2000"
+ },
+ "replacement_of": null,
+ "alt": "Women in parliament, Latin America and the Caribbean: up 21.4 points since 2000. From 15.2% in 2000 to 36.6% in 2026: 0.8 points a year. Seats in national parliaments held by women, Latin America and the Caribbean: 15.2% in 2000 to 36.6% in 2026.",
+ "method": "Method: published series, 2000 to 2026.",
+ "question": "What has moved women in parliament most in the places you work in, and how do you know?",
+ "first_comment": "Data and code: https://github.com/jpazvd/un-data-commons-spotlight",
+ "second_comment": null
+}

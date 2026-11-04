@@ -12,9 +12,15 @@ Method: linear, points per year, from each place's first published year to its l
 
 Data: UNESCO UIS, UN SDG Global Database (series SE_TOT_CPLR, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG4
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG4
+## Second comment
+
+Definition, UNICEF Reference Data Manager (ED_CR_L1): https://rdmapi.unicef.org/api/indicators/ED_CR_L1
 
 ## X
 
@@ -22,8 +28,8 @@ Primary completion for all by 2030 needs the rate in Sub-Saharan Africa to rise 
 
 ## Bluesky
 
-Primary completion for all by 2030 needs the rate in Sub-Saharan Africa to rise 5.4 points a year. Method: linear pace on published aggregates, from 2000 for Sub-Saharan Africa. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Primary completion for all by 2030 needs the rate in Sub-Saharan Africa to rise 5.4 points a year. Method: linear pace on published aggregates, from 2000 for Sub-Saharan Africa.
 
 ## Bluesky with feed tag
 
-Primary completion for all by 2030 needs the rate in Sub-Saharan Africa to rise 5.4 points a year. Method: linear pace on published aggregates, from 2000 for Sub-Saharan Africa. Data + code: github.com/jpazvd/un-data-commons-spotlight #EduSky
+Primary completion for all by 2030 needs the rate in Sub-Saharan Africa to rise 5.4 points a year. Method: linear pace on published aggregates, from 2000 for Sub-Saharan Africa. #EduSky

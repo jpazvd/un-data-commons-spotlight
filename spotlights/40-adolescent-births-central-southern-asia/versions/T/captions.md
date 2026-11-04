@@ -2,7 +2,7 @@
 
 ## LinkedIn
 
-Central and Southern Asia in 2024: 25.1 births per 1,000 girls aged 15 to 19. 14 countries and areas, latest values from 2015 to 2023.
+Central and Southern Asia in 2024: 25.1 births per 1,000 girls aged 15 to 19. 14 countries and territories, latest values from 2015 to 2023.
 
 A statistician's note: the line is the custodian's published aggregate; the bars are each country's latest value, so they come from different years and are not directly comparable.
 
@@ -12,18 +12,24 @@ Method: published aggregate for 2024; countries at their latest year.
 
 Data: UN DESA Population Division and UNFPA, UN SDG Global Database (series SP_DYN_ADKL, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG3
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG3
+## Second comment
+
+Definition, UNICEF Reference Data Manager (MNCH_ABR): https://rdmapi.unicef.org/api/indicators/MNCH_ABR
 
 ## X
 
-Central and Southern Asia in 2024: 25.1 births per 1,000 girls aged 15 to 19. 14 countries and areas, latest values from 2015 to 2023. Method: published aggregate, 2024; countries at their latest year. Data: UN DESA Population Division and UNFPA. #OfficialStatistics
+Central and Southern Asia in 2024: 25.1 births per 1,000 girls aged 15 to 19. 14 countries and territories, latest values from 2015 to 2023. Method: published aggregate, 2024; countries at their latest year. Data: UN DESA Population Division and UNFPA. #OfficialStatistics
 
 ## Bluesky
 
-Central and Southern Asia in 2024: 25.1 births per 1,000 girls aged 15 to 19. 14 countries and areas, latest values from 2015 to 2023. Method: published aggregate, 2024; countries at their latest year. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Central and Southern Asia in 2024: 25.1 births per 1,000 girls aged 15 to 19. 14 countries and territories, latest values from 2015 to 2023. Method: published aggregate, 2024; countries at their latest year.
 
 ## Bluesky with feed tag
 
-Central and Southern Asia in 2024: 25.1 births per 1,000 girls aged 15 to 19. 14 countries and areas, latest values from 2015 to 2023. Method: published aggregate, 2024; countries at their latest year. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+Central and Southern Asia in 2024: 25.1 births per 1,000 girls aged 15 to 19. 14 countries and territories, latest values from 2015 to 2023. Method: published aggregate, 2024; countries at their latest year. #PolicySky

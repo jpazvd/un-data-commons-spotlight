@@ -1,0 +1,41 @@
+{
+ "spotlight": 27,
+ "frame": "L",
+ "palette": "dark",
+ "ok": true,
+ "slug": "27-youth-neet-sids",
+ "title": "Youth NEET, Small island developing states (SIDS), by location",
+ "sdg_indicator": "8.6.1",
+ "family": "youth_neet",
+ "kind": "trend",
+ "custodian": "ILO",
+ "design_as_built": "E-dark",
+ "headline": "Since 2005, youth NEET rate in Small Island Developing States (SIDS) has fallen 2.3 points",
+ "headline_lines": 2,
+ "headline_px": 56,
+ "signal": "2.3 points",
+ "subtitle": "Proportion of youth not in education, employment or training - previous definition (age: 15 to 24 years old)",
+ "subtitle_from": "sdg series name (retrieval.json variable_name, UN System Data Commons)",
+ "rdm_helix_code": "none",
+ "rdm_url": null,
+ "years": "From 23.4% in 2005 to 21.1% in 2025: 0.1 points a year.",
+ "data_line": "Data: ILO via UN SDG Global Database, series SL_TLF_NEET, SL_TLF_NEET_19ICLS, extracted 1 Nov 2026",
+ "chart_height": 640,
+ "chart_fill": 0.9547198772064467,
+ "flags": [
+  "revised after the review of 3 Nov 2026: shade=(2020, 2021, '2020 to 2021')"
+ ],
+ "revision": {
+  "shade": [
+   2020,
+   2021,
+   "2020 to 2021"
+  ]
+ },
+ "replacement_of": null,
+ "alt": "Since 2005, youth NEET rate in Small Island Developing States (SIDS) has fallen 2.3 points. From 23.4% in 2005 to 21.1% in 2025: 0.1 points a year. Young people aged 15 to 24 not in education, employment or training, Small Island Developing States (SIDS): 23.4% in 2005 to 21.1% in 2025.",
+ "method": "Method: published series, 2005 to 2025; SL_TLF_NEET, previous definition.",
+ "question": "What has moved youth NEET rate most in the places you work in, and how do you know?",
+ "first_comment": "Data and code: https://github.com/jpazvd/un-data-commons-spotlight",
+ "second_comment": null
+}

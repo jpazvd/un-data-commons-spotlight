@@ -8,6 +8,50 @@
   "target_year": null,
   "target_basis": "none",
   "experiment": {
+    "proposal": "P37",
+    "family": "child_labour",
+    "pace": 0,
+    "kind": "standard",
+    "place_type": "regions_compared",
+    "place": "SDG regions compared",
+    "place_dcids": [
+      "SubSaharanAfrica",
+      "undata-geo/G00103000",
+      "undata-geo/G00116000",
+      "undata-geo/G00122000",
+      "LatinAmericaAndCaribbean",
+      "undata-geo/G00145000",
+      "AustraliaAndNewZealand",
+      "undata-geo/G00126000",
+      "Earth"
+    ],
+    "breakdown": "sex",
+    "frames_proposed": "T|G|D",
+    "feed_tag": "#EconSky",
+    "frames_supported": "T|G|D",
+    "id": "003",
+    "versions": [
+      {
+        "version": "31-T",
+        "frame": "T",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "31-D",
+        "frame": "D",
+        "design": "E-dark",
+        "template": "templates/banner-E-dark.dc.html"
+      },
+      {
+        "version": "31-G",
+        "frame": "G",
+        "design": "E-light",
+        "template": "templates/banner-E-light.dc.html"
+      }
+    ]
+  },
+  "experiment_002": {
     "id": "002",
     "proposal": "P37",
     "family": "child_labour",

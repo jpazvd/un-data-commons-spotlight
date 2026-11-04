@@ -8,6 +8,42 @@
   "target_year": null,
   "target_basis": "none",
   "experiment": {
+    "proposal": "P49",
+    "family": "abr",
+    "pace": 0,
+    "kind": "standard",
+    "place_type": "region",
+    "place": "Central and Southern Asia",
+    "place_dcids": [
+      "undata-geo/G00116000"
+    ],
+    "breakdown": "location",
+    "frames_proposed": "T|L|G|D",
+    "feed_tag": "#PolicySky",
+    "frames_supported": "T|L|G|D",
+    "id": "003",
+    "versions": [
+      {
+        "version": "40-T",
+        "frame": "T",
+        "design": "E-dark",
+        "template": "templates/banner-E-dark.dc.html"
+      },
+      {
+        "version": "40-G",
+        "frame": "G",
+        "design": "E-light",
+        "template": "templates/banner-E-light.dc.html"
+      },
+      {
+        "version": "40-D",
+        "frame": "D",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      }
+    ]
+  },
+  "experiment_002": {
     "id": "002",
     "proposal": "P49",
     "family": "abr",

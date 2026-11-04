@@ -8,13 +8,19 @@ A statistician's note: "latest value" means each country's most recent estimate,
 
 Which countries have found a way to measure demand met with modern methods more often, and what made it possible?
 
-Method: countries and areas with any value in the database, by membership, each counted once; 2020 or earlier counts as not recent.
+Method: countries and territories with any value in the database, by membership, each counted once; 2020 or earlier counts as not recent.
 
 Data: UN DESA Population Division and UNFPA, UN SDG Global Database (series SH_FPL_MTMM, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG3
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG3
+## Second comment
+
+Definition, UNICEF Reference Data Manager (MNCH_DEMAND_FP): https://rdmapi.unicef.org/api/indicators/MNCH_DEMAND_FP
 
 ## X
 
@@ -22,8 +28,8 @@ Data on demand met with modern methods cover 43 of 44 LDCs, 32 of 32 LLDCs and 2
 
 ## Bluesky
 
-Data on demand met with modern methods cover 43 of 44 LDCs, 32 of 32 LLDCs and 27 of 39 SIDS. Method: latest value per country; 2020 or earlier is not recent. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Data on demand met with modern methods cover 43 of 44 LDCs, 32 of 32 LLDCs and 27 of 39 SIDS. Method: latest value per country; 2020 or earlier is not recent.
 
 ## Bluesky with feed tag
 
-Data on demand met with modern methods cover 43 of 44 LDCs, 32 of 32 LLDCs and 27 of 39 SIDS. Method: latest value per country; 2020 or earlier is not recent. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+Data on demand met with modern methods cover 43 of 44 LDCs, 32 of 32 LLDCs and 27 of 39 SIDS. Method: latest value per country; 2020 or earlier is not recent. #PolicySky

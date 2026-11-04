@@ -14,9 +14,15 @@ Method: published aggregates, 2005 to 2025.
 
 Data: UNICEF, UN SDG Global Database (series SP_DYN_MRBF18, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG5
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG5
+## Second comment
+
+Definition, UNICEF Reference Data Manager (PT_F_20-24_MRD_U18): https://rdmapi.unicef.org/api/indicators/PT_F_20-24_MRD_U18
 
 ## X
 

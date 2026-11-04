@@ -1,0 +1,73 @@
+{
+  "spotlight": 22,
+  "slug": "22-water-regions-urban-rural",
+  "title": "Safely managed drinking water, rural and urban, SDG regions that publish both",
+  "sdg_indicator": "6.1.1",
+  "retrieved_on": "2026-11-04",
+  "target_value": null,
+  "target_year": null,
+  "target_basis": "none",
+  "experiment": {
+    "proposal": "P24",
+    "family": "water",
+    "pace": 1,
+    "kind": "standard",
+    "place_type": "regions_compared",
+    "place": "SDG regions that publish rural and urban aggregates",
+    "place_dcids": [
+      "undata-geo/G00116000",
+      "undata-geo/G00122000",
+      "undata-geo/G00126000",
+      "Earth"
+    ],
+    "breakdown": "location",
+    "frames_proposed": "G",
+    "feed_tag": "#EconSky",
+    "frames_supported": "G",
+    "min_places_compared": 3,
+    "min_places_compared_reason": "JP, 4 Nov 2026: only Central and Southern Asia, Eastern and South-eastern Asia and Europe and Northern America publish both rural and urban aggregates for SH_H2O_SAFE; the gap chart shows those three and the World and its years line says that five regions publish neither.",
+    "id": "003",
+    "versions": [
+      {
+        "version": "22-G",
+        "frame": "G",
+        "design": "E-dark",
+        "template": "templates/banner-E-dark.dc.html"
+      }
+    ]
+  },
+  "replacement_of": {
+    "slug": "22-water-east-se-asia",
+    "frames": [
+      "G"
+    ],
+    "reason": "JP, 4 Nov 2026: show the rural and urban gap for all SDG regions. Only Central and Southern Asia, Eastern and South-eastern Asia and Europe and Northern America publish both aggregates for this series (Northern Africa and Western Asia publishes urban only; the other four neither), so the chart shows those three and the World and the years line says so."
+  },
+  "experiment_002": {
+    "id": "002",
+    "proposal": "P24",
+    "family": "water",
+    "pace": 1,
+    "kind": "standard",
+    "place_type": "regions_compared",
+    "place": "SDG regions that publish rural and urban aggregates",
+    "place_dcids": [
+      "undata-geo/G00116000",
+      "undata-geo/G00122000",
+      "undata-geo/G00126000",
+      "Earth"
+    ],
+    "breakdown": "location",
+    "frames_proposed": "G",
+    "feed_tag": "#EconSky",
+    "versions": [
+      {
+        "version": "22-G",
+        "frame": "G",
+        "design": "Ink",
+        "template": "templates/banner-ink.dc.html"
+      }
+    ],
+    "frames_supported": "G"
+  }
+}

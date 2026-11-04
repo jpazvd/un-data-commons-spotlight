@@ -1,0 +1,43 @@
+{
+ "topic": "22-water-regions-urban-rural",
+ "retrieved_on": "2026-11-04",
+ "indicator": {
+  "sdg_indicator": "6.1.1",
+  "sdg_series_codes": [
+   "SH_H2O_SAFE"
+  ],
+  "data_commons_variable_dcid": "undata/sdg/SH_H2O_SAFE",
+  "variable_name": "Proportion of population using safely managed drinking water services",
+  "data_commons_facet_id": "3722936608695937273",
+  "provenance_url": "https://unstats.un.org/sdgs/dataportal",
+  "unit": "Percent",
+  "breakdown_variables": [
+   "undata/sdg/SH_H2O_SAFE.URBANIZATION--DOU_R",
+   "undata/sdg/SH_H2O_SAFE.URBANIZATION--DOU_U"
+  ]
+ },
+ "custodian": "WHO/UNICEF JMP",
+ "method_note": "Rural and urban aggregates for the SDG regions copied unchanged from the UN System Data Commons responses of 4 Nov 2026 (calls below) and appended to the water topic's breakdown_aggregates.csv; the World values are the topic's own (1 Nov 2026). No aggregate is computed from country values.",
+ "data_commons_calls": [
+  {
+   "tool": "get_child_observations",
+   "args": {
+    "variable_dcid": "undata/sdg/SH_H2O_SAFE.URBANIZATION--DOU_R",
+    "parent_place_dcid": "Earth",
+    "child_place_type": "GeoRegion",
+    "date": "latest"
+   },
+   "note": "2024 values for undata-geo/G00116000 73.1339035, G00122000 58.33750916, G00126000 84.22122955 (and LDCs, LLDCs); sourceId 3722936608695937273"
+  },
+  {
+   "tool": "get_child_observations",
+   "args": {
+    "variable_dcid": "undata/sdg/SH_H2O_SAFE.URBANIZATION--DOU_U",
+    "parent_place_dcid": "Earth",
+    "child_place_type": "GeoRegion",
+    "date": "latest"
+   },
+   "note": "2024 values for G00103000 79.94521332, G00116000 82.99678802, G00122000 85.07671356, G00126000 96.98717499 (and Northern America, LDCs, LLDCs, SIDS)"
+  }
+ ]
+}

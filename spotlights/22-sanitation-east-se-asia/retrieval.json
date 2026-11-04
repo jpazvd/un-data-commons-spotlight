@@ -1,0 +1,50 @@
+{
+ "topic": "22-sanitation-east-se-asia",
+ "retrieved_on": "2026-11-04",
+ "indicator": {
+  "sdg_indicator": "6.2.1",
+  "sdg_series_codes": [
+   "SH_SAN_SAFE"
+  ],
+  "data_commons_variable_dcid": "undata/sdg/SH_SAN_SAFE",
+  "variable_name": "Proportion of population using safely managed sanitation services",
+  "data_commons_facet_id": "3722936608695937273",
+  "provenance_url": "https://unstats.un.org/sdgs/dataportal",
+  "unit": "Percent",
+  "breakdown_variables": []
+ },
+ "custodian": "WHO/UNICEF JMP",
+ "method_note": "Replacement series for the template E batch (revision 3): both series copied unchanged from the UN System Data Commons responses of 4 Nov 2026 (calls below); membership.csv kept from the water topic (same regions). No aggregate is computed from country values.",
+ "data_commons_calls": [
+  {
+   "tool": "search_indicators",
+   "args": {
+    "query": "safely managed sanitation services proportion of population",
+    "places": [
+     "Eastern and South-Eastern Asia"
+    ],
+    "include_topics": false
+   },
+   "note": "returned undata/sdg/SH_SAN_SAFE with data for undata-geo/G00122000"
+  },
+  {
+   "tool": "get_observations",
+   "args": {
+    "variable_dcid": "undata/sdg/SH_SAN_SAFE",
+    "place_dcid": "undata-geo/G00122000",
+    "date": "all"
+   },
+   "note": "25 observations 2000 to 2024, sourceId 3722936608695937273 (UN SDG Global Database), unit Percent"
+  },
+  {
+   "tool": "get_observations",
+   "args": {
+    "variable_dcid": "undata/sdg/SH_SAN_SAFE",
+    "place_dcid": "Earth",
+    "date": "all"
+   },
+   "note": "25 observations 2000 to 2024, same source"
+  }
+ ],
+ "custodian_api_equivalent": "https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SH_SAN_SAFE&pageSize=10000"
+}

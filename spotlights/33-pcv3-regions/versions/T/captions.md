@@ -12,9 +12,15 @@ Method: published aggregates, 2024.
 
 Data: WHO/UNICEF WUENIC, UN SDG Global Database (series SH_ACS_PCV3, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG3
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG3
+## Second comment
+
+Definition, UNICEF Reference Data Manager (IM_PCV3): https://rdmapi.unicef.org/api/indicators/IM_PCV3
 
 ## X
 
@@ -22,8 +28,8 @@ Worldwide in 2024: 67% of children receiving three doses of pneumococcal vaccine
 
 ## Bluesky
 
-Worldwide in 2024: 67% of children receiving three doses of pneumococcal vaccine. From 89% in Central and S. Asia to 33% in E. and S.-E. Asia. Method: published aggregates, 2024. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Worldwide in 2024: 67% of children receiving three doses of pneumococcal vaccine. From 89% in Central and S. Asia to 33% in E. and S.-E. Asia. Method: published aggregates, 2024.
 
 ## Bluesky with feed tag
 
-Worldwide in 2024: 67% of children receiving three doses of pneumococcal vaccine. From 89% in Central and S. Asia to 33% in E. and S.-E. Asia. Method: published aggregates, 2024. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+Worldwide in 2024: 67% of children receiving three doses of pneumococcal vaccine. From 89% in Central and S. Asia to 33% in E. and S.-E. Asia. Method: published aggregates, 2024. #PolicySky

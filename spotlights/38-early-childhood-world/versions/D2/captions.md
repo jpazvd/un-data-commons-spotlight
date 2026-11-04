@@ -12,9 +12,15 @@ Method: each country's latest value in the database; 2020 or earlier counts as n
 
 Data: UNICEF, UN SDG Global Database (series SE_DEV_ONTRK, SE_DEV_ONTRKWB, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG4
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG4
+## Second comment
+
+Definition, UNICEF Reference Data Manager (ECD_CHLD_LMPSL): https://rdmapi.unicef.org/api/indicators/ECD_CHLD_LMPSL
 
 ## X
 
@@ -22,8 +28,8 @@ For all 35 countries with data on early childhood development, the latest is fro
 
 ## Bluesky
 
-For all 35 countries with data on early childhood development, the latest is from after 2020. Latest values 2021 to 2025; median year 2023. Method: latest value per country; 2020 or earlier is not recent. Data + code: github.com/jpazvd/un-data-commons-spotlight
+For all 35 countries with data on early childhood development, the latest is from after 2020. Latest values 2021 to 2025; median year 2023. Method: latest value per country; 2020 or earlier is not recent.
 
 ## Bluesky with feed tag
 
-For all 35 countries with data on early childhood development, the latest is from after 2020. Latest values 2021 to 2025; median year 2023. Method: latest value per country; 2020 or earlier is not recent. Data + code: github.com/jpazvd/un-data-commons-spotlight #EduSky
+For all 35 countries with data on early childhood development, the latest is from after 2020. Latest values 2021 to 2025; median year 2023. Method: latest value per country; 2020 or earlier is not recent. #EduSky

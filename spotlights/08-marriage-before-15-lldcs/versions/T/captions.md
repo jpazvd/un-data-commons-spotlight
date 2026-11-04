@@ -14,9 +14,15 @@ Method: linear, points per year, 2005 to 2025 for the trend and 2025 to 2030 for
 
 Data: UNICEF, UN SDG Global Database (series SP_DYN_MRBF15, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG5
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG5
+## Second comment
+
+Definition, UNICEF Reference Data Manager (PT_F_20-24_MRD_U15): https://rdmapi.unicef.org/api/indicators/PT_F_20-24_MRD_U15
 
 ## X
 
@@ -24,8 +30,8 @@ In LLDCs, ending marriage before 15 by 2030 needs the share to fall 1.7 points a
 
 ## Bluesky
 
-In LLDCs, ending marriage before 15 by 2030 needs the share to fall 1.7 points a year. So far it has fallen 0.2 points a year, from 13.3% in 2005 to 8.7% in 2025. Method: linear pace, 2005 to 2025; target year 2030. Data + code: github.com/jpazvd/un-data-commons-spotlight
+In LLDCs, ending marriage before 15 by 2030 needs the share to fall 1.7 points a year. So far it has fallen 0.2 points a year, from 13.3% in 2005 to 8.7% in 2025. Method: linear pace, 2005 to 2025; target year 2030.
 
 ## Bluesky with feed tag
 
-In LLDCs, ending marriage before 15 by 2030 needs the share to fall 1.7 points a year. So far it has fallen 0.2 points a year, from 13.3% in 2005 to 8.7% in 2025. Method: linear pace, 2005 to 2025; target year 2030. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+In LLDCs, ending marriage before 15 by 2030 needs the share to fall 1.7 points a year. So far it has fallen 0.2 points a year, from 13.3% in 2005 to 8.7% in 2025. Method: linear pace, 2005 to 2025; target year 2030. #PolicySky

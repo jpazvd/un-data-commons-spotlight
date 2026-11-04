@@ -12,9 +12,11 @@ Method: published aggregates by group, latest year with both groups (2024).
 
 Data: ILO and UNICEF, UN SDG Global Database (series SL_TLF_CHLDEA, extracted 1 Nov 2026), via the UN System Data Commons.
 
-Data and code: https://github.com/jpazvd/un-data-commons-spotlight
-
 #OfficialStatistics #DataForChildren #SDG8
+
+## LinkedIn first comment
+
+Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
 ## X
 
@@ -22,8 +24,8 @@ Widest gap in economic activity, ages 5 to 17: 4.6 points, in N. Africa and W. A
 
 ## Bluesky
 
-Widest gap in economic activity, ages 5 to 17: 4.6 points, in N. Africa and W. Asia. Northern Africa and Western Asia: 6.0% for girls, 10.6% for boys, 2024. Method: published aggregates by group, latest year with both. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Widest gap in economic activity, ages 5 to 17: 4.6 points, in N. Africa and W. Asia. Northern Africa and Western Asia: 6.0% for girls, 10.6% for boys, 2024. Method: published aggregates by group, latest year with both.
 
 ## Bluesky with feed tag
 
-Widest gap in economic activity, ages 5 to 17: 4.6 points, in N. Africa and W. Asia. Northern Africa and Western Asia: 6.0% for girls, 10.6% for boys, 2024. Method: published aggregates by group, latest year with both. Data + code: github.com/jpazvd/un-data-commons-spotlight #EconSky
+Widest gap in economic activity, ages 5 to 17: 4.6 points, in N. Africa and W. Asia. Northern Africa and Western Asia: 6.0% for girls, 10.6% for boys, 2024. Method: published aggregates by group, latest year with both. #EconSky

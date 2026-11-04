@@ -12,9 +12,15 @@ Method: published aggregates, 2025.
 
 Data: UNICEF and WHO, UN SDG Global Database (series SH_STA_BRTC, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG3
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG3
+## Second comment
+
+Definition, UNICEF Reference Data Manager (MNCH_SAB): https://rdmapi.unicef.org/api/indicators/MNCH_SAB
 
 ## X
 
@@ -22,8 +28,8 @@ Worldwide in 2025: 87.2% of births attended by skilled health personnel. From 86
 
 ## Bluesky
 
-Worldwide in 2025: 87.2% of births attended by skilled health personnel. From 86.7% in SIDS to 76.0% in LLDCs. Method: published aggregates, 2025. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Worldwide in 2025: 87.2% of births attended by skilled health personnel. From 86.7% in SIDS to 76.0% in LLDCs. Method: published aggregates, 2025.
 
 ## Bluesky with feed tag
 
-Worldwide in 2025: 87.2% of births attended by skilled health personnel. From 86.7% in SIDS to 76.0% in LLDCs. Method: published aggregates, 2025. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+Worldwide in 2025: 87.2% of births attended by skilled health personnel. From 86.7% in SIDS to 76.0% in LLDCs. Method: published aggregates, 2025. #PolicySky

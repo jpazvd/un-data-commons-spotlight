@@ -12,9 +12,11 @@ Method: published series, 2020 to 2025; change in percentage points.
 
 Data: UN Women, UN SDG Global Database (series SG_GEN_LOCGELS, extracted 1 Nov 2026), via the UN System Data Commons.
 
-Data and code: https://github.com/jpazvd/un-data-commons-spotlight
-
 #OfficialStatistics #DataForChildren #SDG5
+
+## LinkedIn first comment
+
+Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
 ## X
 
@@ -22,8 +24,8 @@ Women in local government in LLDCs: down 4.0 points since 2020. 32.4% in 2020, 2
 
 ## Bluesky
 
-Women in local government in LLDCs: down 4.0 points since 2020. 32.4% in 2020, 28.4% in 2025: 0.8 points a year. Method: published series, 2020 to 2025. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Women in local government in LLDCs: down 4.0 points since 2020. 32.4% in 2020, 28.4% in 2025: 0.8 points a year. Method: published series, 2020 to 2025.
 
 ## Bluesky with feed tag
 
-Women in local government in LLDCs: down 4.0 points since 2020. 32.4% in 2020, 28.4% in 2025: 0.8 points a year. Method: published series, 2020 to 2025. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+Women in local government in LLDCs: down 4.0 points since 2020. 32.4% in 2020, 28.4% in 2025: 0.8 points a year. Method: published series, 2020 to 2025. #PolicySky

@@ -8,6 +8,42 @@
   "target_year": 2030,
   "target_basis": "SDG 6.2",
   "experiment": {
+    "proposal": "P09",
+    "family": "sanitation",
+    "pace": 1,
+    "kind": "standard",
+    "place_type": "grouping",
+    "place": "Least developed countries (LDCs)",
+    "place_dcids": [
+      "undata-geo/G00404000"
+    ],
+    "breakdown": "location",
+    "frames_proposed": "T|L|G|D",
+    "feed_tag": "#EconSky",
+    "frames_supported": "T|L|G|D",
+    "id": "003",
+    "versions": [
+      {
+        "version": "9-D",
+        "frame": "D",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "9-L",
+        "frame": "L",
+        "design": "E-dark",
+        "template": "templates/banner-E-dark.dc.html"
+      },
+      {
+        "version": "9-T",
+        "frame": "T",
+        "design": "E-light",
+        "template": "templates/banner-E-light.dc.html"
+      }
+    ]
+  },
+  "experiment_002": {
     "id": "002",
     "proposal": "P09",
     "family": "sanitation",

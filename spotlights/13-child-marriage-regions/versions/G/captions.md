@@ -14,9 +14,15 @@ Method: latest year per country with both groups from the same survey (2006 to 2
 
 Data: UNICEF Data Warehouse, UN System Data Commons (indicator PT_MRD_U18, extracted 1 Nov 2026).
 
+#OfficialStatistics #DataForChildren #SDG5
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG5
+## Second comment
+
+Definition, UNICEF Reference Data Manager (PT_F_20-24_MRD_U18): https://rdmapi.unicef.org/api/indicators/PT_F_20-24_MRD_U18
 
 ## X
 

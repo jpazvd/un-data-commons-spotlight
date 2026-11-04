@@ -27,6 +27,8 @@ import spotlight002 as S  # noqa: E402
 from PIL import Image  # noqa: E402
 from playwright.sync_api import sync_playwright  # noqa: E402
 
+W, H = R.DEFAULT_SIZE  # the template D artboard (render_banner.py reads a design's size itself since pull request #31)
+
 MEASURE = """() => {
   const root = document.querySelector('body > div');
   const h1 = document.querySelector('h1');
@@ -61,7 +63,7 @@ def run(spec):
     report = []
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        tab = browser.new_page(viewport={"width": R.W, "height": R.H}, device_scale_factor=2)
+        tab = browser.new_page(viewport={"width": W, "height": H}, device_scale_factor=2)
         for v in spec:
             topic = ROOT / v["topic_dir"]
             meta = json.loads((topic / "meta.json").read_text(encoding="utf-8"))
@@ -135,9 +137,9 @@ def run(spec):
             head, html, page, m, c = chosen
             (out / "banner.dc.html").write_text(html, encoding="utf-8")
             png, jpg = out / "banner.png", out / "banner.jpg"
-            tab.screenshot(path=str(png), clip={"x": 0, "y": 0, "width": R.W, "height": R.H})
+            tab.screenshot(path=str(png), clip={"x": 0, "y": 0, "width": W, "height": H})
             page.unlink(missing_ok=True)
-            Image.open(png).convert("RGB").resize((R.W, R.H), Image.LANCZOS).save(jpg, quality=86, optimize=True,
+            Image.open(png).convert("RGB").resize((W, H), Image.LANCZOS).save(jpg, quality=86, optimize=True,
                                                                                    progressive=True)
             caps = C.captions(c, head, meta, v.get("feed_tag") or meta["experiment"]["feed_tag"], f)
             (out / "captions.md").write_text(f"# Spotlight {v['spotlight']:02d}-{f} · {meta['title']}: post captions\n\n"

@@ -1,0 +1,38 @@
+{
+ "spotlight": 16,
+ "frame": "D",
+ "palette": "light",
+ "ok": true,
+ "slug": "16-water-world",
+ "title": "Safely managed drinking water, World",
+ "sdg_indicator": "6.1.1",
+ "family": "water",
+ "kind": "regions_data",
+ "custodian": "WHO/UNICEF JMP",
+ "design_as_built": "E-light",
+ "headline": "137 of 194 countries and territories have data on safely managed drinking water",
+ "headline_lines": 2,
+ "headline_px": 56,
+ "signal": "137 of 194",
+ "subtitle": "Proportion of the population using drinking water from an improved source that is accessible on premises, available when needed and free from contamination",
+ "subtitle_from": "rdm:DEFINITION",
+ "rdm_helix_code": "WS_PPL_W-SM",
+ "rdm_url": "https://rdmapi.unicef.org/api/indicators/WS_PPL_W-SM",
+ "years": "137 of 194 countries and territories in the eight SDG regions have any data.",
+ "data_line": "Data: WHO/UNICEF JMP via UN SDG Global Database, series SH_H2O_SAFE, extracted 1 Nov 2026",
+ "chart_height": 580,
+ "chart_fill": 0.9715609099903085,
+ "flags": [
+  "revised after the review of 3 Nov 2026: stats_frame=D3, chart=regions_stacked"
+ ],
+ "revision": {
+  "stats_frame": "D3",
+  "chart": "regions_stacked"
+ },
+ "replacement_of": null,
+ "alt": "137 of 194 countries and territories have data on safely managed drinking water. 137 of 194 countries and territories in the eight SDG regions have any data. Europe and N. America: 43 of 43 countries and territories with data; Central and S. Asia: 13 of 14 countries and territories with data; N. Africa and W. Asia: 18 of 24 countries and territories with data; E. and S.-E. Asia: 12 of 16 countries and territories with data; Oceania (excl. Aus., NZ): 9 of 14 countries and territories with data; Sub-Saharan Africa: 26 of 48 countries and territories with data; Australia and NZ: 1 of 2 countries and territories with data; Latin America, Caribbean: 15 of 33 countries and territories with data",
+ "method": "Method: countries with any value in the database, by SDG region.",
+ "question": "Where has a country started measuring safely managed drinking water for the first time, and what made it possible?",
+ "first_comment": "Data and code: https://github.com/jpazvd/un-data-commons-spotlight",
+ "second_comment": "Definition, UNICEF Reference Data Manager (WS_PPL_W-SM): https://rdmapi.unicef.org/api/indicators/WS_PPL_W-SM"
+}

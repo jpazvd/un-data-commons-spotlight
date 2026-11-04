@@ -233,6 +233,10 @@ class Topic:
         x = self.meta["experiment"]
         self.family, self.place_type, self.places = x["family"], x["place_type"], x["place_dcids"]
         self.breakdown = x["breakdown"] if x["breakdown"] in GROUPS else None
+        # Places a comparison needs: 6 of the 8 SDG regions, 3 for groupings (PREREGISTRATION.md), unless the topic's
+        # meta.json sets experiment.min_places_compared with its reason (Spotlight 22-G, JP, 4 Nov 2026: three regions
+        # publish both rural and urban aggregates; the chart shows them and says so).
+        self.min_places = x.get("min_places_compared")
         self.fam = FAMILY[self.family]
         self.better = self.fam["better"]
         d = self.dir / "data"
@@ -262,6 +266,9 @@ class Topic:
             self.bd_a.setdefault((r["place_dcid"], r["group"]), []).append((int(r["year"]), float(r["value"])))
         for k in self.bd_a:
             self.bd_a[k].sort()
+
+    def need(self):
+        return int(self.min_places) if self.min_places else (6 if self.place_type == "regions_compared" else 3)
 
     def compared(self):
         return self.place_type in ("regions_compared", "groupings")
@@ -339,7 +346,7 @@ def frame_T(t):
                 pc = pace(s, tg["value"], tg["year"], t.better)
                 if pc:
                     rows.append({"dcid": p, "place": SHORT.get(p, p), **{k: v for k, v in pc.items() if k != "series"}})
-        need = 6 if t.place_type == "regions_compared" else 3
+        need = t.need()
         if len([r for r in rows if r["dcid"] != "Earth"]) < need:
             return {**base, "ok": False, "reason": f"fewer than {need} places with a published series"}
         big = [r for r in rows if r["dcid"] != "Earth" and len(t.members.get(r["dcid"], {})) >= 5]
@@ -364,7 +371,7 @@ def frame_T(t):
 def level_rows(t, year=None):
     """Latest common year of the places compared, and each place's value in it."""
     have = {p: dict(t.series[p]) for p in t.places if t.series.get(p)}
-    need = 6 if t.place_type == "regions_compared" else 3
+    need = t.need()
     non_world = [p for p in have if p != "Earth"]
     if len(non_world) < need:
         return None
@@ -387,7 +394,7 @@ def frame_L(t):
                 "first": {"year": y0, "value": r1(v0)}, "last": {"year": y1, "value": r1(v1)},
                 "change": r1(v1 - v0), "per_year": r2((v1 - v0) / (y1 - y0)), "series": [[y, v] for y, v in s]}
     have = {p: t.series[p] for p in t.places if t.series.get(p) and len(t.series[p]) >= 2}
-    need = 6 if t.place_type == "regions_compared" else 3
+    need = t.need()
     if len([p for p in have if p != "Earth"]) < need:
         return {**base, "ok": False, "reason": f"fewer than {need} places with a series of two years or more"}
     # all places over their common years; if that span is under 10 years, leave out the place whose series starts
@@ -432,7 +439,7 @@ def frame_G(t):
         if not t.compared() and pts:
             return {**base, "ok": True, "kind": "groups", "groups": [a, b], **pts[0]}
         if t.compared():
-            need = 6 if t.place_type == "regions_compared" else 3
+            need = t.need()
             if len([x for x in pts if x["dcid"] != "Earth"]) >= need:
                 return {**base, "ok": True, "kind": "groups_compared", "groups": [a, b], "places": pts}
         # 2. countries where the gap points one way (same year for both groups)

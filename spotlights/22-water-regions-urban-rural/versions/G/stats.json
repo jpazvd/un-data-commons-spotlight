@@ -1,0 +1,48 @@
+{
+ "frame": "G",
+ "ok": true,
+ "kind": "groups_compared",
+ "groups": [
+  "rural",
+  "urban"
+ ],
+ "places": [
+  {
+   "dcid": "undata-geo/G00116000",
+   "place": "Central and S. Asia",
+   "year": 2024,
+   "rural": 73.1339,
+   "urban": 82.9968
+  },
+  {
+   "dcid": "undata-geo/G00122000",
+   "place": "E. and S.-E. Asia",
+   "year": 2024,
+   "rural": 58.3375,
+   "urban": 85.0767
+  },
+  {
+   "dcid": "undata-geo/G00126000",
+   "place": "Europe and N. America",
+   "year": 2024,
+   "rural": 84.2212,
+   "urban": 96.9872
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "year": 2024,
+   "rural": 60.4603,
+   "urban": 83.4797
+  }
+ ],
+ "family": "water",
+ "what": "people using safely managed drinking water",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "WHO/UNICEF JMP",
+ "breakdown": "location",
+ "place_type": "regions_compared",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UN SDG Global Database"
+}

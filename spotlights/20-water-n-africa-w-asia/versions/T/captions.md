@@ -2,7 +2,7 @@
 
 ## LinkedIn
 
-In N. Africa and W. Asia, safely managed water for all by 2030 needs a rise of 4.0 points a year. It has risen 0.4 points a year, from 66.5% in 2000 to 76.2% in 2024.
+In N. Africa and W. Asia, safely managed water for all by 2030 needs a rise of 4.0 points a year. So far it has risen 0.4 points a year, from 66.5% in 2000 to 76.2% in 2024.
 
 That is 9.8 times the pace of the last 24 years.
 
@@ -14,18 +14,24 @@ Method: linear, points per year, 2000 to 2024 for the trend and 2024 to 2030 for
 
 Data: WHO/UNICEF JMP, UN SDG Global Database (series SH_H2O_SAFE, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG6
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG6
+## Second comment
+
+Definition, UNICEF Reference Data Manager (WS_PPL_W-SM): https://rdmapi.unicef.org/api/indicators/WS_PPL_W-SM
 
 ## X
 
-In N. Africa and W. Asia, safely managed water for all by 2030 needs a rise of 4.0 points a year. It has risen 0.4 points a year, from 66.5% in 2000 to 76.2% in 2024. Method: linear pace, 2000 to 2024; target year 2030. Data: WHO/UNICEF JMP. #OfficialStatistics #DataForChildren
+In N. Africa and W. Asia, safely managed water for all by 2030 needs a rise of 4.0 points a year. So far it has risen 0.4 points a year, from 66.5% in 2000 to 76.2% in 2024. Method: linear pace, 2000 to 2024; target year 2030. Data: WHO/UNICEF JMP. #OfficialStatistics
 
 ## Bluesky
 
-In N. Africa and W. Asia, safely managed water for all by 2030 needs a rise of 4.0 points a year. It has risen 0.4 points a year, from 66.5% in 2000 to 76.2% in 2024. Method: linear pace, 2000 to 2024; target year 2030. Data + code: github.com/jpazvd/un-data-commons-spotlight
+In N. Africa and W. Asia, safely managed water for all by 2030 needs a rise of 4.0 points a year. So far it has risen 0.4 points a year, from 66.5% in 2000 to 76.2% in 2024. Method: linear pace, 2000 to 2024; target year 2030.
 
 ## Bluesky with feed tag
 
-In N. Africa and W. Asia, safely managed water for all by 2030 needs a rise of 4.0 points a year. It has risen 0.4 points a year, from 66.5% in 2000 to 76.2% in 2024. Method: linear pace, 2000 to 2024; target year 2030. Data + code: github.com/jpazvd/un-data-commons-spotlight #EconSky
+In N. Africa and W. Asia, safely managed water for all by 2030 needs a rise of 4.0 points a year. So far it has risen 0.4 points a year, from 66.5% in 2000 to 76.2% in 2024. Method: linear pace, 2000 to 2024; target year 2030. #EconSky

@@ -8,6 +8,42 @@
   "target_year": 2030,
   "target_basis": "SDG 16.2",
   "experiment": {
+    "proposal": "P42",
+    "family": "violent_discipline",
+    "pace": 0,
+    "kind": "data gap",
+    "place_type": "world",
+    "place": "World",
+    "place_dcids": [
+      "Earth"
+    ],
+    "breakdown": "none",
+    "frames_proposed": "D1|D2|D3",
+    "feed_tag": "#PolicySky",
+    "frames_supported": "D1|D2|D3",
+    "id": "003",
+    "versions": [
+      {
+        "version": "36-D1",
+        "frame": "D1",
+        "design": "E-light",
+        "template": "templates/banner-E-light.dc.html"
+      },
+      {
+        "version": "36-D2",
+        "frame": "D2",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "36-D3",
+        "frame": "D3",
+        "design": "E-dark",
+        "template": "templates/banner-E-dark.dc.html"
+      }
+    ]
+  },
+  "experiment_002": {
     "id": "002",
     "proposal": "P42",
     "family": "violent_discipline",

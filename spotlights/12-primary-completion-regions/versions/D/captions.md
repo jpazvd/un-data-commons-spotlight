@@ -10,13 +10,19 @@ A statistician's note: "latest value" means each country's most recent estimate,
 
 Which countries have found a way to measure primary completion more often, and what made it possible?
 
-Method: countries and areas with any value in the database, by membership; 2020 or earlier counts as not recent.
+Method: countries and territories with any value in the database, by membership, each counted once; 2020 or earlier counts as not recent.
 
 Data: UNESCO UIS, UN SDG Global Database (series SE_TOT_CPLR, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG4
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG4
+## Second comment
+
+Definition, UNICEF Reference Data Manager (ED_CR_L1): https://rdmapi.unicef.org/api/indicators/ED_CR_L1
 
 ## X
 

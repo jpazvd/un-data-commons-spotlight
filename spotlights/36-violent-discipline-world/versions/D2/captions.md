@@ -12,9 +12,15 @@ Method: each country's latest value in the database; 2020 or earlier counts as n
 
 Data: UNICEF, UN SDG Global Database (series VC_VAW_PHYPYV, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG16
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG16
+## Second comment
+
+Definition, UNICEF Reference Data Manager (PT_CHLD_1-14_PS-PSY-V_CGVR): https://rdmapi.unicef.org/api/indicators/PT_CHLD_1-14_PS-PSY-V_CGVR
 
 ## X
 
@@ -22,8 +28,8 @@ For 50 of the 88 countries with data on violent discipline, the latest is from 2
 
 ## Bluesky
 
-For 50 of the 88 countries with data on violent discipline, the latest is from 2020 or earlier. Latest values 2013 to 2025; median year 2020. Method: latest value per country; 2020 or earlier is not recent. Data + code: github.com/jpazvd/un-data-commons-spotlight
+For 50 of the 88 countries with data on violent discipline, the latest is from 2020 or earlier. Latest values 2013 to 2025; median year 2020. Method: latest value per country; 2020 or earlier is not recent.
 
 ## Bluesky with feed tag
 
-For 50 of the 88 countries with data on violent discipline, the latest is from 2020 or earlier. Latest values 2013 to 2025; median year 2020. Method: latest value per country; 2020 or earlier is not recent. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+For 50 of the 88 countries with data on violent discipline, the latest is from 2020 or earlier. Latest values 2013 to 2025; median year 2020. Method: latest value per country; 2020 or earlier is not recent. #PolicySky

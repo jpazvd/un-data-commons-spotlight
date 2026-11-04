@@ -2,7 +2,7 @@
 
 ## LinkedIn
 
-Safely managed water for all by 2030 needs a rise of 11.4 points a year in Sub-Saharan Africa. Sub-Saharan Africa: up 0.6 points a year, from 17.4% in 2000 to 31.7% in 2024.
+Safely managed water for all by 2030 needs a rise of 11.4 points a year in Sub-Saharan Africa. In Sub-Saharan Africa it has risen 0.6 points a year, from 17.4% in 2000 to 31.7% in 2024.
 
 A statistician's note: these are the custodian's published aggregates, not averages I computed. The paces are straight lines, which is simple on purpose.
 
@@ -12,9 +12,15 @@ Method: linear, points per year, from each place's first published year to its l
 
 Data: WHO/UNICEF JMP, UN SDG Global Database (series SH_H2O_SAFE, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG6
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG6
+## Second comment
+
+Definition, UNICEF Reference Data Manager (WS_PPL_W-SM): https://rdmapi.unicef.org/api/indicators/WS_PPL_W-SM
 
 ## X
 
@@ -22,8 +28,8 @@ Safely managed water for all by 2030 needs a rise of 11.4 points a year in Sub-S
 
 ## Bluesky
 
-Safely managed water for all by 2030 needs a rise of 11.4 points a year in Sub-Saharan Africa. Method: linear pace on published aggregates, from 2000 for Sub-Saharan Africa. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Safely managed water for all by 2030 needs a rise of 11.4 points a year in Sub-Saharan Africa. Method: linear pace on published aggregates, from 2000 for Sub-Saharan Africa.
 
 ## Bluesky with feed tag
 
-Safely managed water for all by 2030 needs a rise of 11.4 points a year in Sub-Saharan Africa. Method: linear pace on published aggregates, from 2000 for Sub-Saharan Africa. Data + code: github.com/jpazvd/un-data-commons-spotlight #EconSky
+Safely managed water for all by 2030 needs a rise of 11.4 points a year in Sub-Saharan Africa. Method: linear pace on published aggregates, from 2000 for Sub-Saharan Africa. #EconSky

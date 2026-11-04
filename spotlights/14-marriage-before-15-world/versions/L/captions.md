@@ -14,9 +14,15 @@ Method: published series, 2005 to 2025; change in percentage points.
 
 Data: UNICEF, UN SDG Global Database (series SP_DYN_MRBF15, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG5
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG5
+## Second comment
+
+Definition, UNICEF Reference Data Manager (PT_F_20-24_MRD_U15): https://rdmapi.unicef.org/api/indicators/PT_F_20-24_MRD_U15
 
 ## X
 
@@ -24,8 +30,8 @@ Since 2005, marriage before 15 has fallen 3.6 points. From 7.8% in 2005 to 4.2% 
 
 ## Bluesky
 
-Since 2005, marriage before 15 has fallen 3.6 points. From 7.8% in 2005 to 4.2% in 2025: 0.2 points a year. Ending marriage before 15 by 2030 needs the share to fall 0.8 points a year. Method: published series, 2005 to 2025. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Since 2005, marriage before 15 has fallen 3.6 points. From 7.8% in 2005 to 4.2% in 2025: 0.2 points a year. Ending marriage before 15 by 2030 needs the share to fall 0.8 points a year. Method: published series, 2005 to 2025.
 
 ## Bluesky with feed tag
 
-Since 2005, marriage before 15 has fallen 3.6 points. From 7.8% in 2005 to 4.2% in 2025: 0.2 points a year. Ending marriage before 15 by 2030 needs the share to fall 0.8 points a year. Method: published series, 2005 to 2025. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+Since 2005, marriage before 15 has fallen 3.6 points. From 7.8% in 2005 to 4.2% in 2025: 0.2 points a year. Ending marriage before 15 by 2030 needs the share to fall 0.8 points a year. Method: published series, 2005 to 2025. #PolicySky

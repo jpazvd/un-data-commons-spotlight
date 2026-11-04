@@ -10,13 +10,19 @@ A statistician's note: "latest value" means each country's most recent estimate,
 
 Which countries have found a way to measure safely managed drinking water more often, and what made it possible?
 
-Method: countries and areas with any value in the database, by membership; 2020 or earlier counts as not recent.
+Method: countries and territories with any value in the database, by membership; 2020 or earlier counts as not recent.
 
 Data: WHO/UNICEF JMP, UN SDG Global Database (series SH_H2O_SAFE, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG6
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG6
+## Second comment
+
+Definition, UNICEF Reference Data Manager (WS_PPL_W-SM): https://rdmapi.unicef.org/api/indicators/WS_PPL_W-SM
 
 ## X
 

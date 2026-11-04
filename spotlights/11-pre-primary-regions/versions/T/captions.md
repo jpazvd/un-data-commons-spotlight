@@ -2,7 +2,7 @@
 
 ## LinkedIn
 
-Pre-primary participation for all by 2030 needs a rise of 8.0 points a year in N. Africa and W. Asia. N. Africa and W. Asia: up 1.0 points a year, from 27.3% in 2000 to 52.0% in 2024.
+Pre-primary participation for all by 2030 needs a rise of 8.0 points a year in N. Africa and W. Asia. In N. Africa and W. Asia it has risen 1.0 points a year, from 27.3% in 2000 to 52.0% in 2024.
 
 A statistician's note: these are the custodian's published aggregates, not averages I computed. The paces are straight lines, which is simple on purpose.
 
@@ -12,9 +12,15 @@ Method: linear, points per year, from each place's first published year to its l
 
 Data: UNESCO UIS, UN SDG Global Database (series SE_PRE_PARTN, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG4
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG4
+## Second comment
+
+Definition, UNICEF Reference Data Manager (ED_ANAR_L02): https://rdmapi.unicef.org/api/indicators/ED_ANAR_L02
 
 ## X
 
@@ -22,8 +28,8 @@ Pre-primary participation for all by 2030 needs a rise of 8.0 points a year in N
 
 ## Bluesky
 
-Pre-primary participation for all by 2030 needs a rise of 8.0 points a year in N. Africa and W. Asia. Method: linear pace on published aggregates, from 2000 for N. Africa and W. Asia. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Pre-primary participation for all by 2030 needs a rise of 8.0 points a year in N. Africa and W. Asia. Method: linear pace on published aggregates, from 2000 for N. Africa and W. Asia.
 
 ## Bluesky with feed tag
 
-Pre-primary participation for all by 2030 needs a rise of 8.0 points a year in N. Africa and W. Asia. Method: linear pace on published aggregates, from 2000 for N. Africa and W. Asia. Data + code: github.com/jpazvd/un-data-commons-spotlight #EduSky
+Pre-primary participation for all by 2030 needs a rise of 8.0 points a year in N. Africa and W. Asia. Method: linear pace on published aggregates, from 2000 for N. Africa and W. Asia. #EduSky

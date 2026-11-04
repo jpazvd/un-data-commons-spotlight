@@ -12,9 +12,15 @@ Method: latest year per country with both groups from the same survey (1996 to 2
 
 Data: WHO Global Health Observatory, UN System Data Commons (indicator FERT_ADO, extracted 1 Nov 2026).
 
+#OfficialStatistics #DataForChildren #SDG3
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG3
+## Second comment
+
+Definition, UNICEF Reference Data Manager (MNCH_ABR): https://rdmapi.unicef.org/api/indicators/MNCH_ABR
 
 ## X
 
@@ -22,8 +28,8 @@ Adolescent birth rate was higher in rural areas in 10 of 11 countries in Central
 
 ## Bluesky
 
-Adolescent birth rate was higher in rural areas in 10 of 11 countries in Central and S. Asia. Method: gap within each country's latest survey with both groups. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Adolescent birth rate was higher in rural areas in 10 of 11 countries in Central and S. Asia. Method: gap within each country's latest survey with both groups.
 
 ## Bluesky with feed tag
 
-Adolescent birth rate was higher in rural areas in 10 of 11 countries in Central and S. Asia. Method: gap within each country's latest survey with both groups. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+Adolescent birth rate was higher in rural areas in 10 of 11 countries in Central and S. Asia. Method: gap within each country's latest survey with both groups. #PolicySky

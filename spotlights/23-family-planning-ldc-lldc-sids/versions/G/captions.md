@@ -12,9 +12,15 @@ Method: published aggregates, 2025; difference in percentage points.
 
 Data: UN DESA Population Division and UNFPA, UN SDG Global Database (series SH_FPL_MTMM, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG3
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG3
+## Second comment
+
+Definition, UNICEF Reference Data Manager (MNCH_DEMAND_FP): https://rdmapi.unicef.org/api/indicators/MNCH_DEMAND_FP
 
 ## X
 
@@ -22,8 +28,8 @@ Demand met with modern methods: SIDS and LDCs are 8.6 points apart. SIDS 68.7%, 
 
 ## Bluesky
 
-Demand met with modern methods: SIDS and LDCs are 8.6 points apart. SIDS 68.7%, LDCs 60.1%, in 2025. Method: published aggregates, 2025. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Demand met with modern methods: SIDS and LDCs are 8.6 points apart. SIDS 68.7%, LDCs 60.1%, in 2025. Method: published aggregates, 2025.
 
 ## Bluesky with feed tag
 
-Demand met with modern methods: SIDS and LDCs are 8.6 points apart. SIDS 68.7%, LDCs 60.1%, in 2025. Method: published aggregates, 2025. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+Demand met with modern methods: SIDS and LDCs are 8.6 points apart. SIDS 68.7%, LDCs 60.1%, in 2025. Method: published aggregates, 2025. #PolicySky

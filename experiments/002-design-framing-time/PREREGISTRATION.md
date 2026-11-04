@@ -235,7 +235,6 @@ No change to arms, slots, dates, caption style or hashtags once posting starts, 
 
 ## Deviations
 
-- (none yet)
 - **4 Nov 2026, own-post days (Changes allowed, item 3).** `assignment.csv` has 195 rows with a date (108 X, 60
   Bluesky, 27 LinkedIn); 193 of them were scheduled in Metricool on 4 Nov 2026 (108 X, 60 Bluesky, 25 LinkedIn),
   live, at the registered times, the two LinkedIn rows left out being the tail of the shifted queue below. Two
@@ -246,6 +245,18 @@ No change to arms, slots, dates, caption style or hashtags once posting starts, 
   as registered: X 10 Nov 11:30 and 16:00; 11 Nov 09:00, 13:40, 14:10 and 15:00; 12 Nov 10:00; 13, 14, 19 and
   20 Nov 13:00 (the 13:00 ones also on Bluesky). Six of them share a minute with an experiment X post (10 Nov
   16:00, 11 Nov 09:00, 13, 14, 19 and 20 Nov 13:00).
+- **4 Nov 2026: experiment 002 stops before its first post, with no outcome data** (`posts.csv` and `outcomes.csv`
+  are empty; the first post was due on 10 November; the 193 posts scheduled in Metricool under the entry above
+  are re-pointed to experiment 003's versions before they publish). JP decided that template E, the square banner of revision 3
+  (`docs/revision-3-2026-11/RECOMMENDATIONS.md`), reviewed in full on 3 November 2026 (108 versions in both
+  palettes, version 4 after the review), is the content of the design experiment now rather than from January
+  2027. Adding E inside 002 is ruled out by experiment principle 3 (a factor is crossed, not swapped in), so 002 is
+  replaced by experiment 003 (`experiments/003-canvas-design-framing-time/PREREGISTRATION.md`), which keeps 002's
+  topics, versions, framings, slots, dates, Bluesky pairs, outcomes, models and decision rules, and its seeded draw
+  with the three design labels replaced in place (D-dark stays, D-light becomes E-light, Ink becomes E-dark). This
+  folder, its scripts and files stay as the record; `assignment.csv` is not changed and `analyze.py` is not run for a
+  result. The run-in Spotlights 02 to 04 become 003's run-in; 02 was posted on 3 November under this file's run-in
+  rules, 03 and 04 go out on template E (003's run-in section). 002's amendments of 2 and 4 November carry into 003.
 
 ## Amendments before the first post
 

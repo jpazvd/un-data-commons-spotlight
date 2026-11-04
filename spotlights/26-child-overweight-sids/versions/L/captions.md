@@ -12,9 +12,15 @@ Method: published series, 2000 to 2024; change in percentage points.
 
 Data: UNICEF/WHO/World Bank JME, UN SDG Global Database (series SN_STA_OVWGT, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG2
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG2
+## Second comment
+
+Definition, UNICEF Reference Data Manager (NT_ANT_WHZ_PO2): https://rdmapi.unicef.org/api/indicators/NT_ANT_WHZ_PO2
 
 ## X
 
@@ -22,8 +28,8 @@ Since 2000, child overweight in Small Island Developing States (SIDS) has risen 
 
 ## Bluesky
 
-Since 2000, child overweight in Small Island Developing States (SIDS) has risen 3.2 points. From 5.4% in 2000 to 8.6% in 2024: 0.1 points a year. Method: published series, 2000 to 2024. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Since 2000, child overweight in Small Island Developing States (SIDS) has risen 3.2 points. From 5.4% in 2000 to 8.6% in 2024: 0.1 points a year. Method: published series, 2000 to 2024.
 
 ## Bluesky with feed tag
 
-Since 2000, child overweight in Small Island Developing States (SIDS) has risen 3.2 points. From 5.4% in 2000 to 8.6% in 2024: 0.1 points a year. Method: published series, 2000 to 2024. Data + code: github.com/jpazvd/un-data-commons-spotlight #PolicySky
+Since 2000, child overweight in Small Island Developing States (SIDS) has risen 3.2 points. From 5.4% in 2000 to 8.6% in 2024: 0.1 points a year. Method: published series, 2000 to 2024. #PolicySky

@@ -14,9 +14,15 @@ Method: each country's latest value in the database; 2020 or earlier counts as n
 
 Data: UNICEF, UN SDG Global Database (series SP_DYN_MRBF15, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG5
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG5
+## Second comment
+
+Definition, UNICEF Reference Data Manager (PT_F_20-24_MRD_U15): https://rdmapi.unicef.org/api/indicators/PT_F_20-24_MRD_U15
 
 ## X
 

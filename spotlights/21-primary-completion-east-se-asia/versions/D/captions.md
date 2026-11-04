@@ -14,9 +14,15 @@ Method: each country's latest value in the database; 2020 or earlier counts as n
 
 Data: UNESCO UIS, UN SDG Global Database (series SE_TOT_CPLR, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG4
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG4
+## Second comment
+
+Definition, UNICEF Reference Data Manager (ED_CR_L1): https://rdmapi.unicef.org/api/indicators/ED_CR_L1
 
 ## X
 

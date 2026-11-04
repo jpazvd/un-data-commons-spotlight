@@ -4,7 +4,9 @@
   "title": "Maternal mortality",
   "sdg_indicator": "3.1.1",
   "sdg_series_code": "SH_STA_MORT",
-  "dimensions": {"Sex": "FEMALE"},
+  "dimensions": {
+    "Sex": "FEMALE"
+  },
   "variable_dcid": "undata/sdg/SH_STA_MORT.SEX--F",
   "variable_name": "Maternal mortality ratio [Sex=Female]",
   "unit": "Maternal deaths per 100,000 live births",
@@ -18,5 +20,21 @@
   "target_year": 2030,
   "target_basis": "SDG 3.1",
   "notes": "SDG target 3.1: reduce the global maternal mortality ratio to less than 70 per 100,000 live births by 2030. The pace compares the 2000 to 2023 average annual change with the change needed from 2023 to reach 70 in 2030. Country values are MMEIG estimates, all for 2023 in this snapshot. Country display names are the Data Commons place names as retrieved.",
-  "experiment": {"id": "001", "block": 1, "ground": "dark", "link_placement": "first_comment", "template": "templates/banner-D-dark.dc.html"}
+  "experiment": {
+    "id": "003",
+    "role": "run-in",
+    "palette": "dark",
+    "template": "templates/banner-E-dark.dc.html",
+    "from_001": {
+      "id": "001",
+      "block": 1,
+      "ground": "dark",
+      "link_placement": "first_comment",
+      "template": "templates/banner-D-dark.dc.html"
+    },
+    "note": "Experiment 001 stopped before any post (its Deviations, 1 Nov 2026); run-in of 002, then of 003 with template E (4 Nov 2026). Ground as 001 assigned; the repo link is the first comment on every network (JP, 3 Nov 2026)."
+  },
+  "rdm_helix_code": "MNCH_MMR",
+  "subtitle": "The maternal mortality ratio (MMR) is defined as the number of maternal deaths during a given time period per 100,000 live births during the same time period.",
+  "subtitle_from": "rdm:DEFINITION, shortened (first sentence)"
 }

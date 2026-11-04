@@ -12,9 +12,11 @@ Method: published series, 2005 to 2025; change in percentage points; series SL_T
 
 Data: ILO, UN SDG Global Database (series SL_TLF_NEET, SL_TLF_NEET_19ICLS, extracted 1 Nov 2026), via the UN System Data Commons.
 
-Data and code: https://github.com/jpazvd/un-data-commons-spotlight
-
 #OfficialStatistics #DataForChildren #SDG8
+
+## LinkedIn first comment
+
+Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
 ## X
 
@@ -22,8 +24,8 @@ Since 2005, youth NEET rate in Small Island Developing States (SIDS) has fallen 
 
 ## Bluesky
 
-Since 2005, youth NEET rate in Small Island Developing States (SIDS) has fallen 2.3 points. From 23.4% in 2005 to 21.1% in 2025: 0.1 points a year. Method: published series, 2005 to 2025; SL_TLF_NEET, previous definition. Data + code: github.com/jpazvd/un-data-commons-spotlight
+Since 2005, youth NEET rate in Small Island Developing States (SIDS) has fallen 2.3 points. From 23.4% in 2005 to 21.1% in 2025: 0.1 points a year. Method: published series, 2005 to 2025; SL_TLF_NEET, previous definition.
 
 ## Bluesky with feed tag
 
-Since 2005, youth NEET rate in Small Island Developing States (SIDS) has fallen 2.3 points. From 23.4% in 2005 to 21.1% in 2025: 0.1 points a year. Method: published series, 2005 to 2025; SL_TLF_NEET, previous definition. Data + code: github.com/jpazvd/un-data-commons-spotlight #EconSky
+Since 2005, youth NEET rate in Small Island Developing States (SIDS) has fallen 2.3 points. From 23.4% in 2005 to 21.1% in 2025: 0.1 points a year. Method: published series, 2005 to 2025; SL_TLF_NEET, previous definition. #EconSky

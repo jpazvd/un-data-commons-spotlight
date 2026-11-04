@@ -8,6 +8,42 @@
   "target_year": 2030,
   "target_basis": "SDG 6.2",
   "experiment": {
+    "proposal": "P17",
+    "family": "sanitation",
+    "pace": 1,
+    "kind": "standard",
+    "place_type": "world",
+    "place": "World",
+    "place_dcids": [
+      "Earth"
+    ],
+    "breakdown": "none",
+    "frames_proposed": "T|L|D",
+    "feed_tag": "#EconSky",
+    "frames_supported": "T|L|D",
+    "id": "003",
+    "versions": [
+      {
+        "version": "17-T",
+        "frame": "T",
+        "design": "E-dark",
+        "template": "templates/banner-E-dark.dc.html"
+      },
+      {
+        "version": "17-D",
+        "frame": "D",
+        "design": "E-light",
+        "template": "templates/banner-E-light.dc.html"
+      },
+      {
+        "version": "17-L",
+        "frame": "L",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      }
+    ]
+  },
+  "experiment_002": {
     "id": "002",
     "proposal": "P17",
     "family": "sanitation",

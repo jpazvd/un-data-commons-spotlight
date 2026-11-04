@@ -14,9 +14,15 @@ Method: published aggregates, 2005 to 2024; left out because their series start 
 
 Data: UNESCO UIS, UN SDG Global Database (series SE_PRE_PARTN, extracted 1 Nov 2026), via the UN System Data Commons.
 
+#OfficialStatistics #DataForChildren #SDG4
+
+## LinkedIn first comment
+
 Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
-#OfficialStatistics #DataForChildren #SDG4
+## Second comment
+
+Definition, UNICEF Reference Data Manager (ED_ANAR_L02): https://rdmapi.unicef.org/api/indicators/ED_ANAR_L02
 
 ## X
 

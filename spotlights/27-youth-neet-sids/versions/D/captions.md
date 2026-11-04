@@ -12,9 +12,11 @@ Method: each country's latest value in the database; 2020 or earlier counts as n
 
 Data: ILO, UN SDG Global Database (series SL_TLF_NEET, SL_TLF_NEET_19ICLS, extracted 1 Nov 2026), via the UN System Data Commons.
 
-Data and code: https://github.com/jpazvd/un-data-commons-spotlight
-
 #OfficialStatistics #DataForChildren #SDG8
+
+## LinkedIn first comment
+
+Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
 ## X
 
@@ -22,8 +24,8 @@ Data and code: https://github.com/jpazvd/un-data-commons-spotlight
 
 ## Bluesky
 
-34 of 39 SIDS have data on youth NEET rate; for 12, the latest is from 2020 or earlier. Method: latest value per country; 2020 or earlier is not recent; SL_TLF_NEET, previous definition. Data + code: github.com/jpazvd/un-data-commons-spotlight
+34 of 39 SIDS have data on youth NEET rate; for 12, the latest is from 2020 or earlier. Method: latest value per country; 2020 or earlier is not recent; SL_TLF_NEET, previous definition.
 
 ## Bluesky with feed tag
 
-34 of 39 SIDS have data on youth NEET rate; for 12, the latest is from 2020 or earlier. Method: latest value per country; 2020 or earlier is not recent; SL_TLF_NEET, previous definition. Data + code: github.com/jpazvd/un-data-commons-spotlight #EconSky
+34 of 39 SIDS have data on youth NEET rate; for 12, the latest is from 2020 or earlier. Method: latest value per country; 2020 or earlier is not recent; SL_TLF_NEET, previous definition. #EconSky
