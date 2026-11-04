@@ -1,0 +1,14 @@
+{
+ "id": "9d0c5f9833961537",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1__SEX--F",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:37:46.384Z",
+ "is_error": false,
+ "transcript": "agent-a8d4dda2d4980fb4a.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1__SEX--F\",\"name\":\"School completion rate [Education level=Primary education (ISCED11 - 1), Sex=Female]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2000\",74.8],[\"Earth\",\"2001\",75.8],[\"Earth\",\"2002\",76.8],[\"Earth\",\"2003\",77.7],[\"Earth\",\"2004\",78.5],[\"Earth\",\"2005\",79.3],[\"Earth\",\"2006\",79.9],[\"Earth\",\"2007\",80.4],[\"Earth\",\"2008\",80.9],[\"Earth\",\"2009\",81.5],[\"Earth\",\"2010\",82.1],[\"Earth\",\"2011\",82.7],[\"Earth\",\"2012\",83.3],[\"Earth\",\"2013\",83.8],[\"Earth\",\"2014\",84.4],[\"Earth\",\"2015\",84.9],[\"Earth\",\"2016\",85.4],[\"Earth\",\"2017\",86],[\"Earth\",\"2018\",86.5],[\"Earth\",\"2019\",87],[\"Earth\",\"2020\",87.4],[\"Earth\",\"2021\",87.9],[\"Earth\",\"2022\",88.3],[\"Earth\",\"2023\",88.8],[\"Earth\",\"2024\",89.2]]}}"
+}

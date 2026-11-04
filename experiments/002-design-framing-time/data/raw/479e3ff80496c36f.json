@@ -1,0 +1,14 @@
+{
+ "id": "479e3ff80496c36f",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SH_STA_BRTC",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:37:52.884Z",
+ "is_error": false,
+ "transcript": "agent-a3b220cc1cfc41fba.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SH_STA_BRTC\",\"name\":\"Proportion of births attended by skilled health personnel\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2000\",60.7],[\"Earth\",\"2001\",61.2],[\"Earth\",\"2002\",61.9],[\"Earth\",\"2003\",62.6],[\"Earth\",\"2004\",63.5],[\"Earth\",\"2005\",64.5],[\"Earth\",\"2006\",65.8],[\"Earth\",\"2007\",67.3],[\"Earth\",\"2008\",68.9],[\"Earth\",\"2009\",70.6],[\"Earth\",\"2010\",72.3],[\"Earth\",\"2011\",73.9],[\"Earth\",\"2012\",75.7],[\"Earth\",\"2013\",76.9],[\"Earth\",\"2014\",78.5],[\"Earth\",\"2015\",79.5],[\"Earth\",\"2016\",80.7],[\"Earth\",\"2017\",81.8],[\"Earth\",\"2018\",82.4],[\"Earth\",\"2019\",83.3],[\"Earth\",\"2020\",83.7],[\"Earth\",\"2021\",84.4],[\"Earth\",\"2022\",85.1],[\"Earth\",\"2023\",85.7],[\"Earth\",\"2024\",86.4],[\"Earth\",\"2025\",87.2]]}}"
+}

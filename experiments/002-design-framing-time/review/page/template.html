@@ -1,0 +1,819 @@
+<title>Experiment 002 Banner Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a sticky progress and filter bar over one row per Spotlight topic (its three versions side by side); a full-screen sheet opens one banner at a time for the verdict. */
+:root {
+  --bg: #F4F6F7; --surface: #FFFFFF; --sunk: #E6EBEE; --ink: #101820; --muted: #56626C; --rule: #C9D1D6;
+  --accent: #0B6E99; --accent-ink: #FFFFFF;
+  --ok: #1D7A4C; --ok-bg: #E2F1E8; --warn: #9A5200; --warn-bg: #FAEAD6; --stop: #B3261E; --stop-bg: #F8E0DD;
+  --info: #0B6E99; --info-bg: #DDEDF5;
+  --display: 'Archivo', 'Arial Narrow', Arial, sans-serif;
+  --body: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0D2433; --surface: #12313F; --sunk: #0A1C28; --ink: #EEF4F7; --muted: #8FB3C7; --rule: #23465B;
+    --accent: #4FC3E8; --accent-ink: #06202D;
+    --ok: #5CCB91; --ok-bg: #123A2C; --warn: #F2A541; --warn-bg: #3A2A12; --stop: #FF8A80; --stop-bg: #401C1C;
+    --info: #4FC3E8; --info-bg: #0F3A4D; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0D2433; --surface: #12313F; --sunk: #0A1C28; --ink: #EEF4F7; --muted: #8FB3C7; --rule: #23465B;
+  --accent: #4FC3E8; --accent-ink: #06202D;
+  --ok: #5CCB91; --ok-bg: #123A2C; --warn: #F2A541; --warn-bg: #3A2A12; --stop: #FF8A80; --stop-bg: #401C1C;
+  --info: #4FC3E8; --info-bg: #0F3A4D; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+body.locked { overflow: hidden; }
+.wrap { max-width: 1320px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+a { color: var(--accent); }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Buttons */
+.btn { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--rule); background: var(--surface); color: var(--ink);
+  padding: 7px 12px; border-radius: 6px; cursor: pointer; font-weight: 500; font-size: 14px; white-space: nowrap; }
+.btn:hover { border-color: var(--muted); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn.ghost { background: transparent; }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+
+/* Top bar */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--rule); }
+.top-in { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; padding-block: 12px 10px; }
+.brand { min-width: 0; flex: 1 1 260px; }
+.eyebrow { font-family: var(--mono); font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { margin: 2px 0 0; font-family: var(--display); font-stretch: 80%; font-weight: 800; font-size: 28px; line-height: 1; letter-spacing: -.01em; }
+.progress { flex: 2 1 360px; min-width: 0; display: grid; gap: 6px; }
+.bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: var(--sunk); }
+.bar span { display: block; height: 100%; transition: width .3s; }
+.bar .s-ok { background: var(--ok); } .bar .s-change { background: var(--warn); } .bar .s-hold { background: var(--stop); }
+.counts { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; color: var(--muted); }
+.counts b { color: var(--ink); font-family: var(--mono); font-weight: 500; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: 1px; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding-block: 0 12px; }
+.chips { display: flex; gap: 4px; flex-wrap: wrap; }
+.chip { border: 1px solid var(--rule); background: transparent; border-radius: 999px; padding: 4px 11px; font-size: 13px; cursor: pointer; color: var(--muted); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.sel { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); }
+select, input[type="search"] { font: inherit; font-size: 13px; color: var(--ink); background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 5px 8px; }
+input[type="search"] { width: 170px; max-width: 100%; }
+.conn { font-size: 12.5px; color: var(--muted); display: flex; align-items: center; gap: 6px; margin-left: auto; }
+.conn .dot { margin: 0; }
+
+/* Intro */
+.intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 340px); gap: 16px 40px; padding-block: 22px 8px; }
+.intro p { margin: 0 0 8px; max-width: 68ch; color: var(--muted); }
+.intro p strong { color: var(--ink); font-weight: 600; }
+.build { font-size: 12.5px; color: var(--muted); border-left: 2px solid var(--rule); padding-left: 12px; align-self: start; }
+.build div { margin-bottom: 4px; }
+@media (max-width: 760px) { .intro { grid-template-columns: 1fr; } }
+.notice { margin: 8px 0 0; padding: 10px 12px; border-radius: 6px; background: var(--warn-bg); color: var(--ink); font-size: 13.5px; }
+.notice[hidden] { display: none; }
+
+/* Topics */
+.topic { padding-block: 22px 6px; border-top: 1px solid var(--rule); }
+.topic:first-child { border-top: 0; }
+.topic-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-bottom: 12px; }
+.tnum { font-family: var(--display); font-stretch: 75%; font-weight: 800; font-size: 34px; line-height: .9; color: var(--accent); font-variant-numeric: tabular-nums; }
+.ttitle { font-family: var(--display); font-stretch: 88%; font-weight: 700; font-size: 19px; line-height: 1.2; margin: 0; min-width: 0; flex: 1 1 320px; text-wrap: balance; }
+.tmeta { display: flex; flex-wrap: wrap; gap: 6px; font-size: 12.5px; }
+.tag { border: 1px solid var(--rule); border-radius: 4px; padding: 1px 7px; color: var(--muted); white-space: nowrap; text-decoration: none; }
+a.tag:hover { color: var(--ink); border-color: var(--muted); }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 980px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 620px) { .grid { grid-template-columns: 1fr; } }
+.card { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; cursor: pointer; min-width: 0; }
+.card:hover { border-color: var(--muted); }
+.card[data-s="change"] { box-shadow: inset 0 -3px 0 var(--warn); }
+.card[data-s="hold"] { box-shadow: inset 0 -3px 0 var(--stop); }
+.card[data-s="ok"] { box-shadow: inset 0 -3px 0 var(--ok); }
+.thumb { display: block; padding: 0; border: 0; background: var(--sunk); cursor: pointer; width: 100%; aspect-ratio: 40 / 21; }
+.thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.card-body { padding: 10px 12px 12px; display: grid; gap: 5px; min-width: 0; }
+.card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.vid { font-weight: 500; font-size: 14px; }
+.pill { font-size: 12px; font-weight: 600; border-radius: 999px; padding: 2px 9px; white-space: nowrap; background: var(--sunk); color: var(--muted); }
+.pill[data-s="ok"] { background: var(--ok-bg); color: var(--ok); }
+.pill[data-s="change"] { background: var(--warn-bg); color: var(--warn); }
+.pill[data-s="hold"] { background: var(--stop-bg); color: var(--stop); }
+.pill[data-s="answered"], .pill[data-s="rebuilt"] { background: var(--info-bg); color: var(--info); }
+.card-frame { font-size: 14px; font-weight: 600; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.dchip { display: inline-flex; align-items: center; gap: 5px; font-weight: 400; font-size: 12.5px; color: var(--muted); }
+.sw { width: 12px; height: 12px; border-radius: 2px; border: 1px solid var(--rule); display: inline-block; }
+.sw.Ink { background: #FFFFFF; border-top: 3px solid #000000; } .sw.D-dark { background: #0D2433; } .sw.D-light { background: #F4F6F7; }
+.card-posts { font-size: 12px; color: var(--muted); }
+.card-note, .card-reply { margin: 2px 0 0; font-size: 13px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card-reply { color: var(--info); }
+.card-flag { font-size: 12.5px; color: var(--warn); }
+.empty { padding: 48px 0; text-align: center; color: var(--muted); }
+
+/* Review sheet */
+.sheet { position: fixed; inset: 0; z-index: 20; background: var(--bg); overflow-y: auto; overscroll-behavior: contain;
+  padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.sheet-bar { position: sticky; top: 0; z-index: 2; background: var(--surface); border-bottom: 1px solid var(--rule); }
+.sheet-bar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding-block: 8px; }
+.sheet-pos { display: flex; align-items: baseline; gap: 10px; min-width: 0; font-size: 13px; color: var(--muted); }
+.sheet-pos .mono { font-size: 15px; color: var(--ink); font-weight: 500; white-space: nowrap; }
+@media (max-width: 560px) { #sh-pos, .wide { display: none; } }
+.sheet-nav { display: flex; gap: 6px; }
+.sheet-body { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 380px); gap: 20px 28px; padding-block: 18px 40px; align-items: start; }
+@media (max-width: 960px) { .sheet-body { grid-template-columns: 1fr; } }
+.sheet-img { width: 100%; height: auto; display: block; border-radius: 4px; border: 1px solid var(--rule); background: var(--sunk); aspect-ratio: 40 / 21; }
+.sheet-main { display: grid; gap: 14px; min-width: 0; }
+.sheet-meta h2 { margin: 0; font-family: var(--display); font-stretch: 88%; font-weight: 700; font-size: 21px; line-height: 1.2; text-wrap: balance; }
+.sheet-meta p { margin: 4px 0 0; color: var(--muted); font-size: 13.5px; }
+.posts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.post { font-family: var(--mono); font-size: 12px; border: 1px solid var(--rule); border-radius: 4px; padding: 2px 7px; color: var(--ink); }
+.post.none { color: var(--muted); border-style: dashed; }
+.flag { border: 1px solid var(--warn); background: var(--warn-bg); border-radius: 6px; padding: 10px 12px; font-size: 13.5px; }
+.flag b { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--warn); margin-bottom: 2px; }
+.tabs { display: flex; gap: 2px; border-bottom: 1px solid var(--rule); overflow-x: auto; }
+.tab { border: 0; background: transparent; padding: 7px 12px; cursor: pointer; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; font-size: 14px; white-space: nowrap; }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
+.tabmeta { font-size: 12.5px; color: var(--muted); margin-top: -6px; }
+.cap { margin: 0; white-space: pre-wrap; word-wrap: break-word; font-family: var(--body); font-size: 14.5px; line-height: 1.55; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; max-width: 75ch; }
+.links { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; }
+.hash { font-size: 12px; color: var(--muted); }
+.form { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 14px; display: grid; gap: 14px; position: sticky; top: 64px; max-height: calc(100dvh - 84px); overflow-y: auto; }
+@media (max-width: 960px) { .form { position: static; max-height: none; overflow: visible; } }
+fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+legend, .lbl { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; padding: 0; }
+.verdicts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+.verdict { border: 1px solid var(--rule); background: transparent; border-radius: 6px; padding: 8px 6px; cursor: pointer; font-weight: 600; font-size: 13.5px; text-align: center; }
+.verdict small { display: block; font-weight: 400; font-family: var(--mono); font-size: 11px; color: var(--muted); }
+.verdict[data-v="ok"][aria-pressed="true"] { background: var(--ok-bg); border-color: var(--ok); color: var(--ok); }
+.verdict[data-v="change"][aria-pressed="true"] { background: var(--warn-bg); border-color: var(--warn); color: var(--warn); }
+.verdict[data-v="hold"][aria-pressed="true"] { background: var(--stop-bg); border-color: var(--stop); color: var(--stop); }
+.tagset { display: flex; flex-wrap: wrap; gap: 5px; }
+textarea { width: 100%; font: inherit; font-size: 14.5px; color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 6px; padding: 9px 10px; resize: vertical; min-height: 120px; }
+.form-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.saved { margin: -6px 0 0; font-size: 12.5px; color: var(--muted); min-height: 1.2em; }
+.saved.err { color: var(--stop); }
+.reply { border-left: 3px solid var(--info); background: var(--info-bg); border-radius: 0 6px 6px 0; padding: 10px 12px; font-size: 13.5px; }
+.reply b { display: block; color: var(--info); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 3px; }
+.reply p { margin: 0; white-space: pre-wrap; }
+.hist { font-size: 13px; }
+.hist summary { cursor: pointer; color: var(--muted); }
+.hist .round { border-top: 1px solid var(--rule); padding-top: 6px; margin-top: 6px; white-space: pre-wrap; }
+.keys { margin: 0; font-size: 12px; color: var(--muted); }
+@media (hover: none) { .keys { display: none; } }
+.copybox { margin-top: 10px; }
+.copybox textarea { min-height: 220px; font-family: var(--mono); font-size: 12.5px; }
+/* General notes */
+.general { padding-block: 22px 26px; border-top: 1px solid var(--rule); display: grid; gap: 12px; scroll-margin-top: 150px; }
+.general-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.general h2 { margin: 0; font-family: var(--display); font-stretch: 88%; font-weight: 700; font-size: 21px; }
+.muted { color: var(--muted); }
+.general > p { margin: 0; max-width: 70ch; font-size: 14px; }
+.g-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 420px); gap: 16px 28px; align-items: start; }
+@media (max-width: 860px) { .g-cols { grid-template-columns: 1fr; } }
+.g-list { display: grid; gap: 10px; min-width: 0; }
+.g-empty { font-size: 14px; color: var(--muted); border: 1px dashed var(--rule); border-radius: 8px; padding: 14px; }
+.note { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 12px 14px; display: grid; gap: 6px; min-width: 0; }
+.note-top { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 12.5px; }
+.note-text { margin: 0; white-space: pre-wrap; word-wrap: break-word; font-size: 14.5px; }
+.note-meta { font-size: 12.5px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; }
+.linkbtn { border: 0; background: none; padding: 0; color: var(--accent); cursor: pointer; font-size: 12.5px; text-decoration: underline; }
+.linkbtn.danger { color: var(--stop); }
+.counts .linkbtn { font-size: 13px; }
+.nform { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 14px; display: grid; gap: 12px; min-width: 0; }
+.nform textarea { min-height: 100px; }
+.nform select { width: 100%; }
+.g-sheet { border-top: 1px solid var(--rule); padding-top: 12px; }
+.g-sheet summary { cursor: pointer; font-weight: 600; font-size: 14px; }
+.g-sheet .nform { border: 0; padding: 10px 0 0; background: transparent; }
+.g-applies { font-size: 13px; color: var(--muted); display: grid; gap: 6px; margin-top: 10px; }
+.g-applies div { border-left: 2px solid var(--rule); padding-left: 8px; white-space: pre-wrap; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<header class="top">
+  <div class="wrap top-in">
+    <div class="brand">
+      <div class="eyebrow">Data Commons Spotlight · Experiment 002</div>
+      <h1>Banner review</h1>
+    </div>
+    <div class="progress">
+      <div class="bar" id="bar" aria-hidden="true"><span class="s-ok"></span><span class="s-change"></span><span class="s-hold"></span></div>
+      <div class="counts" id="counts"></div>
+    </div>
+    <div class="actions">
+      <button class="btn primary" id="start">Review next</button>
+      <button class="btn ghost" id="copy">Copy feedback</button>
+    </div>
+  </div>
+  <div class="wrap filters">
+    <div class="chips" id="fstatus" role="group" aria-label="Filter by review state">
+      <button class="chip" data-f="all" aria-pressed="true">All</button>
+      <button class="chip" data-f="todo" aria-pressed="false">To review</button>
+      <button class="chip" data-f="ok" aria-pressed="false">Looks right</button>
+      <button class="chip" data-f="change" aria-pressed="false">Needs a change</button>
+      <button class="chip" data-f="hold" aria-pressed="false">Don't post</button>
+      <button class="chip" data-f="answered" aria-pressed="false">Claude replied</button>
+    </div>
+    <label class="sel" for="fbatch">Batch
+      <select id="fbatch"><option value="all">All</option><option value="1">1 (PR #24)</option><option value="2">2 (PR #25)</option><option value="3">3 (PR #26)</option><option value="4">4 (PR #27)</option></select></label>
+    <label class="sel" for="fframe">Framing
+      <select id="fframe"><option value="all">All</option><option value="T">T: What it would take</option><option value="L">L: The long view</option><option value="G">G: Behind the average</option><option value="D">D: The data behind it</option><option value="Dgap">D1 to D3: data-gap topics</option></select></label>
+    <label class="sel" for="fdesign">Design
+      <select id="fdesign"><option value="all">All</option><option value="D-dark">D-dark</option><option value="D-light">D-light</option><option value="Ink">Ink</option></select></label>
+    <label class="sel" for="fsort">Order
+      <select id="fsort"><option value="nn">Spotlight number</option><option value="date">First post date</option></select></label>
+    <input type="search" id="fq" placeholder="Search: 31, stunting, 3.2.1" aria-label="Search banners">
+    <div class="conn" id="conn" aria-live="polite"><span class="dot" style="background: var(--muted)"></span><span>Connecting to saved reviews</span></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <div>
+      <p><strong>One verdict per banner.</strong> Open a banner, choose Looks right, Needs a change or Don't post, tick what the note is about, and say what should change. Each banner is reviewed with its X, LinkedIn and Bluesky captions and its alt text. For anything that applies to many banners at once, add a <a href="#general">general note</a> instead of repeating it.</p>
+      <p><strong>What happens next.</strong> I read every saved review, fix what you flag in the scripts, rebuild with <span class="mono">build_all.py</span>, push to the batch branch and reply on the banner. A rebuilt banner comes back as "Rebuilt, review again".</p>
+      <p><strong>What a verdict is not.</strong> It is a note to me, not the approval: merging the batch PR stays the approval. Don't post is logged as a deviation in the preregistration; assignment.csv stays as drawn.</p>
+      <p class="notice" id="notice" hidden></p>
+    </div>
+    <div class="build" id="build"></div>
+  </section>
+  <section class="general" id="general" aria-labelledby="g-title">
+    <div class="general-head"><h2 id="g-title">General notes</h2><span class="muted" id="g-count"></span></div>
+    <p class="muted">For comments that apply across banners: a wording habit, a chart rule, a design choice. Choose which banners the note covers; I apply it wherever it fits, rebuild, and reply under the note.</p>
+    <div class="g-cols">
+      <div class="g-list" id="g-list"></div>
+      <div id="g-mainform"></div>
+    </div>
+  </section>
+  <div id="topics"></div>
+  <div class="empty" id="empty" hidden>No banner matches these filters.</div>
+  <div class="copybox" id="copybox" hidden>
+    <label class="lbl" for="copytext">Feedback as text (select all and copy)</label>
+    <textarea id="copytext" readonly></textarea>
+  </div>
+</main>
+
+<div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sh-title">
+  <div class="sheet-bar">
+    <div class="wrap">
+      <button class="btn ghost" id="sh-close">Close</button>
+      <div class="sheet-pos"><span class="mono" id="sh-id"></span><span id="sh-pos"></span></div>
+      <div class="sheet-nav"><button class="btn ghost" id="sh-prev" aria-label="Previous banner">←<span class="wide"> Previous</span></button><button class="btn ghost" id="sh-next" aria-label="Next banner"><span class="wide">Next </span>→</button></div>
+    </div>
+  </div>
+  <div class="wrap sheet-body">
+    <div class="sheet-main">
+      <img class="sheet-img" id="sh-img" alt="" width="1600" height="840">
+      <div class="sheet-meta">
+        <h2 id="sh-title"></h2>
+        <p id="sh-sub"></p>
+        <div class="posts" id="sh-posts"></div>
+      </div>
+      <div class="flag" id="sh-flag" hidden></div>
+      <div class="tabs" role="tablist" id="sh-tabs">
+        <button class="tab" role="tab" data-t="x" aria-selected="true">X</button>
+        <button class="tab" role="tab" data-t="li" aria-selected="false">LinkedIn</button>
+        <button class="tab" role="tab" data-t="bs" aria-selected="false">Bluesky</button>
+        <button class="tab" role="tab" data-t="alt" aria-selected="false">Alt text</button>
+      </div>
+      <div class="tabmeta" id="sh-tabmeta"></div>
+      <pre class="cap" id="sh-cap" role="tabpanel"></pre>
+      <div class="links" id="sh-links"></div>
+      <div class="hash mono" id="sh-hash"></div>
+    </div>
+    <aside class="form" aria-label="Your review">
+      <div class="reply" id="sh-reply" hidden></div>
+      <fieldset>
+        <legend>Your verdict</legend>
+        <div class="verdicts">
+          <button class="verdict" data-v="ok" aria-pressed="false">Looks right<small>key 1</small></button>
+          <button class="verdict" data-v="change" aria-pressed="false">Needs a change<small>key 2</small></button>
+          <button class="verdict" data-v="hold" aria-pressed="false">Don't post<small>key 3</small></button>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>The note is about</legend>
+        <div class="tagset" id="sh-tags"></div>
+      </fieldset>
+      <div>
+        <label class="lbl" for="sh-comment" style="display:block">Comment</label>
+        <textarea id="sh-comment" rows="6" placeholder="What should change, and why. Quote the words or the number you mean."></textarea>
+      </div>
+      <div class="form-actions">
+        <button class="btn" id="sh-save">Save</button>
+        <button class="btn primary" id="sh-savenext">Save and next</button>
+      </div>
+      <p class="saved" id="sh-saved" aria-live="polite"></p>
+      <details class="hist" id="sh-hist" hidden><summary>Earlier rounds</summary><div id="sh-histbody"></div></details>
+      <details class="g-sheet" id="g-sheetbox"><summary id="g-sheetsum">Add a note for all banners</summary><div id="g-sheetform"></div><div class="g-applies" id="g-applies"></div></details>
+      <p class="keys">Keys: ← → move between banners, 1 2 3 set the verdict, Ctrl+Enter saves and moves on, Esc closes. Unsaved changes are saved when you move on or close.</p>
+    </aside>
+  </div>
+</div>
+
+<script>
+const ITEMS = /*__ITEMS__*/[];
+const BUILD = /*__BUILD__*/{};
+const BY = Object.fromEntries(ITEMS.map(i => [i.id, i]));
+const VERDICT = { ok: 'Looks right', change: 'Needs a change', hold: "Don't post" };
+const TAGS = ['Headline', 'Evidence line', 'Chart', 'Numbers', 'Source or method', 'Captions', 'Alt text', 'Design'];
+const OUTCOME = { fixed: 'Fixed and rebuilt', nochange: 'No change made', question: 'Question for you', note: 'Note' };
+const NET = { X: 'X', LinkedIn: 'LinkedIn', Bluesky: 'Bluesky' };
+const S = { db: null, me: null, live: false, local: false, readOnly: false, reviews: {}, responses: {}, drafts: {}, chain: {} };
+const F = { status: 'all', batch: 'all', frame: 'all', design: 'all', q: '' };
+let SORT = 'nn';
+const SCOPES = [['all', 'All banners'], ['frame:T', 'All T: What it would take'], ['frame:L', 'All L: The long view'],
+  ['frame:G', 'All G: Behind the average'], ['frame:D', 'All D: The data behind it'], ['frame:Dgap', 'All data-gap versions (D1 to D3)'],
+  ['design:D-dark', 'All D-dark banners'], ['design:D-light', 'All D-light banners'], ['design:Ink', 'All Ink banners']];
+const SCOPE_LABEL = Object.fromEntries(SCOPES);
+S.notes = {};
+
+const LS = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage unavailable */ } },
+};
+S.drafts = LS.get('r002.drafts', {});
+
+function el(tag, attrs, ...kids) {
+  const n = document.createElement(tag);
+  if (attrs) for (const [k, v] of Object.entries(attrs)) {
+    if (v == null || v === false) continue;
+    if (k === 'class') n.className = v; else if (k === 'text') n.textContent = v; else n.setAttribute(k, v === true ? '' : v);
+  }
+  for (const k of kids) if (k != null) n.append(k);
+  return n;
+}
+const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+function fmtDate(ymd) { const [y, m, d] = ymd.split('-').map(Number); return DOW[new Date(Date.UTC(y, m - 1, d)).getUTCDay()] + ' ' + d + ' ' + MON[m - 1]; }
+function fmtStamp(iso) { if (!iso) return ''; const t = new Date(iso); if (isNaN(t)) return ''; return t.getDate() + ' ' + MON[t.getMonth()] + ', ' + String(t.getHours()).padStart(2, '0') + ':' + String(t.getMinutes()).padStart(2, '0'); }
+
+/* Review state */
+const rv = id => S.reviews[id] || null;
+const rs = id => S.responses[id] || null;
+const answered = id => { const r = rv(id), a = rs(id); return !!a && (!r || String(a.at || '') > String(r.at || '')); };
+const rebuilt = id => { const r = rv(id); return !!r && !!r.banner && r.banner !== BY[id].sha; };
+const verdictOf = id => { const r = rv(id); return r && VERDICT[r.status] && !rebuilt(id) ? r.status : 'open'; };
+const toReview = id => verdictOf(id) === 'open' || answered(id);
+function pillOf(id) {
+  if (rebuilt(id)) return ['rebuilt', 'Rebuilt, review again'];
+  if (answered(id)) return ['answered', 'Claude replied'];
+  const v = verdictOf(id); return v === 'open' ? ['open', 'Not reviewed'] : [v, VERDICT[v]];
+}
+function fromSaved(id) {
+  const r = rv(id);
+  if (!r || rebuilt(id)) return { status: null, tags: [], comment: '' };
+  return { status: VERDICT[r.status] ? r.status : null, tags: Array.isArray(r.tags) ? r.tags.filter(t => TAGS.includes(t)) : [], comment: typeof r.comment === 'string' ? r.comment : '' };
+}
+const draftOf = id => S.drafts[id] || fromSaved(id);
+function isDirty(id) {
+  const d = S.drafts[id]; if (!d) return false; const s = fromSaved(id);
+  return d.status !== s.status || d.comment.trim() !== s.comment.trim() || [...d.tags].sort().join('|') !== [...s.tags].sort().join('|');
+}
+function editDraft(id, patch) { S.drafts[id] = Object.assign({}, draftOf(id), patch); LS.set('r002.drafts', S.drafts); }
+function dropDraft(id) { delete S.drafts[id]; LS.set('r002.drafts', S.drafts); }
+
+async function save(id) {
+  if (!isDirty(id)) { dropDraft(id); return true; }
+  if (S.readOnly) { sheetSaved('You can read reviews here but not save them.', true); return false; }
+  const d = draftOf(id), prev = rv(id), item = BY[id];
+  const history = prev && Array.isArray(prev.history) ? prev.history.slice(-20) : [];
+  if (prev && prev.banner && prev.banner !== item.sha && (prev.status || prev.comment))
+    history.push({ status: prev.status || null, tags: prev.tags || [], comment: prev.comment || '', banner: prev.banner, at: prev.at || null });
+  const body = { version: id, status: d.status || null, tags: d.tags.slice(), comment: d.comment.trim(), banner: item.sha, at: new Date().toISOString(), by: S.me || null, history };
+  if (!S.db) {
+    S.reviews[id] = body; LS.set('r002.local', S.reviews); dropDraft(id); refresh();
+    if (sheetId === id) sheetSaved('Saved in this browser only.'); return true;
+  }
+  if (sheetId === id) sheetSaved('Saving…');
+  const run = () => S.db.collection('reviews').doc(id).set(body);
+  const p = (S.chain[id] || Promise.resolve()).catch(() => {}).then(run);
+  S.chain[id] = p;
+  try {
+    await p;
+    S.reviews[id] = body; dropDraft(id); refresh();
+    if (sheetId === id) sheetSaved('Saved ' + fmtStamp(body.at) + '.');
+    return true;
+  } catch (e) {
+    const code = e && e.code;
+    let msg = 'Not saved. Your text is kept in this browser; try Save again.';
+    if (code === 'invalid_argument') { S.readOnly = true; msg = 'Not saved: this view can read reviews but not save them.'; }
+    if (code === 'quota_exceeded') msg = 'Not saved: the review store is full. Tell Claude.';
+    if (code === 'revoked') msg = 'Not saved: access to this page changed. Your text is kept in this browser.';
+    if (sheetId === id) sheetSaved(msg, true);
+    return false;
+  }
+}
+
+/* General notes */
+function inScope(scope, i) {
+  if (!scope || scope === 'all' || !SCOPE_LABEL[scope]) return true;
+  const [k, v] = scope.split(':');
+  if (k === 'frame') return v === 'Dgap' ? /^D\d$/.test(i.frame) : i.frame === v;
+  if (k === 'design') return i.design === v;
+  return false;
+}
+const scopeCount = s => ITEMS.filter(i => inScope(s, i)).length;
+const NFORM = {};
+function noteForm(key) {
+  const tid = 'g-' + key + '-text', sid = 'g-' + key + '-scope';
+  const ta = el('textarea', { id: tid, rows: '4', placeholder: 'What should change across banners, and why. One rule per note works best.' });
+  const sel = el('select', { id: sid });
+  for (const [v, l] of SCOPES) sel.append(el('option', { value: v, text: l + ' (' + scopeCount(v) + ')' }));
+  const tags = el('div', { class: 'tagset' });
+  for (const t of TAGS) tags.append(el('button', { type: 'button', class: 'chip', 'data-tag': t, 'aria-pressed': 'false', text: t }));
+  const save = el('button', { class: 'btn primary', type: 'button', id: 'g-' + key + '-save', text: 'Save note' });
+  const cancel = el('button', { class: 'btn ghost', type: 'button', text: 'Cancel edit', hidden: true });
+  const msg = el('p', { class: 'saved', 'aria-live': 'polite' });
+  const box = el('div', { class: 'nform' },
+    el('div', null, el('label', { class: 'lbl', for: sid, style: 'display: block', text: 'Applies to' }), sel),
+    el('fieldset', null, el('legend', { text: 'The note is about' }), tags),
+    el('div', null, el('label', { class: 'lbl', for: tid, style: 'display: block', text: 'General note' }), ta),
+    el('div', { class: 'form-actions' }, save, cancel), msg);
+  const f = { key, box, ta, sel, tags, save, cancel, msg, editing: null, picked: [] };
+  const dr = LS.get('r002.ndraft.' + key, null);
+  if (dr) { ta.value = dr.text || ''; sel.value = SCOPE_LABEL[dr.scope] ? dr.scope : 'all'; f.picked = (dr.tags || []).filter(t => TAGS.includes(t)); }
+  const keep = () => { if (!f.editing) LS.set('r002.ndraft.' + key, { text: ta.value, scope: sel.value, tags: f.picked }); };
+  ta.addEventListener('input', keep); sel.addEventListener('change', keep);
+  tags.addEventListener('click', e => {
+    const b = e.target.closest('.chip'); if (!b) return; const t = b.dataset.tag;
+    f.picked = f.picked.includes(t) ? f.picked.filter(x => x !== t) : [...f.picked, t]; paintTags(f); keep();
+  });
+  save.addEventListener('click', () => saveNote(f));
+  cancel.addEventListener('click', () => { resetForm(f); f.msg.textContent = ''; });
+  paintTags(f); NFORM[key] = f; return box;
+}
+function paintTags(f) { for (const b of f.tags.children) b.setAttribute('aria-pressed', String(f.picked.includes(b.dataset.tag))); }
+function resetForm(f) {
+  f.ta.value = ''; f.sel.value = 'all'; f.picked = []; f.editing = null;
+  f.save.textContent = 'Save note'; f.cancel.hidden = true; paintTags(f); LS.set('r002.ndraft.' + f.key, null);
+}
+async function saveNote(f) {
+  const text = f.ta.value.trim();
+  f.msg.classList.remove('err');
+  if (!text) { f.msg.textContent = 'Write the note first.'; f.msg.classList.add('err'); return; }
+  if (S.readOnly) { f.msg.textContent = 'You can read notes here but not save them.'; f.msg.classList.add('err'); return; }
+  const id = f.editing || ('n-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 6));
+  const prev = S.notes[id], now = new Date().toISOString();
+  const body = { text, scope: f.sel.value, tags: f.picked.slice(), at: prev ? prev.at : now, edited_at: prev ? now : null,
+    by: S.me || null, from: prev ? (prev.from || null) : (f.key === 'sheet' && sheetId ? sheetId : null) };
+  f.save.disabled = true; f.msg.textContent = 'Saving…';
+  try {
+    if (S.db) await S.db.collection('notes').doc(id).set(body);
+    S.notes[id] = body; if (!S.db) LS.set('r002.notes.local', S.notes);
+    resetForm(f);
+    f.msg.textContent = prev ? 'Note updated.' : f.key === 'sheet' ? 'Saved. It is listed under General notes on the main page.' : (S.db ? 'Saved.' : 'Saved in this browser only.');
+    renderNotes(); refresh();
+  } catch (e) {
+    f.msg.classList.add('err');
+    if (e && e.code === 'invalid_argument') { S.readOnly = true; f.msg.textContent = 'Not saved: this view can read notes but not save them.'; }
+    else f.msg.textContent = 'Not saved. Your text is still here; try again.';
+  } finally { f.save.disabled = S.readOnly; }
+}
+function noteList() {
+  return Object.entries(S.notes).filter(([, n]) => n && typeof n.text === 'string' && n.text)
+    .sort((a, b) => String(a[1].at) < String(b[1].at) ? -1 : String(a[1].at) > String(b[1].at) ? 1 : 0);
+}
+function renderNotes() {
+  const list = $('g-list'); list.replaceChildren();
+  const notes = noteList();
+  $('g-count').textContent = notes.length ? notes.length + (notes.length === 1 ? ' note' : ' notes') : '';
+  if (!notes.length) list.append(el('div', { class: 'g-empty', text: 'No general notes yet. Write one in the form; it applies to every banner in the scope you choose.' }));
+  for (const [id, n] of notes) {
+    const a = rs(id), tags = Array.isArray(n.tags) ? n.tags.filter(t => TAGS.includes(t)) : [];
+    const edit = el('button', { class: 'linkbtn', type: 'button', text: 'Edit' });
+    const del = el('button', { class: 'linkbtn danger', type: 'button', text: 'Delete' });
+    const meta = fmtStamp(n.at) + (n.edited_at ? ', edited ' + fmtStamp(n.edited_at) : '') +
+      (n.from && BY[n.from] ? ' · written while viewing ' + n.from : '') + (n.by && S.me && n.by !== S.me ? ' · by another reviewer' : '');
+    list.append(el('article', { class: 'note' },
+      el('div', { class: 'note-top' }, el('span', { class: 'tag', text: (SCOPE_LABEL[n.scope] || 'All banners') + ' · ' + scopeCount(n.scope) + ' banners' }),
+        ...tags.map(t => el('span', { class: 'tag', text: t }))),
+      el('p', { class: 'note-text', text: n.text }),
+      el('div', { class: 'note-meta' }, el('span', { text: meta }), S.readOnly ? null : edit, S.readOnly ? null : del),
+      a && a.note ? el('div', { class: 'reply' }, el('b', { text: (OUTCOME[a.outcome] || 'Reply') + ' · Claude, ' + fmtStamp(a.at) }), el('p', { text: a.note })) : null));
+    edit.addEventListener('click', () => {
+      const f = NFORM.main; f.editing = id; f.ta.value = n.text; f.sel.value = SCOPE_LABEL[n.scope] ? n.scope : 'all';
+      f.picked = tags.slice(); paintTags(f); f.save.textContent = 'Update note'; f.cancel.hidden = false;
+      f.msg.classList.remove('err'); f.msg.textContent = 'Editing a saved note.'; f.box.scrollIntoView({ block: 'nearest' }); f.ta.focus();
+    });
+    let armed = false, timer = null;
+    del.addEventListener('click', async () => {
+      if (!armed) { armed = true; del.textContent = 'Confirm delete'; timer = setTimeout(() => { armed = false; del.textContent = 'Delete'; }, 4000); return; }
+      clearTimeout(timer); del.disabled = true;
+      try { if (S.db) await S.db.collection('notes').doc(id).delete(); delete S.notes[id]; if (!S.db) LS.set('r002.notes.local', S.notes); renderNotes(); refresh(); }
+      catch (e) { del.disabled = false; armed = false; del.textContent = 'Not deleted; try again'; }
+    });
+  }
+  for (const f of Object.values(NFORM)) { f.ta.disabled = S.readOnly; f.sel.disabled = S.readOnly; f.save.disabled = S.readOnly; }
+  if (sheetId) renderApplies();
+}
+function renderApplies() {
+  const i = BY[sheetId]; if (!i) return;
+  const ns = noteList().filter(([, n]) => inScope(n.scope, i));
+  $('g-sheetsum').textContent = 'Add a note for all banners' + (ns.length ? ' · ' + ns.length + (ns.length === 1 ? ' already covers' : ' already cover') + ' this one' : '');
+  const ap = $('g-applies'); ap.replaceChildren();
+  if (ns.length) { ap.append(el('span', { class: 'lbl', text: 'General notes covering this banner' })); for (const [, n] of ns) ap.append(el('div', { text: n.text })); }
+}
+
+/* Filters and order */
+function matches(i) {
+  if (F.batch !== 'all' && String(i.batch) !== F.batch) return false;
+  if (F.frame === 'Dgap') { if (!/^D\d$/.test(i.frame)) return false; }
+  else if (F.frame !== 'all' && i.frame !== F.frame) return false;
+  if (F.design !== 'all' && i.design !== F.design) return false;
+  if (F.status === 'todo' && !toReview(i.id)) return false;
+  if (VERDICT[F.status] && verdictOf(i.id) !== F.status) return false;
+  if (F.status === 'answered' && !answered(i.id)) return false;
+  if (F.q) {
+    const q = F.q.toLowerCase().trim(), hay = (i.id + ' ' + String(i.nn) + ' ' + i.topic + ' ' + i.frameName + ' ' + i.sdg + ' ' + i.design).toLowerCase();
+    if (!q.split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  return true;
+}
+const TOPICS = [...new Set(ITEMS.map(i => i.nn))].map(nn => {
+  const items = ITEMS.filter(i => i.nn === nn).sort((a, b) => a.period - b.period);
+  const first = items.flatMap(i => i.posts).map(p => p.date + ' ' + p.time).sort()[0] || '9999';
+  return { nn, items, first, head: items[0] };
+});
+function ordered() {
+  const t = TOPICS.slice();
+  if (SORT === 'date') t.sort((a, b) => a.first < b.first ? -1 : a.first > b.first ? 1 : a.nn - b.nn); else t.sort((a, b) => a.nn - b.nn);
+  return t;
+}
+const visibleList = () => ordered().flatMap(t => t.items.filter(matches).map(i => i.id));
+
+/* Topic rows and cards */
+const CARD = {}, SECTION = {};
+function postsLine(i) {
+  return i.posts.map(p => (p.net === 'LinkedIn' ? 'LinkedIn' : p.net === 'Bluesky' ? 'Bluesky' : 'X') + ' ' + fmtDate(p.date).slice(4) + ' ' + p.time).join(' · ');
+}
+function build() {
+  const host = document.getElementById('topics');
+  for (const t of TOPICS) {
+    const h = t.head;
+    const meta = el('div', { class: 'tmeta' },
+      el('span', { class: 'tag', text: 'SDG ' + h.sdg }),
+      el('span', { class: 'tag', text: 'Custodian: ' + h.custodian }),
+      el('span', { class: 'tag', text: h.kind === 'data gap' ? 'Data-gap topic' : h.pace ? 'Pace topic' : 'No-pace topic' }),
+      el('a', { class: 'tag', href: h.prUrl, target: '_blank', rel: 'noopener', text: 'Batch ' + h.batch + ' · PR #' + h.pr }));
+    const grid = el('div', { class: 'grid' });
+    const sec = el('section', { class: 'topic', id: 't' + String(t.nn).padStart(2, '0') },
+      el('div', { class: 'topic-head' }, el('span', { class: 'tnum', text: String(t.nn).padStart(2, '0') }), el('h2', { class: 'ttitle', text: h.topic }), meta), grid);
+    for (const i of t.items) {
+      const img = el('img', { src: i.img, alt: i.alt, loading: 'lazy', width: '1600', height: '840' });
+      const pill = el('span', { class: 'pill' });
+      const note = el('p', { class: 'card-note', hidden: true });
+      const reply = el('p', { class: 'card-reply', hidden: true });
+      const card = el('article', { class: 'card', 'data-id': i.id },
+        el('button', { class: 'thumb', 'aria-label': 'Review ' + i.id }, img),
+        el('div', { class: 'card-body' },
+          el('div', { class: 'card-head' }, el('span', { class: 'vid mono', text: i.id }), pill),
+          el('div', { class: 'card-frame' }, document.createTextNode(i.frameName), el('span', { class: 'dchip' }, el('span', { class: 'sw ' + i.design }), document.createTextNode(i.design))),
+          el('div', { class: 'card-posts mono', text: postsLine(i) }),
+          i.flag ? el('div', { class: 'card-flag', text: 'Open question from my checks' }) : null,
+          note, reply));
+      card.addEventListener('click', e => { if (e.target.closest('a')) return; openSheet(i.id); });
+      grid.append(card);
+      CARD[i.id] = { card, pill, note, reply };
+    }
+    SECTION[t.nn] = sec; host.append(sec);
+  }
+}
+
+function refresh() {
+  const host = document.getElementById('topics');
+  let shown = 0;
+  for (const t of ordered()) {
+    let any = false;
+    for (const i of t.items) {
+      const c = CARD[i.id], ok = matches(i), [s, label] = pillOf(i.id);
+      c.card.hidden = !ok; if (ok) { any = true; shown++; }
+      c.card.dataset.s = s; c.pill.dataset.s = s; c.pill.textContent = label;
+      const r = rv(i.id), a = rs(i.id);
+      const txt = r && r.comment && !rebuilt(i.id) ? r.comment : '';
+      c.note.textContent = txt; c.note.hidden = !txt;
+      c.reply.textContent = a && a.note ? 'Claude: ' + a.note : ''; c.reply.hidden = !(a && a.note && answered(i.id));
+    }
+    SECTION[t.nn].hidden = !any; host.append(SECTION[t.nn]);
+  }
+  document.getElementById('empty').hidden = shown > 0;
+  const n = { ok: 0, change: 0, hold: 0, open: 0 }; let ans = 0;
+  for (const i of ITEMS) { n[verdictOf(i.id)]++; if (answered(i.id)) ans++; }
+  const tot = ITEMS.length, bar = document.getElementById('bar').children;
+  bar[0].style.width = (100 * n.ok / tot) + '%'; bar[1].style.width = (100 * n.change / tot) + '%'; bar[2].style.width = (100 * n.hold / tot) + '%';
+  const cnt = document.getElementById('counts'); cnt.replaceChildren();
+  const item = (color, num, label) => el('span', null, el('span', { class: 'dot', style: 'background: var(' + color + ')' }), el('b', { text: String(num) }), document.createTextNode(' ' + label));
+  cnt.append(item('--ok', n.ok, 'look right'), item('--warn', n.change, 'need a change'), item('--stop', n.hold, "don't post"),
+    item('--muted', n.open, 'to review of ' + tot));
+  if (ans) cnt.append(item('--info', ans, 'Claude replied'));
+  const gn = noteList().length, gl = el('button', { class: 'linkbtn', type: 'button', text: gn ? gn + (gn === 1 ? ' general note' : ' general notes') : 'Add a general note' });
+  gl.addEventListener('click', () => $('general').scrollIntoView({ behavior: 'smooth', block: 'start' }));
+  cnt.append(gl);
+}
+
+/* Sheet */
+let sheetId = null, sheetList = [], sheetTab = 'x';
+const $ = id => document.getElementById(id);
+function sheetSaved(msg, err) { const p = $('sh-saved'); p.textContent = msg || ''; p.classList.toggle('err', !!err); }
+function openSheet(id, list) {
+  sheetList = list && list.length ? list : (visibleList().includes(id) ? visibleList() : [id]);
+  sheetId = id; $('sheet').hidden = false; document.body.classList.add('locked');
+  renderSheet(); $('sheet').scrollTop = 0;
+  try { history.replaceState(null, '', '#v' + id); } catch (e) { /* hash not available */ }
+  $('sh-close').focus({ preventScroll: true });
+}
+async function closeSheet() {
+  if (sheetId) await save(sheetId);
+  $('sheet').hidden = true; document.body.classList.remove('locked');
+  const last = sheetId; sheetId = null; refresh();
+  try { history.replaceState(null, '', location.pathname + location.search); } catch (e) { /* ignore */ }
+  if (last && CARD[last] && !CARD[last].card.hidden) CARD[last].card.querySelector('.thumb').focus({ preventScroll: false });
+}
+async function move(step) {
+  if (!sheetId) return;
+  const k = sheetList.indexOf(sheetId), next = sheetList[k + step];
+  const ok = await save(sheetId) || S.readOnly;
+  if (!ok || !next) { if (!next) sheetSaved(step > 0 ? 'That was the last banner in this view.' : 'This is the first banner in this view.'); return; }
+  sheetId = next; renderSheet(); $('sheet').scrollTop = 0;
+  try { history.replaceState(null, '', '#v' + next); } catch (e) { /* ignore */ }
+}
+function renderTab() {
+  const i = BY[sheetId]; if (!i) return;
+  for (const b of $('sh-tabs').children) b.setAttribute('aria-selected', String(b.dataset.t === sheetTab));
+  const by = n => i.posts.filter(p => p.net === n);
+  let meta = '';
+  if (sheetTab === 'x') meta = by('X').length ? 'Posts on X ' + by('X').map(p => fmtDate(p.date) + ', ' + p.time).join('; ') + ' (Rome)' : 'Not posted on X';
+  if (sheetTab === 'li') meta = by('LinkedIn').length ? 'Posts on LinkedIn ' + by('LinkedIn').map(p => fmtDate(p.date) + ', ' + p.time).join('; ') : 'This version is not the one posted on LinkedIn; the caption is kept for the record.';
+  if (sheetTab === 'bs') meta = by('Bluesky').length ? 'Posts on Bluesky ' + by('Bluesky').map(p => fmtDate(p.date) + ', ' + p.time + (p.tag ? ', with the feed tag ' + p.tag : ', no feed tag')).join('; ') : 'This version is not the one posted on Bluesky; the caption is kept for the record.';
+  if (sheetTab === 'alt') meta = 'Alt text attached to the image on every network';
+  const text = sheetTab === 'x' ? i.x : sheetTab === 'li' ? i.li : sheetTab === 'bs' ? i.bs : i.alt;
+  $('sh-tabmeta').textContent = meta + (sheetTab !== 'alt' ? ' · ' + [...text].length + ' characters' : '');
+  $('sh-cap').textContent = text;
+}
+function renderForm(fresh) {
+  const id = sheetId, d = draftOf(id);
+  for (const b of document.querySelectorAll('.verdict')) b.setAttribute('aria-pressed', String(d.status === b.dataset.v));
+  for (const b of $('sh-tags').children) b.setAttribute('aria-pressed', String(d.tags.includes(b.dataset.tag)));
+  const ta = $('sh-comment'); if (fresh || document.activeElement !== ta) ta.value = d.comment;
+  for (const n of [...document.querySelectorAll('.verdict'), ...$('sh-tags').children, ta, $('sh-save'), $('sh-savenext')]) n.disabled = S.readOnly;
+  const r = rv(id), a = rs(id);
+  const rep = $('sh-reply'); rep.replaceChildren();
+  if (a && a.note) {
+    rep.append(el('b', { text: (OUTCOME[a.outcome] || 'Reply') + ' · Claude, ' + fmtStamp(a.at) }), el('p', { text: a.note }));
+    if (rebuilt(id)) rep.append(el('p', { text: 'The banner above is the rebuilt one. Your earlier verdict is under Earlier rounds.' }));
+    rep.hidden = false;
+  } else if (rebuilt(id)) { rep.append(el('b', { text: 'Rebuilt' }), el('p', { text: 'This banner changed since your review. Your earlier verdict is under Earlier rounds.' })); rep.hidden = false; }
+  else rep.hidden = true;
+  const rounds = [];
+  if (r && Array.isArray(r.history)) rounds.push(...r.history);
+  if (r && rebuilt(id)) rounds.push(r);
+  const hb = $('sh-histbody'); hb.replaceChildren();
+  for (const h of rounds.slice().reverse()) hb.append(el('div', { class: 'round', text: (VERDICT[h.status] || 'No verdict') + (h.tags && h.tags.length ? ' · ' + h.tags.join(', ') : '') + ' · ' + fmtStamp(h.at) + (h.comment ? '\n' + h.comment : '') }));
+  $('sh-hist').hidden = rounds.length === 0;
+  if (!isDirty(id)) sheetSaved(r && !rebuilt(id) ? 'Saved ' + fmtStamp(r.at) + (r.by && S.me && r.by !== S.me ? ' by another reviewer' : '') + '.' : S.local ? 'Reviews save in this browser only.' : '');
+}
+function renderSheet() {
+  const i = BY[sheetId]; if (!i) return;
+  $('sh-id').textContent = i.id;
+  const k = sheetList.indexOf(i.id);
+  $('sh-pos').textContent = (k + 1) + ' of ' + sheetList.length + ' in this view';
+  $('sh-prev').disabled = k <= 0; $('sh-next').disabled = k >= sheetList.length - 1;
+  const img = $('sh-img'); img.src = i.img; img.alt = i.alt;
+  $('sh-title').textContent = 'Spotlight ' + String(i.nn).padStart(2, '0') + ': ' + i.topic;
+  $('sh-sub').textContent = i.frame + ': ' + i.frameName + ' · ' + i.design + ' design · period ' + i.period + ' · SDG ' + i.sdg + ' · custodian ' + i.custodian;
+  const posts = $('sh-posts'); posts.replaceChildren();
+  for (const n of ['X', 'LinkedIn', 'Bluesky']) {
+    const ps = i.posts.filter(p => p.net === n);
+    if (ps.length) for (const p of ps) posts.append(el('span', { class: 'post', text: n + ' · ' + fmtDate(p.date) + ', ' + p.time + (p.tag ? ' · ' + p.tag : '') }));
+    else posts.append(el('span', { class: 'post none', text: n + ' · not this version' }));
+  }
+  const fl = $('sh-flag'); fl.replaceChildren();
+  if (i.flag) { fl.append(el('b', { text: 'Open question from my checks' }), document.createTextNode(i.flag)); fl.hidden = false; } else fl.hidden = true;
+  const links = $('sh-links'); links.replaceChildren(
+    el('a', { href: i.treeUrl, target: '_blank', rel: 'noopener', text: 'Files on GitHub' }),
+    el('a', { href: i.statsUrl, target: '_blank', rel: 'noopener', text: 'stats.json' }),
+    el('a', { href: i.dataUrl, target: '_blank', rel: 'noopener', text: 'Data snapshot' }),
+    el('a', { href: i.prUrl, target: '_blank', rel: 'noopener', text: 'PR #' + i.pr }));
+  $('sh-hash').textContent = 'banner.png sha256 ' + i.sha + ' · ' + i.branch + ' @ ' + i.commit + ' · rebuild: python experiments/002-design-framing-time/build_all.py ' + i.nn;
+  renderTab(); renderForm(true); renderApplies();
+}
+
+/* Wiring */
+function wire() {
+  const tags = $('sh-tags');
+  for (const t of TAGS) tags.append(el('button', { class: 'chip', 'data-tag': t, 'aria-pressed': 'false', text: t }));
+  tags.addEventListener('click', e => {
+    const b = e.target.closest('.chip'); if (!b || !sheetId) return;
+    const d = draftOf(sheetId), on = d.tags.includes(b.dataset.tag);
+    editDraft(sheetId, { tags: on ? d.tags.filter(x => x !== b.dataset.tag) : [...d.tags, b.dataset.tag] }); renderForm(); sheetSaved('Not saved yet.');
+  });
+  for (const b of document.querySelectorAll('.verdict')) b.addEventListener('click', () => {
+    if (!sheetId) return; const d = draftOf(sheetId);
+    editDraft(sheetId, { status: d.status === b.dataset.v ? null : b.dataset.v }); renderForm(); sheetSaved('Not saved yet.');
+  });
+  $('sh-comment').addEventListener('input', e => { if (!sheetId) return; editDraft(sheetId, { comment: e.target.value }); sheetSaved('Not saved yet.'); });
+  $('sh-save').addEventListener('click', () => sheetId && save(sheetId).then(() => renderForm()));
+  $('sh-savenext').addEventListener('click', () => move(1));
+  $('sh-prev').addEventListener('click', () => move(-1));
+  $('sh-next').addEventListener('click', () => move(1));
+  $('sh-close').addEventListener('click', closeSheet);
+  $('sh-tabs').addEventListener('click', e => { const b = e.target.closest('.tab'); if (!b) return; sheetTab = b.dataset.t; renderTab(); });
+  document.addEventListener('keydown', e => {
+    if ($('sheet').hidden) return;
+    const typing = /^(TEXTAREA|INPUT|SELECT)$/.test(document.activeElement && document.activeElement.tagName);
+    if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') { e.preventDefault(); const nf = document.activeElement && document.activeElement.closest && document.activeElement.closest('.nform'); if (nf) saveNote(NFORM.sheet); else move(1); return; }
+    if (e.key === 'Escape') { e.preventDefault(); if (typing) document.activeElement.blur(); else closeSheet(); return; }
+    if (typing) return;
+    if (e.key === 'ArrowRight') { e.preventDefault(); move(1); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); move(-1); }
+    const v = { '1': 'ok', '2': 'change', '3': 'hold' }[e.key];
+    if (v && !S.readOnly) { const d = draftOf(sheetId); editDraft(sheetId, { status: d.status === v ? null : v }); renderForm(); sheetSaved('Not saved yet.'); }
+  });
+  $('fstatus').addEventListener('click', e => {
+    const b = e.target.closest('.chip'); if (!b) return; F.status = b.dataset.f;
+    for (const c of $('fstatus').children) c.setAttribute('aria-pressed', String(c === b)); refresh();
+  });
+  $('fbatch').addEventListener('change', e => { F.batch = e.target.value; refresh(); });
+  $('fframe').addEventListener('change', e => { F.frame = e.target.value; refresh(); });
+  $('fdesign').addEventListener('change', e => { F.design = e.target.value; refresh(); });
+  $('fsort').addEventListener('change', e => { SORT = e.target.value; refresh(); });
+  $('fq').addEventListener('input', e => { F.q = e.target.value; refresh(); });
+  $('start').addEventListener('click', () => {
+    const list = visibleList(), first = list.find(toReview) || list[0];
+    if (first) openSheet(first, list);
+  });
+  $('copy').addEventListener('click', () => {
+    const text = feedbackText(), box = $('copybox'), ta = $('copytext');
+    const fallback = () => { ta.value = text; box.hidden = false; ta.focus(); ta.select(); box.scrollIntoView({ block: 'nearest' }); };
+    try { navigator.clipboard.writeText(text).then(() => { $('copy').textContent = 'Copied'; setTimeout(() => { $('copy').textContent = 'Copy feedback'; }, 1800); }, fallback); } catch (e) { fallback(); }
+  });
+  window.addEventListener('hashchange', fromHash);
+}
+function feedbackText() {
+  const out = ['Experiment 002 banner review, ' + new Date().toISOString().slice(0, 10), ''];
+  const gnotes = noteList();
+  if (gnotes.length) {
+    out.push('General notes');
+    for (const [, n] of gnotes) out.push('- ' + (SCOPE_LABEL[n.scope] || 'All banners') + (n.tags && n.tags.length ? ' [' + n.tags.join(', ') + ']' : '') + ': ' + n.text.replace(/\n/g, '\n  '));
+    out.push('', 'Banners');
+  }
+  const head = out.length;
+  for (const t of TOPICS) for (const i of t.items) {
+    const r = rv(i.id); if (!r) continue;
+    out.push(i.id + ' (' + i.frameName + ', ' + i.design + '): ' + (VERDICT[r.status] || 'no verdict') + (r.tags && r.tags.length ? ' [' + r.tags.join(', ') + ']' : '') + (rebuilt(i.id) ? ' (banner rebuilt since)' : ''));
+    if (r.comment) out.push('  ' + r.comment.replace(/\n/g, '\n  '));
+  }
+  if (out.length === head) out.push('No banner reviews saved yet.');
+  return out.join('\n');
+}
+function fromHash() { const m = /^#v(\d\d-[A-Z0-9]+)$/.exec(location.hash); if (m && BY[m[1]] && sheetId !== m[1]) openSheet(m[1]); }
+function setConn(kind, text) {
+  const c = $('conn'), color = { live: '--ok', slow: '--warn', local: '--warn', error: '--stop', wait: '--muted' }[kind] || '--muted';
+  c.replaceChildren(el('span', { class: 'dot', style: 'background: var(' + color + ')' }), el('span', { text }));
+}
+function notice(text) { const n = $('notice'); n.textContent = text || ''; n.hidden = !text; }
+function goLocal() {
+  S.local = true; S.reviews = LS.get('r002.local', {}); S.notes = LS.get('r002.notes.local', {});
+  setConn('local', 'Saving in this browser only');
+  notice('Reviews can only be shared with Claude when this page is open in claude.ai. Here they stay in this browser; use Copy feedback and paste the text to Claude.');
+  refresh(); renderNotes(); if (sheetId) renderForm();
+}
+async function connect() {
+  let db = null, user = null;
+  try { if (window.claude && typeof window.claude.use === 'function') [db, user] = await Promise.all([window.claude.use('db'), window.claude.use('user')]); } catch (e) { db = null; }
+  if (user) { try { S.me = await user.id(); } catch (e) { S.me = null; } try { const w = await user.can('data.write'); if (w === false) { S.readOnly = true; notice('You can read the reviews on this page but not add your own.'); } } catch (e) { /* unknown: keep the inputs */ } }
+  if (!db) { goLocal(); return; }
+  S.db = db;
+  const got = { reviews: false, responses: false, notes: false };
+  const timer = setTimeout(() => { if (!S.live) setConn('slow', "Can't reach saved reviews yet; what you save will go through when they connect"); }, 10000);
+  const listen = (name) => db.collection(name).onSnapshot(snap => {
+    const o = {}; for (const d of snap.docs) if (d.exists) o[d.id] = d.data();
+    S[name] = o;
+    if (!snap.metadata.fromCache) got[name] = true;
+    if (got.reviews && got.responses && got.notes && !S.live) { S.live = true; clearTimeout(timer); setConn('live', 'Reviews saved for Claude'); }
+    refresh(); if (name !== 'reviews') renderNotes(); if (sheetId) renderForm();
+  }, err => {
+    clearTimeout(timer);
+    setConn('error', err && err.code === 'revoked' ? 'Access to saved reviews ended' : 'Saved reviews stopped updating; reopen the page');
+  });
+  listen('reviews'); listen('responses'); listen('notes');
+}
+function buildInfo() {
+  const b = $('build');
+  b.append(el('div', { class: 'lbl', text: 'What you are reviewing' }),
+    el('div', { text: ITEMS.length + ' banners: ' + TOPICS.length + ' topics (Spotlights 05 to 40), three versions each.' }),
+    el('div', { text: 'Images and captions as committed on the four batch branches, ' + BUILD.date + ':' }),
+    ...BUILD.branches.map(x => el('div', { class: 'mono', text: x.branch + ' @ ' + x.commit + ' (PR #' + x.pr + ')' })),
+    el('div', { text: 'Every banner rebuilds byte for byte with experiments/002-design-framing-time/build_all.py.' }));
+}
+
+build(); $('g-mainform').append(noteForm('main')); $('g-sheetform').append(noteForm('sheet')); wire(); buildInfo(); renderNotes(); refresh(); setConn('wait', 'Connecting to saved reviews'); connect(); fromHash();
+</script>

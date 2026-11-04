@@ -1,0 +1,14 @@
+{
+ "id": "e82c704f6d0d2477",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/unicef/MNCH_SAB.AGE--Y15T49__WEALTH_QUANTILE--Q5",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:38:02.651Z",
+ "is_error": false,
+ "transcript": "agent-a3b220cc1cfc41fba.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/unicef/MNCH_SAB.AGE--Y15T49__WEALTH_QUANTILE--Q5\",\"name\":\"Proportion of deliveries attended by skilled health personnel [Age=15 to 49 years old, Wealth quantile=Highest quintile]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"15005650441306304968\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://data.unicef.org/\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2000\",78.9],[\"Earth\",\"2001\",80.2],[\"Earth\",\"2002\",81.5],[\"Earth\",\"2003\",83],[\"Earth\",\"2004\",83.3],[\"Earth\",\"2005\",84],[\"Earth\",\"2006\",85.1],[\"Earth\",\"2007\",85.4],[\"Earth\",\"2008\",85.8],[\"Earth\",\"2009\",87.5],[\"Earth\",\"2010\",88.3],[\"Earth\",\"2011\",89.4],[\"Earth\",\"2012\",90.2],[\"Earth\",\"2013\",90.6],[\"Earth\",\"2014\",91.6],[\"Earth\",\"2015\",92.4],[\"Earth\",\"2016\",93.2],[\"Earth\",\"2017\",93.6],[\"Earth\",\"2018\",94.4],[\"Earth\",\"2019\",94.9],[\"Earth\",\"2020\",95.4],[\"Earth\",\"2021\",95.8],[\"Earth\",\"2022\",96.1],[\"Earth\",\"2023\",96.3],[\"Earth\",\"2024\",96.4],[\"Earth\",\"2025\",96.8]]}}"
+}

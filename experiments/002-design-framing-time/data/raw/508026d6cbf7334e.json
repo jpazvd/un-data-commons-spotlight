@@ -1,0 +1,15 @@
+{
+ "id": "508026d6cbf7334e",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+  "parent_place_dcid": "EasternEurope",
+  "child_place_type": "Country",
+  "date": "latest"
+ },
+ "result_at": "2026-11-01T11:21:57.110Z",
+ "is_error": false,
+ "transcript": "32f57388-1b6b-548e-b4d1-a0adf58963ed.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SH_DYN_MORT.AGE--Y0T4\",\"name\":\"Mortality rate [Age=Under 5 years old]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"2425806575015910660\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"undata/UNIT_MEASURE-RATIO_COUNT_PER_1000_COUNT_LIVEBIRTHS\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/BGR\",\"Bulgaria\",[\"Country\"]],[\"country/BLR\",\"Belarus\",[\"Country\"]],[\"country/CZE\",\"Czech Republic\",[\"Country\"]],[\"country/HUN\",\"Hungary\",[\"Country\"]],[\"country/MDA\",\"Moldova\",[\"Country\"]],[\"country/POL\",\"Poland\",[\"Country\"]],[\"country/ROU\",\"Romania\",[\"Country\"]],[\"country/RUS\",\"Russia\",[\"Country\"]],[\"country/SVK\",\"Slovakia\",[\"Country\"]],[\"country/UKR\",\"Ukraine\",[\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/BGR\",\"2024\",5.735519622],[\"country/BLR\",\"2024\",2.331336238],[\"country/CZE\",\"2024\",2.593851473],[\"country/HUN\",\"2024\",3.706856683],[\"country/MDA\",\"2024\",16.45964085],[\"country/POL\",\"2024\",4.221046511],[\"country/ROU\",\"2024\",7.310871804],[\"country/RUS\",\"2024\",5.172960984],[\"country/SVK\",\"2024\",6.286173131],[\"country/UKR\",\"2024\",7.888119012]]}}"
+}

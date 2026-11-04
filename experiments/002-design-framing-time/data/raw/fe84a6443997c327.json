@@ -1,0 +1,14 @@
+{
+ "id": "fe84a6443997c327",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SG_GEN_PARL.SEX--F",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:38:11.259Z",
+ "is_error": false,
+ "transcript": "agent-a177767e85c285e9e.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SG_GEN_PARL.SEX--F\",\"name\":\"Proportion of seats in national parliaments held by women [Sex=Female]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2000\",13.34],[\"Earth\",\"2001\",13.79],[\"Earth\",\"2002\",14.21],[\"Earth\",\"2003\",15.12],[\"Earth\",\"2004\",15.21],[\"Earth\",\"2005\",15.91],[\"Earth\",\"2006\",16.57],[\"Earth\",\"2007\",17.14],[\"Earth\",\"2008\",17.99],[\"Earth\",\"2009\",18.51],[\"Earth\",\"2010\",19.03],[\"Earth\",\"2011\",19.34],[\"Earth\",\"2012\",19.6],[\"Earth\",\"2013\",20.76],[\"Earth\",\"2014\",22.06],[\"Earth\",\"2015\",22.27],[\"Earth\",\"2016\",22.74],[\"Earth\",\"2017\",23.39],[\"Earth\",\"2018\",23.43],[\"Earth\",\"2019\",24.3],[\"Earth\",\"2020\",24.93],[\"Earth\",\"2021\",25.61],[\"Earth\",\"2022\",26.22],[\"Earth\",\"2023\",26.54],[\"Earth\",\"2024\",26.9],[\"Earth\",\"2025\",27.21],[\"Earth\",\"2026\",27.39]]}}"
+}

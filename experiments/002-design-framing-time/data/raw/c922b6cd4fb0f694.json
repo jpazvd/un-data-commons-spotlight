@@ -1,0 +1,14 @@
+{
+ "id": "c922b6cd4fb0f694",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/ilo/EIP_NEET_RT.URBANIZATION--U",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:37:49.137Z",
+ "is_error": false,
+ "transcript": "agent-a85af8ba40c4cac30.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/ilo/EIP_NEET_RT.URBANIZATION--U\",\"name\":\"Share of youth not in employment, education or training (previous ILO definition - ICLS13) [Urbanization=Urban]\",\"typeOf\":[\"StatisticalVariable\"]},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"]},\"data\":{}}"
+}

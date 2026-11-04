@@ -1,0 +1,14 @@
+{
+ "id": "a1ff4fde02702612",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SH_ACS_PCV3",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:38:11.591Z",
+ "is_error": false,
+ "transcript": "agent-a4b631489137967c8.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SH_ACS_PCV3\",\"name\":\"Proportion of the target population who received a 3rd dose of pneumococcal conjugate (PCV3) vaccine\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2008\",4],[\"Earth\",\"2009\",6],[\"Earth\",\"2010\",10],[\"Earth\",\"2011\",15],[\"Earth\",\"2012\",19],[\"Earth\",\"2013\",26],[\"Earth\",\"2014\",32],[\"Earth\",\"2015\",38],[\"Earth\",\"2016\",41],[\"Earth\",\"2017\",45],[\"Earth\",\"2018\",48],[\"Earth\",\"2019\",51],[\"Earth\",\"2020\",52],[\"Earth\",\"2021\",52],[\"Earth\",\"2022\",60],[\"Earth\",\"2023\",63],[\"Earth\",\"2024\",67]]}}"
+}

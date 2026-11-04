@@ -1,0 +1,14 @@
+{
+ "id": "105901b897d31bef",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SH_FPL_MTMM.AGE--Y15T49__SEX--F",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:38:08.529Z",
+ "is_error": false,
+ "transcript": "agent-a4b631489137967c8.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SH_FPL_MTMM.AGE--Y15T49__SEX--F\",\"name\":\"Proportion of women of reproductive age who have their need for family planning satisfied with modern methods [Age=15 to 49 years old, Sex=Female]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2000\",73.7],[\"Earth\",\"2001\",74],[\"Earth\",\"2002\",74.2],[\"Earth\",\"2003\",74.5],[\"Earth\",\"2004\",74.7],[\"Earth\",\"2005\",74.9],[\"Earth\",\"2006\",75.1],[\"Earth\",\"2007\",75.1],[\"Earth\",\"2008\",75.3],[\"Earth\",\"2009\",75.5],[\"Earth\",\"2010\",75.7],[\"Earth\",\"2011\",76],[\"Earth\",\"2012\",76.1],[\"Earth\",\"2013\",76.2],[\"Earth\",\"2014\",76.3],[\"Earth\",\"2015\",76.4],[\"Earth\",\"2016\",76.4],[\"Earth\",\"2017\",76.5],[\"Earth\",\"2018\",76.6],[\"Earth\",\"2019\",76.7],[\"Earth\",\"2020\",76.8],[\"Earth\",\"2021\",76.9],[\"Earth\",\"2022\",77],[\"Earth\",\"2023\",77],[\"Earth\",\"2024\",77.1],[\"Earth\",\"2025\",77.2]]}}"
+}

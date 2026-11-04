@@ -1,0 +1,410 @@
+[
+ {
+  "n": 1,
+  "family": "overweight",
+  "role": "world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 2,
+  "family": "overweight",
+  "role": "countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 3,
+  "family": "overweight",
+  "role": "aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 4,
+  "family": "overweight",
+  "role": "aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 5,
+  "family": "overweight",
+  "role": "location_a_countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--R",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 6,
+  "family": "overweight",
+  "role": "location_a_world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--R",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 7,
+  "family": "overweight",
+  "role": "location_a_aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--R",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 8,
+  "family": "overweight",
+  "role": "location_a_aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--R",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 9,
+  "family": "overweight",
+  "role": "location_b_countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--U",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 10,
+  "family": "overweight",
+  "role": "location_b_world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--U",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 11,
+  "family": "overweight",
+  "role": "location_b_aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--U",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 12,
+  "family": "overweight",
+  "role": "location_b_aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--U",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 13,
+  "family": "overweight",
+  "role": "sex_a_countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4__SEX--F",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 14,
+  "family": "overweight",
+  "role": "sex_a_world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4__SEX--F",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 15,
+  "family": "overweight",
+  "role": "sex_a_aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4__SEX--F",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 16,
+  "family": "overweight",
+  "role": "sex_a_aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4__SEX--F",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 17,
+  "family": "overweight",
+  "role": "sex_b_countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4__SEX--M",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 18,
+  "family": "overweight",
+  "role": "sex_b_world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4__SEX--M",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 19,
+  "family": "overweight",
+  "role": "sex_b_aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4__SEX--M",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 20,
+  "family": "overweight",
+  "role": "sex_b_aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4__SEX--M",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 21,
+  "family": "abr",
+  "role": "world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SP_DYN_ADKL.AGE--Y15T19__SEX--F",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 22,
+  "family": "abr",
+  "role": "countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SP_DYN_ADKL.AGE--Y15T19__SEX--F",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 23,
+  "family": "abr",
+  "role": "aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SP_DYN_ADKL.AGE--Y15T19__SEX--F",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 24,
+  "family": "abr",
+  "role": "aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SP_DYN_ADKL.AGE--Y15T19__SEX--F",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 25,
+  "family": "abr",
+  "role": "location_a_countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/FERT_ADO.AGE--Y15T19__SEX--F__URBANIZATION--R",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 26,
+  "family": "abr",
+  "role": "location_a_world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/who/FERT_ADO.AGE--Y15T19__SEX--F__URBANIZATION--R",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 27,
+  "family": "abr",
+  "role": "location_a_aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/FERT_ADO.AGE--Y15T19__SEX--F__URBANIZATION--R",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 28,
+  "family": "abr",
+  "role": "location_a_aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/FERT_ADO.AGE--Y15T19__SEX--F__URBANIZATION--R",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 29,
+  "family": "abr",
+  "role": "location_b_countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/FERT_ADO.AGE--Y15T19__SEX--F__URBANIZATION--U",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 30,
+  "family": "abr",
+  "role": "location_b_world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/who/FERT_ADO.AGE--Y15T19__SEX--F__URBANIZATION--U",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 31,
+  "family": "abr",
+  "role": "location_b_aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/FERT_ADO.AGE--Y15T19__SEX--F__URBANIZATION--U",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 32,
+  "family": "abr",
+  "role": "location_b_aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/FERT_ADO.AGE--Y15T19__SEX--F__URBANIZATION--U",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ }
+]

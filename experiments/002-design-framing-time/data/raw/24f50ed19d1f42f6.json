@@ -1,0 +1,12 @@
+{
+ "id": "24f50ed19d1f42f6",
+ "tool": "data360_expand_country_group",
+ "server": "World_Bank_Data360",
+ "args": {
+  "group_code": "FCS"
+ },
+ "result_at": "2026-11-01T10:42:12.616Z",
+ "is_error": false,
+ "transcript": "agent-af3ad42a2bc0975e1.jsonl",
+ "response": "{\"group_code\":\"FCS\",\"group_name\":\"Fragile and conflict affected situations\",\"group_type\":\"OTHER\",\"countries\":[{\"code\":\"AFG\",\"name\":\"Afghanistan\"},{\"code\":\"BDI\",\"name\":\"Burundi\"},{\"code\":\"BFA\",\"name\":\"Burkina Faso\"},{\"code\":\"CAF\",\"name\":\"Central African Republic\"},{\"code\":\"CMR\",\"name\":\"Cameroon\"},{\"code\":\"COD\",\"name\":\"Congo, Dem. Rep.\"},{\"code\":\"COG\",\"name\":\"Congo, Rep.\"},{\"code\":\"COM\",\"name\":\"Comoros\"},{\"code\":\"ERI\",\"name\":\"Eritrea\"},{\"code\":\"ETH\",\"name\":\"Ethiopia\"},{\"code\":\"FSM\",\"name\":\"Micronesia, Fed. Sts.\"},{\"code\":\"GNB\",\"name\":\"Guinea-Bissau\"},{\"code\":\"HTI\",\"name\":\"Haiti\"},{\"code\":\"IRQ\",\"name\":\"Iraq\"},{\"code\":\"KIR\",\"name\":\"Kiribati\"},{\"code\":\"LBN\",\"name\":\"Lebanon\"},{\"code\":\"LBY\",\"name\":\"Libya\"},{\"code\":\"MHL\",\"name\":\"Marshall Islands\"},{\"code\":\"MLI\",\"name\":\"Mali\"},{\"code\":\"MMR\",\"name\":\"Myanmar\"},{\"code\":\"MOZ\",\"name\":\"Mozambique\"},{\"code\":\"NER\",\"name\":\"Niger\"},{\"code\":\"NGA\",\"name\":\"Nigeria\"},{\"code\":\"PNG\",\"name\":\"Papua New Guinea\"},{\"code\":\"PSE\",\"name\":\"West Bank and Gaza\"},{\"code\":\"SDN\",\"name\":\"Sudan\"},{\"code\":\"SLB\",\"name\":\"Solomon Islands\"},{\"code\":\"SOM\",\"name\":\"Somalia\"},{\"code\":\"SSD\",\"name\":\"South Sudan\"},{\"code\":\"STP\",\"name\":\"Sao Tome and Principe\"},{\"code\":\"SYR\",\"name\":\"Syrian Arab Republic\"},{\"code\":\"TCD\",\"name\":\"Chad\"},{\"code\":\"TLS\",\"name\":\"Timor-Leste\"},{\"code\":\"TUV\",\"name\":\"Tuvalu\"},{\"code\":\"UKR\",\"name\":\"Ukraine\"},{\"code\":\"VEN\",\"name\":\"Venezuela, RB\"},{\"code\":\"XKX\",\"name\":\"Kosovo\"},{\"code\":\"YEM\",\"name\":\"Yemen, Rep.\"},{\"code\":\"ZWE\",\"name\":\"Zimbabwe\"}],\"country_codes\":\"AFG,BDI,BFA,CAF,CMR,COD,COG,COM,ERI,ETH,FSM,GNB,HTI,IRQ,KIR,LBN,LBY,MHL,MLI,MMR,MOZ,NER,NGA,PNG,PSE,SDN,SLB,SOM,SSD,STP,SYR,TCD,TLS,TUV,UKR,VEN,XKX,YEM,ZWE\",\"count\":39,\"hierarchy_version\":\"39.2.0\"}"
+}

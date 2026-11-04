@@ -1,0 +1,17 @@
+{
+ "id": "5a5d823f19326d15",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/unicef/HVA_EPI_INF_RT.AGE--Y15T19",
+  "parent_place_dcid": "Earth",
+  "child_place_type": "UNGeoRegion",
+  "date": "range",
+  "date_range_start": "1990",
+  "date_range_end": "2026"
+ },
+ "result_at": "2026-11-01T10:38:02.321Z",
+ "is_error": false,
+ "transcript": "agent-a85af8ba40c4cac30.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/unicef/HVA_EPI_INF_RT.AGE--Y15T19\",\"name\":\"Estimated HIV incidence rate (new infections per 1,000 uninfected population) [Age=15 to 19 years old]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"14069554171362572946\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://data.unicef.org/\",\"unit\":\"undata/UNIT_MEASURE-RATIO_COUNT_PER_1000_COUNT_POP\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"SubSaharanAfrica\",\"Sub-Saharan Africa\",[\"UNGeoRegion\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"SubSaharanAfrica\",\"2010\",2.24],[\"SubSaharanAfrica\",\"2011\",2.11],[\"SubSaharanAfrica\",\"2012\",1.98],[\"SubSaharanAfrica\",\"2013\",1.84],[\"SubSaharanAfrica\",\"2014\",1.67],[\"SubSaharanAfrica\",\"2015\",1.52],[\"SubSaharanAfrica\",\"2016\",1.38],[\"SubSaharanAfrica\",\"2017\",1.29],[\"SubSaharanAfrica\",\"2018\",1.23],[\"SubSaharanAfrica\",\"2019\",1.16],[\"SubSaharanAfrica\",\"2020\",1.06],[\"SubSaharanAfrica\",\"2021\",1.01],[\"SubSaharanAfrica\",\"2022\",0.92],[\"SubSaharanAfrica\",\"2023\",0.84],[\"SubSaharanAfrica\",\"2024\",0.77]]}}"
+}

@@ -1,0 +1,14 @@
+{
+ "id": "6203bb9eeac7ea02",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SE_TOT_PRFL.EDUCATION_LEVEL--ISCED11_1__SKILL--READ",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:37:41.195Z",
+ "is_error": false,
+ "transcript": "agent-a4b631489137967c8.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SE_TOT_PRFL.EDUCATION_LEVEL--ISCED11_1__SKILL--READ\",\"name\":\"Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [Education level=Primary education (ISCED11 - 1), Skill=Minimum proficiency in reading]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2000\",61.21205],[\"Earth\",\"2001\",61.04789],[\"Earth\",\"2002\",60.88374],[\"Earth\",\"2003\",60.71958],[\"Earth\",\"2004\",60.55542],[\"Earth\",\"2005\",60.39126],[\"Earth\",\"2006\",60.2271],[\"Earth\",\"2007\",60.06294],[\"Earth\",\"2008\",59.89878],[\"Earth\",\"2009\",59.73463],[\"Earth\",\"2010\",59.57047],[\"Earth\",\"2011\",59.40631],[\"Earth\",\"2012\",59.24215],[\"Earth\",\"2013\",59.07799],[\"Earth\",\"2014\",58.91383],[\"Earth\",\"2015\",58.74968],[\"Earth\",\"2016\",58.58552],[\"Earth\",\"2017\",58.42136],[\"Earth\",\"2018\",58.2572],[\"Earth\",\"2019\",58.09304]]}}"
+}

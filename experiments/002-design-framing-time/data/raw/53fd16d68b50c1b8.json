@@ -1,0 +1,17 @@
+{
+ "id": "53fd16d68b50c1b8",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/who/FERT_ADO.AGE--Y15T19__SEX--F__URBANIZATION--R",
+  "parent_place_dcid": "Earth",
+  "child_place_type": "UNGeoRegion",
+  "date": "range",
+  "date_range_start": "1990",
+  "date_range_end": "2026"
+ },
+ "result_at": "2026-11-01T10:38:07.440Z",
+ "is_error": false,
+ "transcript": "agent-a8218a198a13e6503.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/who/FERT_ADO.AGE--Y15T19__SEX--F__URBANIZATION--R\",\"name\":\"Adolescent fertility rate [Age=15 to 19 years old, Sex=Female, Urbanization=Rural]\",\"typeOf\":[\"StatisticalVariable\"]},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"]},\"data\":{}}"
+}

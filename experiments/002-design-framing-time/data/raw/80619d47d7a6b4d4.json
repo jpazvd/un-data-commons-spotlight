@@ -1,0 +1,14 @@
+{
+ "id": "80619d47d7a6b4d4",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SH_ACS_MCV2",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:38:10.911Z",
+ "is_error": false,
+ "transcript": "agent-a3b220cc1cfc41fba.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SH_ACS_MCV2\",\"name\":\"Proportion of the target population who received measles-containing-vaccine second-dose (MCV2)\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2000\",17],[\"Earth\",\"2001\",19],[\"Earth\",\"2002\",20],[\"Earth\",\"2003\",20],[\"Earth\",\"2004\",22],[\"Earth\",\"2005\",32],[\"Earth\",\"2006\",34],[\"Earth\",\"2007\",35],[\"Earth\",\"2008\",37],[\"Earth\",\"2009\",40],[\"Earth\",\"2010\",41],[\"Earth\",\"2011\",48],[\"Earth\",\"2012\",52],[\"Earth\",\"2013\",56],[\"Earth\",\"2014\",59],[\"Earth\",\"2015\",63],[\"Earth\",\"2016\",67],[\"Earth\",\"2017\",68],[\"Earth\",\"2018\",70],[\"Earth\",\"2019\",71],[\"Earth\",\"2020\",71],[\"Earth\",\"2021\",71],[\"Earth\",\"2022\",73],[\"Earth\",\"2023\",74],[\"Earth\",\"2024\",76]]}}"
+}

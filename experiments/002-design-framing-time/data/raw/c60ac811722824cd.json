@@ -1,0 +1,14 @@
+{
+ "id": "c60ac811722824cd",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SE_DEV_ONTRKWB.AGE--M24T59",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:38:19.774Z",
+ "is_error": false,
+ "transcript": "agent-a8d4dda2d4980fb4a.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SE_DEV_ONTRKWB.AGE--M24T59\",\"name\":\"Percentage of children who are developmentally on track in health, learning and psychosocial well-being (% of children aged 24-59 months) [Age=24 to 59 months old]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2025\",64.413]]}}"
+}

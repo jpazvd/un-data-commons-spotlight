@@ -105,3 +105,10 @@ share one format, so their variance should be lower than this mixed baseline; it
   chosen with their arms known, against the rule that the indicator is fixed first. The indicators were named
   before their data were retrieved, content is not adapted to the arm, and no outcome data exist. Both stay in
   block 1. Their posts are still spaced by the promotion task.
+- 2026-11-01: Experiment 001 stops before any of Spotlights 02 to 33 was posted, so with no outcome data
+  (`posts.csv` and `outcomes.csv` are empty). Its question, dark against light for template D, is carried into
+  experiment 002 (`experiments/002-design-framing-time/PREREGISTRATION.md`) as two of its three design arms, at a
+  much higher volume. `assignment.csv` is not changed, `analyze.py` is not run for a result, and 001 is reported as
+  stopped without data. The stop takes effect when experiment 002's pre-registration is merged. Spotlights 02 to 04,
+  produced under 001's assignment and merged on 1 November 2026, are posted as experiment 002's run-in and are not
+  analysed as part of 001.

@@ -1,0 +1,12 @@
+{
+ "id": "275a4ce76a9a9589",
+ "tool": "data360_list_indicators",
+ "server": "World_Bank_Data360",
+ "args": {
+  "database_id": "UNESCO_UIS"
+ },
+ "result_at": "2026-11-01T10:38:34.182Z",
+ "is_error": false,
+ "transcript": "agent-af3ad42a2bc0975e1.jsonl",
+ "response": "{\"result\":[\"UNESCO_UIS_GRAD_ICT\",\"UNESCO_UIS_GRAD_STEM\"]}"
+}

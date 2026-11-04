@@ -1,0 +1,14 @@
+{
+ "id": "d7268b12a5c9b5a8",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SH_STA_WAST.AGE--Y0T4",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:37:52.966Z",
+ "is_error": false,
+ "transcript": "agent-a8ee164f33732d85f.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SH_STA_WAST.AGE--Y0T4\",\"name\":\"Proportion of children moderately or severely wasted [Age=Under 5 years old]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"5810115657342770571\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"undata/UNIT_MEASURE-PT_POP_M0T59\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2000\",8.8],[\"Earth\",\"2001\",8.7],[\"Earth\",\"2002\",8.6],[\"Earth\",\"2003\",8.5],[\"Earth\",\"2004\",8.4],[\"Earth\",\"2005\",8.3],[\"Earth\",\"2006\",8.2],[\"Earth\",\"2007\",8.1],[\"Earth\",\"2008\",7.9],[\"Earth\",\"2009\",7.8],[\"Earth\",\"2010\",7.7],[\"Earth\",\"2011\",7.6],[\"Earth\",\"2012\",7.4],[\"Earth\",\"2013\",7.3],[\"Earth\",\"2014\",7.2],[\"Earth\",\"2015\",7.1],[\"Earth\",\"2016\",7],[\"Earth\",\"2017\",6.9],[\"Earth\",\"2018\",6.8],[\"Earth\",\"2019\",6.8],[\"Earth\",\"2020\",6.7],[\"Earth\",\"2021\",6.7],[\"Earth\",\"2022\",6.7],[\"Earth\",\"2023\",6.6],[\"Earth\",\"2024\",6.6]]}}"
+}

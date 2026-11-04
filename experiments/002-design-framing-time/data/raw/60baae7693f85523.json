@@ -1,0 +1,15 @@
+{
+ "id": "60baae7693f85523",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+  "parent_place_dcid": "undata-geo/G00122000",
+  "child_place_type": "Country",
+  "date": "latest"
+ },
+ "result_at": "2026-11-01T10:38:03.218Z",
+ "is_error": false,
+ "transcript": "agent-a177767e85c285e9e.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SH_DYN_MORT.AGE--Y0T4\",\"name\":\"Mortality rate [Age=Under 5 years old]\",\"typeOf\":[\"StatisticalVariable\"]},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"]},\"data\":{}}"
+}

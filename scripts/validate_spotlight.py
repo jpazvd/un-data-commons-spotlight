@@ -28,6 +28,14 @@ Checks, per spotlight folder:
        retrieval.json unchanged (new files under data/api_refresh/ are allowed);
      - assignment.csv, posts.csv and outcomes.csv only gain rows at the end; PREREGISTRATION.md only gains lines
        (its "None yet." placeholder under Deviations may go).
+Experiment 002 Spotlights (meta.json experiment.id "002") are topic folders with one subfolder per version:
+  data/ (world.csv, countries_latest.csv, membership.csv and the topic's other snapshots), meta.json,
+  retrieval.json, and versions/<F>/ with stats.json, banner.dc.html, banner.png and captions.md. Checked:
+  the versions in meta.json are exactly the topic's rows in experiments/002-design-framing-time/assignment.csv
+  (framing and design); every stats.json reproduces from data/ with scripts/spotlight002.py; captions have
+  LinkedIn, X, Bluesky and "Bluesky with feed tag" within limits, a Method line each and no em-dash; banner.png
+  is 2400x1260 on the assigned design's ground and its series line names the Spotlight. Experiment 001's checks
+  do not apply to them, and 002's assignment, posts and outcomes files are append-only like 001's.
 Exit code 1 if any check fails.
 """
 import argparse, csv, json, pathlib, re, struct, subprocess, sys, tempfile, shutil
@@ -39,6 +47,8 @@ REQUIRED = ["data/world.csv", "data/countries_latest.csv", "meta.json", "retriev
 GROUNDS = {"dark": "#0D2433", "light": "#F4F6F7"}
 LIMITS = {"X": 280, "Bluesky": 300}
 REPO_LINK = "github.com/jpazvd/un-data-commons-spotlight"
+EXP2 = "experiments/002-design-framing-time"
+DESIGN_GROUND = {"D-dark": "#0D2433", "D-light": "#F4F6F7", "Ink": "#FFFFFF"}
 HOUSE_RULE_FROM = 2  # target fields and method lines are required from Spotlight 02 (rule of 29 Oct 2026)
 SPOTLIGHT_NAME = re.compile(r"^(\d{2,3})-[a-z0-9]+(?:-[a-z0-9]+)*$")
 URL = re.compile(r"https?://\S+|\b(?:[a-z0-9-]+\.)+(?:com|org|net|int|io|dev|ai|gov|edu)(?:/\S*)?", re.I)
@@ -204,6 +214,94 @@ def check_banner(spot, assignment):
             fail(spot.name, "assigned the link in the first comment, but the LinkedIn caption carries it too")
 
 
+def is_002(spot):
+    try:
+        return (json.loads((spot / "meta.json").read_text(encoding="utf-8")).get("experiment") or {}).get("id") == "002"
+    except (OSError, ValueError):
+        return False
+
+
+def check_002(spot, rows2):
+    """An experiment 002 topic folder (see the module docstring)."""
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import spotlight002
+    need = ["data/world.csv", "data/countries_latest.csv", "data/membership.csv", "meta.json", "retrieval.json"]
+    missing = [f for f in need if not (spot / f).exists()]
+    if missing:
+        fail(spot.name, "missing " + ", ".join(missing)); return
+    meta = json.loads((spot / "meta.json").read_text(encoding="utf-8"))
+    num = int(spot.name.split("-")[0])
+    for k in ("spotlight", "slug", "title", "sdg_indicator", "retrieved_on", "target_basis"):
+        if not meta.get(k):
+            fail(spot.name, f"meta.json has no {k}")
+    if meta.get("spotlight") != num or meta.get("slug") != spot.name:
+        fail(spot.name, "meta.json spotlight and slug must match the folder")
+    if meta.get("target_basis") == "none" and (meta.get("target_value") is not None or meta.get("target_year") is not None):
+        fail(spot.name, 'target_basis "none" needs null target_value and target_year')
+    want = sorted((r["frame"], r["design"]) for r in rows2 if r["spotlight"] == str(num) and r["network"] == "X")
+    have = sorted((v["frame"], v["design"]) for v in meta["experiment"].get("versions", []))
+    if want != have:
+        fail(spot.name, f"meta.json versions {have} but assignment.csv (002) says {want}")
+    for frame, design in have:
+        vdir = spot / "versions" / frame
+        miss = [f for f in ("stats.json", "banner.dc.html", "banner.png", "captions.md") if not (vdir / f).exists()]
+        if miss:
+            fail(spot.name, f"version {frame} missing " + ", ".join(miss)); continue
+        try:
+            again = json.loads(json.dumps(spotlight002.stats(spot, frame)))
+        except Exception as e:  # noqa: BLE001
+            fail(spot.name, f"version {frame}: spotlight002.py failed: {e}"); continue
+        if again != json.loads((vdir / "stats.json").read_text(encoding="utf-8")):
+            fail(spot.name, f"version {frame}: stats.json does not reproduce from data/ with spotlight002.py")
+        sec = sections((vdir / "captions.md").read_text(encoding="utf-8"))
+        for name in ("LinkedIn", "X", "Bluesky", "Bluesky with feed tag"):
+            text = sec.get(name)
+            if text is None:
+                fail(spot.name, f"version {frame}: captions.md has no '## {name}'"); continue
+            n = x_length(text) if name == "X" else len(text)
+            limit = 280 if name == "X" else 300 if name.startswith("Bluesky") else 3000
+            if n > limit:
+                fail(spot.name, f"version {frame}: {name} caption is {n} characters (limit {limit})")
+            if "\u2014" in text:
+                fail(spot.name, f"version {frame}: em-dash in the {name} caption")
+            if not re.search(r"(^|\s)Method: \S", text):
+                fail(spot.name, f"version {frame}: the {name} caption has no Method line")
+        if png_size(vdir / "banner.png") not in {(2400, 1260), (1200, 630)}:
+            fail(spot.name, f"version {frame}: banner.png is not 2400x1260")
+        from PIL import Image
+        rgb = tuple(int(DESIGN_GROUND[design][i:i + 2], 16) for i in (1, 3, 5))
+        with Image.open(vdir / "banner.png") as im:
+            im = im.convert("RGB")
+            corners = [im.getpixel((2, im.height - 3)), im.getpixel((im.width - 3, im.height - 3))]
+        if any(max(abs(a - b) for a, b in zip(c, rgb)) > 2 for c in corners):
+            fail(spot.name, f"version {frame}: banner.png is not on the {design} ground")
+        html = (vdir / "banner.dc.html").read_text(encoding="utf-8")
+        # Review round 1 (2 Nov 2026): series line without a number, no byline, footer with the series code,
+        # the extraction date and the GitHub handle, and a headline that names what is measured.
+        if "UN Data Commons Spotlight" not in html or re.search(r"Data Commons Spotlight \d", html):
+            fail(spot.name, f"version {frame}: the series line must read \"UN Data Commons Spotlight\" with no number")
+        if "Jo\u00e3o Pedro Azevedo" in html or "@jpazvd" not in html:
+            fail(spot.name, f"version {frame}: the footer must carry @jpazvd and no byline")
+        if f"extracted {spotlight_day(meta['retrieved_on'])}" not in html:
+            fail(spot.name, f"version {frame}: the footer does not give the extraction date")
+        import copy002
+        h1 = re.search(r"<h1[^>]*>(.*?)</h1>", html, re.S)
+        head = re.sub(r"<[^>]+>", "", h1.group(1)) if h1 else ""
+        fam = json.loads((vdir / "stats.json").read_text(encoding="utf-8")).get("family")
+        if not copy002.names_construct(unescape(head), fam):
+            fail(spot.name, f"version {frame}: the headline does not name what is measured: {head!r}")
+
+
+def spotlight_day(iso):
+    y, m, d = (int(x) for x in iso.split("-"))
+    return f"{d} {['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][m - 1]} {y}"
+
+
+def unescape(s):
+    import html as _h
+    return _h.unescape(s)
+
+
 def check_assignment(rows, spots):
     """Duplicate ids, make-ups that copy no slot, and slots with more than one Spotlight folder."""
     ids = [r["spotlight"] for r in rows]
@@ -212,7 +310,7 @@ def check_assignment(rows, spots):
     slot = lambda r: (r["block"], r["link_placement"], r["ground"], r["template"])
     original = [r for r in rows if 2 <= int(r["spotlight"]) <= 33]  # the pre-registered slots
     slots, blocks = {slot(r) for r in original}, {r["block"] for r in original}
-    with_folder = {int(p.name.split("-")[0]) for p in spots}
+    with_folder = {int(p.name.split("-")[0]) for p in spots if not is_002(p)}
     members = {}
     for r in rows:
         if int(r["spotlight"]) > 33 and r["block"] in blocks and slot(r) not in slots:
@@ -268,6 +366,10 @@ def main():
         with open(apath, encoding="utf-8", newline="") as f:
             rows = list(csv.DictReader(f))
     assignment = {r["spotlight"]: r for r in rows}
+    rows2 = []
+    if (ROOT / EXP2 / "assignment.csv").exists():
+        with open(ROOT / EXP2 / "assignment.csv", encoding="utf-8", newline="") as f:
+            rows2 = list(csv.DictReader(f))
     spots, misnamed = spotlight_dirs(ROOT / "spotlights")
     check_assignment(rows, spots)
     for p in misnamed:
@@ -277,6 +379,8 @@ def main():
         if numbers.count(int(p.name.split("-")[0])) > 1:
             fail(p.name, "another Spotlight folder has the same number")
     for spot in spots:
+        if is_002(spot):
+            check_002(spot, rows2); continue
         missing = [f for f in REQUIRED if not (spot / f).exists()]
         if missing:
             fail(spot.name, "missing " + ", ".join(missing)); continue
@@ -290,6 +394,8 @@ def main():
             check_append_only(a.base, f"{EXP}/posts.csv", rows=True)
             check_append_only(a.base, f"{EXP}/outcomes.csv", rows=True)
             check_append_only(a.base, f"{EXP}/PREREGISTRATION.md", rows=False)
+            for name in ("assignment.csv", "posts.csv", "outcomes.csv", "topics.csv"):
+                check_append_only(a.base, f"{EXP2}/{name}", rows=True)
     print(f"Checked {len(spots)} Spotlight(s).")
     for f in failures:
         print("FAIL", f)

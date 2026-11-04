@@ -1,0 +1,17 @@
+{
+ "id": "e84e2d1eb882c273",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/unicef/FD_ANAR.EDUCATION_LEVEL--ISCED11_02__SCHOOL_AGE--L02__WEALTH_QUANTILE--Q1",
+  "parent_place_dcid": "Earth",
+  "child_place_type": "GeoRegion",
+  "date": "range",
+  "date_range_start": "1990",
+  "date_range_end": "2026"
+ },
+ "result_at": "2026-11-01T10:37:46.068Z",
+ "is_error": false,
+ "transcript": "agent-ad945f1f759472eec.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/unicef/FD_ANAR.EDUCATION_LEVEL--ISCED11_02__SCHOOL_AGE--L02__WEALTH_QUANTILE--Q1\",\"name\":\"Adjusted net school attendance rate [Education level=Pre-primary education (ISCED11_02), School-age stage=Pre-primary education age, Wealth quantile=Lowest quintile]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"15005650441306304968\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://data.unicef.org/\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"undata-geo/G00107000\",\"Eastern and Southern Africa\",[\"GeoRegion\"]],[\"undata-geo/G00111000\",\"West and Central Africa\",[\"GeoRegion\"]],[\"undata-geo/G00152000\",\"Middle East and North Africa\",[\"GeoRegion\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"undata-geo/G00107000\",\"2022\",48.155316],[\"undata-geo/G00111000\",\"2022\",28.331573],[\"undata-geo/G00152000\",\"2022\",43.719725]]}}"
+}

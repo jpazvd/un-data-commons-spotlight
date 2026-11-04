@@ -32,6 +32,3 @@ internal/
 drafts/
 notes/
 .env*
-
-# COP31 CCRR visuals (added 2026-11-03; keep when syncing)
-!/assets/**

@@ -1,0 +1,25 @@
+{
+ "id": "de667a0870811cea",
+ "tool": "data360_get_metadata",
+ "server": "World_Bank_Data360",
+ "args": {
+  "database_id": "WB_HNP",
+  "indicator_id": "WB_HNP_SH_STA_MMRT",
+  "fetch_disaggregation": false,
+  "select_fields": [
+   "name",
+   "methodology",
+   "sources",
+   "authoring_entity",
+   "version_statement",
+   "time_periods",
+   "aggregation_method",
+   "notes",
+   "alternate_identifiers"
+  ]
+ },
+ "result_at": "2026-11-01T10:41:06.761Z",
+ "is_error": false,
+ "transcript": "agent-af3ad42a2bc0975e1.jsonl",
+ "response": "{\"indicator_metadata\":{\"name\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\",\"database_name\":\"Health Nutrition and Population Statistics\",\"methodology\":\"Reproductive health is a state of physical and mental well-being in relation to the reproductive system and its functions and processes. Means of achieving reproductive health include education and services during pregnancy and childbirth, safe and effective contraception, and prevention and treatment of sexually transmitted diseases. Complications of pregnancy and childbirth are the leading cause of death and disability among women of reproductive age in developing countries.\\r\\n\\r\\nMaternal mortality is generally of unknown reliability, as are many other cause-specific mortality indicators. Household surveys such as Demographic and Health Surveys attempt to measure maternal mortality by asking respondents about survivorship of sisters. The main disadvantage of this method is that the estimates of maternal mortality that it produces pertain to any time within the past few years before the survey, making them unsuitable for monitoring recent changes or observing the impact of interventions. In addition, measurement of maternal mortality is subject to many types of errors. Even in high-income countries with reliable vital registration systems, misclassification of maternal deaths has been found to lead to serious underestimation.\\r\\n\\r\\nThe estimates are based on an exercise by the Maternal Mortality Estimation Inter-Agency Group (MMEIG) which consists of World Health Organization (WHO), United Nations Children's Fund (UNICEF), World Bank, and United Nations Population Fund (UNFPA), and include country-level time series data. For countries without complete registration data but with other types of data and for countries with no data, maternal mortality is estimated with a regression model using available national maternal mortality data and socioeconomic information.\",\"aggregation_method\":\"Weighted average\",\"authoring_entity\":[],\"version_statement\":{\"version\":\"1\",\"version_date\":\"2024-09-23\",\"version_resp\":null,\"version_notes\":null},\"alternate_identifiers\":[{\"identifier\":\"Data 360 indicator Code\",\"name\":\"WB_WDI_SH_STA_MMRT\",\"database\":\"WDI\",\"uri\":null,\"notes\":null},{\"identifier\":\"Indicator Code\",\"name\":\"SH.STA.MMRT\",\"database\":\"WDI\",\"uri\":null,\"notes\":null}],\"time_periods\":[{\"start\":\"1960\",\"end\":\"2023\",\"notes\":null}],\"sources\":[{\"idno\":null,\"type\":null,\"name\":\"Trends in Maternal Mortality 2000 to 2020\",\"organization\":\"World Health Organization (WHO)\",\"publisher\":null,\"publication_date\":null,\"uri\":null,\"access_date\":null,\"note\":null,\"other_identifiers\":[],\"authors\":[],\"datasets\":[]},{\"idno\":null,\"type\":null,\"name\":null,\"organization\":\"UN Children's Fund (UNICEF)\",\"publisher\":null,\"publication_date\":null,\"uri\":null,\"access_date\":null,\"note\":null,\"other_identifiers\":[],\"authors\":[],\"datasets\":[]},{\"idno\":null,\"type\":null,\"name\":null,\"organization\":\"UN Population Fund (UNFPA)\",\"publisher\":null,\"publication_date\":null,\"uri\":null,\"access_date\":null,\"note\":null,\"other_identifiers\":[],\"authors\":[],\"datasets\":[]},{\"idno\":null,\"type\":null,\"name\":null,\"organization\":\"World Bank Group (WBG)\",\"publisher\":null,\"publication_date\":null,\"uri\":null,\"access_date\":null,\"note\":null,\"other_identifiers\":[],\"authors\":[],\"datasets\":[]},{\"idno\":null,\"type\":null,\"name\":null,\"organization\":\"UN Population Division (UN DESA/PD)\",\"publisher\":null,\"publication_date\":null,\"uri\":null,\"access_date\":null,\"note\":null,\"other_identifiers\":[],\"authors\":[],\"datasets\":[]}],\"notes\":[]},\"disaggregation_options\":[],\"error\":null,\"stale\":false}"
+}

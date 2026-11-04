@@ -1,0 +1,18 @@
+{
+ "id": "abe7e5e0be94189e",
+ "tool": "data360_get_data",
+ "server": "World_Bank_Data360",
+ "args": {
+  "database_id": "WB_WDI",
+  "indicator_id": "WB_WDI_SH_STA_MMRT",
+  "country_code": "FCS",
+  "start_year": 1985,
+  "end_year": 2025,
+  "ref_area_filter": "none",
+  "limit": 100
+ },
+ "result_at": "2026-11-01T10:39:19.198Z",
+ "is_error": false,
+ "transcript": "agent-af3ad42a2bc0975e1.jsonl",
+ "response": "{\"count\":0,\"total_count\":null,\"offset\":0,\"has_more\":false,\"next_offset\":null,\"data\":[],\"metadata\":{\"idno\":\"WB_WDI_SH_STA_MMRT\",\"name\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\",\"database_id\":\"WB_WDI\",\"database_name\":\"World Development Indicators (WDI)\",\"measurement_unit\":\"Per 100,000 live births\",\"periodicity\":\"Annual\",\"definition_short\":null},\"error\":null,\"failed_validation\":null}"
+}

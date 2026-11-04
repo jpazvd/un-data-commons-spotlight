@@ -1,0 +1,15 @@
+{
+ "id": "0b5c72e480cde0fa",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+  "parent_place_dcid": "undata-geo/G00145000",
+  "child_place_type": "Country",
+  "date": "latest"
+ },
+ "result_at": "2026-11-01T10:32:52.574Z",
+ "is_error": false,
+ "transcript": "32f57388-1b6b-548e-b4d1-a0adf58963ed.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SH_DYN_MORT.AGE--Y0T4\",\"name\":\"Mortality rate [Age=Under 5 years old]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"2425806575015910660\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"undata/UNIT_MEASURE-RATIO_COUNT_PER_1000_COUNT_LIVEBIRTHS\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/COK\",\"Cook Islands\",[\"Country\"]],[\"country/FJI\",\"Fiji\",[\"Country\"]],[\"country/FSM\",\"Federated States of Micronesia\",[\"Country\"]],[\"country/KIR\",\"Kiribati\",[\"Country\"]],[\"country/MHL\",\"Marshall Islands\",[\"Country\"]],[\"country/NIU\",\"Niue\",[\"Country\"]],[\"country/NRU\",\"Nauru\",[\"Country\"]],[\"country/PLW\",\"Palau\",[\"Country\"]],[\"country/PNG\",\"Papua New Guinea\",[\"Country\"]],[\"country/SLB\",\"Solomon Islands\",[\"Country\"]],[\"country/TON\",\"Tonga\",[\"Country\"]],[\"country/TUV\",\"Tuvalu\",[\"Country\"]],[\"country/VUT\",\"Vanuatu\",[\"Country\"]],[\"country/WSM\",\"Samoa\",[\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/COK\",\"2024\",13.34065567],[\"country/FJI\",\"2024\",29.12314258],[\"country/FSM\",\"2024\",22.42227276],[\"country/KIR\",\"2024\",53.09387637],[\"country/MHL\",\"2024\",26.74402798],[\"country/NIU\",\"2024\",23.79324382],[\"country/NRU\",\"2024\",8.261405741],[\"country/PLW\",\"2024\",21.42569521],[\"country/PNG\",\"2024\",39.3832731],[\"country/SLB\",\"2024\",20.01338295],[\"country/TON\",\"2024\",9.513100262],[\"country/TUV\",\"2024\",19.17368954],[\"country/VUT\",\"2024\",17.14445224],[\"country/WSM\",\"2024\",14.86191964]]}}"
+}

@@ -1,0 +1,440 @@
+[
+ {
+  "n": 1,
+  "family": "u5mr",
+  "role": "world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 2,
+  "family": "u5mr",
+  "role": "countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 3,
+  "family": "u5mr",
+  "role": "aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 4,
+  "family": "u5mr",
+  "role": "aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 5,
+  "family": "u5mr",
+  "role": "location_a_countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/MORT_U5_RATE.URBANIZATION--R",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 6,
+  "family": "u5mr",
+  "role": "location_a_world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/who/MORT_U5_RATE.URBANIZATION--R",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 7,
+  "family": "u5mr",
+  "role": "location_a_aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/MORT_U5_RATE.URBANIZATION--R",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 8,
+  "family": "u5mr",
+  "role": "location_a_aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/MORT_U5_RATE.URBANIZATION--R",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 9,
+  "family": "u5mr",
+  "role": "location_b_countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/MORT_U5_RATE.URBANIZATION--U",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 10,
+  "family": "u5mr",
+  "role": "location_b_world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/who/MORT_U5_RATE.URBANIZATION--U",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 11,
+  "family": "u5mr",
+  "role": "location_b_aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/MORT_U5_RATE.URBANIZATION--U",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 12,
+  "family": "u5mr",
+  "role": "location_b_aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/who/MORT_U5_RATE.URBANIZATION--U",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 13,
+  "family": "u5mr",
+  "role": "wealth_low_countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/unicef/CME_MR.AGE--Y0T4__WEALTH_QUANTILE--Q1",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 14,
+  "family": "u5mr",
+  "role": "wealth_low_world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/unicef/CME_MR.AGE--Y0T4__WEALTH_QUANTILE--Q1",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 15,
+  "family": "u5mr",
+  "role": "wealth_low_aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/unicef/CME_MR.AGE--Y0T4__WEALTH_QUANTILE--Q1",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 16,
+  "family": "u5mr",
+  "role": "wealth_low_aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/unicef/CME_MR.AGE--Y0T4__WEALTH_QUANTILE--Q1",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 17,
+  "family": "u5mr",
+  "role": "wealth_high_countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/unicef/CME_MR.AGE--Y0T4__WEALTH_QUANTILE--Q5",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 18,
+  "family": "u5mr",
+  "role": "wealth_high_world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/unicef/CME_MR.AGE--Y0T4__WEALTH_QUANTILE--Q5",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 19,
+  "family": "u5mr",
+  "role": "wealth_high_aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/unicef/CME_MR.AGE--Y0T4__WEALTH_QUANTILE--Q5",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 20,
+  "family": "u5mr",
+  "role": "wealth_high_aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/unicef/CME_MR.AGE--Y0T4__WEALTH_QUANTILE--Q5",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 21,
+  "family": "membership",
+  "role": "Sub-Saharan Africa",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "SubSaharanAfrica",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 22,
+  "family": "membership",
+  "role": "Northern Africa and Western Asia",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "undata-geo/G00103000",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 23,
+  "family": "membership",
+  "role": "Central and Southern Asia",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "undata-geo/G00116000",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 24,
+  "family": "membership",
+  "role": "Eastern and South-eastern Asia",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "undata-geo/G00122000",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 25,
+  "family": "membership",
+  "role": "Latin America and the Caribbean",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "LatinAmericaAndCaribbean",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 26,
+  "family": "membership",
+  "role": "Oceania excluding Australia and New Zealand",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "undata-geo/G00145000",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 27,
+  "family": "membership",
+  "role": "Australia and New Zealand",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "AustraliaAndNewZealand",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 28,
+  "family": "membership",
+  "role": "Europe and Northern America",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "undata-geo/G00126000",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 29,
+  "family": "membership",
+  "role": "Least developed countries (LDCs)",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "undata-geo/G00404000",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 30,
+  "family": "membership",
+  "role": "Landlocked developing countries (LLDCs)",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "undata-geo/G00403000",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 31,
+  "family": "membership",
+  "role": "Small Island Developing States (SIDS)",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+   "parent_place_dcid": "undata-geo/G00405000",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 32,
+  "family": "women_parliament",
+  "role": "world",
+  "tool": "mcp__UN_System_Data_Commons__get_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SG_GEN_PARL.SEX--F",
+   "place_dcid": "Earth",
+   "date": "all"
+  }
+ },
+ {
+  "n": 33,
+  "family": "women_parliament",
+  "role": "countries",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SG_GEN_PARL.SEX--F",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "Country",
+   "date": "latest"
+  }
+ },
+ {
+  "n": 34,
+  "family": "women_parliament",
+  "role": "aggregates_UNGeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SG_GEN_PARL.SEX--F",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "UNGeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ },
+ {
+  "n": 35,
+  "family": "women_parliament",
+  "role": "aggregates_GeoRegion",
+  "tool": "mcp__UN_System_Data_Commons__get_child_observations",
+  "args": {
+   "variable_dcid": "undata/sdg/SG_GEN_PARL.SEX--F",
+   "parent_place_dcid": "Earth",
+   "child_place_type": "GeoRegion",
+   "date": "range",
+   "date_range_start": "1990",
+   "date_range_end": "2026"
+  }
+ }
+]

@@ -1,0 +1,14 @@
+{
+ "id": "4d470204b3eff4bf",
+ "tool": "data360_find_codelist_value",
+ "server": "World_Bank_Data360",
+ "args": {
+  "codelist_type": "REF_AREA",
+  "query": "Fragile and conflict affected situations",
+  "limit": 10
+ },
+ "result_at": "2026-11-01T10:39:31.851Z",
+ "is_error": false,
+ "transcript": "agent-af3ad42a2bc0975e1.jsonl",
+ "response": "{\"result\":[{\"id\":\"FCS\",\"name\":\"Fragile and conflict affected situations\",\"score\":100,\"is_group\":true,\"group_type\":\"OTHER\",\"member_count\":39,\"note\":\"This is a other group with 39 member countries. Use data360_expand_country_group('FCS') to get individual country codes.\"}]}"
+}
