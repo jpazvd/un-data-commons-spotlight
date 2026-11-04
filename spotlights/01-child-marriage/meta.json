@@ -14,5 +14,6 @@
   "facet_id": "3722936608695937273",
   "retrieved_via": "UN System Data Commons (MCP connector): get_observations(Earth, date=all); get_child_observations(parent=Earth, child_place_type=Country, date=latest)",
   "retrieved_on": "2026-10-23",
-  "notes": "Country values are each country's latest available year in the database. Country display names follow the Data Commons place names, with a few updated to current UN short names (North Macedonia, Timor-Leste, Türkiye)."
+  "notes": "Country values are each country's latest available year in the database. Country display names follow the Data Commons place names, with a few updated to current UN short names (North Macedonia, Timor-Leste, Türkiye).",
+  "design": "design A (revision 1, dark dashboard; retired)"
 }
