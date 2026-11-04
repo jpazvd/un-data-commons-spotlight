@@ -1,0 +1,136 @@
+{
+ "frame": "L",
+ "ok": true,
+ "kind": "trend_compared",
+ "from": 2005,
+ "to": 2025,
+ "places": [
+  {
+   "dcid": "undata-geo/G00404000",
+   "place": "LDCs",
+   "first": 46.487,
+   "last": 35.021,
+   "change": -11.466,
+   "series": [
+    [
+     2005,
+     46.487
+    ],
+    [
+     2010,
+     45.291
+    ],
+    [
+     2015,
+     42.417
+    ],
+    [
+     2020,
+     39.433
+    ],
+    [
+     2025,
+     35.021
+    ]
+   ]
+  },
+  {
+   "dcid": "undata-geo/G00403000",
+   "place": "LLDCs",
+   "first": 39.986,
+   "last": 31.296,
+   "change": -8.69,
+   "series": [
+    [
+     2005,
+     39.986
+    ],
+    [
+     2010,
+     38.112
+    ],
+    [
+     2015,
+     37.034
+    ],
+    [
+     2020,
+     34.625
+    ],
+    [
+     2025,
+     31.296
+    ]
+   ]
+  },
+  {
+   "dcid": "undata-geo/G00405000",
+   "place": "SIDS",
+   "first": 25.503,
+   "last": 21.783,
+   "change": -3.72,
+   "series": [
+    [
+     2005,
+     25.503
+    ],
+    [
+     2010,
+     26.752
+    ],
+    [
+     2015,
+     24.418
+    ],
+    [
+     2020,
+     22.304
+    ],
+    [
+     2025,
+     21.783
+    ]
+   ]
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "first": 24.174,
+   "last": 18.468,
+   "change": -5.706,
+   "series": [
+    [
+     2005,
+     24.174
+    ],
+    [
+     2010,
+     22.873
+    ],
+    [
+     2015,
+     21.989
+    ],
+    [
+     2020,
+     20.595
+    ],
+    [
+     2025,
+     18.468
+    ]
+   ]
+  }
+ ],
+ "lead": "undata-geo/G00404000",
+ "left_out": [],
+ "family": "child_marriage_18",
+ "what": "women aged 20 to 24 first married or in union before 18",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "UNICEF",
+ "breakdown": "location",
+ "place_type": "groupings",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UNICEF Data Warehouse"
+}

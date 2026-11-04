@@ -1,0 +1,195 @@
+dcid,name,year,value
+country/AFG,Afghanistan,2023,45.4
+country/AGO,Angola,2023,43.8
+country/ALB,Albania,2023,24.7
+country/AND,Andorra,2023,16.4
+country/ARE,United Arab Emirates,2023,28.2
+country/ARG,Argentina,2023,23.5
+country/ARM,Armenia,2023,18.7
+country/ATG,Antigua and Barbuda,2023,20.3
+country/AUS,Australia,2023,11.1
+country/AUT,Austria,2023,16.7
+country/AZE,Azerbaijan,2023,35.6
+country/BDI,Burundi,2023,39
+country/BEL,Belgium,2023,15
+country/BEN,Benin,2023,50
+country/BFA,Burkina Faso,2023,44.3
+country/BGD,Bangladesh,2023,37.6
+country/BGR,Bulgaria,2023,25.8
+country/BHR,Bahrain,2023,38.4
+country/BHS,Bahamas,2023,18.8
+country/BIH,Bosnia and Herzegovina,2023,26
+country/BLR,Belarus,2023,22.1
+country/BLZ,Belize,2023,21.3
+country/BOL,Bolivia,2023,24.9
+country/BRA,Brazil,2023,21.3
+country/BRB,Barbados,2023,20.1
+country/BRN,Brunei,2023,18.3
+country/BTN,Bhutan,2023,33.8
+country/BWA,Botswana,2023,30.9
+country/CAF,Central African Republic,2023,43.4
+country/CAN,Canada,2023,14
+country/CHE,Switzerland,2023,16.6
+country/CHL,Chile,2023,15.7
+country/CHN,China,2023,15.6
+country/CIV,Côte d'Ivoire,2023,51.4
+country/CMR,Cameroon,2023,38.9
+country/COD,Congo [DRC],2023,40
+country/COG,Congo [Republic],2023,46.7
+country/COK,Cook Islands,2023,23.9
+country/COL,Colombia,2023,22.4
+country/COM,Comoros,2023,29.9
+country/CPV,Cape Verde,2023,40.6
+country/CRI,Costa Rica,2023,13.7
+country/CUB,Cuba,2023,22.2
+country/CYP,Cyprus,2023,16.4
+country/CZE,Czech Republic,2023,24.6
+country/DEU,Germany,2023,14
+country/DJI,Djibouti,2023,31.8
+country/DMA,Dominica,2023,22
+country/DNK,Denmark,2023,17
+country/DOM,Dominican Republic,2023,22.4
+country/DZA,Algeria,2023,31.6
+country/ECU,Ecuador,2023,20.2
+country/EGY,Egypt,2023,32.7
+country/ERI,Eritrea,2023,35.6
+country/ESP,Spain,2023,15.6
+country/EST,Estonia,2023,24.7
+country/ETH,Ethiopia,2023,23.1
+country/FIN,Finland,2023,13.6
+country/FJI,Fiji,2023,29.9
+country/FRA,France,2023,13.1
+country/FSM,Federated States of Micronesia,2023,22.1
+country/GAB,Gabon,2023,59.9
+country/GBR,United Kingdom,2023,13.6
+country/GEO,Georgia,2023,30.2
+country/GHA,Ghana,2023,36
+country/GIN,Guinea,2023,45.7
+country/GMB,Gambia,2023,46.1
+country/GNB,Guinea-Bissau,2023,45.7
+country/GNQ,Equatorial Guinea,2023,41.3
+country/GRC,Greece,2023,15.6
+country/GRD,Grenada,2023,20.9
+country/GTM,Guatemala,2023,10.5
+country/GUY,Guyana,2023,37.5
+country/HND,Honduras,2023,18.8
+country/HRV,Croatia,2023,23.3
+country/HTI,Haiti,2023,45.9
+country/HUN,Hungary,2023,24.1
+country/IDN,Indonesia,2023,26.7
+country/IND,India,2023,53.7
+country/IRL,Ireland,2023,14
+country/IRN,Iran,2023,25.5
+country/IRQ,Iraq,2023,27.1
+country/ISL,Iceland,2023,14.7
+country/ISR,Israel,2023,14.6
+country/ITA,Italy,2023,16.4
+country/JAM,Jamaica,2023,21.5
+country/JOR,Jordan,2023,33
+country/JPN,Japan,2023,18.7
+country/KAZ,Kazakhstan,2023,30.5
+country/KEN,Kenya,2023,32.2
+country/KGZ,Kyrgyzstan,2023,32.9
+country/KHM,Cambodia,2023,38
+country/KIR,Kiribati,2023,26.9
+country/KNA,Saint Kitts and Nevis,2023,19.4
+country/KOR,South Korea,2023,15.7
+country/KWT,Kuwait,2023,27.7
+country/LAO,Laos,2023,28.6
+country/LBN,Lebanon,2023,34
+country/LBR,Liberia,2023,42.5
+country/LBY,Libya,2023,29.3
+country/LCA,Saint Lucia,2023,19.9
+country/LKA,Sri Lanka,2023,20.9
+country/LSO,Lesotho,2023,34.2
+country/LTU,Lithuania,2023,23.7
+country/LUX,Luxembourg,2023,15.4
+country/LVA,Latvia,2023,21.4
+country/MAR,Morocco,2023,29.5
+country/MCO,Monaco,2023,15.9
+country/MDA,Moldova,2023,28.5
+country/MDG,Madagascar,2023,37.2
+country/MDV,Maldives,2023,43.4
+country/MEX,Mexico,2023,13.2
+country/MHL,Marshall Islands,2023,23.5
+country/MKD,Macedonia [FYROM],2023,21.5
+country/MLI,Mali,2023,56.5
+country/MLT,Malta,2023,15.7
+country/MMR,Myanmar,2023,39.7
+country/MNE,Montenegro,2023,25.8
+country/MNG,Mongolia,2023,19.1
+country/MOZ,Mozambique,2023,47
+country/MRT,Mauritania,2023,54.5
+country/MUS,Mauritius,2023,32.8
+country/MWI,Malawi,2023,32.4
+country/MYS,Malaysia,2023,31.3
+country/NAM,Namibia,2023,24.9
+country/NER,Niger,2023,47.1
+country/NGA,Nigeria,2023,37.9
+country/NIU,Niue,2023,24
+country/NLD,Netherlands,2023,16.5
+country/NOR,Norway,2023,16.3
+country/NPL,Nepal,2023,33.2
+country/NRU,Nauru,2023,22.5
+country/NZL,New Zealand,2023,12.4
+country/OMN,Oman,2023,34.4
+country/PAK,Pakistan,2023,46.5
+country/PAN,Panama,2023,25.5
+country/PER,Peru,2023,21
+country/PHL,Philippines,2023,12
+country/PLW,Palau,2023,25.9
+country/PNG,Papua New Guinea,2023,28.8
+country/POL,Poland,2023,23.4
+country/PRK,North Korea,2023,27.5
+country/PRT,Portugal,2023,15
+country/PRY,Paraguay,2023,23.2
+country/PSE,Palestinian Territories,2023,24.8
+country/QAT,Qatar,2023,23.6
+country/ROU,Romania,2023,24.3
+country/RUS,Russia,2023,24.1
+country/RWA,Rwanda,2023,16.1
+country/SAU,Saudi Arabia,2023,17.6
+country/SDN,Sudan,2023,34
+country/SEN,Senegal,2023,43.1
+country/SGP,Singapore,2023,16.6
+country/SLB,Solomon Islands,2023,32.6
+country/SLE,Sierra Leone,2023,44.6
+country/SLV,El Salvador,2023,14.4
+country/SMR,San Marino,2023,15.7
+country/SOM,Somalia,2023,46.2
+country/SRB,Serbia,2023,24.9
+country/SSD,South Sudan,2023,35
+country/STP,São Tomé and Príncipe,2023,39.7
+country/SUR,Suriname,2023,22.2
+country/SVK,Slovakia,2023,25.3
+country/SVN,Slovenia,2023,25.7
+country/SWE,Sweden,2023,16.8
+country/SWZ,Eswatini,2023,28.3
+country/SYC,Seychelles,2023,25.8
+country/SYR,Syria,2023,31
+country/TCD,Chad,2023,46.5
+country/TGO,Togo,2023,41.5
+country/THA,Thailand,2023,20.7
+country/TJK,Tajikistan,2023,37.3
+country/TKM,Turkmenistan,2023,34.8
+country/TLS,East Timor,2023,29.7
+country/TON,Tonga,2023,20.7
+country/TTO,Trinidad and Tobago,2023,22.1
+country/TUN,Tunisia,2023,27.7
+country/TUR,Turkey,2023,29.3
+country/TUV,Tuvalu,2023,23.2
+country/TZA,Tanzania,2023,38.8
+country/UGA,Uganda,2023,27.2
+country/UKR,Ukraine,2023,19.4
+country/URY,Uruguay,2023,24.5
+country/USA,United States,2023,15
+country/UZB,Uzbekistan,2023,30.4
+country/VCT,Saint Vincent and the Grenadines,2023,18.8
+country/VEN,Venezuela,2023,25.2
+country/VNM,Vietnam,2023,20.5
+country/VUT,Vanuatu,2023,30.4
+country/WSM,Samoa,2023,21.9
+country/YEM,Yemen,2023,36.4
+country/ZAF,South Africa,2023,31.2
+country/ZMB,Zambia,2023,27.1
+country/ZWE,Zimbabwe,2023,27.5

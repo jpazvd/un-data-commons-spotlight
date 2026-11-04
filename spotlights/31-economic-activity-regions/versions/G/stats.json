@@ -1,0 +1,69 @@
+{
+ "frame": "G",
+ "ok": true,
+ "kind": "groups_compared",
+ "groups": [
+  "female",
+  "male"
+ ],
+ "places": [
+  {
+   "dcid": "SubSaharanAfrica",
+   "place": "Sub-Saharan Africa",
+   "year": 2024,
+   "female": 20.761,
+   "male": 22.14
+  },
+  {
+   "dcid": "undata-geo/G00103000",
+   "place": "N. Africa and W. Asia",
+   "year": 2024,
+   "female": 5.95,
+   "male": 10.6
+  },
+  {
+   "dcid": "undata-geo/G00116000",
+   "place": "Central and S. Asia",
+   "year": 2024,
+   "female": 2.149,
+   "male": 4.519
+  },
+  {
+   "dcid": "undata-geo/G00122000",
+   "place": "E. and S.-E. Asia",
+   "year": 2024,
+   "female": 2.679,
+   "male": 3.427
+  },
+  {
+   "dcid": "LatinAmericaAndCaribbean",
+   "place": "Latin America, Caribbean",
+   "year": 2024,
+   "female": 3.792,
+   "male": 7.174
+  },
+  {
+   "dcid": "undata-geo/G00126000",
+   "place": "Europe and N. America",
+   "year": 2024,
+   "female": 0.583,
+   "male": 0.977
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "year": 2024,
+   "female": 6.942,
+   "male": 8.6
+  }
+ ],
+ "family": "child_labour",
+ "what": "children aged 5 to 17 engaged in economic activity",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "ILO and UNICEF",
+ "breakdown": "sex",
+ "place_type": "regions_compared",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UN SDG Global Database"
+}

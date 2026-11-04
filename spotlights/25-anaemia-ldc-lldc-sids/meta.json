@@ -1,0 +1,49 @@
+{
+  "spotlight": 25,
+  "slug": "25-anaemia-ldc-lldc-sids",
+  "title": "Anaemia in women 15-49, LDCs, LLDCs and SIDS compared with the World",
+  "sdg_indicator": "2.2.3",
+  "retrieved_on": "2026-11-01",
+  "target_value": null,
+  "target_year": null,
+  "target_basis": "none",
+  "experiment": {
+    "id": "002",
+    "proposal": "P31",
+    "family": "anaemia_women",
+    "pace": 0,
+    "kind": "standard",
+    "place_type": "groupings",
+    "place": "LDCs, LLDCs and SIDS compared with the World",
+    "place_dcids": [
+      "undata-geo/G00404000",
+      "undata-geo/G00403000",
+      "undata-geo/G00405000",
+      "Earth"
+    ],
+    "breakdown": "none",
+    "frames_proposed": "T|L|G",
+    "feed_tag": "#PolicySky",
+    "versions": [
+      {
+        "version": "25-L",
+        "frame": "L",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "25-G",
+        "frame": "G",
+        "design": "Ink",
+        "template": "templates/banner-ink.dc.html"
+      },
+      {
+        "version": "25-T",
+        "frame": "T",
+        "design": "D-light",
+        "template": "templates/banner-D-light.dc.html"
+      }
+    ],
+    "frames_supported": "T|L|G"
+  }
+}

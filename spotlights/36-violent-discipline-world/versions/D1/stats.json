@@ -1,0 +1,76 @@
+{
+ "frame": "D1",
+ "ok": true,
+ "kind": "any_data",
+ "place": "World",
+ "n_with_data": 88,
+ "n_members": 194,
+ "n_members_with_data": 88,
+ "n_stale": 50,
+ "stale_cutoff": 2020,
+ "latest_year_max": 2025,
+ "latest_year_min": 2013,
+ "median_latest_year": 2020,
+ "by_year": [
+  [
+   2013,
+   1
+  ],
+  [
+   2014,
+   2
+  ],
+  [
+   2015,
+   3
+  ],
+  [
+   2016,
+   6
+  ],
+  [
+   2017,
+   5
+  ],
+  [
+   2018,
+   10
+  ],
+  [
+   2019,
+   16
+  ],
+  [
+   2020,
+   7
+  ],
+  [
+   2021,
+   8
+  ],
+  [
+   2022,
+   10
+  ],
+  [
+   2023,
+   15
+  ],
+  [
+   2024,
+   3
+  ],
+  [
+   2025,
+   2
+  ]
+ ],
+ "family": "violent_discipline",
+ "what": "children aged 1 to 14 punished violently by caregivers in the past month",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "UNICEF",
+ "breakdown": null,
+ "place_type": "world",
+ "breakdown_source": null
+}

@@ -1,0 +1,149 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "SDG 5.3",
+  "value": 0,
+  "year": 2030,
+  "kind": "elimination"
+ },
+ "ok": true,
+ "kind": "pace_compared",
+ "places": [
+  {
+   "dcid": "SubSaharanAfrica",
+   "place": "Sub-Saharan Africa",
+   "first": {
+    "year": 2005,
+    "value": 38.314
+   },
+   "last": {
+    "year": 2025,
+    "value": 30.748
+   },
+   "observed_per_year": -0.3783,
+   "required_per_year": -6.1496,
+   "trend": "towards target",
+   "years_left": 5,
+   "at_current_pace": 28.8565,
+   "required_over_observed": 16.2559
+  },
+  {
+   "dcid": "undata-geo/G00103000",
+   "place": "N. Africa and W. Asia",
+   "first": {
+    "year": 2005,
+    "value": 18.496
+   },
+   "last": {
+    "year": 2025,
+    "value": 15.269
+   },
+   "observed_per_year": -0.1613,
+   "required_per_year": -3.0538,
+   "trend": "towards target",
+   "years_left": 5,
+   "at_current_pace": 14.4623,
+   "required_over_observed": 18.9266
+  },
+  {
+   "dcid": "undata-geo/G00116000",
+   "place": "Central and S. Asia",
+   "first": {
+    "year": 2005,
+    "value": 47.3
+   },
+   "last": {
+    "year": 2025,
+    "value": 24.599
+   },
+   "observed_per_year": -1.135,
+   "required_per_year": -4.9198,
+   "trend": "towards target",
+   "years_left": 5,
+   "at_current_pace": 18.9238,
+   "required_over_observed": 4.3344
+  },
+  {
+   "dcid": "undata-geo/G00122000",
+   "place": "E. and S.-E. Asia",
+   "first": {
+    "year": 2005,
+    "value": 9.423
+   },
+   "last": {
+    "year": 2025,
+    "value": 7.592
+   },
+   "observed_per_year": -0.0916,
+   "required_per_year": -1.5184,
+   "trend": "towards target",
+   "years_left": 5,
+   "at_current_pace": 7.1342,
+   "required_over_observed": 16.5855
+  },
+  {
+   "dcid": "LatinAmericaAndCaribbean",
+   "place": "Latin America, Caribbean",
+   "first": {
+    "year": 2005,
+    "value": 20.983
+   },
+   "last": {
+    "year": 2025,
+    "value": 18.442
+   },
+   "observed_per_year": -0.1271,
+   "required_per_year": -3.6884,
+   "trend": "towards target",
+   "years_left": 5,
+   "at_current_pace": 17.8068,
+   "required_over_observed": 29.0311
+  },
+  {
+   "dcid": "undata-geo/G00145000",
+   "place": "Oceania (excl. Aus., NZ)",
+   "first": {
+    "year": 2005,
+    "value": 25.144
+   },
+   "last": {
+    "year": 2025,
+    "value": 24.947
+   },
+   "observed_per_year": -0.0098,
+   "required_per_year": -4.9894,
+   "trend": "towards target",
+   "years_left": 5,
+   "at_current_pace": 24.8977,
+   "required_over_observed": 506.5381
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "first": {
+    "year": 2005,
+    "value": 24.174
+   },
+   "last": {
+    "year": 2025,
+    "value": 18.468
+   },
+   "observed_per_year": -0.2853,
+   "required_per_year": -3.6936,
+   "trend": "towards target",
+   "years_left": 5,
+   "at_current_pace": 17.0415,
+   "required_over_observed": 12.9464
+  }
+ ],
+ "lead": "SubSaharanAfrica",
+ "family": "child_marriage_18",
+ "what": "women aged 20 to 24 first married or in union before 18",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "UNICEF",
+ "breakdown": "location",
+ "place_type": "regions_compared",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UNICEF Data Warehouse"
+}

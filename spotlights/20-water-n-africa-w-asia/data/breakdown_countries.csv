@@ -1,0 +1,192 @@
+dcid,name,group,year,value
+country/AFG,Afghanistan,rural,2024,28.37056541
+country/AZE,Azerbaijan,rural,2024,31.96850777
+country/BEN,Benin,rural,2024,6.66055727
+country/BGD,Bangladesh,rural,2024,62.50552368
+country/BRA,Brazil,rural,2024,73.63613129
+country/BTN,Bhutan,rural,2024,68.93939972
+country/CAF,Central African Republic,rural,2024,2.239552975
+country/CIV,Côte d'Ivoire,rural,2024,19.08362579
+country/COD,Congo [DRC],rural,2024,0.513366878
+country/COG,Congo [Republic],rural,2021,18.42222214
+country/COL,Colombia,rural,2024,38.73823166
+country/CRI,Costa Rica,rural,2024,81.05455017
+country/CZE,Czech Republic,rural,2024,98.51670074
+country/DEU,Germany,rural,2024,99.63911438
+country/DOM,Dominican Republic,rural,2024,36.17751312
+country/DZA,Algeria,rural,2024,59.35348892
+country/ECU,Ecuador,rural,2024,46.70344925
+country/ESP,Spain,rural,2024,98.59747314
+country/ETH,Ethiopia,rural,2024,5.845770836
+country/FJI,Fiji,rural,2024,27.00050163
+country/FRA,France,rural,2024,98.40000153
+country/GEO,Georgia,rural,2024,40.94736099
+country/GHA,Ghana,rural,2024,17.16217995
+country/GMB,Gambia,rural,2024,10.43540764
+country/GNB,Guinea-Bissau,rural,2024,13.72281265
+country/GTM,Guatemala,rural,2024,45.41159439
+country/GUY,Guyana,rural,2024,63.8425293
+country/HND,Honduras,rural,2024,45.46304703
+country/HRV,Croatia,rural,2024,74.04039764
+country/HUN,Hungary,rural,2024,100
+country/IDN,Indonesia,rural,2024,24.36262894
+country/IND,India,rural,2024,72.62750244
+country/IRL,Ireland,rural,2024,96.13767242
+country/IRN,Iran,rural,2024,88.06987
+country/IRQ,Iraq,rural,2024,47.64346313
+country/ISR,Israel,rural,2024,99.39478302
+country/KGZ,Kyrgyzstan,rural,2024,69.48269653
+country/KHM,Cambodia,rural,2024,20.42010498
+country/KIR,Kiribati,rural,2024,6.950333118
+country/LAO,Laos,rural,2024,25.21264648
+country/LKA,Sri Lanka,rural,2024,38.93982697
+country/LSO,Lesotho,rural,2024,14.30480003
+country/LUX,Luxembourg,rural,2024,97.90000153
+country/MAR,Morocco,rural,2024,58.44726181
+country/MDG,Madagascar,rural,2024,10.47201252
+country/MKD,Macedonia [FYROM],rural,2024,74.91941833
+country/MMR,Myanmar,rural,2024,52.7589798
+country/MNG,Mongolia,rural,2024,16.21794891
+country/MOZ,Mozambique,rural,2024,14.58311272
+country/MWI,Malawi,rural,2024,10.36204338
+country/NGA,Nigeria,rural,2024,22.39016724
+country/NPL,Nepal,rural,2024,14.43298817
+country/PAK,Pakistan,rural,2024,44.68684387
+country/PER,Peru,rural,2024,23.59203529
+country/PHL,Philippines,rural,2024,35.49201965
+country/PLW,Palau,rural,2024,57.32766342
+country/PRK,North Korea,rural,2023,48.83231735
+country/PRT,Portugal,rural,2024,91.43184662
+country/PRY,Paraguay,rural,2024,50.72868729
+country/PSE,Palestinian Territories,rural,2024,76.37126923
+country/ROU,Romania,rural,2024,66.65007019
+country/SEN,Senegal,rural,2024,13.21596527
+country/SLE,Sierra Leone,rural,2024,9.596757889
+country/SMR,San Marino,rural,2024,100
+country/SRB,Serbia,rural,2024,66.0353775
+country/STP,São Tomé and Príncipe,rural,2024,24.55409622
+country/SUR,Suriname,rural,2024,40.80696487
+country/SWZ,Eswatini,rural,2024,25.32132149
+country/TCA,Turks and Caicos Islands,rural,2024,55.65155029
+country/TCD,Chad,rural,2024,2.653780937
+country/TGO,Togo,rural,2024,8.967882156
+country/TKM,Turkmenistan,rural,2024,92.34754944
+country/TON,Tonga,rural,2024,23.16692162
+country/TTO,Trinidad and Tobago,rural,2024,65.0845108
+country/TUN,Tunisia,rural,2024,57.8927269
+country/TUV,Tuvalu,rural,2024,5.373424053
+country/TZA,Tanzania,rural,2024,22.78803444
+country/UGA,Uganda,rural,2024,9.848402977
+country/UKR,Ukraine,rural,2024,86.8862381
+country/UZB,Uzbekistan,rural,2024,74.75879669
+country/VNM,Vietnam,rural,2024,46.99110413
+country/VUT,Vanuatu,rural,2024,12.4500885
+country/WLF,Wallis and Futuna,rural,2024,68.89931488
+country/WSM,Samoa,rural,2024,56.2882309
+country/ZAF,South Africa,rural,2024,50.8295784
+country/ZWE,Zimbabwe,rural,2024,10.91998863
+country/AFG,Afghanistan,urban,2024,36.38140869
+country/AUS,Australia,urban,2024,99.64509583
+country/AZE,Azerbaijan,urban,2024,76.52825928
+country/BEN,Benin,urban,2024,28.44167328
+country/BGD,Bangladesh,urban,2024,54.30737686
+country/BLM,Saint Barthélemy,urban,2024,100
+country/BRA,Brazil,urban,2024,90.66466522
+country/BTN,Bhutan,urban,2024,61.50566483
+country/BWA,Botswana,urban,2024,68.8794632
+country/CAF,Central African Republic,urban,2024,11.25368023
+country/CHL,Chile,urban,2024,99.24251556
+country/CHN,China,urban,2024,96.43222046
+country/CIV,Côte d'Ivoire,urban,2024,51.4550209
+country/COD,Congo [DRC],urban,2024,24.15145111
+country/COG,Congo [Republic],urban,2021,58.62640381
+country/COL,Colombia,urban,2024,81.81168365
+country/CRI,Costa Rica,urban,2024,80.3878479
+country/CZE,Czech Republic,urban,2024,98.01918793
+country/DEU,Germany,urban,2024,99.99623871
+country/DOM,Dominican Republic,urban,2024,46.94658279
+country/DZA,Algeria,urban,2024,72.12702179
+country/ECU,Ecuador,urban,2024,82.35454559
+country/ESP,Spain,urban,2024,99.65000153
+country/ETH,Ethiopia,urban,2024,38.39481735
+country/FJI,Fiji,urban,2024,52.52801514
+country/FRA,France,urban,2024,100
+country/GEO,Georgia,urban,2024,89.30949402
+country/GHA,Ghana,urban,2024,60.23233032
+country/GIB,Gibraltar,urban,2024,100
+country/GMB,Gambia,urban,2024,68.43109894
+country/GNB,Guinea-Bissau,urban,2024,36.08396912
+country/GTM,Guatemala,urban,2024,51.71617889
+country/GUY,Guyana,urban,2024,76.04016876
+country/HKG,Hong Kong,urban,2024,100
+country/HND,Honduras,urban,2024,78.43547821
+country/HRV,Croatia,urban,2024,96.48143768
+country/HUN,Hungary,urban,2024,100
+country/IDN,Indonesia,urban,2024,34.66319656
+country/IND,India,urban,2024,82.97467804
+country/IRL,Ireland,urban,2024,96.11812592
+country/IRN,Iran,urban,2024,96.23267365
+country/IRQ,Iraq,urban,2024,64.59999847
+country/ISR,Israel,urban,2024,99.46708679
+country/KGZ,Kyrgyzstan,urban,2024,81.00762177
+country/KHM,Cambodia,urban,2024,57.160923
+country/KIR,Kiribati,urban,2024,20.87315178
+country/KWT,Kuwait,urban,2024,100
+country/LAO,Laos,urban,2024,50.85156631
+country/LKA,Sri Lanka,urban,2024,80.10764313
+country/LSO,Lesotho,urban,2024,69.37630463
+country/LTU,Lithuania,urban,2024,99.32430267
+country/LUX,Luxembourg,urban,2024,99.80000305
+country/MAC,Macau,urban,2024,100
+country/MAF,Saint Martin,urban,2024,96.62548065
+country/MAR,Morocco,urban,2024,91.25280762
+country/MCO,Monaco,urban,2024,100
+country/MDG,Madagascar,urban,2024,38.56733704
+country/MKD,Macedonia [FYROM],urban,2024,84.72619629
+country/MMR,Myanmar,urban,2024,74.20953369
+country/MNE,Montenegro,urban,2024,87.31912994
+country/MNG,Mongolia,urban,2024,55.40593338
+country/MOZ,Mozambique,urban,2024,47.53798676
+country/MWI,Malawi,urban,2024,52.40747833
+country/NGA,Nigeria,urban,2024,36.04532242
+country/NPL,Nepal,urban,2024,23.61611366
+country/NRU,Nauru,urban,2024,18.66316223
+country/PAK,Pakistan,urban,2024,45.43463898
+country/PER,Peru,urban,2024,56.23884964
+country/PHL,Philippines,urban,2024,62.21691132
+country/PLW,Palau,urban,2024,97.70423889
+country/PRK,North Korea,urban,2023,76.96360779
+country/PRT,Portugal,urban,2024,96.96434784
+country/PRY,Paraguay,urban,2024,72.2064743
+country/PSE,Palestinian Territories,urban,2024,81.85523224
+country/ROU,Romania,urban,2024,94.95350647
+country/RWA,Rwanda,urban,2024,53.4264679
+country/SEN,Senegal,urban,2024,41.12565994
+country/SGP,Singapore,urban,2024,100
+country/SLE,Sierra Leone,urban,2024,12.49683571
+country/SLV,El Salvador,urban,2024,75.70652771
+country/SMR,San Marino,urban,2024,100
+country/SRB,Serbia,urban,2024,81.60401917
+country/STP,São Tomé and Príncipe,urban,2024,40.29920959
+country/SUR,Suriname,urban,2024,63.41270065
+country/SWZ,Eswatini,urban,2024,76.87536621
+country/TCA,Turks and Caicos Islands,urban,2024,46.54283524
+country/TCD,Chad,urban,2024,17.58653069
+country/TGO,Togo,urban,2024,34.60997772
+country/TKM,Turkmenistan,urban,2024,96.94367981
+country/TON,Tonga,urban,2024,50.87710953
+country/TTO,Trinidad and Tobago,urban,2024,73.0841217
+country/TUN,Tunisia,urban,2024,67.88903046
+country/TUV,Tuvalu,urban,2024,10.37749767
+country/TZA,Tanzania,urban,2024,45.17466354
+country/UGA,Uganda,urban,2024,39.96530914
+country/UKR,Ukraine,urban,2024,88.28363037
+country/URY,Uruguay,urban,2024,94.58874512
+country/USA,United States,urban,2024,97.68202209
+country/UZB,Uzbekistan,urban,2024,88.92287445
+country/VNM,Vietnam,urban,2024,75.82488251
+country/VUT,Vanuatu,urban,2024,38.25417709
+country/WSM,Samoa,urban,2024,91.95822144
+country/ZAF,South Africa,urban,2024,75.61815643
+country/ZMB,Zambia,urban,2024,50.18470001
+country/ZWE,Zimbabwe,urban,2024,55.42741013

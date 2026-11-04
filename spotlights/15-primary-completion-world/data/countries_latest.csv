@@ -1,0 +1,160 @@
+dcid,name,year,value
+country/AFG,Afghanistan,2022,44.24226
+country/AGO,Angola,2023,55.25038
+country/ALB,Albania,2017,95.40159
+country/ARG,Argentina,2010,92.67375
+country/ARM,Armenia,2023,99.97809
+country/AUS,Australia,2018,99.57
+country/AUT,Austria,2021,98.99
+country/AZE,Azerbaijan,2023,98.74228
+country/BDI,Burundi,2017,50.14042
+country/BEL,Belgium,2021,97.7
+country/BEN,Benin,2022,50.40588
+country/BFA,Burkina Faso,2021,60.26063
+country/BGD,Bangladesh,2022,88.40389
+country/BGR,Bulgaria,2021,98.995
+country/BIH,Bosnia and Herzegovina,2012,99.73966
+country/BLR,Belarus,2019,100
+country/BLZ,Belize,2015,96.18351
+country/BOL,Bolivia,2024,98.90703
+country/BRA,Brazil,2024,97.63082
+country/BRB,Barbados,2012,98.4548
+country/BTN,Bhutan,2022,89.61766
+country/BWA,Botswana,2023,96.56551
+country/CAF,Central African Republic,2019,27.0454
+country/CAN,Canada,2010,99.76
+country/CHE,Switzerland,2021,99.35
+country/CHL,Chile,2022,99.2
+country/CHN,China,2020,99.19
+country/CIV,Côte d'Ivoire,2021,65.15485
+country/CMR,Cameroon,2018,73.97986
+country/COD,Congo [DRC],2023,69.99367
+country/COG,Congo [Republic],2015,80.34445
+country/COL,Colombia,2024,97.23861
+country/COM,Comoros,2022,81.51703
+country/CRI,Costa Rica,2024,99.55805
+country/CUB,Cuba,2019,99.65849
+country/CYP,Cyprus,2021,97.625
+country/DEU,Germany,2013,98.45
+country/DJI,Djibouti,2017,81.03413
+country/DNK,Denmark,2021,99.42
+country/DOM,Dominican Republic,2024,90.09657
+country/DZA,Algeria,2019,94.05358
+country/ECU,Ecuador,2024,98.12709
+country/EGY,Egypt,2022,96.11
+country/ESP,Spain,2021,98.615
+country/EST,Estonia,2021,99.745
+country/ETH,Ethiopia,2022,54.4381
+country/FIN,Finland,2021,99.77
+country/FJI,Fiji,2021,98.43831
+country/FRA,France,2021,99.135
+country/GAB,Gabon,2017,76.13
+country/GBR,United Kingdom,2019,99.795
+country/GEO,Georgia,2018,99.90618
+country/GHA,Ghana,2024,77.59397
+country/GIN,Guinea,2018,45.13703
+country/GMB,Gambia,2023,62.3232
+country/GNB,Guinea-Bissau,2022,38.6739
+country/GNQ,Equatorial Guinea,2000,42.23
+country/GRC,Greece,2021,99.06
+country/GTM,Guatemala,2024,84.97044
+country/GUY,Guyana,2019,98.21883
+country/HND,Honduras,2024,88.06778
+country/HRV,Croatia,2021,99.785
+country/HTI,Haiti,2017,52.98419
+country/HUN,Hungary,2021,99.205
+country/IDN,Indonesia,2022,99.05
+country/IND,India,2019,94.15231
+country/IRQ,Iraq,2018,75.67041
+country/ISR,Israel,2018,100
+country/ITA,Italy,2021,99.69
+country/JAM,Jamaica,2022,99.19234
+country/JOR,Jordan,2023,96.54766
+country/KAZ,Kazakhstan,2024,99.4951
+country/KEN,Kenya,2024,90.77656
+country/KGZ,Kyrgyzstan,2023,99.44795
+country/KHM,Cambodia,2021,82.3166
+country/KIR,Kiribati,2018,94.08632
+country/KOR,South Korea,2012,100
+country/LAO,Laos,2023,87.65978
+country/LBN,Lebanon,2018,96.85648
+country/LBR,Liberia,2019,30.53271
+country/LCA,Saint Lucia,2012,99.57961
+country/LKA,Sri Lanka,2023,99.61308
+country/LSO,Lesotho,2024,87.86821
+country/LTU,Lithuania,2021,99.545
+country/LUX,Luxembourg,2021,98.26
+country/LVA,Latvia,2021,99.71
+country/MAR,Morocco,2010,69.39188
+country/MDA,Moldova,2012,99.0895
+country/MDG,Madagascar,2021,49.68044
+country/MDV,Maldives,2017,98.19357
+country/MEX,Mexico,2024,97.6333
+country/MKD,Macedonia [FYROM],2018,98.2805
+country/MLI,Mali,2024,47.51028
+country/MMR,Myanmar,2016,83.13913
+country/MNE,Montenegro,2018,96.5287
+country/MNG,Mongolia,2020,97.47893
+country/MOZ,Mozambique,2022,54.35913
+country/MRT,Mauritania,2015,57.92466
+country/MWI,Malawi,2020,49.33696
+country/NAM,Namibia,2015,87.36
+country/NER,Niger,2022,35.80083
+country/NGA,Nigeria,2024,77.36509
+country/NIC,Nicaragua,2014,75.2
+country/NOR,Norway,2021,100
+country/NPL,Nepal,2021,86.1421
+country/NRU,Nauru,2023,90.29126
+country/PAK,Pakistan,2021,60.06523
+country/PAN,Panama,2023,97.3
+country/PER,Peru,2024,98.99316
+country/PHL,Philippines,2022,95.84542
+country/PNG,Papua New Guinea,2022,67.61
+country/POL,Poland,2020,98.085
+country/PRI,Puerto Rico,2024,98.89445
+country/PRT,Portugal,2021,99.325
+country/PRY,Paraguay,2024,96.81036
+country/PSE,Palestinian Territories,2019,99.4581
+country/QAT,Qatar,2023,100
+country/ROU,Romania,2021,98.06
+country/RUS,Russia,2022,99.76
+country/RWA,Rwanda,2022,62.68344
+country/SDN,Sudan,2014,65.42644
+country/SEN,Senegal,2023,52.68
+country/SLE,Sierra Leone,2019,69.43415
+country/SLV,El Salvador,2023,91.4
+country/SOM,Somalia,2023,49.75422
+country/SRB,Serbia,2019,99.50065
+country/SSD,South Sudan,2010,24.64012
+country/STP,São Tomé and Príncipe,2019,87.14976
+country/SUR,Suriname,2022,92.46397
+country/SVN,Slovenia,2021,99.665
+country/SWE,Sweden,2021,99.395
+country/SWZ,Eswatini,2022,79.6902
+country/SYR,Syria,2006,95.58475
+country/TCA,Turks and Caicos Islands,2019,98.71131
+country/TCD,Chad,2019,26.90466
+country/TGO,Togo,2022,79.05648
+country/THA,Thailand,2022,98.80757
+country/TJK,Tajikistan,2023,98.97678
+country/TKM,Turkmenistan,2019,99.35216
+country/TLS,East Timor,2016,80.68618
+country/TON,Tonga,2019,98.21355
+country/TTO,Trinidad and Tobago,2022,99.10135
+country/TUN,Tunisia,2023,92.72122
+country/TUR,Turkey,2022,97.7
+country/TUV,Tuvalu,2019,100
+country/TZA,Tanzania,2022,74.45085
+country/UGA,Uganda,2024,38.71136
+country/UKR,Ukraine,2013,99.58049
+country/URY,Uruguay,2024,99.40093
+country/USA,United States,2024,99.59607
+country/UZB,Uzbekistan,2022,99.70854
+country/VEN,Venezuela,2014,94.1
+country/VNM,Vietnam,2021,98.28678
+country/VUT,Vanuatu,2023,81.45679
+country/WSM,Samoa,2019,98.07785
+country/YEM,Yemen,2023,68.13316
+country/ZAF,South Africa,2024,97.56542
+country/ZMB,Zambia,2024,74.31487
+country/ZWE,Zimbabwe,2019,88.80678

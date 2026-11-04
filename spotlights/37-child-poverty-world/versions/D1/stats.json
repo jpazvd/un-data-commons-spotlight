@@ -1,0 +1,64 @@
+{
+ "frame": "D1",
+ "ok": true,
+ "kind": "any_data",
+ "place": "World",
+ "n_with_data": 47,
+ "n_members": 194,
+ "n_members_with_data": 47,
+ "n_stale": 37,
+ "stale_cutoff": 2020,
+ "latest_year_max": 2024,
+ "latest_year_min": 2010,
+ "median_latest_year": 2010,
+ "by_year": [
+  [
+   2010,
+   28
+  ],
+  [
+   2014,
+   1
+  ],
+  [
+   2015,
+   2
+  ],
+  [
+   2016,
+   1
+  ],
+  [
+   2019,
+   4
+  ],
+  [
+   2020,
+   1
+  ],
+  [
+   2021,
+   2
+  ],
+  [
+   2022,
+   2
+  ],
+  [
+   2023,
+   1
+  ],
+  [
+   2024,
+   5
+  ]
+ ],
+ "family": "child_poverty_mpi",
+ "what": "children living in multidimensional poverty (national definitions)",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "national statistical offices",
+ "breakdown": null,
+ "place_type": "world",
+ "breakdown_source": null
+}

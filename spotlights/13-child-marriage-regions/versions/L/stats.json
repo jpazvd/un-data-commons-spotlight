@@ -1,0 +1,223 @@
+{
+ "frame": "L",
+ "ok": true,
+ "kind": "trend_compared",
+ "from": 2005,
+ "to": 2025,
+ "places": [
+  {
+   "dcid": "SubSaharanAfrica",
+   "place": "Sub-Saharan Africa",
+   "first": 38.314,
+   "last": 30.748,
+   "change": -7.566,
+   "series": [
+    [
+     2005,
+     38.314
+    ],
+    [
+     2010,
+     38.444
+    ],
+    [
+     2015,
+     37.137
+    ],
+    [
+     2020,
+     34.527
+    ],
+    [
+     2025,
+     30.748
+    ]
+   ]
+  },
+  {
+   "dcid": "undata-geo/G00103000",
+   "place": "N. Africa and W. Asia",
+   "first": 18.496,
+   "last": 15.269,
+   "change": -3.227,
+   "series": [
+    [
+     2005,
+     18.496
+    ],
+    [
+     2010,
+     16.296
+    ],
+    [
+     2015,
+     15.448
+    ],
+    [
+     2020,
+     15.962
+    ],
+    [
+     2025,
+     15.269
+    ]
+   ]
+  },
+  {
+   "dcid": "undata-geo/G00116000",
+   "place": "Central and S. Asia",
+   "first": 47.3,
+   "last": 24.599,
+   "change": -22.701,
+   "series": [
+    [
+     2005,
+     47.3
+    ],
+    [
+     2010,
+     43.542
+    ],
+    [
+     2015,
+     36.833
+    ],
+    [
+     2020,
+     30.321
+    ],
+    [
+     2025,
+     24.599
+    ]
+   ]
+  },
+  {
+   "dcid": "undata-geo/G00122000",
+   "place": "E. and S.-E. Asia",
+   "first": 9.423,
+   "last": 7.592,
+   "change": -1.831,
+   "series": [
+    [
+     2005,
+     9.423
+    ],
+    [
+     2010,
+     8.034
+    ],
+    [
+     2015,
+     8.23
+    ],
+    [
+     2020,
+     8.729
+    ],
+    [
+     2025,
+     7.592
+    ]
+   ]
+  },
+  {
+   "dcid": "LatinAmericaAndCaribbean",
+   "place": "Latin America, Caribbean",
+   "first": 20.983,
+   "last": 18.442,
+   "change": -2.541,
+   "series": [
+    [
+     2005,
+     20.983
+    ],
+    [
+     2010,
+     22.391
+    ],
+    [
+     2015,
+     20.876
+    ],
+    [
+     2020,
+     19.439
+    ],
+    [
+     2025,
+     18.442
+    ]
+   ]
+  },
+  {
+   "dcid": "undata-geo/G00145000",
+   "place": "Oceania (excl. Aus., NZ)",
+   "first": 25.144,
+   "last": 24.947,
+   "change": -0.197,
+   "series": [
+    [
+     2005,
+     25.144
+    ],
+    [
+     2010,
+     27.974
+    ],
+    [
+     2015,
+     26.443
+    ],
+    [
+     2020,
+     26.424
+    ],
+    [
+     2025,
+     24.947
+    ]
+   ]
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "first": 24.174,
+   "last": 18.468,
+   "change": -5.706,
+   "series": [
+    [
+     2005,
+     24.174
+    ],
+    [
+     2010,
+     22.873
+    ],
+    [
+     2015,
+     21.989
+    ],
+    [
+     2020,
+     20.595
+    ],
+    [
+     2025,
+     18.468
+    ]
+   ]
+  }
+ ],
+ "lead": "undata-geo/G00116000",
+ "left_out": [],
+ "family": "child_marriage_18",
+ "what": "women aged 20 to 24 first married or in union before 18",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "UNICEF",
+ "breakdown": "location",
+ "place_type": "regions_compared",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UNICEF Data Warehouse"
+}

@@ -1,0 +1,32 @@
+{
+ "frame": "D",
+ "ok": true,
+ "kind": "coverage",
+ "place": "Latin America and the Caribbean",
+ "n_with_data": 33,
+ "n_members": 33,
+ "n_members_with_data": 33,
+ "n_stale": 1,
+ "stale_cutoff": 2020,
+ "latest_year_max": 2026,
+ "latest_year_min": 2020,
+ "median_latest_year": 2026,
+ "by_year": [
+  [
+   2020,
+   1
+  ],
+  [
+   2026,
+   32
+  ]
+ ],
+ "family": "women_parliament",
+ "what": "seats in national parliaments held by women",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "IPU",
+ "breakdown": null,
+ "place_type": "region",
+ "breakdown_source": null
+}

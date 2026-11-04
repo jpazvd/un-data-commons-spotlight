@@ -1,0 +1,101 @@
+place_dcid,name,group,year,value
+Earth,World,rural,2000,16.61167526
+Earth,World,rural,2001,17.24079704
+Earth,World,rural,2002,18.04701805
+Earth,World,rural,2003,19.21657753
+Earth,World,rural,2004,20.45189667
+Earth,World,rural,2005,21.6588459
+Earth,World,rural,2006,22.91679573
+Earth,World,rural,2007,24.22508049
+Earth,World,rural,2008,25.56033134
+Earth,World,rural,2009,26.91328049
+Earth,World,rural,2010,28.30408478
+Earth,World,rural,2011,29.65676117
+Earth,World,rural,2012,31.08338928
+Earth,World,rural,2013,32.58319092
+Earth,World,rural,2014,34.06897736
+Earth,World,rural,2015,35.58355331
+Earth,World,rural,2016,37.14997482
+Earth,World,rural,2017,38.73070908
+Earth,World,rural,2018,40.30703735
+Earth,World,rural,2019,41.90464401
+Earth,World,rural,2020,43.28507233
+Earth,World,rural,2021,44.65206146
+Earth,World,rural,2022,46.0346489
+Earth,World,rural,2023,47.27774429
+Earth,World,rural,2024,48.50000381
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2000,27.82839203
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2001,27.94055939
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2002,28.2449131
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2003,28.51169777
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2004,29.01890945
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2005,29.49049377
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2006,30.01423645
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2007,30.48213387
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2008,30.91580582
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2009,31.31442261
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2010,31.73965836
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2011,32.24094391
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2012,32.72526169
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2013,34.13008118
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2014,34.55671692
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2015,34.99767685
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2016,35.99557877
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2017,36.97613144
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2018,38.01849365
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2019,39.1724205
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2020,40.37854004
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2021,41.42821503
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2022,42.53301239
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2023,43.75111008
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2024,45.0110817
+Earth,World,urban,2000,48.19827652
+Earth,World,urban,2001,48.0812645
+Earth,World,urban,2002,46.93583298
+Earth,World,urban,2003,47.6157074
+Earth,World,urban,2004,48.37875366
+Earth,World,urban,2005,49.17304611
+Earth,World,urban,2006,50.00510788
+Earth,World,urban,2007,50.96483612
+Earth,World,urban,2008,51.93643188
+Earth,World,urban,2009,52.91978836
+Earth,World,urban,2010,53.9231987
+Earth,World,urban,2011,54.95674515
+Earth,World,urban,2012,56.02829361
+Earth,World,urban,2013,57.12594604
+Earth,World,urban,2014,58.25963974
+Earth,World,urban,2015,59.43623352
+Earth,World,urban,2016,60.60432434
+Earth,World,urban,2017,61.7816658
+Earth,World,urban,2018,62.95462418
+Earth,World,urban,2019,64.12151337
+Earth,World,urban,2020,64.54439545
+Earth,World,urban,2021,64.96879578
+Earth,World,urban,2022,65.39076996
+Earth,World,urban,2023,65.65937805
+Earth,World,urban,2024,65.83234406
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2000,48.50415039
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2001,48.77851105
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2002,49.08711624
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2003,49.42234039
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2004,50.10876846
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2005,50.86608124
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2006,51.73473358
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2007,52.6664772
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2008,53.50815201
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2009,54.26259613
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2010,55.00341415
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2011,55.74045563
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2012,56.41502762
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2013,57.10759735
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2014,57.90371323
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2015,58.72011948
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2016,59.96618271
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2017,61.13091278
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2018,62.31533813
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2019,63.55029297
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2020,64.8373642
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2021,66.05548096
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2022,67.33978271
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2023,68.71676636
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2024,69.73516083

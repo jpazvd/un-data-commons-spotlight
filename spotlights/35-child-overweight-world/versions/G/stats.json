@@ -1,0 +1,23 @@
+{
+ "frame": "G",
+ "ok": true,
+ "kind": "groups",
+ "groups": [
+  "female",
+  "male"
+ ],
+ "dcid": "Earth",
+ "place": "World",
+ "year": 2024,
+ "female": 5.1,
+ "male": 5.8,
+ "family": "overweight",
+ "what": "children under 5 who are overweight",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "UNICEF/WHO/World Bank JME",
+ "breakdown": "sex",
+ "place_type": "world",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UN SDG Global Database"
+}

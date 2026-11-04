@@ -1,0 +1,186 @@
+dcid,name,year,value
+country/ABW,Aruba,2010,16.56
+country/AFG,Afghanistan,2021,43.77
+country/AGO,Angola,2023,21.38
+country/ALB,Albania,2023,23.16
+country/ARE,United Arab Emirates,2023,8.92
+country/ARG,Argentina,2024,16.32
+country/ARM,Armenia,2023,20.18
+country/ATG,Antigua and Barbuda,2018,20.78
+country/AUS,Australia,2024,8.53
+country/AUT,Austria,2024,13.26
+country/AZE,Azerbaijan,2010,9.64
+country/BDI,Burundi,2020,11.17
+country/BEL,Belgium,2024,8.15
+country/BEN,Benin,2022,14.24
+country/BFA,Burkina Faso,2024,21.63
+country/BGD,Bangladesh,2024,15.43
+country/BGR,Bulgaria,2024,10.89
+country/BIH,Bosnia and Herzegovina,2024,14.31
+country/BLR,Belarus,2009,10.87
+country/BLZ,Belize,2019,24.88
+country/BMU,Bermuda,2010,6.79
+country/BOL,Bolivia,2024,8.02
+country/BRA,Brazil,2024,19.31
+country/BRB,Barbados,2016,28.99
+country/BRN,Brunei,2024,19.05
+country/BTN,Bhutan,2024,20.24
+country/BWA,Botswana,2024,38
+country/CAN,Canada,2025,13.27
+country/CHE,Switzerland,2024,6.91
+country/CHL,Chile,2025,13.44
+country/CHN,China,2000,12.69
+country/CIV,Côte d'Ivoire,2022,18.83
+country/CMR,Cameroon,2021,23.22
+country/COD,Congo [DRC],2020,31.37
+country/COG,Congo [Republic],2009,22.27
+country/COK,Cook Islands,2023,20.3
+country/COL,Colombia,2024,23.15
+country/COM,Comoros,2021,21.17
+country/CPV,Cape Verde,2019,27.99
+country/CRI,Costa Rica,2024,18.28
+country/CUW,Curaçao,2020,17.46
+country/CYP,Cyprus,2024,13.17
+country/CZE,Czech Republic,2024,4.62
+country/DEU,Germany,2024,7.58
+country/DJI,Djibouti,2017,51.03
+country/DNK,Denmark,2024,6.9
+country/DOM,Dominican Republic,2024,25.69
+country/DZA,Algeria,2017,20.95
+country/ECU,Ecuador,2025,17.72
+country/EGY,Egypt,2024,23.78
+country/ESP,Spain,2025,10.5
+country/EST,Estonia,2024,10.23
+country/ETH,Ethiopia,2021,17.53
+country/FIN,Finland,2024,8.28
+country/FJI,Fiji,2024,20.79
+country/FLK,Falkland Islands,2012,3.25
+country/FRA,France,2024,12.57
+country/FSM,Federated States of Micronesia,2014,28.67
+country/GBR,United Kingdom,2024,14.3
+country/GEO,Georgia,2024,14.69
+country/GHA,Ghana,2024,23.91
+country/GIN,Guinea,2019,34.3
+country/GMB,Gambia,2023,39.85
+country/GNB,Guinea-Bissau,2022,13.2
+country/GRC,Greece,2024,10.43
+country/GRD,Grenada,2023,20.09
+country/GTM,Guatemala,2024,24.03
+country/GUY,Guyana,2019,45.66
+country/HKG,Hong Kong,2024,5.67
+country/HND,Honduras,2024,30.75
+country/HRV,Croatia,2024,8.08
+country/HTI,Haiti,2012,21.09
+country/HUN,Hungary,2024,9.98
+country/IDN,Indonesia,2023,21.36
+country/IND,India,2024,24.19
+country/IRL,Ireland,2024,5.67
+country/IRN,Iran,2024,24.32
+country/IRQ,Iraq,2021,36.93
+country/ISL,Iceland,2024,3.97
+country/ISR,Israel,2024,15.27
+country/ITA,Italy,2024,11.96
+country/JAM,Jamaica,2023,19.7
+country/JOR,Jordan,2023,30.23
+country/JPN,Japan,2019,3.14
+country/KAZ,Kazakhstan,2016,9.49
+country/KEN,Kenya,2022,27.78
+country/KGZ,Kyrgyzstan,2023,19.31
+country/KHM,Cambodia,2023,6.32
+country/KIR,Kiribati,2023,35.41
+country/KOR,South Korea,2002,10.76
+country/LAO,Laos,2022,22.51
+country/LBN,Lebanon,2019,23.52
+country/LBR,Liberia,2017,39.94
+country/LCA,Saint Lucia,2024,22.63
+country/LKA,Sri Lanka,2023,18.2
+country/LSO,Lesotho,2024,37.98
+country/LTU,Lithuania,2024,14.91
+country/LUX,Luxembourg,2024,10.23
+country/LVA,Latvia,2024,9.89
+country/MAC,Macau,2016,4.96
+country/MAR,Morocco,2014,35.27
+country/MDA,Moldova,2024,11.49
+country/MDG,Madagascar,2022,24.33
+country/MDV,Maldives,2019,26.27
+country/MEX,Mexico,2024,15.88
+country/MHL,Marshall Islands,2021,39.97
+country/MKD,Macedonia [FYROM],2024,18.47
+country/MLI,Mali,2023,31.34
+country/MLT,Malta,2024,7.84
+country/MMR,Myanmar,2020,15.02
+country/MNE,Montenegro,2024,14.25
+country/MNG,Mongolia,2024,9.9
+country/MOZ,Mozambique,2022,19.24
+country/MRT,Mauritania,2019,44.08
+country/MUS,Mauritius,2024,13.94
+country/MWI,Malawi,2024,39.42
+country/MYS,Malaysia,2022,10.22
+country/NAM,Namibia,2018,31.88
+country/NCL,New Caledonia,2023,24.74
+country/NER,Niger,2022,15.66
+country/NGA,Nigeria,2024,11.91
+country/NIC,Nicaragua,2014,24.49
+country/NIU,Niue,2022,10.82
+country/NLD,Netherlands,2024,4.14
+country/NOR,Norway,2024,5.82
+country/NPL,Nepal,2017,34.76
+country/NRU,Nauru,2021,40.99
+country/NZL,New Zealand,2024,12.78
+country/PAK,Pakistan,2025,28.52
+country/PAN,Panama,2024,14.7
+country/PER,Peru,2022,22.78
+country/PHL,Philippines,2023,12.36
+country/PLW,Palau,2023,11.27
+country/PNG,Papua New Guinea,2022,27.69
+country/POL,Poland,2024,10.54
+country/PRI,Puerto Rico,2020,19.49
+country/PRT,Portugal,2024,7.76
+country/PRY,Paraguay,2017,18.59
+country/PSE,Palestinian Territories,2024,26.73
+country/REU,Réunion,2012,28.59
+country/ROU,Romania,2024,17.04
+country/RUS,Russia,2024,8.42
+country/RWA,Rwanda,2024,25.86
+country/SAU,Saudi Arabia,2024,16.16
+country/SDN,Sudan,2022,46.53
+country/SEN,Senegal,2024,35.17
+country/SGP,Singapore,2024,6.45
+country/SLB,Solomon Islands,2013,7.04
+country/SLE,Sierra Leone,2018,33.17
+country/SLV,El Salvador,2024,20.54
+country/SOM,Somalia,2022,50.95
+country/SRB,Serbia,2024,12.6
+country/SSD,South Sudan,2008,29.06
+country/STP,São Tomé and Príncipe,2017,43.8
+country/SUR,Suriname,2016,18.19
+country/SVK,Slovakia,2024,8.75
+country/SVN,Slovenia,2024,7.13
+country/SWE,Sweden,2024,5.58
+country/SWZ,Eswatini,2023,36.47
+country/SYC,Seychelles,2024,16.93
+country/TCD,Chad,2018,37.05
+country/TGO,Togo,2022,13.02
+country/THA,Thailand,2024,12.82
+country/TJK,Tajikistan,2016,41.33
+country/TKL,Tokelau,2022,41.59
+country/TLS,East Timor,2022,29.12
+country/TON,Tonga,2023,25.61
+country/TTO,Trinidad and Tobago,2024,15.85
+country/TUN,Tunisia,2023,22.65
+country/TUR,Turkey,2024,22.95
+country/TUV,Tuvalu,2022,34.35
+country/TZA,Tanzania,2024,12.83
+country/UGA,Uganda,2021,13.77
+country/UKR,Ukraine,2017,16.47
+country/URY,Uruguay,2024,14.03
+country/USA,United States,2025,11.59
+country/VEN,Venezuela,2020,37.13
+country/VNM,Vietnam,2024,10.25
+country/VUT,Vanuatu,2020,47.53
+country/WLF,Wallis and Futuna,2023,20.22
+country/WSM,Samoa,2022,30.09
+country/YEM,Yemen,2014,44.77
+country/ZAF,South Africa,2024,34.61
+country/ZMB,Zambia,2024,26.69
+country/ZWE,Zimbabwe,2024,35.99

@@ -1,0 +1,149 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "SDG 6.1",
+  "value": 100,
+  "year": 2030,
+  "kind": "universal"
+ },
+ "ok": true,
+ "kind": "pace_compared",
+ "places": [
+  {
+   "dcid": "SubSaharanAfrica",
+   "place": "Sub-Saharan Africa",
+   "first": {
+    "year": 2000,
+    "value": 17.3983
+   },
+   "last": {
+    "year": 2024,
+    "value": 31.7384
+   },
+   "observed_per_year": 0.5975,
+   "required_per_year": 11.3769,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 35.3235,
+   "required_over_observed": 19.0407
+  },
+  {
+   "dcid": "undata-geo/G00103000",
+   "place": "N. Africa and W. Asia",
+   "first": {
+    "year": 2000,
+    "value": 66.4824
+   },
+   "last": {
+    "year": 2024,
+    "value": 76.2027
+   },
+   "observed_per_year": 0.405,
+   "required_per_year": 3.9662,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 78.6328,
+   "required_over_observed": 9.7928
+  },
+  {
+   "dcid": "undata-geo/G00116000",
+   "place": "Central and S. Asia",
+   "first": {
+    "year": 2000,
+    "value": 47.7565
+   },
+   "last": {
+    "year": 2024,
+    "value": 76.9831
+   },
+   "observed_per_year": 1.2178,
+   "required_per_year": 3.8362,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 84.2897,
+   "required_over_observed": 3.1501
+  },
+  {
+   "dcid": "undata-geo/G00122000",
+   "place": "E. and S.-E. Asia",
+   "first": {
+    "year": 2000,
+    "value": 68.2081
+   },
+   "last": {
+    "year": 2024,
+    "value": 75.3145
+   },
+   "observed_per_year": 0.2961,
+   "required_per_year": 4.1143,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 77.0911,
+   "required_over_observed": 13.8948
+  },
+  {
+   "dcid": "LatinAmericaAndCaribbean",
+   "place": "Latin America, Caribbean",
+   "first": {
+    "year": 2000,
+    "value": 70.1265
+   },
+   "last": {
+    "year": 2024,
+    "value": 78.9267
+   },
+   "observed_per_year": 0.3667,
+   "required_per_year": 3.5122,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 81.1267,
+   "required_over_observed": 9.5785
+  },
+  {
+   "dcid": "undata-geo/G00126000",
+   "place": "Europe and N. America",
+   "first": {
+    "year": 2000,
+    "value": 91.9099
+   },
+   "last": {
+    "year": 2024,
+    "value": 94.2292
+   },
+   "observed_per_year": 0.0966,
+   "required_per_year": 0.9618,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 94.809,
+   "required_over_observed": 9.9528
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "first": {
+    "year": 2000,
+    "value": 61.2616
+   },
+   "last": {
+    "year": 2024,
+    "value": 73.7352
+   },
+   "observed_per_year": 0.5197,
+   "required_per_year": 4.3775,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 76.8536,
+   "required_over_observed": 8.4226
+  }
+ ],
+ "lead": "SubSaharanAfrica",
+ "family": "water",
+ "what": "people using safely managed drinking water",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "WHO/UNICEF JMP",
+ "breakdown": null,
+ "place_type": "regions_compared",
+ "stale_cutoff": 2020,
+ "breakdown_source": null
+}

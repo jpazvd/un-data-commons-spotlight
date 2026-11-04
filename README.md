@@ -11,6 +11,42 @@ derived from the data committed in this repository, by the scripts committed her
 | 02 | [Under-five mortality](spotlights/02-under-five-mortality) | 3.2.1 | 2026-10-31 |
 | 03 | [Women in parliament](spotlights/03-women-in-parliament) | 5.5.1 | 2026-10-31 |
 | 04 | [Maternal mortality](spotlights/04-maternal-mortality) | 3.1.1 | 2026-10-31 |
+| 05 | [Safely managed drinking water, LDCs, LLDCs and SIDS compared with the World](spotlights/05-water-ldc-lldc-sids) | 6.1.1 | 2026-11-01 |
+| 06 | [Safely managed sanitation, LDCs, LLDCs and SIDS compared with the World](spotlights/06-sanitation-ldc-lldc-sids) | 6.2.1 | 2026-11-01 |
+| 07 | [Child marriage before 18, LDCs, LLDCs and SIDS compared with the World, by location](spotlights/07-child-marriage-ldc-lldc-sids) | 5.3.1 | 2026-11-01 |
+| 08 | [Child marriage before 15, Landlocked developing countries (LLDCs), by location](spotlights/08-marriage-before-15-lldcs) | 5.3.1 | 2026-11-01 |
+| 09 | [Safely managed sanitation, Least developed countries (LDCs), by location](spotlights/09-sanitation-ldcs) | 6.2.1 | 2026-11-01 |
+| 10 | [Safely managed drinking water, SDG regions compared](spotlights/10-water-regions) | 6.1.1 | 2026-11-01 |
+| 11 | [Pre-primary participation, SDG regions compared, by sex](spotlights/11-pre-primary-regions) | 4.2.2 | 2026-11-01 |
+| 12 | [School completion, SDG regions compared, by sex](spotlights/12-primary-completion-regions) | 4.1.2 | 2026-11-01 |
+| 13 | [Child marriage before 18, SDG regions compared, by location](spotlights/13-child-marriage-regions) | 5.3.1 | 2026-11-01 |
+| 14 | [Child marriage before 15, World](spotlights/14-marriage-before-15-world) | 5.3.1 | 2026-11-01 |
+| 15 | [School completion, World, by wealth](spotlights/15-primary-completion-world) | 4.1.2 | 2026-11-01 |
+| 16 | [Safely managed drinking water, World](spotlights/16-water-world) | 6.1.1 | 2026-11-01 |
+| 17 | [Safely managed sanitation, World](spotlights/17-sanitation-world) | 6.2.1 | 2026-11-01 |
+| 18 | [Safely managed sanitation, Northern Africa and Western Asia, by location](spotlights/18-sanitation-n-africa-w-asia) | 6.2.1 | 2026-11-01 |
+| 19 | [School completion, Northern Africa and Western Asia, by wealth](spotlights/19-primary-completion-n-africa-w-asia) | 4.1.2 | 2026-11-01 |
+| 20 | [Safely managed drinking water, Northern Africa and Western Asia, by location](spotlights/20-water-n-africa-w-asia) | 6.1.1 | 2026-11-01 |
+| 21 | [School completion, Eastern and South-eastern Asia, by wealth](spotlights/21-primary-completion-east-se-asia) | 4.1.2 | 2026-11-01 |
+| 22 | [Safely managed drinking water, Eastern and South-eastern Asia, by location](spotlights/22-water-east-se-asia) | 6.1.1 | 2026-11-01 |
+| 23 | [Family planning demand satisfied (modern methods), LDCs, LLDCs and SIDS compared with the World](spotlights/23-family-planning-ldc-lldc-sids) | 3.7.1 | 2026-11-01 |
+| 24 | [Skilled birth attendance, LDCs, LLDCs and SIDS compared with the World, by wealth](spotlights/24-birth-attendance-ldc-lldc-sids) | 3.1.2 | 2026-11-01 |
+| 25 | [Anaemia in women 15-49, LDCs, LLDCs and SIDS compared with the World](spotlights/25-anaemia-ldc-lldc-sids) | 2.2.3 | 2026-11-01 |
+| 26 | [Child overweight, Small island developing states (SIDS), by location](spotlights/26-child-overweight-sids) | 2.2.2 | 2026-11-01 |
+| 27 | [Youth NEET, Small island developing states (SIDS), by location](spotlights/27-youth-neet-sids) | 8.6.1 | 2026-11-01 |
+| 28 | [Stunting, Small island developing states (SIDS), by location](spotlights/28-stunting-sids) | 2.2.1 | 2026-11-01 |
+| 29 | [Women in local government, Landlocked developing countries (LLDCs)](spotlights/29-women-local-government-lldcs) | 5.5.1 | 2026-11-01 |
+| 30 | [DTP3 immunization, SDG regions compared, by wealth](spotlights/30-dtp3-regions) | 3.b.1 | 2026-11-01 |
+| 31 | [Child labour, SDG regions compared, by sex](spotlights/31-economic-activity-regions) | 8.7.1 | 2026-11-01 |
+| 32 | [MCV2 immunization, SDG regions compared](spotlights/32-mcv2-regions) | 3.b.1 | 2026-11-01 |
+| 33 | [PCV3 immunization, SDG regions compared](spotlights/33-pcv3-regions) | 3.b.1 | 2026-11-01 |
+| 34 | [Youth NEET, World, by sex](spotlights/34-youth-neet-world) | 8.6.1 | 2026-11-01 |
+| 35 | [Child overweight, World, by sex](spotlights/35-child-overweight-world) | 2.2.2 | 2026-11-01 |
+| 36 | [Violent discipline, World](spotlights/36-violent-discipline-world) | 16.2.1 | 2026-11-01 |
+| 37 | [Child multidimensional poverty, World](spotlights/37-child-poverty-world) | 1.2.2 | 2026-11-01 |
+| 38 | [Early childhood development, World](spotlights/38-early-childhood-world) | 4.2.1 | 2026-11-01 |
+| 39 | [Women in national parliaments, Latin America and the Caribbean](spotlights/39-women-parliament-latin-america-caribbean) | 5.5.1 | 2026-11-01 |
+| 40 | [Adolescent birth rate, Central and Southern Asia, by location](spotlights/40-adolescent-births-central-southern-asia) | 3.7.2 | 2026-11-01 |
 <!-- spotlights:end -->
 
 The table is rebuilt from each Spotlight's `meta.json` when content is published (`scripts/build_readme_table.py`).

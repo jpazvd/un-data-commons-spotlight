@@ -1,0 +1,206 @@
+{
+ "frame": "G",
+ "ok": true,
+ "kind": "country_gaps",
+ "groups": [
+  "rural",
+  "urban"
+ ],
+ "n_gap_under_1": 6,
+ "place": "Small Island Developing States (SIDS)",
+ "n": 25,
+ "n_a_worse": 20,
+ "n_b_worse": 5,
+ "n_equal": 0,
+ "years": [
+  2010,
+  2022
+ ],
+ "median_gap": 2.5176,
+ "gaps": [
+  [
+   "Timor-Leste",
+   2020,
+   52.7809,
+   35.6872,
+   17.0937
+  ],
+  [
+   "Papua New Guinea",
+   2010,
+   51.2386,
+   36.4466,
+   14.792
+  ],
+  [
+   "Vanuatu",
+   2013,
+   31.9434,
+   19.3421,
+   12.6013
+  ],
+  [
+   "Guinea-Bissau",
+   2014,
+   31.6008,
+   20.5971,
+   11.0037
+  ],
+  [
+   "Belize",
+   2015,
+   17.6344,
+   10.5772,
+   7.0572
+  ],
+  [
+   "Haiti",
+   2017,
+   23.8893,
+   17.9518,
+   5.9375
+  ],
+  [
+   "Solomon Islands",
+   2015,
+   32.5248,
+   27.2898,
+   5.235
+  ],
+  [
+   "Marshall Islands",
+   2017,
+   38.7014,
+   34.0142,
+   4.6872
+  ],
+  [
+   "Cabo Verde",
+   2018,
+   8.6,
+   4.5,
+   4.1
+  ],
+  [
+   "Comoros",
+   2022,
+   19.3536,
+   15.479,
+   3.8746
+  ],
+  [
+   "Maldives",
+   2017,
+   16.0744,
+   13.2009,
+   2.8735
+  ],
+  [
+   "Trinidad and Tobago",
+   2011,
+   10.7463,
+   8.0647,
+   2.6816
+  ],
+  [
+   "Kiribati",
+   2018,
+   16.5001,
+   13.9825,
+   2.5176
+  ],
+  [
+   "Tuvalu",
+   2019,
+   6.7358,
+   5.1195,
+   1.6163
+  ],
+  [
+   "Fiji",
+   2021,
+   7.9881,
+   6.5699,
+   1.4182
+  ],
+  [
+   "Dominican Republic",
+   2019,
+   7.5036,
+   6.4434,
+   1.0602
+  ],
+  [
+   "Cuba",
+   2019,
+   7.7402,
+   6.7769,
+   0.9633
+  ],
+  [
+   "Jamaica",
+   2018,
+   4.9712,
+   4.3508,
+   0.6204
+  ],
+  [
+   "Tonga",
+   2019,
+   2.1943,
+   2.1111,
+   0.0832
+  ],
+  [
+   "São Tomé and Príncipe",
+   2019,
+   11.7535,
+   11.7272,
+   0.0263
+  ],
+  [
+   "Guyana",
+   2019,
+   9.3583,
+   10.0434,
+   -0.6851
+  ],
+  [
+   "Barbados",
+   2012,
+   7.2228,
+   7.9785,
+   -0.7557
+  ],
+  [
+   "Saint Lucia",
+   2012,
+   2.2172,
+   3.6837,
+   -1.4665
+  ],
+  [
+   "Suriname",
+   2018,
+   6.4061,
+   8.3385,
+   -1.9324
+  ],
+  [
+   "Samoa",
+   2019,
+   6.8534,
+   9.6907,
+   -2.8373
+  ]
+ ],
+ "family": "stunting",
+ "what": "children under 5 who are stunted",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "UNICEF/WHO/World Bank JME",
+ "breakdown": "location",
+ "place_type": "grouping",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UNICEF Data Warehouse"
+}

@@ -1,0 +1,369 @@
+dcid,name,group,year,value
+country/ABW,Aruba,female,2010,15.64
+country/AFG,Afghanistan,female,2021,65.08
+country/AGO,Angola,female,2023,21.85
+country/ALB,Albania,female,2023,24.05
+country/ARE,United Arab Emirates,female,2023,14.89
+country/ARG,Argentina,female,2024,18.06
+country/ARM,Armenia,female,2023,23.02
+country/ATG,Antigua and Barbuda,female,2018,23.55
+country/AUS,Australia,female,2024,7.96
+country/AUT,Austria,female,2024,11.29
+country/AZE,Azerbaijan,female,2010,12.39
+country/BDI,Burundi,female,2020,10.94
+country/BEL,Belgium,female,2024,7.37
+country/BEN,Benin,female,2022,16.75
+country/BFA,Burkina Faso,female,2024,26.34
+country/BGD,Bangladesh,female,2024,19.73
+country/BGR,Bulgaria,female,2024,11.99
+country/BIH,Bosnia and Herzegovina,female,2024,13.84
+country/BLR,Belarus,female,2009,11.92
+country/BLZ,Belize,female,2019,34.82
+country/BMU,Bermuda,female,2010,5.48
+country/BOL,Bolivia,female,2024,11.14
+country/BRA,Brazil,female,2024,24.3
+country/BRB,Barbados,female,2016,25.88
+country/BRN,Brunei,female,2024,22.28
+country/BTN,Bhutan,female,2024,23.1
+country/BWA,Botswana,female,2024,38.21
+country/CAN,Canada,female,2025,12.57
+country/CHE,Switzerland,female,2024,5.89
+country/CHL,Chile,female,2025,14.43
+country/CHN,China,female,2000,14.49
+country/CIV,Côte d'Ivoire,female,2022,24.57
+country/CMR,Cameroon,female,2021,30.42
+country/COD,Congo [DRC],female,2020,33.88
+country/COG,Congo [Republic],female,2009,22.84
+country/COK,Cook Islands,female,2023,18.05
+country/COL,Colombia,female,2024,29.85
+country/COM,Comoros,female,2021,22.83
+country/CPV,Cape Verde,female,2019,29
+country/CRI,Costa Rica,female,2024,21.49
+country/CUW,Curaçao,female,2020,16.08
+country/CYP,Cyprus,female,2024,14.67
+country/CZE,Czech Republic,female,2024,5.95
+country/DEU,Germany,female,2024,7.83
+country/DJI,Djibouti,female,2017,54.31
+country/DNK,Denmark,female,2024,7.2
+country/DOM,Dominican Republic,female,2024,30.77
+country/DZA,Algeria,female,2017,31.69
+country/ECU,Ecuador,female,2025,26.51
+country/EGY,Egypt,female,2024,34.76
+country/ESP,Spain,female,2025,9.87
+country/EST,Estonia,female,2024,8.62
+country/ETH,Ethiopia,female,2021,24.88
+country/FIN,Finland,female,2024,7.64
+country/FJI,Fiji,female,2024,26.89
+country/FLK,Falkland Islands,female,2012,3.97
+country/FRA,France,female,2024,11.41
+country/FSM,Federated States of Micronesia,female,2014,33.61
+country/GBR,United Kingdom,female,2024,13.09
+country/GEO,Georgia,female,2024,15.71
+country/GHA,Ghana,female,2024,26.28
+country/GIN,Guinea,female,2019,41.49
+country/GMB,Gambia,female,2023,38.84
+country/GNB,Guinea-Bissau,female,2022,15.17
+country/GRC,Greece,female,2024,10.08
+country/GRD,Grenada,female,2023,20.65
+country/GTM,Guatemala,female,2024,35.83
+country/GUY,Guyana,female,2019,52.74
+country/HKG,Hong Kong,female,2024,5.06
+country/HND,Honduras,female,2024,43.55
+country/HRV,Croatia,female,2024,7.73
+country/HTI,Haiti,female,2012,27.88
+country/HUN,Hungary,female,2024,11.46
+country/IDN,Indonesia,female,2023,26.32
+country/IND,India,female,2024,39.04
+country/IRL,Ireland,female,2024,4.7
+country/IRN,Iran,female,2024,34.07
+country/IRQ,Iraq,female,2021,52.71
+country/ISL,Iceland,female,2024,3.61
+country/ISR,Israel,female,2024,15.69
+country/ITA,Italy,female,2024,11.6
+country/JAM,Jamaica,female,2023,20.28
+country/JOR,Jordan,female,2023,34.54
+country/JPN,Japan,female,2019,3.76
+country/KEN,Kenya,female,2022,32.67
+country/KGZ,Kyrgyzstan,female,2023,26.08
+country/KHM,Cambodia,female,2023,8.34
+country/KIR,Kiribati,female,2023,39.54
+country/KOR,South Korea,female,2002,10.27
+country/LAO,Laos,female,2022,24.61
+country/LBN,Lebanon,female,2019,28.89
+country/LBR,Liberia,female,2017,40.85
+country/LCA,Saint Lucia,female,2024,21.02
+country/LKA,Sri Lanka,female,2023,22.59
+country/LSO,Lesotho,female,2024,43.39
+country/LTU,Lithuania,female,2024,12.92
+country/LUX,Luxembourg,female,2024,9.64
+country/LVA,Latvia,female,2024,9.13
+country/MAC,Macau,female,2016,4.32
+country/MAR,Morocco,female,2014,53.91
+country/MDA,Moldova,female,2024,10.79
+country/MDG,Madagascar,female,2022,30
+country/MDV,Maldives,female,2019,28.51
+country/MEX,Mexico,female,2024,23.41
+country/MHL,Marshall Islands,female,2021,42.02
+country/MKD,Macedonia [FYROM],female,2024,17.43
+country/MLI,Mali,female,2023,42.72
+country/MLT,Malta,female,2024,8.1
+country/MMR,Myanmar,female,2020,20.72
+country/MNE,Montenegro,female,2024,12.07
+country/MNG,Mongolia,female,2024,11.83
+country/MOZ,Mozambique,female,2022,22.18
+country/MRT,Mauritania,female,2019,54.85
+country/MUS,Mauritius,female,2024,16.91
+country/MWI,Malawi,female,2024,45.43
+country/MYS,Malaysia,female,2022,10.57
+country/NAM,Namibia,female,2018,34.34
+country/NCL,New Caledonia,female,2023,25.79
+country/NER,Niger,female,2022,22.04
+country/NGA,Nigeria,female,2024,13.44
+country/NIC,Nicaragua,female,2014,40.07
+country/NIU,Niue,female,2022,8
+country/NLD,Netherlands,female,2024,4.17
+country/NOR,Norway,female,2024,5.25
+country/NPL,Nepal,female,2017,45.82
+country/NRU,Nauru,female,2021,48.88
+country/NZL,New Zealand,female,2024,13.16
+country/PAK,Pakistan,female,2025,45.42
+country/PAN,Panama,female,2024,19.26
+country/PER,Peru,female,2022,25.77
+country/PHL,Philippines,female,2023,15.55
+country/PLW,Palau,female,2023,10.04
+country/PNG,Papua New Guinea,female,2022,31.17
+country/POL,Poland,female,2024,10.42
+country/PRI,Puerto Rico,female,2020,18.22
+country/PRT,Portugal,female,2024,7.48
+country/PRY,Paraguay,female,2017,27.64
+country/PSE,Palestinian Territories,female,2024,27.87
+country/REU,Réunion,female,2012,27.83
+country/ROU,Romania,female,2024,20.74
+country/RUS,Russia,female,2024,9.85
+country/RWA,Rwanda,female,2024,29.83
+country/SAU,Saudi Arabia,female,2024,20.95
+country/SDN,Sudan,female,2022,62.05
+country/SEN,Senegal,female,2024,43.66
+country/SGP,Singapore,female,2024,5.52
+country/SLB,Solomon Islands,female,2013,8.94
+country/SLE,Sierra Leone,female,2018,34.81
+country/SLV,El Salvador,female,2024,29.89
+country/SOM,Somalia,female,2022,58.31
+country/SRB,Serbia,female,2024,12.49
+country/SSD,South Sudan,female,2008,32.28
+country/STP,São Tomé and Príncipe,female,2017,46.21
+country/SUR,Suriname,female,2016,21.85
+country/SVK,Slovakia,female,2024,8.64
+country/SVN,Slovenia,female,2024,6.58
+country/SWE,Sweden,female,2024,5.13
+country/SWZ,Eswatini,female,2023,39.03
+country/SYC,Seychelles,female,2024,15.83
+country/TCD,Chad,female,2018,46.38
+country/TGO,Togo,female,2022,15.49
+country/THA,Thailand,female,2024,15.8
+country/TJK,Tajikistan,female,2016,57.63
+country/TKL,Tokelau,female,2022,50.98
+country/TLS,East Timor,female,2022,29.19
+country/TON,Tonga,female,2023,27.83
+country/TTO,Trinidad and Tobago,female,2024,18.04
+country/TUN,Tunisia,female,2023,20.79
+country/TUR,Turkey,female,2024,30.12
+country/TUV,Tuvalu,female,2022,35.54
+country/TZA,Tanzania,female,2024,17.66
+country/UGA,Uganda,female,2021,17.77
+country/UKR,Ukraine,female,2017,19.65
+country/URY,Uruguay,female,2024,15.14
+country/USA,United States,female,2025,11.84
+country/VEN,Venezuela,female,2020,30.1
+country/VNM,Vietnam,female,2024,11.38
+country/VUT,Vanuatu,female,2020,50.19
+country/WLF,Wallis and Futuna,female,2023,19.27
+country/WSM,Samoa,female,2022,32.73
+country/YEM,Yemen,female,2014,69.69
+country/ZAF,South Africa,female,2024,35.61
+country/ZMB,Zambia,female,2024,31.37
+country/ZWE,Zimbabwe,female,2024,42.97
+country/ABW,Aruba,male,2010,17.4
+country/AFG,Afghanistan,male,2021,19.63
+country/AGO,Angola,male,2023,20.9
+country/ALB,Albania,male,2023,22.28
+country/ARE,United Arab Emirates,male,2023,5.95
+country/ARG,Argentina,male,2024,14.68
+country/ARM,Armenia,male,2023,16.98
+country/ATG,Antigua and Barbuda,male,2018,17.98
+country/AUS,Australia,male,2024,9.07
+country/AUT,Austria,male,2024,15.13
+country/AZE,Azerbaijan,male,2010,6.96
+country/BDI,Burundi,male,2020,11.46
+country/BEL,Belgium,male,2024,8.89
+country/BEN,Benin,male,2022,11.77
+country/BFA,Burkina Faso,male,2024,15.84
+country/BGD,Bangladesh,male,2024,10.88
+country/BGR,Bulgaria,male,2024,9.85
+country/BIH,Bosnia and Herzegovina,male,2024,14.74
+country/BLR,Belarus,male,2009,9.82
+country/BLZ,Belize,male,2019,14.7
+country/BMU,Bermuda,male,2010,8.18
+country/BOL,Bolivia,male,2024,4.94
+country/BRA,Brazil,male,2024,14.51
+country/BRB,Barbados,male,2016,32.15
+country/BRN,Brunei,male,2024,16.35
+country/BTN,Bhutan,male,2024,17.41
+country/BWA,Botswana,male,2024,37.79
+country/CAN,Canada,male,2025,13.92
+country/CHE,Switzerland,male,2024,7.88
+country/CHL,Chile,male,2025,12.47
+country/CHN,China,male,2000,10.95
+country/CIV,Côte d'Ivoire,male,2022,12.86
+country/CMR,Cameroon,male,2021,14.7
+country/COD,Congo [DRC],male,2020,28.66
+country/COG,Congo [Republic],male,2009,21.58
+country/COK,Cook Islands,male,2023,22.65
+country/COL,Colombia,male,2024,16.62
+country/COM,Comoros,male,2021,19.61
+country/CPV,Cape Verde,male,2019,27.1
+country/CRI,Costa Rica,male,2024,15.61
+country/CUW,Curaçao,male,2020,18.81
+country/CYP,Cyprus,male,2024,11.7
+country/CZE,Czech Republic,male,2024,3.27
+country/DEU,Germany,male,2024,7.34
+country/DJI,Djibouti,male,2017,47.69
+country/DNK,Denmark,male,2024,6.61
+country/DOM,Dominican Republic,male,2024,20.66
+country/DZA,Algeria,male,2017,10.94
+country/ECU,Ecuador,male,2025,10.03
+country/EGY,Egypt,male,2024,14.76
+country/ESP,Spain,male,2025,11.08
+country/EST,Estonia,male,2024,11.87
+country/ETH,Ethiopia,male,2021,9.87
+country/FIN,Finland,male,2024,8.92
+country/FJI,Fiji,male,2024,15.35
+country/FLK,Falkland Islands,male,2012,2.55
+country/FRA,France,male,2024,13.69
+country/FSM,Federated States of Micronesia,male,2014,23.78
+country/GBR,United Kingdom,male,2024,15.47
+country/GEO,Georgia,male,2024,13.79
+country/GHA,Ghana,male,2024,21.5
+country/GIN,Guinea,male,2019,24.84
+country/GMB,Gambia,male,2023,40.97
+country/GNB,Guinea-Bissau,male,2022,11.2
+country/GRC,Greece,male,2024,10.78
+country/GRD,Grenada,male,2023,19.57
+country/GTM,Guatemala,male,2024,9.2
+country/GUY,Guyana,male,2019,38.28
+country/HKG,Hong Kong,male,2024,6.26
+country/HND,Honduras,male,2024,16.62
+country/HRV,Croatia,male,2024,8.41
+country/HTI,Haiti,male,2012,14.25
+country/HUN,Hungary,male,2024,8.58
+country/IDN,Indonesia,male,2023,16.69
+country/IND,India,male,2024,10.32
+country/IRL,Ireland,male,2024,6.57
+country/IRN,Iran,male,2024,15.42
+country/IRQ,Iraq,male,2021,22.12
+country/ISL,Iceland,male,2024,4.31
+country/ISR,Israel,male,2024,14.83
+country/ITA,Italy,male,2024,12.3
+country/JAM,Jamaica,male,2023,19.13
+country/JOR,Jordan,male,2023,26.28
+country/JPN,Japan,male,2019,2.73
+country/KEN,Kenya,male,2022,22.67
+country/KGZ,Kyrgyzstan,male,2023,12.58
+country/KHM,Cambodia,male,2023,4.33
+country/KIR,Kiribati,male,2023,31.49
+country/KOR,South Korea,male,2002,11.33
+country/LAO,Laos,male,2022,20.39
+country/LBN,Lebanon,male,2019,17.91
+country/LBR,Liberia,male,2017,38.84
+country/LCA,Saint Lucia,male,2024,24.31
+country/LKA,Sri Lanka,male,2023,13.74
+country/LSO,Lesotho,male,2024,32.69
+country/LTU,Lithuania,male,2024,16.79
+country/LUX,Luxembourg,male,2024,10.79
+country/LVA,Latvia,male,2024,10.62
+country/MAC,Macau,male,2016,5.56
+country/MAR,Morocco,male,2014,16.57
+country/MDA,Moldova,male,2024,12.18
+country/MDG,Madagascar,male,2022,18.44
+country/MDV,Maldives,male,2019,24.07
+country/MEX,Mexico,male,2024,8.19
+country/MHL,Marshall Islands,male,2021,38.07
+country/MKD,Macedonia [FYROM],male,2024,19.45
+country/MLI,Mali,male,2023,17.66
+country/MLT,Malta,male,2024,7.63
+country/MMR,Myanmar,male,2020,8.88
+country/MNE,Montenegro,male,2024,16.19
+country/MNG,Mongolia,male,2024,8.04
+country/MOZ,Mozambique,male,2022,15.85
+country/MRT,Mauritania,male,2019,32.03
+country/MUS,Mauritius,male,2024,10.88
+country/MWI,Malawi,male,2024,32.84
+country/MYS,Malaysia,male,2022,9.91
+country/NAM,Namibia,male,2018,29.37
+country/NCL,New Caledonia,male,2023,23.73
+country/NER,Niger,male,2022,8.75
+country/NGA,Nigeria,male,2024,10.52
+country/NIC,Nicaragua,male,2014,8.49
+country/NIU,Niue,male,2022,13.83
+country/NLD,Netherlands,male,2024,4.11
+country/NOR,Norway,male,2024,6.36
+country/NPL,Nepal,male,2017,21.16
+country/NRU,Nauru,male,2021,33.37
+country/NZL,New Zealand,male,2024,12.41
+country/PAK,Pakistan,male,2025,13.13
+country/PAN,Panama,male,2024,10.28
+country/PER,Peru,male,2022,19.88
+country/PHL,Philippines,male,2023,9.33
+country/PLW,Palau,male,2023,12.25
+country/PNG,Papua New Guinea,male,2022,24.39
+country/POL,Poland,male,2024,10.66
+country/PRI,Puerto Rico,male,2020,20.71
+country/PRT,Portugal,male,2024,8.03
+country/PRY,Paraguay,male,2017,10.33
+country/PSE,Palestinian Territories,male,2024,25.63
+country/REU,Réunion,male,2012,29.35
+country/ROU,Romania,male,2024,13.53
+country/RUS,Russia,male,2024,7.09
+country/RWA,Rwanda,male,2024,21.76
+country/SAU,Saudi Arabia,male,2024,12.55
+country/SDN,Sudan,male,2022,29.56
+country/SEN,Senegal,male,2024,26.64
+country/SGP,Singapore,male,2024,7.27
+country/SLB,Solomon Islands,male,2013,5.1
+country/SLE,Sierra Leone,male,2018,31.23
+country/SLV,El Salvador,male,2024,11.14
+country/SOM,Somalia,male,2022,42.07
+country/SRB,Serbia,male,2024,12.7
+country/SSD,South Sudan,male,2008,25.73
+country/STP,São Tomé and Príncipe,male,2017,41.34
+country/SUR,Suriname,male,2016,14.73
+country/SVK,Slovakia,male,2024,8.85
+country/SVN,Slovenia,male,2024,7.59
+country/SWE,Sweden,male,2024,5.99
+country/SWZ,Eswatini,male,2023,33.85
+country/SYC,Seychelles,male,2024,18.04
+country/TCD,Chad,male,2018,24.81
+country/TGO,Togo,male,2022,10.35
+country/THA,Thailand,male,2024,9.86
+country/TJK,Tajikistan,male,2016,26.31
+country/TKL,Tokelau,male,2022,33.87
+country/TLS,East Timor,male,2022,29.05
+country/TON,Tonga,male,2023,23.25
+country/TTO,Trinidad and Tobago,male,2024,13.63
+country/TUN,Tunisia,male,2023,24.43
+country/TUR,Turkey,male,2024,16.22
+country/TUV,Tuvalu,male,2022,33.3
+country/TZA,Tanzania,male,2024,7.77
+country/UGA,Uganda,male,2021,9.34
+country/UKR,Ukraine,male,2017,13.46
+country/URY,Uruguay,male,2024,12.96
+country/USA,United States,male,2025,11.34
+country/VEN,Venezuela,male,2020,44.04
+country/VNM,Vietnam,male,2024,9.19
+country/VUT,Vanuatu,male,2020,44.93
+country/WLF,Wallis and Futuna,male,2023,21.11
+country/WSM,Samoa,male,2022,27.61
+country/YEM,Yemen,male,2014,22.06
+country/ZAF,South Africa,male,2024,33.62
+country/ZMB,Zambia,male,2024,22.01
+country/ZWE,Zimbabwe,male,2024,28.69

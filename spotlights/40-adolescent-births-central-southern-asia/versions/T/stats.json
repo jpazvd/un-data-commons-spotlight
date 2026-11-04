@@ -1,0 +1,97 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "none",
+  "value": null,
+  "year": null
+ },
+ "ok": true,
+ "kind": "level",
+ "place": "Central and Southern Asia",
+ "last": {
+  "year": 2024,
+  "value": 25.054
+ },
+ "n": 14,
+ "ranked": [
+  [
+   "Nepal",
+   2020,
+   71.219704
+  ],
+  [
+   "Bangladesh",
+   2023,
+   71.156616
+  ],
+  [
+   "Afghanistan",
+   2021,
+   62.0
+  ],
+  [
+   "Pakistan",
+   2021,
+   41.0
+  ],
+  [
+   "Tajikistan",
+   2019,
+   39.169281
+  ],
+  [
+   "Uzbekistan",
+   2023,
+   37.285011
+  ],
+  [
+   "Kyrgyzstan",
+   2023,
+   29.020271
+  ],
+  [
+   "Iran (Islamic Rep. of)",
+   2021,
+   23.443632
+  ],
+  [
+   "Turkmenistan",
+   2018,
+   22.364262
+  ],
+  [
+   "Kazakhstan",
+   2023,
+   17.17778
+  ],
+  [
+   "Sri Lanka",
+   2015,
+   16.221186
+  ],
+  [
+   "India",
+   2020,
+   11.3
+  ],
+  [
+   "Maldives",
+   2021,
+   8.34408
+  ],
+  [
+   "Bhutan",
+   2022,
+   6.117909
+  ]
+ ],
+ "family": "abr",
+ "what": "births per 1,000 girls aged 15 to 19",
+ "unit": " per 1,000",
+ "better": "lower",
+ "custodian": "UN DESA Population Division and UNFPA",
+ "breakdown": "location",
+ "place_type": "region",
+ "stale_cutoff": 2020,
+ "breakdown_source": "WHO Global Health Observatory"
+}

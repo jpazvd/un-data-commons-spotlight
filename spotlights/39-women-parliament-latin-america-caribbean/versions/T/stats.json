@@ -1,0 +1,192 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "none",
+  "value": null,
+  "year": null
+ },
+ "ok": true,
+ "kind": "level",
+ "place": "Latin America and the Caribbean",
+ "last": {
+  "year": 2026,
+  "value": 36.6
+ },
+ "n": 33,
+ "ranked": [
+  [
+   "Cuba",
+   2026,
+   57.17
+  ],
+  [
+   "Nicaragua",
+   2026,
+   54.95
+  ],
+  [
+   "Bolivia (Plurinational State of)",
+   2026,
+   50.77
+  ],
+  [
+   "Mexico",
+   2026,
+   50.4
+  ],
+  [
+   "Costa Rica",
+   2026,
+   49.12
+  ],
+  [
+   "Ecuador",
+   2026,
+   43.05
+  ],
+  [
+   "Peru",
+   2026,
+   41.54
+  ],
+  [
+   "Argentina",
+   2026,
+   40.86
+  ],
+  [
+   "Dominica",
+   2026,
+   40.62
+  ],
+  [
+   "Dominican Republic",
+   2026,
+   37.37
+  ],
+  [
+   "Guyana",
+   2026,
+   36.11
+  ],
+  [
+   "Chile",
+   2026,
+   34.84
+  ],
+  [
+   "Venezuela (Bolivarian Rep. of)",
+   2026,
+   32.13
+  ],
+  [
+   "El Salvador",
+   2026,
+   31.67
+  ],
+  [
+   "Suriname",
+   2026,
+   31.37
+  ],
+  [
+   "Grenada",
+   2026,
+   31.25
+  ],
+  [
+   "Saint Kitts and Nevis",
+   2026,
+   31.25
+  ],
+  [
+   "Saint Vincent and the Grenadines",
+   2026,
+   30.43
+  ],
+  [
+   "Uruguay",
+   2026,
+   30.3
+  ],
+  [
+   "Jamaica",
+   2026,
+   30.16
+  ],
+  [
+   "Honduras",
+   2026,
+   29.69
+  ],
+  [
+   "Colombia",
+   2026,
+   29.41
+  ],
+  [
+   "Barbados",
+   2026,
+   26.67
+  ],
+  [
+   "Trinidad and Tobago",
+   2026,
+   23.81
+  ],
+  [
+   "Paraguay",
+   2026,
+   23.75
+  ],
+  [
+   "Panama",
+   2026,
+   21.74
+  ],
+  [
+   "Guatemala",
+   2026,
+   20.0
+  ],
+  [
+   "Bahamas",
+   2026,
+   17.95
+  ],
+  [
+   "Brazil",
+   2026,
+   17.15
+  ],
+  [
+   "Belize",
+   2026,
+   12.5
+  ],
+  [
+   "Saint Lucia",
+   2026,
+   10.53
+  ],
+  [
+   "Antigua and Barbuda",
+   2026,
+   5.88
+  ],
+  [
+   "Haiti",
+   2020,
+   2.54
+  ]
+ ],
+ "family": "women_parliament",
+ "what": "seats in national parliaments held by women",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "IPU",
+ "breakdown": null,
+ "place_type": "region",
+ "stale_cutoff": 2020,
+ "breakdown_source": null
+}

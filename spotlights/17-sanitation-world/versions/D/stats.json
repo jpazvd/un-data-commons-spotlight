@@ -1,0 +1,44 @@
+{
+ "frame": "D",
+ "ok": true,
+ "kind": "coverage",
+ "place": "World",
+ "n_with_data": 137,
+ "n_members": 194,
+ "n_members_with_data": 137,
+ "n_stale": 2,
+ "stale_cutoff": 2020,
+ "latest_year_max": 2024,
+ "latest_year_min": 2016,
+ "median_latest_year": 2024,
+ "by_year": [
+  [
+   2016,
+   1
+  ],
+  [
+   2018,
+   1
+  ],
+  [
+   2021,
+   1
+  ],
+  [
+   2023,
+   1
+  ],
+  [
+   2024,
+   133
+  ]
+ ],
+ "family": "sanitation",
+ "what": "people using safely managed sanitation",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "WHO/UNICEF JMP",
+ "breakdown": null,
+ "place_type": "world",
+ "breakdown_source": null
+}

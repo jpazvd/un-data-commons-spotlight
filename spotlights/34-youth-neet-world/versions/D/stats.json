@@ -1,0 +1,96 @@
+{
+ "frame": "D",
+ "ok": true,
+ "kind": "coverage",
+ "place": "World",
+ "n_with_data": 173,
+ "n_members": 194,
+ "n_members_with_data": 173,
+ "n_stale": 40,
+ "stale_cutoff": 2020,
+ "latest_year_max": 2025,
+ "latest_year_min": 2000,
+ "median_latest_year": 2024,
+ "by_year": [
+  [
+   2000,
+   1
+  ],
+  [
+   2002,
+   1
+  ],
+  [
+   2008,
+   1
+  ],
+  [
+   2009,
+   2
+  ],
+  [
+   2010,
+   1
+  ],
+  [
+   2012,
+   1
+  ],
+  [
+   2013,
+   1
+  ],
+  [
+   2014,
+   4
+  ],
+  [
+   2016,
+   4
+  ],
+  [
+   2017,
+   7
+  ],
+  [
+   2018,
+   4
+  ],
+  [
+   2019,
+   8
+  ],
+  [
+   2020,
+   5
+  ],
+  [
+   2021,
+   8
+  ],
+  [
+   2022,
+   18
+  ],
+  [
+   2023,
+   20
+  ],
+  [
+   2024,
+   81
+  ],
+  [
+   2025,
+   6
+  ]
+ ],
+ "family": "youth_neet",
+ "what": "young people aged 15 to 24 not in education, employment or training",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "ILO",
+ "breakdown": "sex",
+ "place_type": "world",
+ "breakdown_source": "UN SDG Global Database"
+}

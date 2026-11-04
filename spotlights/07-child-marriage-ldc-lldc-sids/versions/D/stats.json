@@ -1,0 +1,42 @@
+{
+ "frame": "D",
+ "ok": true,
+ "kind": "coverage_compared",
+ "places": [
+  {
+   "dcid": "undata-geo/G00404000",
+   "place": "LDCs",
+   "n_with_data": 44,
+   "n_members": 44,
+   "n_stale": 25,
+   "share": 100.0
+  },
+  {
+   "dcid": "undata-geo/G00403000",
+   "place": "LLDCs",
+   "n_with_data": 31,
+   "n_members": 32,
+   "n_stale": 14,
+   "share": 96.875
+  },
+  {
+   "dcid": "undata-geo/G00405000",
+   "place": "SIDS",
+   "n_with_data": 27,
+   "n_members": 39,
+   "n_stale": 20,
+   "share": 69.2308
+  }
+ ],
+ "stale_cutoff": 2020,
+ "n_distinct_with_data": 79,
+ "n_distinct_stale": 44,
+ "family": "child_marriage_18",
+ "what": "women aged 20 to 24 first married or in union before 18",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "UNICEF",
+ "breakdown": "location",
+ "place_type": "groupings",
+ "breakdown_source": "UNICEF Data Warehouse"
+}

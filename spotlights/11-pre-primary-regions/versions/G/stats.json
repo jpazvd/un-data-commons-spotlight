@@ -1,0 +1,83 @@
+{
+ "frame": "G",
+ "ok": true,
+ "kind": "groups_compared",
+ "groups": [
+  "female",
+  "male"
+ ],
+ "places": [
+  {
+   "dcid": "SubSaharanAfrica",
+   "place": "Sub-Saharan Africa",
+   "year": 2024,
+   "female": 52.1416,
+   "male": 52.4262
+  },
+  {
+   "dcid": "undata-geo/G00103000",
+   "place": "N. Africa and W. Asia",
+   "year": 2024,
+   "female": 52.5986,
+   "male": 51.4459
+  },
+  {
+   "dcid": "undata-geo/G00116000",
+   "place": "Central and S. Asia",
+   "year": 2023,
+   "female": 90.1413,
+   "male": 90.5191
+  },
+  {
+   "dcid": "undata-geo/G00122000",
+   "place": "E. and S.-E. Asia",
+   "year": 2017,
+   "female": 82.8468,
+   "male": 82.7174
+  },
+  {
+   "dcid": "LatinAmericaAndCaribbean",
+   "place": "Latin America, Caribbean",
+   "year": 2024,
+   "female": 91.7365,
+   "male": 92.3156
+  },
+  {
+   "dcid": "undata-geo/G00145000",
+   "place": "Oceania (excl. Aus., NZ)",
+   "year": 2019,
+   "female": 69.2586,
+   "male": 68.4632
+  },
+  {
+   "dcid": "AustraliaAndNewZealand",
+   "place": "Australia and NZ",
+   "year": 2024,
+   "female": 90.7737,
+   "male": 90.8581
+  },
+  {
+   "dcid": "undata-geo/G00126000",
+   "place": "Europe and N. America",
+   "year": 2024,
+   "female": 89.9017,
+   "male": 89.4332
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "year": 2024,
+   "female": 74.7133,
+   "male": 75.1743
+  }
+ ],
+ "family": "pre_primary",
+ "what": "children in organized learning a year before primary school",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "UNESCO UIS",
+ "breakdown": "sex",
+ "place_type": "regions_compared",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UN SDG Global Database"
+}

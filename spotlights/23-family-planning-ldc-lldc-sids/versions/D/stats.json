@@ -1,0 +1,42 @@
+{
+ "frame": "D",
+ "ok": true,
+ "kind": "coverage_compared",
+ "places": [
+  {
+   "dcid": "undata-geo/G00404000",
+   "place": "LDCs",
+   "n_with_data": 43,
+   "n_members": 44,
+   "n_stale": 30,
+   "share": 97.7273
+  },
+  {
+   "dcid": "undata-geo/G00403000",
+   "place": "LLDCs",
+   "n_with_data": 32,
+   "n_members": 32,
+   "n_stale": 25,
+   "share": 100.0
+  },
+  {
+   "dcid": "undata-geo/G00405000",
+   "place": "SIDS",
+   "n_with_data": 27,
+   "n_members": 39,
+   "n_stale": 23,
+   "share": 69.2308
+  }
+ ],
+ "stale_cutoff": 2020,
+ "n_distinct_with_data": 79,
+ "n_distinct_stale": 61,
+ "family": "family_planning",
+ "what": "women aged 15 to 49 whose need for family planning is met with modern methods",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "UN DESA Population Division and UNFPA",
+ "breakdown": null,
+ "place_type": "groupings",
+ "breakdown_source": null
+}

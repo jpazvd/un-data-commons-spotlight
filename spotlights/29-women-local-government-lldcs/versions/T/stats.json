@@ -1,0 +1,152 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "none",
+  "value": null,
+  "year": null
+ },
+ "ok": true,
+ "kind": "level",
+ "place": "Landlocked developing countries (LLDCs)",
+ "last": {
+  "year": 2025,
+  "value": 28.425
+ },
+ "n": 25,
+ "ranked": [
+  [
+   "Bolivia (Plurinational State of)",
+   2022,
+   50.37727
+  ],
+  [
+   "Rwanda",
+   2022,
+   46.15385
+  ],
+  [
+   "Nepal",
+   2023,
+   41.28611
+  ],
+  [
+   "Republic of Moldova",
+   2024,
+   40.77335
+  ],
+  [
+   "Azerbaijan",
+   2020,
+   38.79934
+  ],
+  [
+   "Burundi",
+   2021,
+   33.30472
+  ],
+  [
+   "Lao PDR",
+   2018,
+   32.22222
+  ],
+  [
+   "Lesotho",
+   2024,
+   30.51209
+  ],
+  [
+   "Armenia",
+   2025,
+   28.80061
+  ],
+  [
+   "Mongolia",
+   2025,
+   27.55572
+  ],
+  [
+   "Niger",
+   2021,
+   27.05067
+  ],
+  [
+   "Mali",
+   2018,
+   25.25483
+  ],
+  [
+   "Paraguay",
+   2024,
+   23.60105
+  ],
+  [
+   "Kazakhstan",
+   2024,
+   23.01611
+  ],
+  [
+   "Uganda",
+   2022,
+   22.09139
+  ],
+  [
+   "Turkmenistan",
+   2019,
+   21.9322
+  ],
+  [
+   "Afghanistan",
+   2020,
+   16.52661
+  ],
+  [
+   "Malawi",
+   2020,
+   14.56522
+  ],
+  [
+   "Eswatini",
+   2019,
+   14.2132
+  ],
+  [
+   "Bhutan",
+   2022,
+   12.77322
+  ],
+  [
+   "Burkina Faso",
+   2018,
+   12.68143
+  ],
+  [
+   "Zimbabwe",
+   2024,
+   12.51908
+  ],
+  [
+   "Chad",
+   2013,
+   10.89744
+  ],
+  [
+   "Botswana",
+   2025,
+   8.867
+  ],
+  [
+   "Zambia",
+   2022,
+   8.00405
+  ]
+ ],
+ "family": "women_local_gov",
+ "what": "seats in local government held by women",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "UN Women",
+ "breakdown": null,
+ "place_type": "grouping",
+ "stale_cutoff": 2020,
+ "breakdown_source": null
+}

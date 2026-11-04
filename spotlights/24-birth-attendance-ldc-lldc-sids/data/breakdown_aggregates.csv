@@ -1,0 +1,209 @@
+place_dcid,name,group,year,value
+Earth,World,poorest,2000,24
+Earth,World,poorest,2001,25.2
+Earth,World,poorest,2002,26.8
+Earth,World,poorest,2003,27.9
+Earth,World,poorest,2004,29.2
+Earth,World,poorest,2005,30.5
+Earth,World,poorest,2006,31.8
+Earth,World,poorest,2007,33.3
+Earth,World,poorest,2008,35.1
+Earth,World,poorest,2009,37.4
+Earth,World,poorest,2010,40
+Earth,World,poorest,2011,42.5
+Earth,World,poorest,2012,45
+Earth,World,poorest,2013,47.9
+Earth,World,poorest,2014,50.5
+Earth,World,poorest,2015,53.1
+Earth,World,poorest,2016,55.7
+Earth,World,poorest,2017,58
+Earth,World,poorest,2018,60.1
+Earth,World,poorest,2019,62.1
+Earth,World,poorest,2020,64.1
+Earth,World,poorest,2021,66.1
+Earth,World,poorest,2022,67.6
+Earth,World,poorest,2023,68.8
+Earth,World,poorest,2024,70.3
+Earth,World,poorest,2025,71.7
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2000,19.8
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2001,20.3
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2002,21.1
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2003,22
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2004,23.4
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2005,24.7
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2006,26.7
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2007,28.1
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2008,29.5
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2009,30.8
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2010,32.2
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2011,34
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2012,36.4
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2013,39.1
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2014,41.2
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2015,43
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2016,45.5
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2017,48.1
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2018,50.9
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2019,53.2
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2020,54.7
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2021,56.4
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2022,57.8
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2023,59
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2024,60.3
+undata-geo/G00403000,Landlocked developing countries (LLDCs),poorest,2025,61.7
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2000,14.6
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2001,15.6
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2002,16.4
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2003,17.3
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2004,18.5
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2005,19.6
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2006,21.1
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2007,22.2
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2008,23.9
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2009,25.5
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2010,27.3
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2011,28.8
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2012,31
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2013,33.3
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2014,34.9
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2015,36.9
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2016,39.1
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2017,41.8
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2018,44.5
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2019,46.8
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2020,48.9
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2021,51.1
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2022,53.2
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2023,54.9
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2024,56.8
+undata-geo/G00404000,Least developed countries (LDCs),poorest,2025,58.8
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2000,41.5
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2001,42
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2002,42.5
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2003,42.8
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2004,43
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2005,43.3
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2006,43.6
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2007,44.6
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2008,45.6
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2009,46.4
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2010,47
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2011,47.9
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2012,48.5
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2013,49.4
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2014,49.9
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2015,50.7
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2016,52
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2017,52.7
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2018,54
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2019,55.6
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2020,57.5
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2021,59.4
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2022,61.6
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2023,63.6
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2024,65.7
+undata-geo/G00405000,Small Island Developing States (SIDS),poorest,2025,67.2
+Earth,World,richest,2000,78.9
+Earth,World,richest,2001,80.2
+Earth,World,richest,2002,81.5
+Earth,World,richest,2003,83
+Earth,World,richest,2004,83.3
+Earth,World,richest,2005,84
+Earth,World,richest,2006,85.1
+Earth,World,richest,2007,85.4
+Earth,World,richest,2008,85.8
+Earth,World,richest,2009,87.5
+Earth,World,richest,2010,88.3
+Earth,World,richest,2011,89.4
+Earth,World,richest,2012,90.2
+Earth,World,richest,2013,90.6
+Earth,World,richest,2014,91.6
+Earth,World,richest,2015,92.4
+Earth,World,richest,2016,93.2
+Earth,World,richest,2017,93.6
+Earth,World,richest,2018,94.4
+Earth,World,richest,2019,94.9
+Earth,World,richest,2020,95.4
+Earth,World,richest,2021,95.8
+Earth,World,richest,2022,96.1
+Earth,World,richest,2023,96.3
+Earth,World,richest,2024,96.4
+Earth,World,richest,2025,96.8
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2000,62
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2001,63.8
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2002,65.5
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2003,66.8
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2004,67.3
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2005,65.9
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2006,68
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2007,71.4
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2008,73.3
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2009,75.1
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2010,75.6
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2011,76.5
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2012,79.5
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2013,81.8
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2014,82.4
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2015,84.7
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2016,86.5
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2017,88.5
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2018,89.8
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2019,91.6
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2020,91.8
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2021,92.3
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2022,92.9
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2023,93.3
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2024,93.7
+undata-geo/G00403000,Landlocked developing countries (LLDCs),richest,2025,94.2
+undata-geo/G00404000,Least developed countries (LDCs),richest,2000,65
+undata-geo/G00404000,Least developed countries (LDCs),richest,2001,66.8
+undata-geo/G00404000,Least developed countries (LDCs),richest,2002,68.4
+undata-geo/G00404000,Least developed countries (LDCs),richest,2003,69.6
+undata-geo/G00404000,Least developed countries (LDCs),richest,2004,69.6
+undata-geo/G00404000,Least developed countries (LDCs),richest,2005,70.4
+undata-geo/G00404000,Least developed countries (LDCs),richest,2006,72.1
+undata-geo/G00404000,Least developed countries (LDCs),richest,2007,74
+undata-geo/G00404000,Least developed countries (LDCs),richest,2008,76
+undata-geo/G00404000,Least developed countries (LDCs),richest,2009,78
+undata-geo/G00404000,Least developed countries (LDCs),richest,2010,78.5
+undata-geo/G00404000,Least developed countries (LDCs),richest,2011,80.1
+undata-geo/G00404000,Least developed countries (LDCs),richest,2012,82.3
+undata-geo/G00404000,Least developed countries (LDCs),richest,2013,83.8
+undata-geo/G00404000,Least developed countries (LDCs),richest,2014,84.9
+undata-geo/G00404000,Least developed countries (LDCs),richest,2015,86.7
+undata-geo/G00404000,Least developed countries (LDCs),richest,2016,88.1
+undata-geo/G00404000,Least developed countries (LDCs),richest,2017,89.8
+undata-geo/G00404000,Least developed countries (LDCs),richest,2018,90.9
+undata-geo/G00404000,Least developed countries (LDCs),richest,2019,92.1
+undata-geo/G00404000,Least developed countries (LDCs),richest,2020,92.6
+undata-geo/G00404000,Least developed countries (LDCs),richest,2021,93.1
+undata-geo/G00404000,Least developed countries (LDCs),richest,2022,93.9
+undata-geo/G00404000,Least developed countries (LDCs),richest,2023,94.2
+undata-geo/G00404000,Least developed countries (LDCs),richest,2024,94.5
+undata-geo/G00404000,Least developed countries (LDCs),richest,2025,95
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2000,83.6
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2001,84
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2002,84.7
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2003,85.2
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2004,85.8
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2005,85.6
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2006,84.7
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2007,87.3
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2008,88.7
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2009,89.7
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2010,90.1
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2011,90.8
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2012,90.4
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2013,91.6
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2014,92.4
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2015,93
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2016,93.2
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2017,92.7
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2018,93.8
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2019,95.3
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2020,96.1
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2021,96.6
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2022,97
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2023,97.4
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2024,97.7
+undata-geo/G00405000,Small Island Developing States (SIDS),richest,2025,97.9

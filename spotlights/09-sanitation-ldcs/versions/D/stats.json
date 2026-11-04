@@ -1,0 +1,32 @@
+{
+ "frame": "D",
+ "ok": true,
+ "kind": "coverage",
+ "place": "Least developed countries (LDCs)",
+ "n_with_data": 31,
+ "n_members": 44,
+ "n_members_with_data": 31,
+ "n_stale": 0,
+ "stale_cutoff": 2020,
+ "latest_year_max": 2024,
+ "latest_year_min": 2023,
+ "median_latest_year": 2024,
+ "by_year": [
+  [
+   2023,
+   1
+  ],
+  [
+   2024,
+   30
+  ]
+ ],
+ "family": "sanitation",
+ "what": "people using safely managed sanitation",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "WHO/UNICEF JMP",
+ "breakdown": "location",
+ "place_type": "grouping",
+ "breakdown_source": "UN SDG Global Database"
+}

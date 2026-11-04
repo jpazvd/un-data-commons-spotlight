@@ -1,0 +1,46 @@
+{
+  "spotlight": 29,
+  "slug": "29-women-local-government-lldcs",
+  "title": "Women in local government, Landlocked developing countries (LLDCs)",
+  "sdg_indicator": "5.5.1",
+  "retrieved_on": "2026-11-01",
+  "target_value": null,
+  "target_year": null,
+  "target_basis": "none",
+  "experiment": {
+    "id": "002",
+    "proposal": "P35",
+    "family": "women_local_gov",
+    "pace": 0,
+    "kind": "standard",
+    "place_type": "grouping",
+    "place": "Landlocked developing countries (LLDCs)",
+    "place_dcids": [
+      "undata-geo/G00403000"
+    ],
+    "breakdown": "none",
+    "frames_proposed": "T|L|D",
+    "feed_tag": "#PolicySky",
+    "versions": [
+      {
+        "version": "29-T",
+        "frame": "T",
+        "design": "Ink",
+        "template": "templates/banner-ink.dc.html"
+      },
+      {
+        "version": "29-L",
+        "frame": "L",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "29-D",
+        "frame": "D",
+        "design": "D-light",
+        "template": "templates/banner-D-light.dc.html"
+      }
+    ],
+    "frames_supported": "T|L|D"
+  }
+}

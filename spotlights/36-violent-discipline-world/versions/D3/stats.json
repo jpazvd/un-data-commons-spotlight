@@ -1,0 +1,74 @@
+{
+ "frame": "D3",
+ "ok": true,
+ "kind": "regions_data",
+ "regions": [
+  {
+   "dcid": "SubSaharanAfrica",
+   "place": "Sub-Saharan Africa",
+   "n_members": 48,
+   "n_with_data": 30,
+   "share": 62.5
+  },
+  {
+   "dcid": "undata-geo/G00103000",
+   "place": "N. Africa and W. Asia",
+   "n_members": 24,
+   "n_with_data": 15,
+   "share": 62.5
+  },
+  {
+   "dcid": "undata-geo/G00116000",
+   "place": "Central and S. Asia",
+   "n_members": 14,
+   "n_with_data": 10,
+   "share": 71.4286
+  },
+  {
+   "dcid": "undata-geo/G00122000",
+   "place": "E. and S.-E. Asia",
+   "n_members": 16,
+   "n_with_data": 7,
+   "share": 43.75
+  },
+  {
+   "dcid": "LatinAmericaAndCaribbean",
+   "place": "Latin America, Caribbean",
+   "n_members": 33,
+   "n_with_data": 15,
+   "share": 45.4545
+  },
+  {
+   "dcid": "undata-geo/G00145000",
+   "place": "Oceania (excl. Aus., NZ)",
+   "n_members": 14,
+   "n_with_data": 7,
+   "share": 50.0
+  },
+  {
+   "dcid": "AustraliaAndNewZealand",
+   "place": "Australia and NZ",
+   "n_members": 2,
+   "n_with_data": 0,
+   "share": 0.0
+  },
+  {
+   "dcid": "undata-geo/G00126000",
+   "place": "Europe and N. America",
+   "n_members": 43,
+   "n_with_data": 4,
+   "share": 9.3023
+  }
+ ],
+ "n_universe": 194,
+ "n_universe_with_data": 88,
+ "family": "violent_discipline",
+ "what": "children aged 1 to 14 punished violently by caregivers in the past month",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "UNICEF",
+ "breakdown": null,
+ "place_type": "world",
+ "stale_cutoff": 2020,
+ "breakdown_source": null
+}

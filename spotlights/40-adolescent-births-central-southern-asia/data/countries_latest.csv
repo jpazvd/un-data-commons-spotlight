@@ -1,0 +1,229 @@
+dcid,name,year,value
+country/ABW,Aruba,2023,12.156295
+country/AFG,Afghanistan,2021,62
+country/AGO,Angola,2014,162.652008
+country/AIA,Anguilla,2015,33.486198
+country/ALB,Albania,2022,9.84
+country/AND,Andorra,2020,0.511247
+country/ARE,United Arab Emirates,2022,3.003802
+country/ARG,Argentina,2022,25.754976
+country/ARM,Armenia,2022,11.432828
+country/ASM,American Samoa,2022,26.781919
+country/ATG,Antigua and Barbuda,2020,32.705956
+country/AUS,Australia,2022,6.671024
+country/AUT,Austria,2022,3.92
+country/AZE,Azerbaijan,2022,37.292053
+country/BDI,Burundi,2015,58.222336
+country/BEL,Belgium,2022,4.26
+country/BEN,Benin,2020,77.228218
+country/BES,"Bonaire, Sint Eustatius and Saba",2022,14.367816
+country/BFA,Burkina Faso,2020,92.94426
+country/BGD,Bangladesh,2023,71.156616
+country/BGR,Bulgaria,2022,36.77
+country/BHR,Bahrain,2020,7.168737
+country/BHS,Bahamas,2013,28.439613
+country/BIH,Bosnia and Herzegovina,2022,8.515681
+country/BLM,Saint Barthélemy,2018,3.249567
+country/BLR,Belarus,2018,11.65
+country/BLZ,Belize,2022,52.06435
+country/BMU,Bermuda,2022,4.475703
+country/BOL,Bolivia,2015,71
+country/BRA,Brazil,2022,40.172913
+country/BRB,Barbados,2007,47.942478
+country/BRN,Brunei,2022,8.771029
+country/BTN,Bhutan,2022,6.117909
+country/BWA,Botswana,2019,48.091263
+country/CAF,Central African Republic,2018,184.363052
+country/CAN,Canada,2022,4.509176
+country/CHE,Switzerland,2022,1.43
+country/CHL,Chile,2023,6.34799
+country/CHN,China,2020,6.07
+country/CIV,Côte d'Ivoire,2020,95.988129
+country/CMR,Cameroon,2021,98.047333
+country/COD,Congo [DRC],2016,109.003601
+country/COG,Congo [Republic],2013,111.266838
+country/COK,Cook Islands,2023,31.019577
+country/COL,Colombia,2023,39.389183
+country/COM,Comoros,2017,74.360001
+country/CPV,Cape Verde,2020,49.594467
+country/CRI,Costa Rica,2023,24.767515
+country/CUB,Cuba,2022,48.60038
+country/CUW,Curaçao,2019,19.917145
+country/CYM,Cayman Islands,2019,10.720065
+country/CYP,Cyprus,2022,7.88
+country/CZE,Czech Republic,2022,7.2
+country/DEU,Germany,2022,5.87
+country/DJI,Djibouti,2011,20.982327
+country/DMA,Dominica,2006,49.185562
+country/DNK,Denmark,2022,1.17
+country/DOM,Dominican Republic,2018,77.108498
+country/DZA,Algeria,2019,11
+country/ECU,Ecuador,2022,49.913124
+country/EGY,Egypt,2022,37.118916
+country/ERI,Eritrea,2008,75.973183
+country/ESP,Spain,2022,4.61
+country/EST,Estonia,2022,5.11
+country/ETH,Ethiopia,2017,72.415184
+country/FIN,Finland,2022,3.27
+country/FJI,Fiji,2019,31.047977
+country/FRA,France,2023,3.46
+country/FRO,Faroe Islands,2022,3.822352
+country/FSM,Federated States of Micronesia,2009,33
+country/GAB,Gabon,2019,100.068542
+country/GBR,United Kingdom,2022,8.56332
+country/GEO,Georgia,2022,21.82
+country/GGY,Guernsey,2000,24.054983
+country/GHA,Ghana,2021,63
+country/GIB,Gibraltar,2015,9.440559
+country/GIN,Guinea,2020,127.628792
+country/GLP,Guadeloupe,2022,10.437902
+country/GMB,Gambia,2018,64.784584
+country/GNB,Guinea-Bissau,2017,84.462334
+country/GNQ,Equatorial Guinea,2010,176
+country/GRC,Greece,2022,7.39
+country/GRD,Grenada,2018,31.427538
+country/GRL,Greenland,2022,22.006344
+country/GTM,Guatemala,2023,57.589306
+country/GUF,French Guiana,2022,50.476059
+country/GUM,Guam,2023,26.430401
+country/GUY,Guyana,2018,64.88343
+country/HKG,Hong Kong,2022,1.126983
+country/HND,Honduras,2018,97.054642
+country/HRV,Croatia,2023,6.675731
+country/HTI,Haiti,2015,54.820015
+country/HUN,Hungary,2022,16.690001
+country/IDN,Indonesia,2016,36.109833
+country/IND,India,2020,11.3
+country/IRL,Ireland,2022,3.29
+country/IRN,Iran,2021,23.443632
+country/IRQ,Iraq,2016,69.988434
+country/ISL,Iceland,2022,3.08
+country/ISR,Israel,2022,6.156566
+country/ITA,Italy,2022,2.79
+country/JAM,Jamaica,2018,34.763779
+country/JEY,Jersey,2007,10.424155
+country/JOR,Jordan,2021,17
+country/JPN,Japan,2022,1.7
+country/KAZ,Kazakhstan,2023,17.17778
+country/KEN,Kenya,2023,45.809792
+country/KGZ,Kyrgyzstan,2023,29.020271
+country/KHM,Cambodia,2020,48.01001
+country/KIR,Kiribati,2017,50.643753
+country/KNA,Saint Kitts and Nevis,2001,74.099998
+country/KOR,South Korea,2022,0.4
+country/KWT,Kuwait,2023,0.443804
+country/LAO,Laos,2022,89
+country/LBN,Lebanon,2003,16.665972
+country/LBR,Liberia,2021,130.818192
+country/LBY,Libya,2013,10.86
+country/LCA,Saint Lucia,2020,23.94665
+country/LIE,Liechtenstein,2022,1.03
+country/LKA,Sri Lanka,2015,16.221186
+country/LSO,Lesotho,2022,53.219059
+country/LTU,Lithuania,2022,6.01
+country/LUX,Luxembourg,2022,2.84
+country/LVA,Latvia,2022,8.74
+country/MAC,Macau,2022,0.278649
+country/MAF,Saint Martin,2021,19.009037
+country/MAR,Morocco,2018,21.785542
+country/MDA,Moldova,2022,22.879642
+country/MDG,Madagascar,2019,143.014328
+country/MDV,Maldives,2021,8.34408
+country/MEX,Mexico,2021,39.876709
+country/MHL,Marshall Islands,2010,82.199997
+country/MKD,Macedonia [FYROM],2022,14.02
+country/MLI,Mali,2020,144.750458
+country/MLT,Malta,2022,10.07
+country/MMR,Myanmar,2014,36.458302
+country/MNE,Montenegro,2022,8.71
+country/MNG,Mongolia,2023,16.997871
+country/MNP,Northern Mariana Islands,2016,27.4
+country/MOZ,Mozambique,2021,158
+country/MRT,Mauritania,2019,89.640839
+country/MSR,Montserrat,2020,15.649452
+country/MTQ,Martinique,2022,8.248857
+country/MUS,Mauritius,2023,20.799513
+country/MWI,Malawi,2018,135.627823
+country/MYS,Malaysia,2022,6
+country/MYT,Mayotte,2022,58.928005
+country/NAM,Namibia,2021,22.369553
+country/NCL,New Caledonia,2022,9.504988
+country/NER,Niger,2020,150.328644
+country/NGA,Nigeria,2020,74.629028
+country/NIC,Nicaragua,2023,71.283539
+country/NIU,Niue,2022,0
+country/NLD,Netherlands,2022,2.15
+country/NOR,Norway,2022,1.39
+country/NPL,Nepal,2020,71.219704
+country/NRU,Nauru,2021,56.112225
+country/NZL,New Zealand,2023,11.026826
+country/OMN,Oman,2023,5.05938
+country/PAK,Pakistan,2021,41
+country/PAN,Panama,2022,51.8941
+country/PER,Peru,2023,29.276028
+country/PHL,Philippines,2022,26.974039
+country/PLW,Palau,2020,36.459999
+country/PNG,Papua New Guinea,2016,67.725998
+country/POL,Poland,2022,6.06
+country/PRI,Puerto Rico,2023,12.274454
+country/PRK,North Korea,2008,0.631592
+country/PRT,Portugal,2022,6.09
+country/PRY,Paraguay,2015,71.997856
+country/PSE,Palestinian Territories,2018,42.838276
+country/PYF,French Polynesia,2022,24.29034
+country/QAT,Qatar,2022,4.027702
+country/REU,Réunion,2022,16.563341
+country/ROU,Romania,2022,30.77
+country/RUS,Russia,2022,13.4
+country/RWA,Rwanda,2023,24.324198
+country/SAU,Saudi Arabia,2021,8.276814
+country/SDN,Sudan,2013,86.817207
+country/SEN,Senegal,2019,67.420052
+country/SGP,Singapore,2022,1.853879
+country/SLB,Solomon Islands,2019,49.099998
+country/SLE,Sierra Leone,2018,101.938354
+country/SLV,El Salvador,2018,50.213123
+country/SMR,San Marino,2019,1.23
+country/SOM,Somalia,2017,115.648964
+country/SPM,Saint Pierre and Miquelon,2020,0
+country/SRB,Serbia,2022,13.9
+country/SSD,South Sudan,2008,158.093384
+country/STP,São Tomé and Príncipe,2018,86.06356
+country/SUR,Suriname,2022,40.449104
+country/SVK,Slovakia,2022,24.780001
+country/SVN,Slovenia,2022,3.28
+country/SWE,Sweden,2022,2
+country/SWZ,Eswatini,2013,87.051559
+country/SYC,Seychelles,2023,48.958332
+country/SYR,Syria,2007,54
+country/TCA,Turks and Caicos Islands,2022,13.332089
+country/TCD,Chad,2018,138.450348
+country/TGO,Togo,2016,78.966515
+country/THA,Thailand,2022,18
+country/TJK,Tajikistan,2019,39.169281
+country/TKL,Tokelau,2011,17.543859
+country/TKM,Turkmenistan,2018,22.364262
+country/TLS,East Timor,2015,41.904697
+country/TON,Tonga,2017,30
+country/TTO,Trinidad and Tobago,2009,35.653111
+country/TUN,Tunisia,2021,4.155214
+country/TUR,Turkey,2022,12.22
+country/TUV,Tuvalu,2022,35.714287
+country/TZA,Tanzania,2020,112.25251
+country/UGA,Uganda,2017,111.417343
+country/UKR,Ukraine,2021,12.62
+country/URY,Uruguay,2022,23.128796
+country/USA,United States,2022,13.5
+country/UZB,Uzbekistan,2023,37.285011
+country/VCT,Saint Vincent and the Grenadines,2021,37.943016
+country/VEN,Venezuela,2019,75.972633
+country/VGB,British Virgin Islands,2007,27.379999
+country/VIR,U.S. Virgin Islands,2016,25.4
+country/VNM,Vietnam,2020,29
+country/VUT,Vanuatu,2012,81
+country/WLF,Wallis and Futuna,2021,9.99001
+country/WSM,Samoa,2018,54.916943
+country/YEM,Yemen,2023,77
+country/ZAF,South Africa,2022,40.129292
+country/ZMB,Zambia,2017,134.58403
+country/ZWE,Zimbabwe,2021,86.819

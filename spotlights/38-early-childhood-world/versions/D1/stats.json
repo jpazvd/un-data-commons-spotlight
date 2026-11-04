@@ -1,0 +1,44 @@
+{
+ "frame": "D1",
+ "ok": true,
+ "kind": "any_data",
+ "place": "World",
+ "n_with_data": 35,
+ "n_members": 194,
+ "n_members_with_data": 35,
+ "n_stale": 0,
+ "stale_cutoff": 2020,
+ "latest_year_max": 2025,
+ "latest_year_min": 2021,
+ "median_latest_year": 2023,
+ "by_year": [
+  [
+   2021,
+   4
+  ],
+  [
+   2022,
+   10
+  ],
+  [
+   2023,
+   12
+  ],
+  [
+   2024,
+   6
+  ],
+  [
+   2025,
+   3
+  ]
+ ],
+ "family": "ecd",
+ "what": "children aged 24 to 59 months developmentally on track",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "UNICEF",
+ "breakdown": null,
+ "place_type": "world",
+ "breakdown_source": null
+}

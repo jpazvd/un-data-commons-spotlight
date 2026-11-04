@@ -1,0 +1,67 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "none",
+  "value": null,
+  "year": null
+ },
+ "ok": true,
+ "kind": "level_compared",
+ "year": 2024,
+ "places": [
+  {
+   "dcid": "SubSaharanAfrica",
+   "place": "Sub-Saharan Africa",
+   "value": 75.0
+  },
+  {
+   "dcid": "undata-geo/G00103000",
+   "place": "N. Africa and W. Asia",
+   "value": 79.0
+  },
+  {
+   "dcid": "undata-geo/G00116000",
+   "place": "Central and S. Asia",
+   "value": 92.0
+  },
+  {
+   "dcid": "undata-geo/G00122000",
+   "place": "E. and S.-E. Asia",
+   "value": 89.0
+  },
+  {
+   "dcid": "LatinAmericaAndCaribbean",
+   "place": "Latin America, Caribbean",
+   "value": 82.0
+  },
+  {
+   "dcid": "undata-geo/G00145000",
+   "place": "Oceania (excl. Aus., NZ)",
+   "value": 51.0
+  },
+  {
+   "dcid": "AustraliaAndNewZealand",
+   "place": "Australia and NZ",
+   "value": 92.0
+  },
+  {
+   "dcid": "undata-geo/G00126000",
+   "place": "Europe and N. America",
+   "value": 93.0
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "value": 85.0
+  }
+ ],
+ "family": "dtp3",
+ "what": "children receiving three doses of DTP vaccine",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "WHO/UNICEF WUENIC",
+ "breakdown": "wealth",
+ "place_type": "regions_compared",
+ "stale_cutoff": 2020,
+ "breakdown_source": "WHO Global Health Observatory"
+}

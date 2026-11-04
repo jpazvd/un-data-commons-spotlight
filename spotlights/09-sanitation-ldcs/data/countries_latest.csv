@@ -1,0 +1,151 @@
+dcid,name,year,value
+country/AFG,Afghanistan,2024,24.77737808
+country/ALB,Albania,2024,69.27833557
+country/AND,Andorra,2024,100
+country/ARE,United Arab Emirates,2024,98.4496994
+country/ARG,Argentina,2016,48.53965759
+country/ARM,Armenia,2024,10.73923683
+country/ASM,American Samoa,2024,42.93338394
+country/AUS,Australia,2024,95.77289581
+country/AUT,Austria,2024,98.50231934
+country/AZE,Azerbaijan,2024,68.00334167
+country/BEL,Belgium,2024,94.8970108
+country/BEN,Benin,2024,16.35762596
+country/BFA,Burkina Faso,2024,24.72346687
+country/BGD,Bangladesh,2024,37.32049942
+country/BGR,Bulgaria,2024,75.71938324
+country/BHR,Bahrain,2024,93.3526001
+country/BIH,Bosnia and Herzegovina,2018,56.62665939
+country/BLR,Belarus,2024,74.4371109
+country/BRA,Brazil,2024,54.95603943
+country/BTN,Bhutan,2024,49.48108673
+country/CAF,Central African Republic,2024,13.52588177
+country/CAN,Canada,2024,81.29889679
+country/CHE,Switzerland,2024,99.68647003
+country/CHL,Chile,2024,95.13135529
+country/CHN,China,2024,68.8699646
+country/CIV,Côte d'Ivoire,2024,27.10275459
+country/COD,Congo [DRC],2024,13.08427429
+country/COL,Colombia,2024,18.69117165
+country/COM,Comoros,2024,49.35548019
+country/CRI,Costa Rica,2024,26.28619003
+country/CUB,Cuba,2024,45.87688828
+country/CYP,Cyprus,2024,76.9720459
+country/CZE,Czech Republic,2024,91.37928772
+country/DEU,Germany,2024,96.76522064
+country/DJI,Djibouti,2023,39.65538406
+country/DNK,Denmark,2024,98.90110016
+country/DOM,Dominican Republic,2024,42.96858978
+country/DZA,Algeria,2024,62.4937973
+country/ECU,Ecuador,2024,49.28723526
+country/EGY,Egypt,2024,57.33581161
+country/ESP,Spain,2024,88.28122711
+country/EST,Estonia,2024,90.55701447
+country/ETH,Ethiopia,2024,8.05103302
+country/FIN,Finland,2024,90.1173172
+country/FJI,Fiji,2024,48.5028801
+country/FRA,France,2024,89.99214935
+country/GBR,United Kingdom,2024,97.84247589
+country/GEO,Georgia,2024,62.97121429
+country/GGY,Guernsey,2024,87.5
+country/GHA,Ghana,2024,18.76353073
+country/GMB,Gambia,2024,28.08938599
+country/GNB,Guinea-Bissau,2024,22.60434151
+country/GRC,Greece,2024,92.88648987
+country/GRL,Greenland,2022,0
+country/GUF,French Guiana,2024,76.23204041
+country/GUY,Guyana,2024,43.43518448
+country/HKG,Hong Kong,2024,94.83437347
+country/HRV,Croatia,2021,74.7324295
+country/HUN,Hungary,2024,91.70884705
+country/IMN,Isle of Man,2024,84.82142639
+country/IND,India,2024,62.78501129
+country/IRL,Ireland,2024,81.26159668
+country/IRQ,Iraq,2024,50.8975029
+country/ISR,Israel,2024,97.16950226
+country/ITA,Italy,2024,78.20765686
+country/JAM,Jamaica,2024,73.61395264
+country/JEY,Jersey,2024,95
+country/JOR,Jordan,2024,80.07557678
+country/JPN,Japan,2024,99.18571472
+country/KEN,Kenya,2024,35.82696533
+country/KGZ,Kyrgyzstan,2024,93.02707672
+country/KHM,Cambodia,2024,51.60161972
+country/KIR,Kiribati,2024,24.64836121
+country/KOR,South Korea,2024,99.32843781
+country/KWT,Kuwait,2024,100
+country/LAO,Laos,2024,71.3822403
+country/LBN,Lebanon,2024,25.6726799
+country/LBY,Libya,2024,21.74691772
+country/LIE,Liechtenstein,2024,96.30085754
+country/LSO,Lesotho,2024,43.75495529
+country/LTU,Lithuania,2024,96.3965683
+country/LUX,Luxembourg,2024,96.32200623
+country/LVA,Latvia,2024,92.53461456
+country/MAC,Macau,2024,79.95574188
+country/MAR,Morocco,2024,8.424071312
+country/MCO,Monaco,2024,100
+country/MDG,Madagascar,2024,12.80169296
+country/MEX,Mexico,2024,62.74835968
+country/MKD,Macedonia [FYROM],2024,12.10856724
+country/MLI,Mali,2024,20.00905228
+country/MLT,Malta,2024,100
+country/MMR,Myanmar,2024,60.53353882
+country/MNE,Montenegro,2024,50.86539459
+country/MNG,Mongolia,2024,69.94699097
+country/MOZ,Mozambique,2024,33.94330597
+country/MWI,Malawi,2024,46.15291595
+country/MYS,Malaysia,2024,85.78634644
+country/NER,Niger,2024,9.14683342
+country/NGA,Nigeria,2024,32.20825958
+country/NLD,Netherlands,2024,97.49790192
+country/NOR,Norway,2024,77.93032074
+country/NPL,Nepal,2024,53.41194534
+country/NRU,Nauru,2024,33.15569305
+country/NZL,New Zealand,2024,88.7996521
+country/PER,Peru,2024,56.49240875
+country/PHL,Philippines,2024,62.17436218
+country/PNG,Papua New Guinea,2024,16.66444397
+country/POL,Poland,2024,97.82770538
+country/PRI,Puerto Rico,2024,32.50915909
+country/PRT,Portugal,2024,93.92459869
+country/PRY,Paraguay,2024,58.52833176
+country/PSE,Palestinian Territories,2024,73.51198578
+country/QAT,Qatar,2024,99.93654633
+country/REU,Réunion,2024,77.01982117
+country/ROU,Romania,2024,89.79862976
+country/RUS,Russia,2024,58.1856575
+country/SAU,Saudi Arabia,2024,83.88990021
+country/SEN,Senegal,2024,30.07615089
+country/SGP,Singapore,2024,100
+country/SLE,Sierra Leone,2024,16.84552383
+country/SLV,El Salvador,2024,35.97323608
+country/SMR,San Marino,2024,90.19249725
+country/SOM,Somalia,2024,16.38233948
+country/SRB,Serbia,2024,24.06578636
+country/STP,São Tomé and Príncipe,2024,34.69202423
+country/SUR,Suriname,2024,25.12970352
+country/SVK,Slovakia,2024,83.4254303
+country/SVN,Slovenia,2024,84.54263306
+country/SWE,Sweden,2024,95.35164642
+country/SWZ,Eswatini,2024,60.83583069
+country/TCA,Turks and Caicos Islands,2024,33.91164017
+country/TCD,Chad,2024,11.0867672
+country/TGO,Togo,2024,13.02488041
+country/THA,Thailand,2024,26.71879959
+country/TON,Tonga,2024,31.24622345
+country/TTO,Trinidad and Tobago,2024,38.02016068
+country/TUN,Tunisia,2024,79.78551483
+country/TUR,Turkey,2024,78.86435699
+country/TUV,Tuvalu,2024,39.70521927
+country/TZA,Tanzania,2024,28.46079254
+country/UGA,Uganda,2024,20.36226082
+country/UKR,Ukraine,2024,92.39389038
+country/USA,United States,2024,97.00946808
+country/UZB,Uzbekistan,2024,74.59758759
+country/VEN,Venezuela,2024,26.01668167
+country/VNM,Vietnam,2024,45.37440491
+country/WSM,Samoa,2024,44.11673355
+country/YEM,Yemen,2024,43.12117386
+country/ZAF,South Africa,2024,73.78063965
+country/ZWE,Zimbabwe,2024,23.55920219

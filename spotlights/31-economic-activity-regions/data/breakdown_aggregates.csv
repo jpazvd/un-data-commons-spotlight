@@ -1,0 +1,15 @@
+place_dcid,name,group,year,value
+Earth,World,female,2024,6.942
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2024,3.792
+SubSaharanAfrica,Sub-Saharan Africa,female,2024,20.761
+undata-geo/G00103000,Northern Africa and Western Asia,female,2024,5.95
+undata-geo/G00116000,Central and Southern Asia,female,2024,2.149
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2024,2.679
+undata-geo/G00126000,Europe and Northern America,female,2024,0.583
+Earth,World,male,2024,8.6
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2024,7.174
+SubSaharanAfrica,Sub-Saharan Africa,male,2024,22.14
+undata-geo/G00103000,Northern Africa and Western Asia,male,2024,10.6
+undata-geo/G00116000,Central and Southern Asia,male,2024,4.519
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2024,3.427
+undata-geo/G00126000,Europe and Northern America,male,2024,0.977

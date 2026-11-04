@@ -16,7 +16,15 @@ Checks, per spotlight folder:
      from stats.json itself: target, direction, country threshold, stale cutoff, number of countries ranked).
   3. Captions: the sections exist; X <= 280 characters as X counts them (a URL is 23, CJK and emoji 2)
      and Bluesky <= 300; no em-dashes. From Spotlight 02, each of the three has a "Method: ..." line.
-  4. Banner: banner.png is 2400x1260 (or 1200x630).
+  4. Banner: banner.png is 2400x1260 (or 1200x630) for a template D design, 2400x2400 (or 1200x1200) for a
+     template E design (revision 3).
+  4b. Metadata (revision 3): a Spotlight whose meta.json names rdm_helix_code (not "none") has a
+     metadata.rdm.json for that code (scripts/fetch_rdm_metadata.py) with no editor field or @unicef.org
+     address in its decoded contents, and its meta.json subtitle is the text shown in banner.dc.html (the
+     data-subtitle element, entities decoded) and is the record's English DEFINITION or declares a shortened
+     form (subtitle_from "rdm:DEFINITION, shortened", optionally saying how, e.g. "(first sentence)"); the
+     Definition line is looked for in the visible text (comments, scripts, styles and attributes excluded).
+     The live comparison with the registry is the rdm-metadata workflow's job, not this script's.
      Experiment 001: a Spotlight listed in assignment.csv declares exactly that arm in meta.json; banner.png
      and banner.dc.html use the assigned ground; the repo link is in the LinkedIn body (body arm) or only in
      the "LinkedIn first comment" (first_comment arm). A Spotlight not listed declares no experiment.
@@ -38,13 +46,14 @@ Experiment 002 Spotlights (meta.json experiment.id "002") are topic folders with
   do not apply to them, and 002's assignment, posts and outcomes files are append-only like 001's.
 Exit code 1 if any check fails.
 """
-import argparse, csv, json, pathlib, re, struct, subprocess, sys, tempfile, shutil
+import argparse, csv, html, json, pathlib, re, struct, subprocess, sys, tempfile, shutil
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EXP = "experiments/001-banner-ground"
 REQUIRED = ["data/world.csv", "data/countries_latest.csv", "meta.json", "retrieval.json",
             "stats.json", "banner.dc.html", "banner.png", "captions.md"]
 GROUNDS = {"dark": "#0D2433", "light": "#F4F6F7"}
+BANNER_SIZES = {(2400, 1260), (1200, 630), (2400, 2400), (1200, 1200)}  # template D (landscape), template E (square)
 LIMITS = {"X": 280, "Bluesky": 300}
 REPO_LINK = "github.com/jpazvd/un-data-commons-spotlight"
 EXP2 = "experiments/002-design-framing-time"
@@ -129,6 +138,58 @@ def check_meta(spot):
             fail(spot.name, "a per-country target needs compute_stats.py --country-threshold <target_value>")
 
 
+def check_rdm(spot):
+    """Revision 3: the stored Reference Data Manager record and the subtitle written from it."""
+    meta = json.loads((spot / "meta.json").read_text(encoding="utf-8"))
+    code = meta.get("rdm_helix_code")
+    path = spot / "metadata.rdm.json"
+    if code in (None, "", "none"):
+        if path.exists():
+            fail(spot.name, "metadata.rdm.json is present but meta.json names no rdm_helix_code")
+        return
+    if not path.exists():
+        fail(spot.name, f"meta.json names rdm_helix_code {code!r} but metadata.rdm.json is missing"); return
+    snap = json.loads(path.read_text(encoding="utf-8"))
+    decoded = json.dumps(snap, ensure_ascii=False)  # the decoded contents: a \u0040 or other escape cannot hide
+    for key in ("source", "url", "retrieved_at", "sha256_raw", "record"):
+        if key not in snap:
+            fail(spot.name, f"metadata.rdm.json has no {key!r}")
+    if re.search(r"[A-Za-z0-9._%+-]+@unicef\.org", decoded, re.I):
+        fail(spot.name, "metadata.rdm.json stores an @unicef.org address (editor fields must be stripped)")
+    if re.search(r'"(editedBy|createdBy|changePublishStatusBy)"', decoded):
+        fail(spot.name, "metadata.rdm.json stores an editor field")
+    record = snap.get("record") or {}
+    if record.get("helixCode") != code:
+        fail(spot.name, f"metadata.rdm.json is for {record.get('helixCode')!r}, meta.json names {code!r}")
+    eng = {a.get("attributeCode"): a.get("value") for a in record.get("attributes", [])
+           if a.get("languageISO") == "eng"}
+    subtitle, origin = meta.get("subtitle"), meta.get("subtitle_from")
+    if not subtitle:
+        fail(spot.name, "meta.json has rdm_helix_code but no subtitle (the banner's subtitle text)"); return
+    design = (spot / "banner.dc.html").read_text(encoding="utf-8")
+    design = re.sub(r"<!--.*?-->|<(script|style)\b.*?</\1>", "", design, flags=re.S)  # not shown on the banner
+    # The subtitle as shown: the data-subtitle element's text, tags removed and entities decoded (banner_e.py
+    # escapes it), so a comment or an attribute cannot stand in for it and an apostrophe or ampersand passes.
+    m = re.search(r"<span\b[^>]*\bdata-subtitle\b[^>]*>(.*?)</span>", design, re.S)
+    shown = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", m.group(1)))).strip() if m else None
+    if shown is None:
+        fail(spot.name, "banner.dc.html has no data-subtitle element (the subtitle as shown on the banner)")
+    elif shown != re.sub(r"\s+", " ", subtitle).strip():
+        fail(spot.name, f"the subtitle shown in banner.dc.html is {shown!r}, not meta.json's")
+    visible = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", design)))  # element text only, no attributes
+    if f"Definition: UNICEF Reference Data Manager, indicator {code}" not in visible:
+        fail(spot.name, f'banner.dc.html must say "Definition: UNICEF Reference Data Manager, indicator {code}" '
+                        "when the subtitle comes from the registry (JP, 3 Nov 2026)")
+    definition = re.sub(r"\s+", " ", str(eng.get("DEFINITION") or "")).strip()
+    if re.sub(r"\s+", " ", subtitle).strip() == definition:
+        if origin not in (None, "rdm:DEFINITION"):
+            fail(spot.name, f"subtitle equals DEFINITION but subtitle_from is {origin!r}")
+    elif not (isinstance(origin, str) and origin.startswith("rdm:DEFINITION, shortened")):  # the builders add how
+        fail(spot.name, 'subtitle differs from the record\'s DEFINITION: set subtitle_from to '
+                        '"rdm:DEFINITION, shortened" (optionally saying how, e.g. "(first sentence)") '
+                        'or use the definition verbatim')
+
+
 def check_stats(spot):
     stats = json.loads((spot / "stats.json").read_text(encoding="utf-8"))
     args = ["--target-value", str(stats["target"]["value"]), "--target-year", str(stats["target"]["year"]),
@@ -168,8 +229,8 @@ def check_captions(spot):
 
 def check_banner(spot, assignment):
     size = png_size(spot / "banner.png")
-    if size not in {(2400, 1260), (1200, 630)}:
-        fail(spot.name, f"banner.png is {size}, expected 2400x1260 or 1200x630")
+    if size not in BANNER_SIZES:
+        fail(spot.name, f"banner.png is {size}, expected one of " + ", ".join("%dx%d" % s for s in sorted(BANNER_SIZES)))
     meta = json.loads((spot / "meta.json").read_text(encoding="utf-8"))
     exp = meta.get("experiment")
     row = assignment.get(spot.name.split("-")[0])
@@ -384,7 +445,7 @@ def main():
         missing = [f for f in REQUIRED if not (spot / f).exists()]
         if missing:
             fail(spot.name, "missing " + ", ".join(missing)); continue
-        check_meta(spot); check_stats(spot); check_captions(spot); check_banner(spot, assignment)
+        check_meta(spot); check_stats(spot); check_captions(spot); check_banner(spot, assignment); check_rdm(spot)
     if a.base:
         if git("rev-parse", "--verify", "--quiet", f"{a.base}^{{commit}}").returncode:
             failures.append(f"--base {a.base}: no such commit here (fetch it first, e.g. git fetch origin main)")
