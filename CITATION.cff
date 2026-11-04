@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use these banners or data snapshots, please cite them as below, and cite the custodian data source named in each Spotlight."
+message: "If you use these banners, data snapshots or code, please cite them as below, and cite the custodian data source named in each Spotlight."
 title: "UN Data Commons Spotlight"
 type: dataset
 authors:

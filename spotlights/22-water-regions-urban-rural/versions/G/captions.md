@@ -2,7 +2,7 @@
 
 ## LinkedIn
 
-Widest gap in safely managed drinking water: 26.7 points, in E. and S.-E. Asia. Eastern and South-eastern Asia: 58.3% in rural areas, 85.1% in urban areas, 2024.
+Widest gap in safely managed drinking water: 26.8 points, in E. and S.-E. Asia. That is 85.1% urban minus 58.3% rural, 2024.
 
 A statistician's note: these are the custodian's published aggregates by group, not averages I computed from country values.
 
@@ -24,12 +24,12 @@ Definition, UNICEF Reference Data Manager (WS_PPL_W-SM): https://rdmapi.unicef.o
 
 ## X
 
-Widest gap in safely managed drinking water: 26.7 points, in E. and S.-E. Asia. Method: published aggregates by group, latest year with both; only three SDG regions publish both rural and urban aggregates for this series. Data: WHO/UNICEF JMP. #OfficialStatistics
+Widest gap in safely managed drinking water: 26.8 points, in E. and S.-E. Asia. That is 85.1% urban minus 58.3% rural, 2024. Method: published aggregates by group, latest year with both; only three SDG regions publish both. Data: WHO/UNICEF JMP. #OfficialStatistics
 
 ## Bluesky
 
-Widest gap in safely managed drinking water: 26.7 points, in E. and S.-E. Asia. Method: published aggregates by group, latest year with both; only three SDG regions publish both rural and urban aggregates for this series.
+Widest gap in safely managed drinking water: 26.8 points, in E. and S.-E. Asia. That is 85.1% urban minus 58.3% rural, 2024. Method: published aggregates by group, latest year with both; only three SDG regions publish both.
 
 ## Bluesky with feed tag
 
-Widest gap in safely managed drinking water: 26.7 points, in E. and S.-E. Asia. Method: published aggregates by group, latest year with both; only three SDG regions publish both rural and urban aggregates for this series. #EconSky
+Widest gap in safely managed drinking water: 26.8 points, in E. and S.-E. Asia. That is 85.1% urban minus 58.3% rural, 2024. Method: published aggregates by group, latest year with both; only three SDG regions publish both. #EconSky

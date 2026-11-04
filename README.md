@@ -3,7 +3,7 @@
 A recurring series of banners, each highlighting one statistic on children and women from the
 [UN System Data Commons](https://unstats.un.org/sdgs/dataportal). This repository publishes each Spotlight with the
 exact data it was built from, the calls used to retrieve that data, every derived number, the banners and the post
-text.
+text, and the code that re-derives every number from that data and renders every banner.
 
 <!-- spotlights:start -->
 | # | Topic | SDG indicator | Banners | Data retrieved |
@@ -78,6 +78,31 @@ To compare a snapshot with the source today, query the UN SDG Global Database AP
 `meta.json`, for example
 `https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SP_DYN_MRBF18&pageSize=10000`.
 
+## Reproduce
+
+```bash
+pip install -r requirements.txt
+python -m playwright install chromium
+npm install                      # banner fonts (@fontsource packages) into node_modules/
+
+python scripts/reproduce.py                                         # re-derives every stats.json and compares
+python scripts/render_banner.py spotlights/04-maternal-mortality    # re-renders a banner from its design source
+python scripts/render_banner.py spotlights/05-water-ldc-lldc-sids/versions/T
+python scripts/fetch_sdg_api.py spotlights/01-child-marriage        # compares a snapshot with the SDG API today
+```
+
+`reproduce.py` recomputes every `stats.json` from the data in its folder, in a temporary copy, and reports any
+that differ: single banners with `scripts/compute_stats.py` (with the options recorded in `stats.json`), the
+versions of Spotlights 05 to 40 with `scripts/spotlight002.py`. `render_banner.py` renders a committed
+`banner.dc.html` to `banner.png` (2x) and `banner.jpg`, with the fonts pinned in `package.json`, and stops if a
+font is missing rather than fall back to a system font.
+
+The scripts that draw the designs (`banner_e.py`, `banner002.py`, `copy002.py` and the other builders) and the
+pre-publication check (`validate_spotlight.py`) are here as written; drawing a template E design from scratch also
+needs the stored records of UNICEF's Reference Data Manager that give the subtitles their definitions, and the
+check reads records kept in the development repository. The registry is public:
+`https://rdmapi.unicef.org/api/indicators/<code>`, with the code in each version's `e.meta.json`.
+
 ## Data and attribution
 
 Data are retrieved from the UN System Data Commons; `meta.json` in each Spotlight names the custodian. Please cite
@@ -85,6 +110,6 @@ the custodian source shown on each banner.
 
 ## Licence and citation
 
-Banners, captions and text: CC BY 4.0 ([LICENSE-CONTENT.md](LICENSE-CONTENT.md)). Data: the custodian sources'
+Code: MIT ([LICENSE](LICENSE)). Banners, captions and text: CC BY 4.0 ([LICENSE-CONTENT.md](LICENSE-CONTENT.md)). Data: the custodian sources'
 terms (see each Spotlight's `meta.json`). How to cite: [`CITATION.cff`](CITATION.cff). Each published Spotlight has
 a tag, `spotlight-NN`.

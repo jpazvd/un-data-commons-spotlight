@@ -2,7 +2,7 @@
 # .gitignore for the PUBLIC repo jpazvd/un-data-commons-spotlight.
 # Maintained in the private repo and copied by sync-to-public. Edit there.
 # Strategy: ignore everything, then allow what belongs in public. It mirrors
-# .github/public-whitelist.txt (JP, 4 Nov 2026: published Spotlights only).
+# .github/public-whitelist.txt (JP, 4 Nov 2026: published Spotlights, and the code that rebuilds them).
 ########################################################################
 *
 !.gitignore
@@ -12,6 +12,11 @@
 !CITATION.cff
 !*/
 !/spotlights/[0-9]*/**
+!/scripts/*.py
+!/templates/**
+!requirements.txt
+!package.json
+!package-lock.json
 *.log
 *.render.html
 __pycache__/
