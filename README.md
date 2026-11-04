@@ -78,6 +78,12 @@ scripts/
 | --- | --- |
 | ![Template D, dark](templates/banner-D-dark.jpg) | ![Template D, light](templates/banner-D-light.jpg) |
 
+Template E (revision 3, a 1200x1200 square whose headline doubles as the legend, subtitle from the indicator's
+registry definition, review round 1's header and footer plus CC BY 4.0 and a "Definition: UNICEF Reference
+Data Manager" line when the registry is used) is a pilot, not assigned to any experiment: see
+`templates/banner-E-light.dc.html`, `templates/banner-E-dark.dc.html` and
+[docs/revision-3-2026-11](docs/revision-3-2026-11/RECOMMENDATIONS.md).
+
 Earlier designs and why they were retired: [docs/design-history](docs/design-history/README.md).
 
 ## Experiments

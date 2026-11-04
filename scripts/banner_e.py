@@ -88,6 +88,8 @@ REVISIONS = {
     "39-D": {"stats_frame": "D3", "chart": "regions_stacked"},
     "27-L": {"shade": (2020, 2021, "2020 to 2021")},              # shade the COVID-19 years to read the kink against them
     "22-G": {"years_note": "five SDG regions publish no rural or urban aggregate for this series"},
+    # Copilot review of PR #32, 4 Nov 2026: the measure is the share of seats, so the share is the subject.
+    "39-L": {"headline": "Since 2000, women's share of parliament seats in Latin America and the Caribbean is up 21.4 points"},
 }
 HOUSE_WORDS = [("countries and areas", "countries and territories")]  # JP, 3 Nov 2026
 
@@ -547,7 +549,7 @@ def build(topic, frame, palette, out_dir, png=False, tab=None):
     if subtitle is None:
         subtitle, origin = series_subtitle(meta)
     roles = place_roles(st)
-    chosen = version_headline(vdir) if (vdir / "banner.dc.html").exists() and not rev.get("stats_frame") else None
+    chosen = rev.get("headline") or (version_headline(vdir) if (vdir / "banner.dc.html").exists() and not rev.get("stats_frame") else None)
     if chosen:
         chosen = house(chosen)
 
