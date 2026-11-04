@@ -1,0 +1,17 @@
+{
+ "id": "420f69f9fb18f61e",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/unicef/PT_MRD_U18.AGE--Y20T24__SEX--F__WEALTH_QUANTILE--Q5",
+  "parent_place_dcid": "Earth",
+  "child_place_type": "GeoRegion",
+  "date": "range",
+  "date_range_start": "1990",
+  "date_range_end": "2026"
+ },
+ "result_at": "2026-11-01T10:37:51.568Z",
+ "is_error": false,
+ "transcript": "agent-a02f25b7790f175b1.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/unicef/PT_MRD_U18.AGE--Y20T24__SEX--F__WEALTH_QUANTILE--Q5\",\"name\":\"Proportion of persons married or in union before age 18 [Age=20 to 24 years old, Sex=Female, Wealth quantile=Highest quintile]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"15005650441306304968\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://data.unicef.org/\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"undata-geo/G00100500\",\"World: Lower-middle income\",[\"GeoRegion\"]],[\"undata-geo/G00100600\",\"World: Low income\",[\"GeoRegion\"]],[\"undata-geo/G00103000\",\"Northern Africa and Western Asia\",[\"GeoRegion\"]],[\"undata-geo/G00107000\",\"Eastern and Southern Africa\",[\"GeoRegion\"]],[\"undata-geo/G00110000\",\"Central Africa\",[\"GeoRegion\"]],[\"undata-geo/G00111000\",\"West and Central Africa\",[\"GeoRegion\"]],[\"undata-geo/G00116000\",\"Central and Southern Asia\",[\"GeoRegion\"]],[\"undata-geo/G00125000\",\"Eastern Europe and Central Asia\",[\"GeoRegion\"]],[\"undata-geo/G00145000\",\"Oceania excluding Australia and New Zealand\",[\"GeoRegion\"]],[\"undata-geo/G00152000\",\"Middle East and North Africa\",[\"GeoRegion\"]],[\"undata-geo/G00154000\",\"Asia and the Pacific\",[\"GeoRegion\"]],[\"undata-geo/G00158000\",\"South Asia\",[\"GeoRegion\"]],[\"undata-geo/G00403000\",\"Landlocked developing countries (LLDCs)\",[\"GeoRegion\"]],[\"undata-geo/G00404000\",\"Least developed countries (LDCs)\",[\"GeoRegion\"]],[\"undata-geo/G00405000\",\"Small Island Developing States (SIDS)\",[\"GeoRegion\"]],[\"undata-geo/G00600010\",\"UN Economic and Social Commission for Asia and the Pacific (ESCAP)\",[\"GeoRegion\"]],[\"undata-geo/G00600030\",\"UN Economic Commission for Africa (ECA)\",[\"GeoRegion\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"undata-geo/G00100500\",\"2025\",8.721],[\"undata-geo/G00100600\",\"2025\",16.807],[\"undata-geo/G00103000\",\"2025\",9.264],[\"undata-geo/G00107000\",\"2025\",12.118],[\"undata-geo/G00110000\",\"2025\",26.914],[\"undata-geo/G00111000\",\"2025\",10.346],[\"undata-geo/G00116000\",\"2025\",9.973],[\"undata-geo/G00125000\",\"2025\",5.374],[\"undata-geo/G00145000\",\"2025\",17.755],[\"undata-geo/G00152000\",\"2025\",9.761],[\"undata-geo/G00154000\",\"2025\",8.849],[\"undata-geo/G00158000\",\"2025\",10.187],[\"undata-geo/G00403000\",\"2025\",15.618],[\"undata-geo/G00404000\",\"2025\",17.616],[\"undata-geo/G00405000\",\"2025\",12.722],[\"undata-geo/G00600010\",\"2025\",8.676],[\"undata-geo/G00600030\",\"2025\",10.583]]}}"
+}

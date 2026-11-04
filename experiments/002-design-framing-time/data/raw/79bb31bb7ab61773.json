@@ -1,0 +1,17 @@
+{
+ "id": "79bb31bb7ab61773",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SG_REG_BRTH.AGE--Y0T4",
+  "parent_place_dcid": "Earth",
+  "child_place_type": "UNGeoRegion",
+  "date": "range",
+  "date_range_start": "1990",
+  "date_range_end": "2026"
+ },
+ "result_at": "2026-11-01T10:37:53.670Z",
+ "is_error": false,
+ "transcript": "agent-a309b2ef89628e0bd.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SG_REG_BRTH.AGE--Y0T4\",\"name\":\"Proportion of children whose births have been registered with a civil authority [Age=Under 5 years old]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"AustraliaAndNewZealand\",\"Australia and New Zealand\",[\"UNGeoRegion\"]],[\"CentralAsia\",\"Central Asia\",[\"UNGeoRegion\"]],[\"EasternAsia\",\"Eastern Asia\",[\"UNGeoRegion\"]],[\"LatinAmericaAndCaribbean\",\"Latin America and the Caribbean\",[\"UNGeoRegion\"]],[\"NorthernAfrica\",\"Northern Africa\",[\"UNGeoRegion\"]],[\"SouthEasternAsia\",\"South-Eastern Asia\",[\"UNGeoRegion\"]],[\"SouthernAsia\",\"Southern Asia\",[\"UNGeoRegion\"]],[\"SubSaharanAfrica\",\"Sub-Saharan Africa\",[\"UNGeoRegion\"]],[\"WesternAsia\",\"Western Asia\",[\"UNGeoRegion\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"AustraliaAndNewZealand\",\"2023\",100],[\"CentralAsia\",\"2023\",99.233],[\"EasternAsia\",\"2023\",97.017],[\"LatinAmericaAndCaribbean\",\"2023\",94.869],[\"NorthernAfrica\",\"2023\",90.269],[\"SouthEasternAsia\",\"2023\",90.423],[\"SouthernAsia\",\"2023\",76.47],[\"SubSaharanAfrica\",\"2023\",51.098],[\"WesternAsia\",\"2023\",81.559]]}}"
+}

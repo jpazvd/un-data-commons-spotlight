@@ -1,0 +1,17 @@
+{
+ "id": "66d723f3b2c40548",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/unicef/FD_ANAR.EDUCATION_LEVEL--ISCED11_02__SCHOOL_AGE--L02__WEALTH_QUANTILE--Q5",
+  "parent_place_dcid": "Earth",
+  "child_place_type": "UNGeoRegion",
+  "date": "range",
+  "date_range_start": "1990",
+  "date_range_end": "2026"
+ },
+ "result_at": "2026-11-01T10:37:52.525Z",
+ "is_error": false,
+ "transcript": "agent-ad945f1f759472eec.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/unicef/FD_ANAR.EDUCATION_LEVEL--ISCED11_02__SCHOOL_AGE--L02__WEALTH_QUANTILE--Q5\",\"name\":\"Adjusted net school attendance rate [Education level=Pre-primary education (ISCED11_02), School-age stage=Pre-primary education age, Wealth quantile=Highest quintile]\",\"typeOf\":[\"StatisticalVariable\"]},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"]},\"data\":{}}"
+}

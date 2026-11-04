@@ -1,0 +1,15 @@
+{
+ "id": "69261efef0af5b79",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+  "parent_place_dcid": "NorthernEurope",
+  "child_place_type": "Country",
+  "date": "latest"
+ },
+ "result_at": "2026-11-01T11:21:54.079Z",
+ "is_error": false,
+ "transcript": "32f57388-1b6b-548e-b4d1-a0adf58963ed.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SH_DYN_MORT.AGE--Y0T4\",\"name\":\"Mortality rate [Age=Under 5 years old]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"2425806575015910660\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"undata/UNIT_MEASURE-RATIO_COUNT_PER_1000_COUNT_LIVEBIRTHS\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/EST\",\"Estonia\",[\"Country\"]],[\"country/FIN\",\"Finland\",[\"Country\"]],[\"country/GBR\",\"United Kingdom\",[\"Country\"]],[\"country/IRL\",\"Ireland\",[\"Country\"]],[\"country/ISL\",\"Iceland\",[\"Country\"]],[\"country/LTU\",\"Lithuania\",[\"Country\"]],[\"country/LVA\",\"Latvia\",[\"Country\"]],[\"country/NOR\",\"Norway\",[\"Country\"]],[\"country/SWE\",\"Sweden\",[\"Country\"]],[\"country/TCA\",\"Turks and Caicos Islands\",[\"AdministrativeArea1\",\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/EST\",\"2024\",2.015612558],[\"country/FIN\",\"2024\",2.352496994],[\"country/GBR\",\"2024\",4.67995627],[\"country/IRL\",\"2024\",3.862719085],[\"country/ISL\",\"2024\",2.819711758],[\"country/LTU\",\"2024\",3.376544278],[\"country/LVA\",\"2024\",2.500961375],[\"country/NOR\",\"2024\",2.487414481],[\"country/SWE\",\"2024\",2.406117781],[\"country/TCA\",\"2024\",4.652510434]]}}"
+}

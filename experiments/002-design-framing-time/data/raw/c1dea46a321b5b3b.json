@@ -1,0 +1,19 @@
+{
+ "id": "c1dea46a321b5b3b",
+ "tool": "data360_search_indicators",
+ "server": "World_Bank_Data360",
+ "args": {
+  "queries": [
+   "organized learning one year before official primary entry age",
+   "adjusted net enrolment rate one year before primary",
+   "SDG 4.2.2"
+  ],
+  "database": "edstats; wdi; hcp; unicef_dw",
+  "limit": 8,
+  "result_layout": "by_query"
+ },
+ "result_at": "2026-11-01T10:37:34.904Z",
+ "is_error": false,
+ "transcript": "agent-af3ad42a2bc0975e1.jsonl",
+ "response": "{\"indicators\":[],\"results\":[{\"query\":\"organized learning one year before official primary entry age\",\"country_code\":null,\"indicators\":[],\"count\":0,\"error\":\"No indicators found for: 'organized learning one year before official primary entry age'\"},{\"query\":\"adjusted net enrolment rate one year before primary\",\"country_code\":null,\"indicators\":[],\"count\":0,\"error\":\"No indicators found for: 'adjusted net enrolment rate one year before primary'\"},{\"query\":\"SDG 4.2.2\",\"country_code\":null,\"indicators\":[],\"count\":0,\"error\":\"No indicators found for: 'SDG 4.2.2'\"}],\"result_layout\":\"by_query\",\"queries\":[\"organized learning one year before official primary entry age\",\"adjusted net enrolment rate one year before primary\",\"SDG 4.2.2\"],\"required_country\":null,\"country_names\":null,\"total_candidates\":0,\"deduplicated_count\":0,\"error\":null}"
+}

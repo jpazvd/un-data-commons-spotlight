@@ -1,0 +1,14 @@
+{
+ "id": "43dbbe660522b685",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SE_PRE_PARTN.SEX--M",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:38:00.853Z",
+ "is_error": false,
+ "transcript": "agent-ad945f1f759472eec.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SE_PRE_PARTN.SEX--M\",\"name\":\"Participation rate in organized learning (one year before the official primary entry age) [Sex=Male]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2003\",64.50712],[\"Earth\",\"2004\",64.48325],[\"Earth\",\"2005\",65.67538],[\"Earth\",\"2006\",66.14128],[\"Earth\",\"2007\",66.72278],[\"Earth\",\"2008\",66.88125],[\"Earth\",\"2009\",67.24015],[\"Earth\",\"2010\",67.68819],[\"Earth\",\"2011\",69.02254],[\"Earth\",\"2012\",70.64907],[\"Earth\",\"2013\",72.24362],[\"Earth\",\"2014\",73.42697],[\"Earth\",\"2015\",74.27991],[\"Earth\",\"2016\",73.9176],[\"Earth\",\"2017\",74.22459],[\"Earth\",\"2018\",74.4399],[\"Earth\",\"2019\",74.42593],[\"Earth\",\"2020\",74.53133],[\"Earth\",\"2021\",73.67503],[\"Earth\",\"2022\",75.76055],[\"Earth\",\"2023\",75.40582],[\"Earth\",\"2024\",75.17429]]}}"
+}

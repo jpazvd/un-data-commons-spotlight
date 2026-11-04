@@ -1,0 +1,17 @@
+{
+ "id": "e4733ec79b721789",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SP_DYN_MRBF15.AGE--Y20T24__SEX--F",
+  "parent_place_dcid": "Earth",
+  "child_place_type": "GeoRegion",
+  "date": "range",
+  "date_range_start": "1990",
+  "date_range_end": "2026"
+ },
+ "result_at": "2026-11-01T10:37:43.091Z",
+ "is_error": false,
+ "transcript": "agent-a3b220cc1cfc41fba.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SP_DYN_MRBF15.AGE--Y20T24__SEX--F\",\"name\":\"Proportion of women who were married or in a union before age 15 [Age=20 to 24 years old, Sex=Female]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"undata-geo/G00103000\",\"Northern Africa and Western Asia\",[\"GeoRegion\"]],[\"undata-geo/G00116000\",\"Central and Southern Asia\",[\"GeoRegion\"]],[\"undata-geo/G00122000\",\"Eastern and South-eastern Asia\",[\"GeoRegion\"]],[\"undata-geo/G00145000\",\"Oceania excluding Australia and New Zealand\",[\"GeoRegion\"]],[\"undata-geo/G00403000\",\"Landlocked developing countries (LLDCs)\",[\"GeoRegion\"]],[\"undata-geo/G00404000\",\"Least developed countries (LDCs)\",[\"GeoRegion\"]],[\"undata-geo/G00405000\",\"Small Island Developing States (SIDS)\",[\"GeoRegion\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"undata-geo/G00103000\",\"2005\",3.757],[\"undata-geo/G00103000\",\"2010\",2.705],[\"undata-geo/G00103000\",\"2015\",2.624],[\"undata-geo/G00103000\",\"2020\",2.776],[\"undata-geo/G00103000\",\"2025\",2.399],[\"undata-geo/G00116000\",\"2005\",18.826],[\"undata-geo/G00116000\",\"2010\",15.678],[\"undata-geo/G00116000\",\"2015\",12.218],[\"undata-geo/G00116000\",\"2020\",8.073],[\"undata-geo/G00116000\",\"2025\",5.432],[\"undata-geo/G00122000\",\"2005\",1.577],[\"undata-geo/G00122000\",\"2010\",1.186],[\"undata-geo/G00122000\",\"2015\",1.249],[\"undata-geo/G00122000\",\"2020\",1.066],[\"undata-geo/G00122000\",\"2025\",0.94],[\"undata-geo/G00145000\",\"2005\",5.881],[\"undata-geo/G00145000\",\"2010\",8.154],[\"undata-geo/G00145000\",\"2015\",9.34],[\"undata-geo/G00145000\",\"2020\",8.582],[\"undata-geo/G00145000\",\"2025\",7.12],[\"undata-geo/G00403000\",\"2005\",13.289],[\"undata-geo/G00403000\",\"2010\",12.868],[\"undata-geo/G00403000\",\"2015\",12.199],[\"undata-geo/G00403000\",\"2020\",10.057],[\"undata-geo/G00403000\",\"2025\",8.708],[\"undata-geo/G00404000\",\"2005\",16.106],[\"undata-geo/G00404000\",\"2010\",15.211],[\"undata-geo/G00404000\",\"2015\",14.019],[\"undata-geo/G00404000\",\"2020\",12.083],[\"undata-geo/G00404000\",\"2025\",9.608],[\"undata-geo/G00405000\",\"2005\",6.358],[\"undata-geo/G00405000\",\"2010\",6.771],[\"undata-geo/G00405000\",\"2015\",7.218],[\"undata-geo/G00405000\",\"2020\",5.945],[\"undata-geo/G00405000\",\"2025\",5.187]]}}"
+}

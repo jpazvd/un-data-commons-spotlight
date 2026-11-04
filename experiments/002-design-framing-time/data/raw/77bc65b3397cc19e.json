@@ -1,0 +1,14 @@
+{
+ "id": "77bc65b3397cc19e",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SE_TOT_PRFL.EDUCATION_LEVEL--ISCED11_1__SEX--M__SKILL--READ",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:37:51.490Z",
+ "is_error": false,
+ "transcript": "agent-a4b631489137967c8.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SE_TOT_PRFL.EDUCATION_LEVEL--ISCED11_1__SEX--M__SKILL--READ\",\"name\":\"Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [Education level=Primary education (ISCED11 - 1), Sex=Male, Skill=Minimum proficiency in reading]\",\"typeOf\":[\"StatisticalVariable\"]},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"]},\"data\":{}}"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "32d9aafd623f2f83",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+  "parent_place_dcid": "SouthEasternAsia",
+  "child_place_type": "Country",
+  "date": "latest"
+ },
+ "result_at": "2026-11-01T11:21:45.877Z",
+ "is_error": false,
+ "transcript": "32f57388-1b6b-548e-b4d1-a0adf58963ed.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SH_DYN_MORT.AGE--Y0T4\",\"name\":\"Mortality rate [Age=Under 5 years old]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"2425806575015910660\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"undata/UNIT_MEASURE-RATIO_COUNT_PER_1000_COUNT_LIVEBIRTHS\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/BRN\",\"Brunei\",[\"Country\"]],[\"country/IDN\",\"Indonesia\",[\"Country\"]],[\"country/KHM\",\"Cambodia\",[\"Country\"]],[\"country/LAO\",\"Laos\",[\"Country\"]],[\"country/MMR\",\"Myanmar\",[\"Country\"]],[\"country/MYS\",\"Malaysia\",[\"Country\"]],[\"country/PHL\",\"Philippines\",[\"Country\"]],[\"country/SGP\",\"Singapore\",[\"Country\"]],[\"country/THA\",\"Thailand\",[\"Country\"]],[\"country/TLS\",\"East Timor\",[\"Country\"]],[\"country/VNM\",\"Vietnam\",[\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/BRN\",\"2024\",9.943872867],[\"country/IDN\",\"2024\",17.68844632],[\"country/KHM\",\"2024\",18.41004378],[\"country/LAO\",\"2024\",29.35005596],[\"country/MMR\",\"2024\",36.93153794],[\"country/MYS\",\"2024\",8.308639022],[\"country/PHL\",\"2024\",26.45559768],[\"country/SGP\",\"2024\",2.680174294],[\"country/THA\",\"2024\",8.962966445],[\"country/TLS\",\"2024\",47.62168176],[\"country/VNM\",\"2024\",17.27296999]]}}"
+}

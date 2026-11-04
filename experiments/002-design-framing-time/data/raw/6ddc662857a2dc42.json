@@ -1,0 +1,14 @@
+{
+ "id": "6ddc662857a2dc42",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/unicef/PT_CHLD_REG.AGE--Y0T4__WEALTH_QUANTILE--Q1",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:37:58.409Z",
+ "is_error": false,
+ "transcript": "agent-a309b2ef89628e0bd.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/unicef/PT_CHLD_REG.AGE--Y0T4__WEALTH_QUANTILE--Q1\",\"name\":\"Proportion of children whose births are registered [Age=Under 5 years old, Wealth quantile=Lowest quintile]\",\"typeOf\":[\"StatisticalVariable\"]},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"]},\"data\":{}}"
+}

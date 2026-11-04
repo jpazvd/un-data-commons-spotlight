@@ -1,0 +1,14 @@
+{
+ "id": "674ae792575b2f80",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/unicef/NT_ANT_WHZ_NE2.WEALTH_QUANTILE--Q1",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:37:59.451Z",
+ "is_error": false,
+ "transcript": "agent-a8ee164f33732d85f.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/unicef/NT_ANT_WHZ_NE2.WEALTH_QUANTILE--Q1\",\"name\":\"Proportion of children with wasting [Wealth quantile=Lowest quintile]\",\"typeOf\":[\"StatisticalVariable\"]},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"]},\"data\":{}}"
+}

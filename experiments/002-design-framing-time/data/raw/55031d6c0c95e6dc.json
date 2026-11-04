@@ -1,0 +1,14 @@
+{
+ "id": "55031d6c0c95e6dc",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/who/IMM_COV_SH.AGE--Y1__VACCINE--DTP3__WEALTH_QUANTILE--Q5",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:38:13.382Z",
+ "is_error": false,
+ "transcript": "agent-ad945f1f759472eec.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/who/IMM_COV_SH.AGE--Y1__VACCINE--DTP3__WEALTH_QUANTILE--Q5\",\"name\":\"Immunization coverage [Age=1 year old, Vaccine=Diphtheria, tetanus, and pertussis third dose, Wealth quantile=Highest quintile]\",\"typeOf\":[\"StatisticalVariable\"]},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"]},\"data\":{}}"
+}

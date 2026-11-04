@@ -1,0 +1,14 @@
+{
+ "id": "cb0b256d01a867cc",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SL_TLF_NEET.AGE--Y15T24",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:37:39.302Z",
+ "is_error": false,
+ "transcript": "agent-a85af8ba40c4cac30.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SL_TLF_NEET.AGE--Y15T24\",\"name\":\"Proportion of youth not in education, employment or training - previous definition [Age=15 to 24 years old]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2005\",22.69],[\"Earth\",\"2006\",22.56],[\"Earth\",\"2007\",22.29],[\"Earth\",\"2008\",22.09],[\"Earth\",\"2009\",22.17],[\"Earth\",\"2010\",21.89],[\"Earth\",\"2011\",21.45],[\"Earth\",\"2012\",21.17],[\"Earth\",\"2013\",21.18],[\"Earth\",\"2014\",21.11],[\"Earth\",\"2015\",21.22],[\"Earth\",\"2016\",21.38],[\"Earth\",\"2017\",21.43],[\"Earth\",\"2018\",21.4],[\"Earth\",\"2019\",21.33],[\"Earth\",\"2020\",22.7],[\"Earth\",\"2021\",21.38],[\"Earth\",\"2022\",20.4],[\"Earth\",\"2023\",19.7],[\"Earth\",\"2024\",19.92],[\"Earth\",\"2025\",20.05]]}}"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "f7bed3daac9c4bec",
+ "tool": "data360_search_indicators",
+ "server": "World_Bank_Data360",
+ "args": {
+  "queries": [
+   "adjusted net enrolment rate one year before the official primary entry age",
+   "net enrolment pre-primary one year before"
+  ],
+  "limit": 8,
+  "result_layout": "by_query"
+ },
+ "result_at": "2026-11-01T10:37:58.656Z",
+ "is_error": false,
+ "transcript": "agent-af3ad42a2bc0975e1.jsonl",
+ "response": "{\"indicators\":[],\"results\":[{\"query\":\"adjusted net enrolment rate one year before the official primary entry age\",\"country_code\":null,\"indicators\":[],\"count\":0,\"error\":\"No indicators found for: 'adjusted net enrolment rate one year before the official primary entry age'\"},{\"query\":\"net enrolment pre-primary one year before\",\"country_code\":null,\"indicators\":[],\"count\":0,\"error\":\"No indicators found for: 'net enrolment pre-primary one year before'\"}],\"result_layout\":\"by_query\",\"queries\":[\"adjusted net enrolment rate one year before the official primary entry age\",\"net enrolment pre-primary one year before\"],\"required_country\":null,\"country_names\":null,\"total_candidates\":0,\"deduplicated_count\":0,\"error\":null}"
+}

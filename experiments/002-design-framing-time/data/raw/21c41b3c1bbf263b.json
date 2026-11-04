@@ -1,0 +1,14 @@
+{
+ "id": "21c41b3c1bbf263b",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/unicef/HVA_EPI_INF_RT.AGE--Y15T19",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:38:00.391Z",
+ "is_error": false,
+ "transcript": "agent-a85af8ba40c4cac30.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/unicef/HVA_EPI_INF_RT.AGE--Y15T19\",\"name\":\"Estimated HIV incidence rate (new infections per 1,000 uninfected population) [Age=15 to 19 years old]\",\"typeOf\":[\"StatisticalVariable\"]},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"]},\"data\":{}}"
+}

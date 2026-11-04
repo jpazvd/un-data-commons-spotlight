@@ -1,0 +1,14 @@
+{
+ "id": "1b896ac70ffcc0f3",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SP_DYN_ADKL.AGE--Y15T19__SEX--F",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:37:59.779Z",
+ "is_error": false,
+ "transcript": "agent-a8218a198a13e6503.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SP_DYN_ADKL.AGE--Y15T19__SEX--F\",\"name\":\"Adolescent birth rate [Age=15 to 19 years old, Sex=Female]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"10542619612277702061\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"undata/UNIT_MEASURE-RATIO_COUNT_PER_1000_COUNT_POP\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2000\",66.285],[\"Earth\",\"2001\",65.213],[\"Earth\",\"2002\",63.062],[\"Earth\",\"2003\",61.12],[\"Earth\",\"2004\",57.822],[\"Earth\",\"2005\",53.885],[\"Earth\",\"2006\",52.601],[\"Earth\",\"2007\",52.459],[\"Earth\",\"2008\",53.681],[\"Earth\",\"2009\",52.737],[\"Earth\",\"2010\",52.176],[\"Earth\",\"2011\",52.128],[\"Earth\",\"2012\",52.14],[\"Earth\",\"2013\",51.083],[\"Earth\",\"2014\",49.189],[\"Earth\",\"2015\",45.905],[\"Earth\",\"2016\",43.977],[\"Earth\",\"2017\",42.987],[\"Earth\",\"2018\",41.974],[\"Earth\",\"2019\",41.11],[\"Earth\",\"2020\",40.149],[\"Earth\",\"2021\",39.659],[\"Earth\",\"2022\",39.226],[\"Earth\",\"2023\",39.005],[\"Earth\",\"2024\",38.315]]}}"
+}

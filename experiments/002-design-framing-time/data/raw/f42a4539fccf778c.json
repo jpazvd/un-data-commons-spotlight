@@ -1,0 +1,17 @@
+{
+ "id": "f42a4539fccf778c",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SE_TOT_PRFL.EDUCATION_LEVEL--ISCED11_1__SKILL--READ",
+  "parent_place_dcid": "Earth",
+  "child_place_type": "UNGeoRegion",
+  "date": "range",
+  "date_range_start": "1990",
+  "date_range_end": "2026"
+ },
+ "result_at": "2026-11-01T10:37:45.018Z",
+ "is_error": false,
+ "transcript": "agent-a4b631489137967c8.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SE_TOT_PRFL.EDUCATION_LEVEL--ISCED11_1__SKILL--READ\",\"name\":\"Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [Education level=Primary education (ISCED11 - 1), Skill=Minimum proficiency in reading]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"LatinAmericaAndCaribbean\",\"Latin America and the Caribbean\",[\"UNGeoRegion\"]],[\"SubSaharanAfrica\",\"Sub-Saharan Africa\",[\"UNGeoRegion\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"LatinAmericaAndCaribbean\",\"2000\",49.76757],[\"LatinAmericaAndCaribbean\",\"2001\",49.38866],[\"LatinAmericaAndCaribbean\",\"2002\",49.00975],[\"LatinAmericaAndCaribbean\",\"2003\",48.63084],[\"LatinAmericaAndCaribbean\",\"2004\",48.25193],[\"LatinAmericaAndCaribbean\",\"2005\",47.87302],[\"LatinAmericaAndCaribbean\",\"2006\",47.49411],[\"LatinAmericaAndCaribbean\",\"2007\",47.1152],[\"LatinAmericaAndCaribbean\",\"2008\",46.73629],[\"LatinAmericaAndCaribbean\",\"2009\",46.35738],[\"LatinAmericaAndCaribbean\",\"2010\",45.97846],[\"LatinAmericaAndCaribbean\",\"2011\",45.59955],[\"LatinAmericaAndCaribbean\",\"2012\",45.22064],[\"LatinAmericaAndCaribbean\",\"2013\",44.84173],[\"LatinAmericaAndCaribbean\",\"2014\",44.46282],[\"LatinAmericaAndCaribbean\",\"2015\",44.08391],[\"LatinAmericaAndCaribbean\",\"2016\",43.705],[\"LatinAmericaAndCaribbean\",\"2017\",43.32609],[\"LatinAmericaAndCaribbean\",\"2018\",42.94718],[\"LatinAmericaAndCaribbean\",\"2019\",42.56827],[\"SubSaharanAfrica\",\"2000\",33.74089],[\"SubSaharanAfrica\",\"2001\",33.55625],[\"SubSaharanAfrica\",\"2002\",33.37162],[\"SubSaharanAfrica\",\"2003\",33.18699],[\"SubSaharanAfrica\",\"2004\",33.00235],[\"SubSaharanAfrica\",\"2005\",32.81771],[\"SubSaharanAfrica\",\"2006\",32.63308],[\"SubSaharanAfrica\",\"2007\",32.44845],[\"SubSaharanAfrica\",\"2008\",32.26381],[\"SubSaharanAfrica\",\"2009\",32.07918],[\"SubSaharanAfrica\",\"2010\",31.89455],[\"SubSaharanAfrica\",\"2011\",31.70991],[\"SubSaharanAfrica\",\"2012\",31.52528],[\"SubSaharanAfrica\",\"2013\",31.34064],[\"SubSaharanAfrica\",\"2014\",31.15601],[\"SubSaharanAfrica\",\"2015\",30.97138],[\"SubSaharanAfrica\",\"2016\",30.78674],[\"SubSaharanAfrica\",\"2017\",30.60211],[\"SubSaharanAfrica\",\"2018\",30.41747],[\"SubSaharanAfrica\",\"2019\",30.23284]]}}"
+}

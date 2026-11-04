@@ -1,0 +1,26 @@
+{
+ "id": "34b6434d731be147",
+ "tool": "data360_get_metadata",
+ "server": "World_Bank_Data360",
+ "args": {
+  "database_id": "WB_HNP",
+  "indicator_id": "WB_HNP_SP_REG_BRTH_ZS",
+  "fetch_disaggregation": false,
+  "select_fields": [
+   "name",
+   "definition_long",
+   "methodology",
+   "sources",
+   "authoring_entity",
+   "version_statement",
+   "time_periods",
+   "aggregation_method",
+   "notes",
+   "alternate_identifiers"
+  ]
+ },
+ "result_at": "2026-11-01T10:41:37.340Z",
+ "is_error": false,
+ "transcript": "agent-af3ad42a2bc0975e1.jsonl",
+ "response": "{\"indicator_metadata\":{\"name\":\"Completeness of birth registration (%)\",\"database_name\":\"Health Nutrition and Population Statistics\",\"definition_long\":\"Completeness of birth registration is the percentage of children under age 5 whose births were registered at the time of the survey. The numerator of completeness of birth registration includes children whose birth certificate was seen by the interviewer or whose mother or caretaker says the birth has been registered.\",\"methodology\":\"Birth registration refers to the permanent and official recording of a child's existence by some administrative levels of the State that is normally coordinated by a particular branch of the government.\\r\\n\\r\\nBirth registration estimates are primarily drawn from nationally representative household surveys such as the Multiple Indicator Cluster Surveys (MICS) and Demographic and Health Surveys (DHS). Other data sources include other national surveys, censuses and vital statistics from civil registration systems, and estimated coverage of birth registration within national civil registration systems from the United Nations Statistics Division (UNSD).\",\"aggregation_method\":\"Weighted average\",\"authoring_entity\":[],\"version_statement\":{\"version\":\"1\",\"version_date\":\"2024-09-23\",\"version_resp\":null,\"version_notes\":null},\"alternate_identifiers\":[{\"identifier\":\"Data 360 indicator Code\",\"name\":\"WB_WDI_SP_REG_BRTH_ZS\",\"database\":\"WDI\",\"uri\":null,\"notes\":null},{\"identifier\":\"Indicator Code\",\"name\":\"SP.REG.BRTH.ZS\",\"database\":\"WDI\",\"uri\":null,\"notes\":null}],\"time_periods\":[{\"start\":\"1960\",\"end\":\"2023\",\"notes\":null}],\"sources\":[{\"idno\":null,\"type\":null,\"name\":null,\"organization\":\"UN Children's Fund (UNICEF)\",\"publisher\":null,\"publication_date\":null,\"uri\":null,\"access_date\":null,\"note\":\"Household surveys such as Demographic and Health Surveys and Multiple Indicator Cluster Surveys.  Largely compiled by UNICEF\",\"other_identifiers\":[],\"authors\":[],\"datasets\":[]}],\"notes\":[]},\"disaggregation_options\":[],\"error\":null,\"stale\":false}"
+}

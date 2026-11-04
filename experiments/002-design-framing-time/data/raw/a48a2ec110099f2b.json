@@ -1,0 +1,15 @@
+{
+ "id": "a48a2ec110099f2b",
+ "tool": "get_child_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+  "parent_place_dcid": "SouthernAsia",
+  "child_place_type": "Country",
+  "date": "latest"
+ },
+ "result_at": "2026-11-01T11:21:42.880Z",
+ "is_error": false,
+ "transcript": "32f57388-1b6b-548e-b4d1-a0adf58963ed.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SH_DYN_MORT.AGE--Y0T4\",\"name\":\"Mortality rate [Age=Under 5 years old]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"2425806575015910660\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"undata/UNIT_MEASURE-RATIO_COUNT_PER_1000_COUNT_LIVEBIRTHS\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/AFG\",\"Afghanistan\",[\"Country\"]],[\"country/BGD\",\"Bangladesh\",[\"Country\"]],[\"country/BTN\",\"Bhutan\",[\"Country\"]],[\"country/IND\",\"India\",[\"Country\",\"Place\"]],[\"country/IRN\",\"Iran\",[\"Country\"]],[\"country/LKA\",\"Sri Lanka\",[\"Country\"]],[\"country/MDV\",\"Maldives\",[\"Country\"]],[\"country/NPL\",\"Nepal\",[\"Country\"]],[\"country/PAK\",\"Pakistan\",[\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/AFG\",\"2024\",53.03202113],[\"country/BGD\",\"2024\",30.49782394],[\"country/BTN\",\"2024\",17.16582835],[\"country/IND\",\"2024\",26.5799003],[\"country/IRN\",\"2024\",11.32433109],[\"country/LKA\",\"2024\",5.880514345],[\"country/MDV\",\"2024\",5.438740677],[\"country/NPL\",\"2024\",25.11728644],[\"country/PAK\",\"2024\",55.95928216]]}}"
+}

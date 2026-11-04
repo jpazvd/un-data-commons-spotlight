@@ -1,0 +1,14 @@
+{
+ "id": "070a32255d9b5edc",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SH_STA_ANEM.AGE--Y15T49__SEX--F",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:38:09.848Z",
+ "is_error": false,
+ "transcript": "agent-a309b2ef89628e0bd.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SH_STA_ANEM.AGE--Y15T49__SEX--F\",\"name\":\"Proportion of women with anaemia [Age=15 to 49 years old, Sex=Female]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"3722936608695937273\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"Percent\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2000\",29.3],[\"Earth\",\"2001\",29],[\"Earth\",\"2002\",28.8],[\"Earth\",\"2003\",28.7],[\"Earth\",\"2004\",28.5],[\"Earth\",\"2005\",28.4],[\"Earth\",\"2006\",28.2],[\"Earth\",\"2007\",28.1],[\"Earth\",\"2008\",27.9],[\"Earth\",\"2009\",27.7],[\"Earth\",\"2010\",27.6],[\"Earth\",\"2011\",27.5],[\"Earth\",\"2012\",27.6],[\"Earth\",\"2013\",27.6],[\"Earth\",\"2014\",27.8],[\"Earth\",\"2015\",28],[\"Earth\",\"2016\",28.2],[\"Earth\",\"2017\",28.4],[\"Earth\",\"2018\",28.6],[\"Earth\",\"2019\",28.9],[\"Earth\",\"2020\",29.2],[\"Earth\",\"2021\",29.6],[\"Earth\",\"2022\",30.1],[\"Earth\",\"2023\",30.7]]}}"
+}

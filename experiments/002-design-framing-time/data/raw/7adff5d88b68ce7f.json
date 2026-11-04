@@ -1,0 +1,18 @@
+{
+ "id": "7adff5d88b68ce7f",
+ "tool": "data360_get_data",
+ "server": "World_Bank_Data360",
+ "args": {
+  "database_id": "WB_WDI",
+  "indicator_id": "WB_WDI_SP_M18_2024_FE_ZS",
+  "country_code": "LIC;HIC",
+  "start_year": 1985,
+  "end_year": 2025,
+  "ref_area_filter": "none",
+  "limit": 100
+ },
+ "result_at": "2026-11-01T10:39:20.277Z",
+ "is_error": false,
+ "transcript": "agent-af3ad42a2bc0975e1.jsonl",
+ "response": "{\"count\":0,\"total_count\":null,\"offset\":0,\"has_more\":false,\"next_offset\":null,\"data\":[],\"metadata\":{\"idno\":\"WB_WDI_SP_M18_2024_FE_ZS\",\"name\":\"Women who were first married by age 18 (% of women ages 20-24)\",\"database_id\":\"WB_WDI\",\"database_name\":\"World Development Indicators (WDI)\",\"measurement_unit\":\"% of women ages 20-24\",\"periodicity\":\"Annual\",\"definition_short\":null},\"error\":null,\"failed_validation\":null}"
+}

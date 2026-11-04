@@ -1,0 +1,14 @@
+{
+ "id": "d788393461fbf226",
+ "tool": "get_observations",
+ "server": "UN_System_Data_Commons",
+ "args": {
+  "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+  "place_dcid": "Earth",
+  "date": "all"
+ },
+ "result_at": "2026-11-01T10:37:38.140Z",
+ "is_error": false,
+ "transcript": "agent-a177767e85c285e9e.jsonl",
+ "response": "{\"variable\":{\"dcid\":\"undata/sdg/SH_DYN_MORT.AGE--Y0T4\",\"name\":\"Mortality rate [Age=Under 5 years old]\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"2425806575015910660\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://unstats.un.org/sdgs/dataportal\",\"unit\":\"undata/UNIT_MEASURE-RATIO_COUNT_PER_1000_COUNT_LIVEBIRTHS\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"Earth\",\"World\",[\"Place\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"Earth\",\"2000\",76.68237407],[\"Earth\",\"2001\",74.3284118],[\"Earth\",\"2002\",71.30863075],[\"Earth\",\"2003\",68.333919],[\"Earth\",\"2004\",65.83976255],[\"Earth\",\"2005\",62.32550915],[\"Earth\",\"2006\",59.55973695],[\"Earth\",\"2007\",56.95340486],[\"Earth\",\"2008\",54.69465465],[\"Earth\",\"2009\",52.91638669],[\"Earth\",\"2010\",50.58942195],[\"Earth\",\"2011\",49.51243723],[\"Earth\",\"2012\",46.70500389],[\"Earth\",\"2013\",45.06036708],[\"Earth\",\"2014\",43.91571684],[\"Earth\",\"2015\",42.87560309],[\"Earth\",\"2016\",41.72254933],[\"Earth\",\"2017\",40.88709272],[\"Earth\",\"2018\",39.961798],[\"Earth\",\"2019\",39.56592749],[\"Earth\",\"2020\",39.15584678],[\"Earth\",\"2021\",39.60780276],[\"Earth\",\"2022\",39.97699239],[\"Earth\",\"2023\",38.33449248],[\"Earth\",\"2024\",37.36716592]]}}"
+}
