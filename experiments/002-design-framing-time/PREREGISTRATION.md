@@ -236,6 +236,16 @@ No change to arms, slots, dates, caption style or hashtags once posting starts, 
 ## Deviations
 
 - (none yet)
+- **4 Nov 2026, own-post days (Changes allowed, item 3).** `assignment.csv` has 195 rows with a date (108 X, 60
+  Bluesky, 27 LinkedIn); 193 of them were scheduled in Metricool on 4 Nov 2026 (108 X, 60 Bluesky, 25 LinkedIn),
+  live, at the registered times, the two LinkedIn rows left out being the tail of the shifted queue below. Two
+  LinkedIn posts of my own were already scheduled for 13 and 14 Nov 2026 at 11:00 (COP31), so, as registered,
+  those days leave the LinkedIn queue and the queue moves on: 19-T posts on 15 Nov, 9-D on 16 Nov, 38-D3 on 17 Nov,
+  6-L on 21 Nov and so on in queue order, ending with 37-D3 on 9 Dec; 8-T and 36-D2 (queue positions 26 and 27)
+  are not posted. X and Bluesky dates and slots are unchanged. My own posts on X and Bluesky in the run, logged
+  as registered: X 10 Nov 11:30 and 16:00; 11 Nov 09:00, 13:40, 14:10 and 15:00; 12 Nov 10:00; 13, 14, 19 and
+  20 Nov 13:00 (the 13:00 ones also on Bluesky). Six of them share a minute with an experiment X post (10 Nov
+  16:00, 11 Nov 09:00, 13, 14, 19 and 20 Nov 13:00).
 
 ## Amendments before the first post
 
