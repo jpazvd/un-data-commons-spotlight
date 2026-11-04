@@ -1,0 +1,46 @@
+{
+  "spotlight": 38,
+  "slug": "38-early-childhood-world",
+  "title": "Early childhood development, World",
+  "sdg_indicator": "4.2.1",
+  "retrieved_on": "2026-11-01",
+  "target_value": null,
+  "target_year": null,
+  "target_basis": "none",
+  "experiment": {
+    "id": "002",
+    "proposal": "P44",
+    "family": "ecd",
+    "pace": 0,
+    "kind": "data gap",
+    "place_type": "world",
+    "place": "World",
+    "place_dcids": [
+      "Earth"
+    ],
+    "breakdown": "none",
+    "frames_proposed": "D1|D2|D3",
+    "feed_tag": "#EduSky",
+    "versions": [
+      {
+        "version": "38-D2",
+        "frame": "D2",
+        "design": "D-light",
+        "template": "templates/banner-D-light.dc.html"
+      },
+      {
+        "version": "38-D1",
+        "frame": "D1",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "38-D3",
+        "frame": "D3",
+        "design": "Ink",
+        "template": "templates/banner-ink.dc.html"
+      }
+    ],
+    "frames_supported": "D1|D2|D3"
+  }
+}

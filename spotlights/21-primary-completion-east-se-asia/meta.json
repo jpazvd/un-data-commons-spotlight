@@ -1,0 +1,46 @@
+{
+  "spotlight": 21,
+  "slug": "21-primary-completion-east-se-asia",
+  "title": "School completion, Eastern and South-eastern Asia, by wealth",
+  "sdg_indicator": "4.1.2",
+  "retrieved_on": "2026-11-01",
+  "target_value": 100,
+  "target_year": 2030,
+  "target_basis": "SDG 4.1",
+  "experiment": {
+    "id": "002",
+    "proposal": "P23",
+    "family": "school_completion",
+    "pace": 1,
+    "kind": "standard",
+    "place_type": "region",
+    "place": "Eastern and South-eastern Asia",
+    "place_dcids": [
+      "undata-geo/G00122000"
+    ],
+    "breakdown": "wealth",
+    "frames_proposed": "T|L|G|D",
+    "feed_tag": "#EduSky",
+    "versions": [
+      {
+        "version": "21-D",
+        "frame": "D",
+        "design": "Ink",
+        "template": "templates/banner-ink.dc.html"
+      },
+      {
+        "version": "21-L",
+        "frame": "L",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "21-T",
+        "frame": "T",
+        "design": "D-light",
+        "template": "templates/banner-D-light.dc.html"
+      }
+    ],
+    "frames_supported": "T|L|G|D"
+  }
+}

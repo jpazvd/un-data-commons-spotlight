@@ -1,0 +1,131 @@
+place_dcid,name,year,value
+AustraliaAndNewZealand,Australia and New Zealand,2008,75
+AustraliaAndNewZealand,Australia and New Zealand,2009,90
+AustraliaAndNewZealand,Australia and New Zealand,2010,91
+AustraliaAndNewZealand,Australia and New Zealand,2011,91
+AustraliaAndNewZealand,Australia and New Zealand,2012,91
+AustraliaAndNewZealand,Australia and New Zealand,2013,91
+AustraliaAndNewZealand,Australia and New Zealand,2014,91
+AustraliaAndNewZealand,Australia and New Zealand,2015,93
+AustraliaAndNewZealand,Australia and New Zealand,2016,94
+AustraliaAndNewZealand,Australia and New Zealand,2017,94
+AustraliaAndNewZealand,Australia and New Zealand,2018,95
+AustraliaAndNewZealand,Australia and New Zealand,2019,95
+AustraliaAndNewZealand,Australia and New Zealand,2020,96
+AustraliaAndNewZealand,Australia and New Zealand,2021,96
+AustraliaAndNewZealand,Australia and New Zealand,2022,94
+AustraliaAndNewZealand,Australia and New Zealand,2023,91
+AustraliaAndNewZealand,Australia and New Zealand,2024,89
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2008,3
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2009,11
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2010,35
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2011,60
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2012,71
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2013,76
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2014,80
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2015,82
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2016,79
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2017,78
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2018,78
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2019,77
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2020,74
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2021,71
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2022,73
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2023,73
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2024,76
+SubSaharanAfrica,Sub-Saharan Africa,2009,0
+SubSaharanAfrica,Sub-Saharan Africa,2010,3
+SubSaharanAfrica,Sub-Saharan Africa,2011,12
+SubSaharanAfrica,Sub-Saharan Africa,2012,22
+SubSaharanAfrica,Sub-Saharan Africa,2013,34
+SubSaharanAfrica,Sub-Saharan Africa,2014,47
+SubSaharanAfrica,Sub-Saharan Africa,2015,60
+SubSaharanAfrica,Sub-Saharan Africa,2016,66
+SubSaharanAfrica,Sub-Saharan Africa,2017,68
+SubSaharanAfrica,Sub-Saharan Africa,2018,70
+SubSaharanAfrica,Sub-Saharan Africa,2019,71
+SubSaharanAfrica,Sub-Saharan Africa,2020,69
+SubSaharanAfrica,Sub-Saharan Africa,2021,67
+SubSaharanAfrica,Sub-Saharan Africa,2022,67
+SubSaharanAfrica,Sub-Saharan Africa,2023,62
+SubSaharanAfrica,Sub-Saharan Africa,2024,63
+undata-geo/G00103000,Northern Africa and Western Asia,2008,0
+undata-geo/G00103000,Northern Africa and Western Asia,2009,17
+undata-geo/G00103000,Northern Africa and Western Asia,2010,16
+undata-geo/G00103000,Northern Africa and Western Asia,2011,23
+undata-geo/G00103000,Northern Africa and Western Asia,2012,29
+undata-geo/G00103000,Northern Africa and Western Asia,2013,34
+undata-geo/G00103000,Northern Africa and Western Asia,2014,44
+undata-geo/G00103000,Northern Africa and Western Asia,2015,45
+undata-geo/G00103000,Northern Africa and Western Asia,2016,52
+undata-geo/G00103000,Northern Africa and Western Asia,2017,58
+undata-geo/G00103000,Northern Africa and Western Asia,2018,58
+undata-geo/G00103000,Northern Africa and Western Asia,2019,58
+undata-geo/G00103000,Northern Africa and Western Asia,2020,53
+undata-geo/G00103000,Northern Africa and Western Asia,2021,52
+undata-geo/G00103000,Northern Africa and Western Asia,2022,51
+undata-geo/G00103000,Northern Africa and Western Asia,2023,47
+undata-geo/G00103000,Northern Africa and Western Asia,2024,50
+undata-geo/G00116000,Central and Southern Asia,2012,0
+undata-geo/G00116000,Central and Southern Asia,2013,11
+undata-geo/G00116000,Central and Southern Asia,2014,13
+undata-geo/G00116000,Central and Southern Asia,2015,20
+undata-geo/G00116000,Central and Southern Asia,2016,24
+undata-geo/G00116000,Central and Southern Asia,2017,28
+undata-geo/G00116000,Central and Southern Asia,2018,32
+undata-geo/G00116000,Central and Southern Asia,2019,38
+undata-geo/G00116000,Central and Southern Asia,2020,42
+undata-geo/G00116000,Central and Southern Asia,2021,45
+undata-geo/G00116000,Central and Southern Asia,2022,70
+undata-geo/G00116000,Central and Southern Asia,2023,81
+undata-geo/G00116000,Central and Southern Asia,2024,89
+undata-geo/G00122000,Eastern and South-eastern Asia,2009,0
+undata-geo/G00122000,Eastern and South-eastern Asia,2010,0
+undata-geo/G00122000,Eastern and South-eastern Asia,2011,3
+undata-geo/G00122000,Eastern and South-eastern Asia,2012,3
+undata-geo/G00122000,Eastern and South-eastern Asia,2013,3
+undata-geo/G00122000,Eastern and South-eastern Asia,2014,6
+undata-geo/G00122000,Eastern and South-eastern Asia,2015,7
+undata-geo/G00122000,Eastern and South-eastern Asia,2016,9
+undata-geo/G00122000,Eastern and South-eastern Asia,2017,11
+undata-geo/G00122000,Eastern and South-eastern Asia,2018,13
+undata-geo/G00122000,Eastern and South-eastern Asia,2019,14
+undata-geo/G00122000,Eastern and South-eastern Asia,2020,17
+undata-geo/G00122000,Eastern and South-eastern Asia,2021,15
+undata-geo/G00122000,Eastern and South-eastern Asia,2022,20
+undata-geo/G00122000,Eastern and South-eastern Asia,2023,26
+undata-geo/G00122000,Eastern and South-eastern Asia,2024,33
+undata-geo/G00126000,Europe and Northern America,2008,39
+undata-geo/G00126000,Europe and Northern America,2009,43
+undata-geo/G00126000,Europe and Northern America,2010,56
+undata-geo/G00126000,Europe and Northern America,2011,58
+undata-geo/G00126000,Europe and Northern America,2012,59
+undata-geo/G00126000,Europe and Northern America,2013,60
+undata-geo/G00126000,Europe and Northern America,2014,61
+undata-geo/G00126000,Europe and Northern America,2015,61
+undata-geo/G00126000,Europe and Northern America,2016,68
+undata-geo/G00126000,Europe and Northern America,2017,76
+undata-geo/G00126000,Europe and Northern America,2018,81
+undata-geo/G00126000,Europe and Northern America,2019,84
+undata-geo/G00126000,Europe and Northern America,2020,81
+undata-geo/G00126000,Europe and Northern America,2021,82
+undata-geo/G00126000,Europe and Northern America,2022,83
+undata-geo/G00126000,Europe and Northern America,2023,83
+undata-geo/G00126000,Europe and Northern America,2024,83
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2008,0
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2009,0
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2010,1
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2011,1
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2012,1
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2013,7
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2014,8
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2015,26
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2016,29
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2017,41
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2018,41
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2019,41
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2020,46
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2021,42
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2022,46
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2023,40
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2024,50

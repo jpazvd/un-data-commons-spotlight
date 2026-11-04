@@ -1,0 +1,392 @@
+{
+  "topic": "P12",
+  "retrieved_on": "2026-11-01",
+  "indicator": {
+    "sdg_indicator": "4.1.2",
+    "sdg_series_codes": [
+      "SE_TOT_CPLR"
+    ],
+    "data_commons_variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1",
+    "variable_name": "School completion rate [Education level=Primary education (ISCED11 - 1)]",
+    "data_commons_facet_id": "3722936608695937273",
+    "provenance_url": "https://unstats.un.org/sdgs/dataportal",
+    "unit": "Percent",
+    "breakdown_variables": [
+      "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1__SEX--F",
+      "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1__SEX--M"
+    ]
+  },
+  "custodian": "UNESCO UIS",
+  "method_note": "Every value is copied unchanged from the UN System Data Commons responses saved under experiments/002-design-framing-time/data/raw/ (one file per call, named by raw_id). No aggregate is computed from country values. Membership of SDG regions comes from the Data Commons' own containment (under-five mortality calls); see scripts/spotlight002.py for regions composed of their subregions.",
+  "data_commons_calls": [
+    {
+      "tool": "get_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1",
+        "place_dcid": "Earth",
+        "date": "all"
+      },
+      "raw_id": "deb9ee10fa614533",
+      "result_at": "2026-11-01T10:37:41.976Z",
+      "saved_as": "data/world.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "aa830158412c5f52",
+      "result_at": "2026-11-01T10:37:42.943Z",
+      "saved_as": "data/countries_latest.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "UNGeoRegion",
+        "date": "range",
+        "date_range_start": "1990",
+        "date_range_end": "2026"
+      },
+      "raw_id": "9a08d23e5b176d38",
+      "result_at": "2026-11-01T10:37:43.762Z",
+      "saved_as": "data/place_series.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "GeoRegion",
+        "date": "range",
+        "date_range_start": "1990",
+        "date_range_end": "2026"
+      },
+      "raw_id": "f7c7da37b16c13ab",
+      "result_at": "2026-11-01T10:37:44.851Z",
+      "saved_as": "data/place_series.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1__SEX--F",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "cd1484bc80c60c1f",
+      "result_at": "2026-11-01T10:37:46.029Z",
+      "saved_as": "data/breakdown_countries.csv"
+    },
+    {
+      "tool": "get_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1__SEX--F",
+        "place_dcid": "Earth",
+        "date": "all"
+      },
+      "raw_id": "9d0c5f9833961537",
+      "result_at": "2026-11-01T10:37:46.384Z",
+      "saved_as": "data/breakdown_aggregates.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1__SEX--F",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "UNGeoRegion",
+        "date": "range",
+        "date_range_start": "1990",
+        "date_range_end": "2026"
+      },
+      "raw_id": "8e93f5d51360ce5b",
+      "result_at": "2026-11-01T10:37:47.275Z",
+      "saved_as": "data/breakdown_aggregates.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1__SEX--F",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "GeoRegion",
+        "date": "range",
+        "date_range_start": "1990",
+        "date_range_end": "2026"
+      },
+      "raw_id": "19ad7ffeaaf2d6f1",
+      "result_at": "2026-11-01T10:37:48.245Z",
+      "saved_as": "data/breakdown_aggregates.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1__SEX--M",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "67fb686c83b57912",
+      "result_at": "2026-11-01T10:37:51.711Z",
+      "saved_as": "data/breakdown_countries.csv"
+    },
+    {
+      "tool": "get_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1__SEX--M",
+        "place_dcid": "Earth",
+        "date": "all"
+      },
+      "raw_id": "a5fcc25dffafff9f",
+      "result_at": "2026-11-01T10:37:51.982Z",
+      "saved_as": "data/breakdown_aggregates.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1__SEX--M",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "UNGeoRegion",
+        "date": "range",
+        "date_range_start": "1990",
+        "date_range_end": "2026"
+      },
+      "raw_id": "be55348dacdb9f0c",
+      "result_at": "2026-11-01T10:37:53.216Z",
+      "saved_as": "data/breakdown_aggregates.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SE_TOT_CPLR.EDUCATION_LEVEL--ISCED11_1__SEX--M",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "GeoRegion",
+        "date": "range",
+        "date_range_start": "1990",
+        "date_range_end": "2026"
+      },
+      "raw_id": "2fd7afdeb34cfedf",
+      "result_at": "2026-11-01T10:37:54.054Z",
+      "saved_as": "data/breakdown_aggregates.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "SubSaharanAfrica",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "50f37d75873987cb",
+      "result_at": "2026-11-01T10:38:01.208Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "LatinAmericaAndCaribbean",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "ed89aec745728c8f",
+      "result_at": "2026-11-01T10:38:06.744Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "undata-geo/G00145000",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "0b5c72e480cde0fa",
+      "result_at": "2026-11-01T10:32:52.574Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "AustraliaAndNewZealand",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "0bbaa3b9e3192998",
+      "result_at": "2026-11-01T10:38:07.943Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "undata-geo/G00404000",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "64a609abe5f9f433",
+      "result_at": "2026-11-01T10:38:09.588Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "undata-geo/G00403000",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "900c811570c0f5ca",
+      "result_at": "2026-11-01T10:38:10.216Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "undata-geo/G00405000",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "ca30c8b912e0c6e6",
+      "result_at": "2026-11-01T10:38:11.000Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "NorthernAfrica",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "47c94708c97b8519",
+      "result_at": "2026-11-01T11:21:39.425Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "WesternAsia",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "0352fc4fdab3ee53",
+      "result_at": "2026-11-01T11:21:40.721Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "CentralAsia",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "be2aaff19dfd1a3d",
+      "result_at": "2026-11-01T11:21:41.687Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "SouthernAsia",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "a48a2ec110099f2b",
+      "result_at": "2026-11-01T11:21:42.880Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "EasternAsia",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "3f245be36da9da20",
+      "result_at": "2026-11-01T11:21:45.219Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "SouthEasternAsia",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "32d9aafd623f2f83",
+      "result_at": "2026-11-01T11:21:45.877Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "NorthernEurope",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "69261efef0af5b79",
+      "result_at": "2026-11-01T11:21:54.079Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "WesternEurope",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "e7943d53c87dbeb9",
+      "result_at": "2026-11-01T11:21:54.940Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "SouthernEurope",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "75efe8ef8e8fc4b0",
+      "result_at": "2026-11-01T11:21:56.141Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "EasternEurope",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "508026d6cbf7334e",
+      "result_at": "2026-11-01T11:21:57.110Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "undata-geo/G00136000",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "a01f27c1c53e11ad",
+      "result_at": "2026-11-01T11:21:47.200Z",
+      "saved_as": "data/membership.csv"
+    }
+  ]
+}

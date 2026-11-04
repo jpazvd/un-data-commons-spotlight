@@ -1,0 +1,57 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "SDG 5.3",
+  "value": 0,
+  "year": 2030,
+  "kind": "elimination"
+ },
+ "ok": true,
+ "kind": "pace",
+ "place": "Landlocked developing countries (LLDCs)",
+ "first": {
+  "year": 2005,
+  "value": 13.289
+ },
+ "last": {
+  "year": 2025,
+  "value": 8.708
+ },
+ "observed_per_year": -0.229,
+ "required_per_year": -1.7416,
+ "trend": "towards target",
+ "years_left": 5,
+ "at_current_pace": 7.5628,
+ "required_over_observed": 7.6036,
+ "series": [
+  [
+   2005,
+   13.289
+  ],
+  [
+   2010,
+   12.868
+  ],
+  [
+   2015,
+   12.199
+  ],
+  [
+   2020,
+   10.057
+  ],
+  [
+   2025,
+   8.708
+  ]
+ ],
+ "family": "child_marriage_15",
+ "what": "women aged 20 to 24 first married or in union before 15",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "UNICEF",
+ "breakdown": "location",
+ "place_type": "grouping",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UNICEF Data Warehouse"
+}

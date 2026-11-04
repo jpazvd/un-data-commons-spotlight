@@ -1,0 +1,95 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "SDG 6.1",
+  "value": 100,
+  "year": 2030,
+  "kind": "universal"
+ },
+ "ok": true,
+ "kind": "pace_compared",
+ "places": [
+  {
+   "dcid": "undata-geo/G00404000",
+   "place": "LDCs",
+   "first": {
+    "year": 2000,
+    "value": 25.8379
+   },
+   "last": {
+    "year": 2024,
+    "value": 38.7702
+   },
+   "observed_per_year": 0.5388,
+   "required_per_year": 10.205,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 42.0032,
+   "required_over_observed": 18.9387
+  },
+  {
+   "dcid": "undata-geo/G00403000",
+   "place": "LLDCs",
+   "first": {
+    "year": 2000,
+    "value": 26.2525
+   },
+   "last": {
+    "year": 2024,
+    "value": 36.9052
+   },
+   "observed_per_year": 0.4439,
+   "required_per_year": 10.5158,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 39.5684,
+   "required_over_observed": 23.6916
+  },
+  {
+   "dcid": "undata-geo/G00405000",
+   "place": "SIDS",
+   "first": {
+    "year": 2000,
+    "value": 53.4859
+   },
+   "last": {
+    "year": 2024,
+    "value": 57.4573
+   },
+   "observed_per_year": 0.1655,
+   "required_per_year": 7.0905,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 58.4501,
+   "required_over_observed": 42.8493
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "first": {
+    "year": 2000,
+    "value": 61.2616
+   },
+   "last": {
+    "year": 2024,
+    "value": 73.7352
+   },
+   "observed_per_year": 0.5197,
+   "required_per_year": 4.3775,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 76.8536,
+   "required_over_observed": 8.4226
+  }
+ ],
+ "lead": "undata-geo/G00403000",
+ "family": "water",
+ "what": "people using safely managed drinking water",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "WHO/UNICEF JMP",
+ "breakdown": null,
+ "place_type": "groupings",
+ "stale_cutoff": 2020,
+ "breakdown_source": null
+}

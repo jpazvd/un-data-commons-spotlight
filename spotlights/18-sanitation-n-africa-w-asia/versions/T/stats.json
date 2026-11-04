@@ -1,0 +1,137 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "SDG 6.2",
+  "value": 100,
+  "year": 2030,
+  "kind": "universal"
+ },
+ "ok": true,
+ "kind": "pace",
+ "place": "Northern Africa and Western Asia",
+ "first": {
+  "year": 2000,
+  "value": 39.3962
+ },
+ "last": {
+  "year": 2024,
+  "value": 60.7167
+ },
+ "observed_per_year": 0.8884,
+ "required_per_year": 6.5472,
+ "trend": "towards target",
+ "years_left": 6,
+ "at_current_pace": 66.0468,
+ "required_over_observed": 7.3701,
+ "series": [
+  [
+   2000,
+   39.39624023
+  ],
+  [
+   2001,
+   39.66516495
+  ],
+  [
+   2002,
+   40.03837204
+  ],
+  [
+   2003,
+   40.41060257
+  ],
+  [
+   2004,
+   41.08662796
+  ],
+  [
+   2005,
+   41.79580688
+  ],
+  [
+   2006,
+   42.59707642
+  ],
+  [
+   2007,
+   43.41416931
+  ],
+  [
+   2008,
+   44.16793442
+  ],
+  [
+   2009,
+   44.8550148
+  ],
+  [
+   2010,
+   45.54421234
+  ],
+  [
+   2011,
+   46.24931717
+  ],
+  [
+   2012,
+   46.91420746
+  ],
+  [
+   2013,
+   47.97176743
+  ],
+  [
+   2014,
+   48.70931244
+  ],
+  [
+   2015,
+   49.47287369
+  ],
+  [
+   2016,
+   50.70034409
+  ],
+  [
+   2017,
+   51.85351944
+  ],
+  [
+   2018,
+   53.03508759
+  ],
+  [
+   2019,
+   54.29378891
+  ],
+  [
+   2020,
+   55.60928345
+  ],
+  [
+   2021,
+   56.82899475
+  ],
+  [
+   2022,
+   58.12490082
+  ],
+  [
+   2023,
+   59.5294075
+  ],
+  [
+   2024,
+   60.71669006
+  ]
+ ],
+ "family": "sanitation",
+ "what": "people using safely managed sanitation",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "WHO/UNICEF JMP",
+ "breakdown": "location",
+ "place_type": "region",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UN SDG Global Database"
+}

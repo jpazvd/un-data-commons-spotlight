@@ -1,0 +1,197 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "none",
+  "value": null,
+  "year": null
+ },
+ "ok": true,
+ "kind": "level",
+ "place": "Small Island Developing States (SIDS)",
+ "last": {
+  "year": 2025,
+  "value": 21.12
+ },
+ "n": 34,
+ "ranked": [
+  [
+   "Vanuatu",
+   2020,
+   47.53
+  ],
+  [
+   "Guyana",
+   2019,
+   45.66
+  ],
+  [
+   "São Tomé and Príncipe",
+   2017,
+   43.8
+  ],
+  [
+   "Nauru",
+   2021,
+   40.99
+  ],
+  [
+   "Marshall Islands",
+   2021,
+   39.97
+  ],
+  [
+   "Kiribati",
+   2023,
+   35.41
+  ],
+  [
+   "Tuvalu",
+   2022,
+   34.35
+  ],
+  [
+   "Samoa",
+   2022,
+   30.09
+  ],
+  [
+   "Timor-Leste",
+   2022,
+   29.12
+  ],
+  [
+   "Barbados",
+   2016,
+   28.99
+  ],
+  [
+   "Micronesia (Fed. States of)",
+   2014,
+   28.67
+  ],
+  [
+   "Cabo Verde",
+   2019,
+   27.99
+  ],
+  [
+   "Papua New Guinea",
+   2022,
+   27.69
+  ],
+  [
+   "Maldives",
+   2019,
+   26.27
+  ],
+  [
+   "Dominican Republic",
+   2024,
+   25.69
+  ],
+  [
+   "Tonga",
+   2023,
+   25.61
+  ],
+  [
+   "Belize",
+   2019,
+   24.88
+  ],
+  [
+   "Saint Lucia",
+   2024,
+   22.63
+  ],
+  [
+   "Comoros",
+   2021,
+   21.17
+  ],
+  [
+   "Haiti",
+   2012,
+   21.09
+  ],
+  [
+   "Fiji",
+   2024,
+   20.79
+  ],
+  [
+   "Antigua and Barbuda",
+   2018,
+   20.78
+  ],
+  [
+   "Cook Islands",
+   2023,
+   20.3
+  ],
+  [
+   "Grenada",
+   2023,
+   20.09
+  ],
+  [
+   "Jamaica",
+   2023,
+   19.7
+  ],
+  [
+   "Suriname",
+   2016,
+   18.19
+  ],
+  [
+   "Seychelles",
+   2024,
+   16.93
+  ],
+  [
+   "Trinidad and Tobago",
+   2024,
+   15.85
+  ],
+  [
+   "Mauritius",
+   2024,
+   13.94
+  ],
+  [
+   "Guinea-Bissau",
+   2022,
+   13.2
+  ],
+  [
+   "Palau",
+   2023,
+   11.27
+  ],
+  [
+   "Niue",
+   2022,
+   10.82
+  ],
+  [
+   "Solomon Islands",
+   2013,
+   7.04
+  ],
+  [
+   "Singapore",
+   2024,
+   6.45
+  ]
+ ],
+ "family": "youth_neet",
+ "what": "young people aged 15 to 24 not in education, employment or training",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "ILO",
+ "breakdown": "location",
+ "place_type": "grouping",
+ "stale_cutoff": 2020,
+ "breakdown_source": "ILOSTAT"
+}

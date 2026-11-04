@@ -1,0 +1,41 @@
+{
+ "frame": "G",
+ "ok": true,
+ "kind": "places_gap",
+ "year": 2025,
+ "places": [
+  {
+   "dcid": "undata-geo/G00404000",
+   "place": "LDCs",
+   "value": 60.1
+  },
+  {
+   "dcid": "undata-geo/G00403000",
+   "place": "LLDCs",
+   "value": 64.5
+  },
+  {
+   "dcid": "undata-geo/G00405000",
+   "place": "SIDS",
+   "value": 68.7
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "value": 77.2
+  }
+ ],
+ "highest": "undata-geo/G00405000",
+ "lowest": "undata-geo/G00404000",
+ "difference": 8.6,
+ "ratio": 1.1431,
+ "family": "family_planning",
+ "what": "women aged 15 to 49 whose need for family planning is met with modern methods",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "UN DESA Population Division and UNFPA",
+ "breakdown": null,
+ "place_type": "groupings",
+ "stale_cutoff": 2020,
+ "breakdown_source": null
+}

@@ -1,0 +1,451 @@
+place_dcid,name,group,year,value
+Earth,World,female,2000,74.8
+Earth,World,female,2001,75.8
+Earth,World,female,2002,76.8
+Earth,World,female,2003,77.7
+Earth,World,female,2004,78.5
+Earth,World,female,2005,79.3
+Earth,World,female,2006,79.9
+Earth,World,female,2007,80.4
+Earth,World,female,2008,80.9
+Earth,World,female,2009,81.5
+Earth,World,female,2010,82.1
+Earth,World,female,2011,82.7
+Earth,World,female,2012,83.3
+Earth,World,female,2013,83.8
+Earth,World,female,2014,84.4
+Earth,World,female,2015,84.9
+Earth,World,female,2016,85.4
+Earth,World,female,2017,86
+Earth,World,female,2018,86.5
+Earth,World,female,2019,87
+Earth,World,female,2020,87.4
+Earth,World,female,2021,87.9
+Earth,World,female,2022,88.3
+Earth,World,female,2023,88.8
+Earth,World,female,2024,89.2
+AustraliaAndNewZealand,Australia and New Zealand,female,2000,99.2
+AustraliaAndNewZealand,Australia and New Zealand,female,2001,99.2
+AustraliaAndNewZealand,Australia and New Zealand,female,2002,99.2
+AustraliaAndNewZealand,Australia and New Zealand,female,2003,99.3
+AustraliaAndNewZealand,Australia and New Zealand,female,2004,99.3
+AustraliaAndNewZealand,Australia and New Zealand,female,2005,99.3
+AustraliaAndNewZealand,Australia and New Zealand,female,2006,99.3
+AustraliaAndNewZealand,Australia and New Zealand,female,2007,99.3
+AustraliaAndNewZealand,Australia and New Zealand,female,2008,99.3
+AustraliaAndNewZealand,Australia and New Zealand,female,2009,99.4
+AustraliaAndNewZealand,Australia and New Zealand,female,2010,99.4
+AustraliaAndNewZealand,Australia and New Zealand,female,2011,99.4
+AustraliaAndNewZealand,Australia and New Zealand,female,2012,99.4
+AustraliaAndNewZealand,Australia and New Zealand,female,2013,99.4
+AustraliaAndNewZealand,Australia and New Zealand,female,2014,99.5
+AustraliaAndNewZealand,Australia and New Zealand,female,2015,99.5
+AustraliaAndNewZealand,Australia and New Zealand,female,2016,99.5
+AustraliaAndNewZealand,Australia and New Zealand,female,2017,99.5
+AustraliaAndNewZealand,Australia and New Zealand,female,2018,99.6
+AustraliaAndNewZealand,Australia and New Zealand,female,2019,99.6
+AustraliaAndNewZealand,Australia and New Zealand,female,2020,99.6
+AustraliaAndNewZealand,Australia and New Zealand,female,2021,99.6
+AustraliaAndNewZealand,Australia and New Zealand,female,2022,99.6
+AustraliaAndNewZealand,Australia and New Zealand,female,2023,99.6
+AustraliaAndNewZealand,Australia and New Zealand,female,2024,99.7
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2000,83.4
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2001,84.1
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2002,84.9
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2003,85.6
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2004,86.4
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2005,87
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2006,87.6
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2007,88.2
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2008,88.7
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2009,89.3
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2010,89.8
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2011,90.3
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2012,90.8
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2013,91.2
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2014,91.6
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2015,92.1
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2016,92.5
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2017,92.9
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2018,93.3
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2019,93.7
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2020,94.1
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2021,94.4
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2022,94.7
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2023,95
+LatinAmericaAndCaribbean,Latin America and the Caribbean,female,2024,95.3
+SubSaharanAfrica,Sub-Saharan Africa,female,2000,43.9
+SubSaharanAfrica,Sub-Saharan Africa,female,2001,44.7
+SubSaharanAfrica,Sub-Saharan Africa,female,2002,45.5
+SubSaharanAfrica,Sub-Saharan Africa,female,2003,46.3
+SubSaharanAfrica,Sub-Saharan Africa,female,2004,47.4
+SubSaharanAfrica,Sub-Saharan Africa,female,2005,48.6
+SubSaharanAfrica,Sub-Saharan Africa,female,2006,49.8
+SubSaharanAfrica,Sub-Saharan Africa,female,2007,51.1
+SubSaharanAfrica,Sub-Saharan Africa,female,2008,52.3
+SubSaharanAfrica,Sub-Saharan Africa,female,2009,53.6
+SubSaharanAfrica,Sub-Saharan Africa,female,2010,54.9
+SubSaharanAfrica,Sub-Saharan Africa,female,2011,56.1
+SubSaharanAfrica,Sub-Saharan Africa,female,2012,57.3
+SubSaharanAfrica,Sub-Saharan Africa,female,2013,58.5
+SubSaharanAfrica,Sub-Saharan Africa,female,2014,59.6
+SubSaharanAfrica,Sub-Saharan Africa,female,2015,60.7
+SubSaharanAfrica,Sub-Saharan Africa,female,2016,61.7
+SubSaharanAfrica,Sub-Saharan Africa,female,2017,62.8
+SubSaharanAfrica,Sub-Saharan Africa,female,2018,64
+SubSaharanAfrica,Sub-Saharan Africa,female,2019,65
+SubSaharanAfrica,Sub-Saharan Africa,female,2020,66.1
+SubSaharanAfrica,Sub-Saharan Africa,female,2021,67.3
+SubSaharanAfrica,Sub-Saharan Africa,female,2022,68.5
+SubSaharanAfrica,Sub-Saharan Africa,female,2023,69.6
+SubSaharanAfrica,Sub-Saharan Africa,female,2024,70.6
+undata-geo/G00103000,Northern Africa and Western Asia,female,2000,69.8
+undata-geo/G00103000,Northern Africa and Western Asia,female,2001,71
+undata-geo/G00103000,Northern Africa and Western Asia,female,2002,72.2
+undata-geo/G00103000,Northern Africa and Western Asia,female,2003,73.6
+undata-geo/G00103000,Northern Africa and Western Asia,female,2004,74.9
+undata-geo/G00103000,Northern Africa and Western Asia,female,2005,76
+undata-geo/G00103000,Northern Africa and Western Asia,female,2006,77.2
+undata-geo/G00103000,Northern Africa and Western Asia,female,2007,78.2
+undata-geo/G00103000,Northern Africa and Western Asia,female,2008,79.2
+undata-geo/G00103000,Northern Africa and Western Asia,female,2009,80
+undata-geo/G00103000,Northern Africa and Western Asia,female,2010,80.9
+undata-geo/G00103000,Northern Africa and Western Asia,female,2011,81.8
+undata-geo/G00103000,Northern Africa and Western Asia,female,2012,82.5
+undata-geo/G00103000,Northern Africa and Western Asia,female,2013,83.2
+undata-geo/G00103000,Northern Africa and Western Asia,female,2014,83.8
+undata-geo/G00103000,Northern Africa and Western Asia,female,2015,84.5
+undata-geo/G00103000,Northern Africa and Western Asia,female,2016,85.2
+undata-geo/G00103000,Northern Africa and Western Asia,female,2017,85.9
+undata-geo/G00103000,Northern Africa and Western Asia,female,2018,86.6
+undata-geo/G00103000,Northern Africa and Western Asia,female,2019,87.2
+undata-geo/G00103000,Northern Africa and Western Asia,female,2020,87.9
+undata-geo/G00103000,Northern Africa and Western Asia,female,2021,88.5
+undata-geo/G00103000,Northern Africa and Western Asia,female,2022,89.1
+undata-geo/G00103000,Northern Africa and Western Asia,female,2023,89.7
+undata-geo/G00103000,Northern Africa and Western Asia,female,2024,90.2
+undata-geo/G00116000,Central and Southern Asia,female,2000,61.4
+undata-geo/G00116000,Central and Southern Asia,female,2001,63.4
+undata-geo/G00116000,Central and Southern Asia,female,2002,65.3
+undata-geo/G00116000,Central and Southern Asia,female,2003,67.1
+undata-geo/G00116000,Central and Southern Asia,female,2004,68.8
+undata-geo/G00116000,Central and Southern Asia,female,2005,70.6
+undata-geo/G00116000,Central and Southern Asia,female,2006,72.1
+undata-geo/G00116000,Central and Southern Asia,female,2007,73.7
+undata-geo/G00116000,Central and Southern Asia,female,2008,75.2
+undata-geo/G00116000,Central and Southern Asia,female,2009,76.6
+undata-geo/G00116000,Central and Southern Asia,female,2010,78
+undata-geo/G00116000,Central and Southern Asia,female,2011,79.3
+undata-geo/G00116000,Central and Southern Asia,female,2012,80.5
+undata-geo/G00116000,Central and Southern Asia,female,2013,81.6
+undata-geo/G00116000,Central and Southern Asia,female,2014,82.7
+undata-geo/G00116000,Central and Southern Asia,female,2015,83.7
+undata-geo/G00116000,Central and Southern Asia,female,2016,84.7
+undata-geo/G00116000,Central and Southern Asia,female,2017,85.6
+undata-geo/G00116000,Central and Southern Asia,female,2018,86.5
+undata-geo/G00116000,Central and Southern Asia,female,2019,87.3
+undata-geo/G00116000,Central and Southern Asia,female,2020,87.9
+undata-geo/G00116000,Central and Southern Asia,female,2021,88.5
+undata-geo/G00116000,Central and Southern Asia,female,2022,89.1
+undata-geo/G00116000,Central and Southern Asia,female,2023,89.6
+undata-geo/G00116000,Central and Southern Asia,female,2024,90.2
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2000,89.2
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2001,90
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2002,90.7
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2003,91.4
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2004,92.1
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2005,92.7
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2006,93.2
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2007,93.6
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2008,94
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2009,94.4
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2010,94.8
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2011,95.2
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2012,95.5
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2013,95.9
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2014,96.2
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2015,96.6
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2016,96.9
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2017,97.3
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2018,97.6
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2019,97.8
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2020,98.1
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2021,98.3
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2022,98.5
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2023,98.7
+undata-geo/G00122000,Eastern and South-eastern Asia,female,2024,98.9
+undata-geo/G00126000,Europe and Northern America,female,2000,99.5
+undata-geo/G00126000,Europe and Northern America,female,2001,99.5
+undata-geo/G00126000,Europe and Northern America,female,2002,99.5
+undata-geo/G00126000,Europe and Northern America,female,2003,99.5
+undata-geo/G00126000,Europe and Northern America,female,2004,99.5
+undata-geo/G00126000,Europe and Northern America,female,2005,99.5
+undata-geo/G00126000,Europe and Northern America,female,2006,99.5
+undata-geo/G00126000,Europe and Northern America,female,2007,99.5
+undata-geo/G00126000,Europe and Northern America,female,2008,99.6
+undata-geo/G00126000,Europe and Northern America,female,2009,99.6
+undata-geo/G00126000,Europe and Northern America,female,2010,99.6
+undata-geo/G00126000,Europe and Northern America,female,2011,99.6
+undata-geo/G00126000,Europe and Northern America,female,2012,99.6
+undata-geo/G00126000,Europe and Northern America,female,2013,99.6
+undata-geo/G00126000,Europe and Northern America,female,2014,99.6
+undata-geo/G00126000,Europe and Northern America,female,2015,99.7
+undata-geo/G00126000,Europe and Northern America,female,2016,99.7
+undata-geo/G00126000,Europe and Northern America,female,2017,99.7
+undata-geo/G00126000,Europe and Northern America,female,2018,99.7
+undata-geo/G00126000,Europe and Northern America,female,2019,99.7
+undata-geo/G00126000,Europe and Northern America,female,2020,99.7
+undata-geo/G00126000,Europe and Northern America,female,2021,99.7
+undata-geo/G00126000,Europe and Northern America,female,2022,99.8
+undata-geo/G00126000,Europe and Northern America,female,2023,99.8
+undata-geo/G00126000,Europe and Northern America,female,2024,99.8
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2000,59.9
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2001,60.2
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2002,60.6
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2003,61
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2004,61.4
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2005,61.9
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2006,62.5
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2007,63
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2008,63.6
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2009,64.4
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2010,65.3
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2011,66.1
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2012,67
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2013,67.6
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2014,68.2
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2015,68.8
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2016,69.4
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2017,69.9
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2018,70.6
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2019,71.2
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2020,71.8
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2021,72.5
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2022,73.2
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2023,74
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,female,2024,74.7
+Earth,World,male,2000,79.7
+Earth,World,male,2001,80.3
+Earth,World,male,2002,80.9
+Earth,World,male,2003,81.4
+Earth,World,male,2004,81.8
+Earth,World,male,2005,82.1
+Earth,World,male,2006,82.2
+Earth,World,male,2007,82.3
+Earth,World,male,2008,82.4
+Earth,World,male,2009,82.7
+Earth,World,male,2010,82.9
+Earth,World,male,2011,83.1
+Earth,World,male,2012,83.3
+Earth,World,male,2013,83.5
+Earth,World,male,2014,83.8
+Earth,World,male,2015,84.1
+Earth,World,male,2016,84.4
+Earth,World,male,2017,84.7
+Earth,World,male,2018,85
+Earth,World,male,2019,85.3
+Earth,World,male,2020,85.6
+Earth,World,male,2021,85.9
+Earth,World,male,2022,86.2
+Earth,World,male,2023,86.5
+Earth,World,male,2024,86.8
+AustraliaAndNewZealand,Australia and New Zealand,male,2000,99
+AustraliaAndNewZealand,Australia and New Zealand,male,2001,99
+AustraliaAndNewZealand,Australia and New Zealand,male,2002,99
+AustraliaAndNewZealand,Australia and New Zealand,male,2003,99
+AustraliaAndNewZealand,Australia and New Zealand,male,2004,99
+AustraliaAndNewZealand,Australia and New Zealand,male,2005,99.1
+AustraliaAndNewZealand,Australia and New Zealand,male,2006,99.1
+AustraliaAndNewZealand,Australia and New Zealand,male,2007,99.1
+AustraliaAndNewZealand,Australia and New Zealand,male,2008,99.1
+AustraliaAndNewZealand,Australia and New Zealand,male,2009,99.1
+AustraliaAndNewZealand,Australia and New Zealand,male,2010,99.1
+AustraliaAndNewZealand,Australia and New Zealand,male,2011,99.1
+AustraliaAndNewZealand,Australia and New Zealand,male,2012,99.2
+AustraliaAndNewZealand,Australia and New Zealand,male,2013,99.2
+AustraliaAndNewZealand,Australia and New Zealand,male,2014,99.2
+AustraliaAndNewZealand,Australia and New Zealand,male,2015,99.2
+AustraliaAndNewZealand,Australia and New Zealand,male,2016,99.2
+AustraliaAndNewZealand,Australia and New Zealand,male,2017,99.2
+AustraliaAndNewZealand,Australia and New Zealand,male,2018,99.2
+AustraliaAndNewZealand,Australia and New Zealand,male,2019,99.3
+AustraliaAndNewZealand,Australia and New Zealand,male,2020,99.3
+AustraliaAndNewZealand,Australia and New Zealand,male,2021,99.3
+AustraliaAndNewZealand,Australia and New Zealand,male,2022,99.3
+AustraliaAndNewZealand,Australia and New Zealand,male,2023,99.3
+AustraliaAndNewZealand,Australia and New Zealand,male,2024,99.3
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2000,80.1
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2001,80.8
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2002,81.6
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2003,82.3
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2004,82.9
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2005,83.4
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2006,83.9
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2007,84.3
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2008,84.8
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2009,85.3
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2010,85.9
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2011,86.4
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2012,86.9
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2013,87.4
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2014,87.9
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2015,88.3
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2016,88.9
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2017,89.4
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2018,89.9
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2019,90.4
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2020,90.7
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2021,91
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2022,91.4
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2023,91.6
+LatinAmericaAndCaribbean,Latin America and the Caribbean,male,2024,91.9
+SubSaharanAfrica,Sub-Saharan Africa,male,2000,48.7
+SubSaharanAfrica,Sub-Saharan Africa,male,2001,49.3
+SubSaharanAfrica,Sub-Saharan Africa,male,2002,49.8
+SubSaharanAfrica,Sub-Saharan Africa,male,2003,50.4
+SubSaharanAfrica,Sub-Saharan Africa,male,2004,51.1
+SubSaharanAfrica,Sub-Saharan Africa,male,2005,51.8
+SubSaharanAfrica,Sub-Saharan Africa,male,2006,52.5
+SubSaharanAfrica,Sub-Saharan Africa,male,2007,53.2
+SubSaharanAfrica,Sub-Saharan Africa,male,2008,53.9
+SubSaharanAfrica,Sub-Saharan Africa,male,2009,54.6
+SubSaharanAfrica,Sub-Saharan Africa,male,2010,55.2
+SubSaharanAfrica,Sub-Saharan Africa,male,2011,55.8
+SubSaharanAfrica,Sub-Saharan Africa,male,2012,56.3
+SubSaharanAfrica,Sub-Saharan Africa,male,2013,56.9
+SubSaharanAfrica,Sub-Saharan Africa,male,2014,57.4
+SubSaharanAfrica,Sub-Saharan Africa,male,2015,58
+SubSaharanAfrica,Sub-Saharan Africa,male,2016,58.6
+SubSaharanAfrica,Sub-Saharan Africa,male,2017,59.2
+SubSaharanAfrica,Sub-Saharan Africa,male,2018,59.9
+SubSaharanAfrica,Sub-Saharan Africa,male,2019,60.6
+SubSaharanAfrica,Sub-Saharan Africa,male,2020,61.4
+SubSaharanAfrica,Sub-Saharan Africa,male,2021,62.1
+SubSaharanAfrica,Sub-Saharan Africa,male,2022,62.9
+SubSaharanAfrica,Sub-Saharan Africa,male,2023,63.7
+SubSaharanAfrica,Sub-Saharan Africa,male,2024,64.4
+undata-geo/G00103000,Northern Africa and Western Asia,male,2000,78.7
+undata-geo/G00103000,Northern Africa and Western Asia,male,2001,79.4
+undata-geo/G00103000,Northern Africa and Western Asia,male,2002,80.1
+undata-geo/G00103000,Northern Africa and Western Asia,male,2003,80.8
+undata-geo/G00103000,Northern Africa and Western Asia,male,2004,81.4
+undata-geo/G00103000,Northern Africa and Western Asia,male,2005,81.9
+undata-geo/G00103000,Northern Africa and Western Asia,male,2006,82.5
+undata-geo/G00103000,Northern Africa and Western Asia,male,2007,83
+undata-geo/G00103000,Northern Africa and Western Asia,male,2008,83.4
+undata-geo/G00103000,Northern Africa and Western Asia,male,2009,83.8
+undata-geo/G00103000,Northern Africa and Western Asia,male,2010,84.2
+undata-geo/G00103000,Northern Africa and Western Asia,male,2011,84.6
+undata-geo/G00103000,Northern Africa and Western Asia,male,2012,84.9
+undata-geo/G00103000,Northern Africa and Western Asia,male,2013,85.3
+undata-geo/G00103000,Northern Africa and Western Asia,male,2014,85.7
+undata-geo/G00103000,Northern Africa and Western Asia,male,2015,86.1
+undata-geo/G00103000,Northern Africa and Western Asia,male,2016,86.5
+undata-geo/G00103000,Northern Africa and Western Asia,male,2017,87
+undata-geo/G00103000,Northern Africa and Western Asia,male,2018,87.4
+undata-geo/G00103000,Northern Africa and Western Asia,male,2019,87.8
+undata-geo/G00103000,Northern Africa and Western Asia,male,2020,88.2
+undata-geo/G00103000,Northern Africa and Western Asia,male,2021,88.6
+undata-geo/G00103000,Northern Africa and Western Asia,male,2022,89
+undata-geo/G00103000,Northern Africa and Western Asia,male,2023,89.5
+undata-geo/G00103000,Northern Africa and Western Asia,male,2024,89.9
+undata-geo/G00116000,Central and Southern Asia,male,2000,73.1
+undata-geo/G00116000,Central and Southern Asia,male,2001,74
+undata-geo/G00116000,Central and Southern Asia,male,2002,74.8
+undata-geo/G00116000,Central and Southern Asia,male,2003,75.6
+undata-geo/G00116000,Central and Southern Asia,male,2004,76.4
+undata-geo/G00116000,Central and Southern Asia,male,2005,77.2
+undata-geo/G00116000,Central and Southern Asia,male,2006,77.9
+undata-geo/G00116000,Central and Southern Asia,male,2007,78.8
+undata-geo/G00116000,Central and Southern Asia,male,2008,79.5
+undata-geo/G00116000,Central and Southern Asia,male,2009,80.3
+undata-geo/G00116000,Central and Southern Asia,male,2010,80.9
+undata-geo/G00116000,Central and Southern Asia,male,2011,81.5
+undata-geo/G00116000,Central and Southern Asia,male,2012,82
+undata-geo/G00116000,Central and Southern Asia,male,2013,82.6
+undata-geo/G00116000,Central and Southern Asia,male,2014,83.2
+undata-geo/G00116000,Central and Southern Asia,male,2015,83.8
+undata-geo/G00116000,Central and Southern Asia,male,2016,84.3
+undata-geo/G00116000,Central and Southern Asia,male,2017,84.9
+undata-geo/G00116000,Central and Southern Asia,male,2018,85.5
+undata-geo/G00116000,Central and Southern Asia,male,2019,86
+undata-geo/G00116000,Central and Southern Asia,male,2020,86.3
+undata-geo/G00116000,Central and Southern Asia,male,2021,86.7
+undata-geo/G00116000,Central and Southern Asia,male,2022,87
+undata-geo/G00116000,Central and Southern Asia,male,2023,87.4
+undata-geo/G00116000,Central and Southern Asia,male,2024,87.8
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2000,90.9
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2001,91.5
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2002,92.1
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2003,92.5
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2004,92.8
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2005,93
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2006,93.2
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2007,93.2
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2008,93.3
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2009,93.4
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2010,93.6
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2011,93.8
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2012,94
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2013,94.3
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2014,94.6
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2015,94.9
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2016,95.3
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2017,95.6
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2018,95.9
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2019,96.2
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2020,96.5
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2021,96.8
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2022,97
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2023,97.2
+undata-geo/G00122000,Eastern and South-eastern Asia,male,2024,97.4
+undata-geo/G00126000,Europe and Northern America,male,2000,99.4
+undata-geo/G00126000,Europe and Northern America,male,2001,99.4
+undata-geo/G00126000,Europe and Northern America,male,2002,99.4
+undata-geo/G00126000,Europe and Northern America,male,2003,99.4
+undata-geo/G00126000,Europe and Northern America,male,2004,99.5
+undata-geo/G00126000,Europe and Northern America,male,2005,99.5
+undata-geo/G00126000,Europe and Northern America,male,2006,99.5
+undata-geo/G00126000,Europe and Northern America,male,2007,99.5
+undata-geo/G00126000,Europe and Northern America,male,2008,99.5
+undata-geo/G00126000,Europe and Northern America,male,2009,99.5
+undata-geo/G00126000,Europe and Northern America,male,2010,99.5
+undata-geo/G00126000,Europe and Northern America,male,2011,99.6
+undata-geo/G00126000,Europe and Northern America,male,2012,99.6
+undata-geo/G00126000,Europe and Northern America,male,2013,99.6
+undata-geo/G00126000,Europe and Northern America,male,2014,99.6
+undata-geo/G00126000,Europe and Northern America,male,2015,99.6
+undata-geo/G00126000,Europe and Northern America,male,2016,99.6
+undata-geo/G00126000,Europe and Northern America,male,2017,99.6
+undata-geo/G00126000,Europe and Northern America,male,2018,99.6
+undata-geo/G00126000,Europe and Northern America,male,2019,99.7
+undata-geo/G00126000,Europe and Northern America,male,2020,99.7
+undata-geo/G00126000,Europe and Northern America,male,2021,99.7
+undata-geo/G00126000,Europe and Northern America,male,2022,99.7
+undata-geo/G00126000,Europe and Northern America,male,2023,99.7
+undata-geo/G00126000,Europe and Northern America,male,2024,99.7
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2000,60.6
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2001,60.6
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2002,60.6
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2003,60.7
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2004,60.7
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2005,60.9
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2006,61.1
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2007,61.3
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2008,61.3
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2009,61.5
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2010,61.8
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2011,62.1
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2012,62.5
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2013,62.7
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2014,62.9
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2015,63
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2016,63.1
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2017,63.2
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2018,63.3
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2019,63.5
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2020,63.7
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2021,64
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2022,64.3
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2023,64.5
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,male,2024,64.9

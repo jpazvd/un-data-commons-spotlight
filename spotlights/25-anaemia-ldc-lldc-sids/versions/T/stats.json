@@ -1,0 +1,42 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "none",
+  "value": null,
+  "year": null
+ },
+ "ok": true,
+ "kind": "level_compared",
+ "year": 2023,
+ "places": [
+  {
+   "dcid": "undata-geo/G00404000",
+   "place": "LDCs",
+   "value": 37.2
+  },
+  {
+   "dcid": "undata-geo/G00403000",
+   "place": "LLDCs",
+   "value": 32.2
+  },
+  {
+   "dcid": "undata-geo/G00405000",
+   "place": "SIDS",
+   "value": 28.7
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "value": 30.7
+  }
+ ],
+ "family": "anaemia_women",
+ "what": "women aged 15 to 49 with anaemia",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "WHO",
+ "breakdown": null,
+ "place_type": "groupings",
+ "stale_cutoff": 2020,
+ "breakdown_source": null
+}

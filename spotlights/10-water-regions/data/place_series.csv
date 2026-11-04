@@ -1,0 +1,151 @@
+place_dcid,name,year,value
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2000,70.12646484
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2001,70.40909576
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2002,70.68427277
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2003,70.95225525
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2004,71.21440887
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2005,71.84637451
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2006,72.10204315
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2007,72.35610199
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2008,72.64485168
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2009,72.92940521
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2010,73.21245575
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2011,73.49089813
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2012,73.74993896
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2013,74.22422028
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2014,74.69637299
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2015,75.16524506
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2016,75.62445831
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2017,76.06816864
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2018,76.52507019
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2019,76.97390747
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2020,77.41536713
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2021,77.8261261
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2022,78.1996994
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2023,78.59259033
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2024,78.92668152
+SubSaharanAfrica,Sub-Saharan Africa,2000,17.39829254
+SubSaharanAfrica,Sub-Saharan Africa,2001,17.66254807
+SubSaharanAfrica,Sub-Saharan Africa,2002,18.0905571
+SubSaharanAfrica,Sub-Saharan Africa,2003,18.5301342
+SubSaharanAfrica,Sub-Saharan Africa,2004,19.02338409
+SubSaharanAfrica,Sub-Saharan Africa,2005,19.52875137
+SubSaharanAfrica,Sub-Saharan Africa,2006,20.07021713
+SubSaharanAfrica,Sub-Saharan Africa,2007,20.63113594
+SubSaharanAfrica,Sub-Saharan Africa,2008,21.25219154
+SubSaharanAfrica,Sub-Saharan Africa,2009,21.89667892
+SubSaharanAfrica,Sub-Saharan Africa,2010,22.56431961
+SubSaharanAfrica,Sub-Saharan Africa,2011,23.00163269
+SubSaharanAfrica,Sub-Saharan Africa,2012,23.7120285
+SubSaharanAfrica,Sub-Saharan Africa,2013,24.44923401
+SubSaharanAfrica,Sub-Saharan Africa,2014,25.21976852
+SubSaharanAfrica,Sub-Saharan Africa,2015,26.02906799
+SubSaharanAfrica,Sub-Saharan Africa,2016,26.82761192
+SubSaharanAfrica,Sub-Saharan Africa,2017,27.61865616
+SubSaharanAfrica,Sub-Saharan Africa,2018,28.47782326
+SubSaharanAfrica,Sub-Saharan Africa,2019,29.16957092
+SubSaharanAfrica,Sub-Saharan Africa,2020,29.70547485
+SubSaharanAfrica,Sub-Saharan Africa,2021,30.25116158
+SubSaharanAfrica,Sub-Saharan Africa,2022,30.75521088
+SubSaharanAfrica,Sub-Saharan Africa,2023,31.25246429
+SubSaharanAfrica,Sub-Saharan Africa,2024,31.7384243
+undata-geo/G00103000,Northern Africa and Western Asia,2000,66.48243713
+undata-geo/G00103000,Northern Africa and Western Asia,2001,66.59207153
+undata-geo/G00103000,Northern Africa and Western Asia,2002,66.84359741
+undata-geo/G00103000,Northern Africa and Western Asia,2003,67.13773346
+undata-geo/G00103000,Northern Africa and Western Asia,2004,67.43642426
+undata-geo/G00103000,Northern Africa and Western Asia,2005,67.91452789
+undata-geo/G00103000,Northern Africa and Western Asia,2006,68.51434326
+undata-geo/G00103000,Northern Africa and Western Asia,2007,69.18630219
+undata-geo/G00103000,Northern Africa and Western Asia,2008,69.77140045
+undata-geo/G00103000,Northern Africa and Western Asia,2009,70.28132629
+undata-geo/G00103000,Northern Africa and Western Asia,2010,70.82266998
+undata-geo/G00103000,Northern Africa and Western Asia,2011,71.29309845
+undata-geo/G00103000,Northern Africa and Western Asia,2012,71.65914154
+undata-geo/G00103000,Northern Africa and Western Asia,2013,71.94766998
+undata-geo/G00103000,Northern Africa and Western Asia,2014,72.21866608
+undata-geo/G00103000,Northern Africa and Western Asia,2015,72.56291962
+undata-geo/G00103000,Northern Africa and Western Asia,2016,72.96425629
+undata-geo/G00103000,Northern Africa and Western Asia,2017,73.36228943
+undata-geo/G00103000,Northern Africa and Western Asia,2018,73.76908112
+undata-geo/G00103000,Northern Africa and Western Asia,2019,74.2036972
+undata-geo/G00103000,Northern Africa and Western Asia,2020,74.60735321
+undata-geo/G00103000,Northern Africa and Western Asia,2021,74.83779907
+undata-geo/G00103000,Northern Africa and Western Asia,2022,75.27719879
+undata-geo/G00103000,Northern Africa and Western Asia,2023,75.75662994
+undata-geo/G00103000,Northern Africa and Western Asia,2024,76.2027359
+undata-geo/G00116000,Central and Southern Asia,2000,47.75653458
+undata-geo/G00116000,Central and Southern Asia,2001,48.897686
+undata-geo/G00116000,Central and Southern Asia,2002,50.05263901
+undata-geo/G00116000,Central and Southern Asia,2003,51.2170639
+undata-geo/G00116000,Central and Southern Asia,2004,52.42347717
+undata-geo/G00116000,Central and Southern Asia,2005,53.61777878
+undata-geo/G00116000,Central and Southern Asia,2006,54.8187027
+undata-geo/G00116000,Central and Southern Asia,2007,56.03892899
+undata-geo/G00116000,Central and Southern Asia,2008,57.25777054
+undata-geo/G00116000,Central and Southern Asia,2009,58.46744919
+undata-geo/G00116000,Central and Southern Asia,2010,59.68027878
+undata-geo/G00116000,Central and Southern Asia,2011,60.88740158
+undata-geo/G00116000,Central and Southern Asia,2012,62.09224701
+undata-geo/G00116000,Central and Southern Asia,2013,63.30338669
+undata-geo/G00116000,Central and Southern Asia,2014,64.52048492
+undata-geo/G00116000,Central and Southern Asia,2015,65.74701691
+undata-geo/G00116000,Central and Southern Asia,2016,66.98122406
+undata-geo/G00116000,Central and Southern Asia,2017,68.2203598
+undata-geo/G00116000,Central and Southern Asia,2018,69.44942474
+undata-geo/G00116000,Central and Southern Asia,2019,70.67886353
+undata-geo/G00116000,Central and Southern Asia,2020,71.89769745
+undata-geo/G00116000,Central and Southern Asia,2021,73.12132263
+undata-geo/G00116000,Central and Southern Asia,2022,74.35054779
+undata-geo/G00116000,Central and Southern Asia,2023,75.67719269
+undata-geo/G00116000,Central and Southern Asia,2024,76.98308563
+undata-geo/G00122000,Eastern and South-eastern Asia,2000,68.20809174
+undata-geo/G00122000,Eastern and South-eastern Asia,2001,68.76770782
+undata-geo/G00122000,Eastern and South-eastern Asia,2002,70.00865936
+undata-geo/G00122000,Eastern and South-eastern Asia,2003,70.65997314
+undata-geo/G00122000,Eastern and South-eastern Asia,2004,71.29306793
+undata-geo/G00122000,Eastern and South-eastern Asia,2005,71.91170502
+undata-geo/G00122000,Eastern and South-eastern Asia,2006,72.49843597
+undata-geo/G00122000,Eastern and South-eastern Asia,2007,73.05995941
+undata-geo/G00122000,Eastern and South-eastern Asia,2008,73.60352325
+undata-geo/G00122000,Eastern and South-eastern Asia,2009,74.13462067
+undata-geo/G00122000,Eastern and South-eastern Asia,2010,74.64680481
+undata-geo/G00122000,Eastern and South-eastern Asia,2011,75.12569427
+undata-geo/G00122000,Eastern and South-eastern Asia,2012,75.5839386
+undata-geo/G00122000,Eastern and South-eastern Asia,2013,76.02733612
+undata-geo/G00122000,Eastern and South-eastern Asia,2014,76.45560455
+undata-geo/G00122000,Eastern and South-eastern Asia,2015,65.03923035
+undata-geo/G00122000,Eastern and South-eastern Asia,2016,65.78813171
+undata-geo/G00122000,Eastern and South-eastern Asia,2017,66.53304291
+undata-geo/G00122000,Eastern and South-eastern Asia,2018,67.26263428
+undata-geo/G00122000,Eastern and South-eastern Asia,2019,67.97187042
+undata-geo/G00122000,Eastern and South-eastern Asia,2020,68.65807343
+undata-geo/G00122000,Eastern and South-eastern Asia,2021,69.32949066
+undata-geo/G00122000,Eastern and South-eastern Asia,2022,69.96439362
+undata-geo/G00122000,Eastern and South-eastern Asia,2023,70.55180359
+undata-geo/G00122000,Eastern and South-eastern Asia,2024,75.31448364
+undata-geo/G00126000,Europe and Northern America,2000,91.90994263
+undata-geo/G00126000,Europe and Northern America,2001,91.99259186
+undata-geo/G00126000,Europe and Northern America,2002,92.08592987
+undata-geo/G00126000,Europe and Northern America,2003,92.15262604
+undata-geo/G00126000,Europe and Northern America,2004,92.40866852
+undata-geo/G00126000,Europe and Northern America,2005,92.65742493
+undata-geo/G00126000,Europe and Northern America,2006,92.6835556
+undata-geo/G00126000,Europe and Northern America,2007,92.72769928
+undata-geo/G00126000,Europe and Northern America,2008,92.7747879
+undata-geo/G00126000,Europe and Northern America,2009,92.8747406
+undata-geo/G00126000,Europe and Northern America,2010,92.98921967
+undata-geo/G00126000,Europe and Northern America,2011,93.10359192
+undata-geo/G00126000,Europe and Northern America,2012,93.21482849
+undata-geo/G00126000,Europe and Northern America,2013,93.33620453
+undata-geo/G00126000,Europe and Northern America,2014,93.42822266
+undata-geo/G00126000,Europe and Northern America,2015,93.51387787
+undata-geo/G00126000,Europe and Northern America,2016,93.5949707
+undata-geo/G00126000,Europe and Northern America,2017,93.67454529
+undata-geo/G00126000,Europe and Northern America,2018,93.75515747
+undata-geo/G00126000,Europe and Northern America,2019,93.83846283
+undata-geo/G00126000,Europe and Northern America,2020,93.91930389
+undata-geo/G00126000,Europe and Northern America,2021,94.00283813
+undata-geo/G00126000,Europe and Northern America,2022,94.10301208
+undata-geo/G00126000,Europe and Northern America,2023,94.18359375
+undata-geo/G00126000,Europe and Northern America,2024,94.22920227

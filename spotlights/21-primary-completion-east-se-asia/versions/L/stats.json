@@ -1,0 +1,127 @@
+{
+ "frame": "L",
+ "ok": true,
+ "kind": "trend",
+ "place": "Eastern and South-eastern Asia",
+ "first": {
+  "year": 2000,
+  "value": 90.1
+ },
+ "last": {
+  "year": 2024,
+  "value": 98.1
+ },
+ "change": 8.0,
+ "per_year": 0.3333,
+ "series": [
+  [
+   2000,
+   90.1
+  ],
+  [
+   2001,
+   90.8
+  ],
+  [
+   2002,
+   91.4
+  ],
+  [
+   2003,
+   92.0
+  ],
+  [
+   2004,
+   92.5
+  ],
+  [
+   2005,
+   92.9
+  ],
+  [
+   2006,
+   93.2
+  ],
+  [
+   2007,
+   93.4
+  ],
+  [
+   2008,
+   93.6
+  ],
+  [
+   2009,
+   93.9
+  ],
+  [
+   2010,
+   94.2
+  ],
+  [
+   2011,
+   94.5
+  ],
+  [
+   2012,
+   94.7
+  ],
+  [
+   2013,
+   95.0
+  ],
+  [
+   2014,
+   95.3
+  ],
+  [
+   2015,
+   95.7
+  ],
+  [
+   2016,
+   96.1
+  ],
+  [
+   2017,
+   96.4
+  ],
+  [
+   2018,
+   96.7
+  ],
+  [
+   2019,
+   97.0
+  ],
+  [
+   2020,
+   97.3
+  ],
+  [
+   2021,
+   97.5
+  ],
+  [
+   2022,
+   97.7
+  ],
+  [
+   2023,
+   97.9
+  ],
+  [
+   2024,
+   98.1
+  ]
+ ],
+ "family": "school_completion",
+ "what": "children completing primary school",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "UNESCO UIS",
+ "breakdown": "wealth",
+ "place_type": "region",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UN SDG Global Database"
+}

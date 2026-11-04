@@ -1,0 +1,111 @@
+{
+ "frame": "L",
+ "ok": true,
+ "kind": "trend",
+ "place": "World",
+ "first": {
+  "year": 2005,
+  "value": 22.69
+ },
+ "last": {
+  "year": 2025,
+  "value": 20.05
+ },
+ "change": -2.64,
+ "per_year": -0.132,
+ "series": [
+  [
+   2005,
+   22.69
+  ],
+  [
+   2006,
+   22.56
+  ],
+  [
+   2007,
+   22.29
+  ],
+  [
+   2008,
+   22.09
+  ],
+  [
+   2009,
+   22.17
+  ],
+  [
+   2010,
+   21.89
+  ],
+  [
+   2011,
+   21.45
+  ],
+  [
+   2012,
+   21.17
+  ],
+  [
+   2013,
+   21.18
+  ],
+  [
+   2014,
+   21.11
+  ],
+  [
+   2015,
+   21.22
+  ],
+  [
+   2016,
+   21.38
+  ],
+  [
+   2017,
+   21.43
+  ],
+  [
+   2018,
+   21.4
+  ],
+  [
+   2019,
+   21.33
+  ],
+  [
+   2020,
+   22.7
+  ],
+  [
+   2021,
+   21.38
+  ],
+  [
+   2022,
+   20.4
+  ],
+  [
+   2023,
+   19.7
+  ],
+  [
+   2024,
+   19.92
+  ],
+  [
+   2025,
+   20.05
+  ]
+ ],
+ "family": "youth_neet",
+ "what": "young people aged 15 to 24 not in education, employment or training",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "ILO",
+ "breakdown": "sex",
+ "place_type": "world",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UN SDG Global Database"
+}

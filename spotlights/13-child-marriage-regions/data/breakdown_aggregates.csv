@@ -1,0 +1,11 @@
+place_dcid,name,group,year,value
+Earth,World,rural,2025,28.393
+SubSaharanAfrica,Sub-Saharan Africa,rural,2025,40.675
+undata-geo/G00103000,Northern Africa and Western Asia,rural,2025,21.729
+undata-geo/G00116000,Central and Southern Asia,rural,2025,28.157
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,rural,2025,27.588
+Earth,World,urban,2025,12.607
+SubSaharanAfrica,Sub-Saharan Africa,urban,2025,15.976
+undata-geo/G00103000,Northern Africa and Western Asia,urban,2025,13.203
+undata-geo/G00116000,Central and Southern Asia,urban,2025,17.007
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,urban,2025,13.72

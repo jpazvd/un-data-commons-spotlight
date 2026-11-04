@@ -1,0 +1,80 @@
+{
+ "frame": "D",
+ "ok": true,
+ "kind": "coverage_compared",
+ "places": [
+  {
+   "dcid": "SubSaharanAfrica",
+   "place": "Sub-Saharan Africa",
+   "n_with_data": 44,
+   "n_members": 48,
+   "n_stale": 17,
+   "share": 91.6667
+  },
+  {
+   "dcid": "undata-geo/G00103000",
+   "place": "N. Africa and W. Asia",
+   "n_with_data": 18,
+   "n_members": 24,
+   "n_stale": 9,
+   "share": 75.0
+  },
+  {
+   "dcid": "undata-geo/G00116000",
+   "place": "Central and S. Asia",
+   "n_with_data": 13,
+   "n_members": 14,
+   "n_stale": 3,
+   "share": 92.8571
+  },
+  {
+   "dcid": "undata-geo/G00122000",
+   "place": "E. and S.-E. Asia",
+   "n_with_data": 11,
+   "n_members": 16,
+   "n_stale": 5,
+   "share": 68.75
+  },
+  {
+   "dcid": "LatinAmericaAndCaribbean",
+   "place": "Latin America, Caribbean",
+   "n_with_data": 27,
+   "n_members": 33,
+   "n_stale": 9,
+   "share": 81.8182
+  },
+  {
+   "dcid": "undata-geo/G00145000",
+   "place": "Oceania (excl. Aus., NZ)",
+   "n_with_data": 8,
+   "n_members": 14,
+   "n_stale": 4,
+   "share": 57.1429
+  },
+  {
+   "dcid": "AustraliaAndNewZealand",
+   "place": "Australia and NZ",
+   "n_with_data": 1,
+   "n_members": 2,
+   "n_stale": 1,
+   "share": 50.0
+  },
+  {
+   "dcid": "undata-geo/G00126000",
+   "place": "Europe and N. America",
+   "n_with_data": 34,
+   "n_members": 43,
+   "n_stale": 12,
+   "share": 79.0698
+  }
+ ],
+ "stale_cutoff": 2020,
+ "family": "school_completion",
+ "what": "children completing primary school",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "UNESCO UIS",
+ "breakdown": "sex",
+ "place_type": "regions_compared",
+ "breakdown_source": "UN SDG Global Database"
+}

@@ -1,0 +1,40 @@
+{
+ "frame": "D",
+ "ok": true,
+ "kind": "coverage",
+ "place": "World",
+ "n_with_data": 137,
+ "n_members": 194,
+ "n_members_with_data": 137,
+ "n_stale": 1,
+ "stale_cutoff": 2020,
+ "latest_year_max": 2024,
+ "latest_year_min": 2017,
+ "median_latest_year": 2024,
+ "by_year": [
+  [
+   2017,
+   1
+  ],
+  [
+   2021,
+   1
+  ],
+  [
+   2023,
+   1
+  ],
+  [
+   2024,
+   134
+  ]
+ ],
+ "family": "water",
+ "what": "people using safely managed drinking water",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "WHO/UNICEF JMP",
+ "breakdown": null,
+ "place_type": "world",
+ "breakdown_source": null
+}

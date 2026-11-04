@@ -1,0 +1,49 @@
+{
+  "spotlight": 7,
+  "slug": "07-child-marriage-ldc-lldc-sids",
+  "title": "Child marriage before 18, LDCs, LLDCs and SIDS compared with the World, by location",
+  "sdg_indicator": "5.3.1",
+  "retrieved_on": "2026-11-01",
+  "target_value": 0,
+  "target_year": 2030,
+  "target_basis": "SDG 5.3",
+  "experiment": {
+    "id": "002",
+    "proposal": "P07",
+    "family": "child_marriage_18",
+    "pace": 1,
+    "kind": "standard",
+    "place_type": "groupings",
+    "place": "LDCs, LLDCs and SIDS compared with the World",
+    "place_dcids": [
+      "undata-geo/G00404000",
+      "undata-geo/G00403000",
+      "undata-geo/G00405000",
+      "Earth"
+    ],
+    "breakdown": "location",
+    "frames_proposed": "T|L|G|D",
+    "feed_tag": "#PolicySky",
+    "versions": [
+      {
+        "version": "7-T",
+        "frame": "T",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "7-D",
+        "frame": "D",
+        "design": "Ink",
+        "template": "templates/banner-ink.dc.html"
+      },
+      {
+        "version": "7-L",
+        "frame": "L",
+        "design": "D-light",
+        "template": "templates/banner-D-light.dc.html"
+      }
+    ],
+    "frames_supported": "T|L|G|D"
+  }
+}

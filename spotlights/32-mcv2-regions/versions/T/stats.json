@@ -1,0 +1,67 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "none",
+  "value": null,
+  "year": null
+ },
+ "ok": true,
+ "kind": "level_compared",
+ "year": 2024,
+ "places": [
+  {
+   "dcid": "SubSaharanAfrica",
+   "place": "Sub-Saharan Africa",
+   "value": 54.0
+  },
+  {
+   "dcid": "undata-geo/G00103000",
+   "place": "N. Africa and W. Asia",
+   "value": 78.0
+  },
+  {
+   "dcid": "undata-geo/G00116000",
+   "place": "Central and S. Asia",
+   "value": 89.0
+  },
+  {
+   "dcid": "undata-geo/G00122000",
+   "place": "E. and S.-E. Asia",
+   "value": 88.0
+  },
+  {
+   "dcid": "LatinAmericaAndCaribbean",
+   "place": "Latin America, Caribbean",
+   "value": 69.0
+  },
+  {
+   "dcid": "undata-geo/G00145000",
+   "place": "Oceania (excl. Aus., NZ)",
+   "value": 34.0
+  },
+  {
+   "dcid": "AustraliaAndNewZealand",
+   "place": "Australia and NZ",
+   "value": 91.0
+  },
+  {
+   "dcid": "undata-geo/G00126000",
+   "place": "Europe and N. America",
+   "value": 90.0
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "value": 76.0
+  }
+ ],
+ "family": "mcv2",
+ "what": "children receiving a second dose of measles vaccine",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "WHO/UNICEF WUENIC",
+ "breakdown": null,
+ "place_type": "regions_compared",
+ "stale_cutoff": 2020,
+ "breakdown_source": null
+}

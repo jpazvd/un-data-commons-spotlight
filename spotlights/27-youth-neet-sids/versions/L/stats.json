@@ -1,0 +1,111 @@
+{
+ "frame": "L",
+ "ok": true,
+ "kind": "trend",
+ "place": "Small Island Developing States (SIDS)",
+ "first": {
+  "year": 2005,
+  "value": 23.4
+ },
+ "last": {
+  "year": 2025,
+  "value": 21.12
+ },
+ "change": -2.28,
+ "per_year": -0.114,
+ "series": [
+  [
+   2005,
+   23.4
+  ],
+  [
+   2006,
+   23.08
+  ],
+  [
+   2007,
+   23.06
+  ],
+  [
+   2008,
+   22.71
+  ],
+  [
+   2009,
+   23.07
+  ],
+  [
+   2010,
+   23.06
+  ],
+  [
+   2011,
+   23.12
+  ],
+  [
+   2012,
+   23.05
+  ],
+  [
+   2013,
+   23.14
+  ],
+  [
+   2014,
+   22.58
+  ],
+  [
+   2015,
+   22.24
+  ],
+  [
+   2016,
+   22.12
+  ],
+  [
+   2017,
+   21.71
+  ],
+  [
+   2018,
+   21.47
+  ],
+  [
+   2019,
+   21.18
+  ],
+  [
+   2020,
+   24.43
+  ],
+  [
+   2021,
+   22.09
+  ],
+  [
+   2022,
+   21.15
+  ],
+  [
+   2023,
+   20.85
+  ],
+  [
+   2024,
+   20.92
+  ],
+  [
+   2025,
+   21.12
+  ]
+ ],
+ "family": "youth_neet",
+ "what": "young people aged 15 to 24 not in education, employment or training",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "ILO",
+ "breakdown": "location",
+ "place_type": "grouping",
+ "stale_cutoff": 2020,
+ "breakdown_source": "ILOSTAT"
+}

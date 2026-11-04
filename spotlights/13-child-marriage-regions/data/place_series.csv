@@ -1,0 +1,31 @@
+place_dcid,name,year,value
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2005,20.983
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2010,22.391
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2015,20.876
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2020,19.439
+LatinAmericaAndCaribbean,Latin America and the Caribbean,2025,18.442
+SubSaharanAfrica,Sub-Saharan Africa,2005,38.314
+SubSaharanAfrica,Sub-Saharan Africa,2010,38.444
+SubSaharanAfrica,Sub-Saharan Africa,2015,37.137
+SubSaharanAfrica,Sub-Saharan Africa,2020,34.527
+SubSaharanAfrica,Sub-Saharan Africa,2025,30.748
+undata-geo/G00103000,Northern Africa and Western Asia,2005,18.496
+undata-geo/G00103000,Northern Africa and Western Asia,2010,16.296
+undata-geo/G00103000,Northern Africa and Western Asia,2015,15.448
+undata-geo/G00103000,Northern Africa and Western Asia,2020,15.962
+undata-geo/G00103000,Northern Africa and Western Asia,2025,15.269
+undata-geo/G00116000,Central and Southern Asia,2005,47.3
+undata-geo/G00116000,Central and Southern Asia,2010,43.542
+undata-geo/G00116000,Central and Southern Asia,2015,36.833
+undata-geo/G00116000,Central and Southern Asia,2020,30.321
+undata-geo/G00116000,Central and Southern Asia,2025,24.599
+undata-geo/G00122000,Eastern and South-eastern Asia,2005,9.423
+undata-geo/G00122000,Eastern and South-eastern Asia,2010,8.034
+undata-geo/G00122000,Eastern and South-eastern Asia,2015,8.23
+undata-geo/G00122000,Eastern and South-eastern Asia,2020,8.729
+undata-geo/G00122000,Eastern and South-eastern Asia,2025,7.592
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2005,25.144
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2010,27.974
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2015,26.443
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2020,26.424
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,2025,24.947

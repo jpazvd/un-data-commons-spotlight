@@ -1,0 +1,285 @@
+dcid,name,group,year,value
+country/AFG,Afghanistan,rural,2021,44.065
+country/AGO,Angola,rural,2025,13.465
+country/ALB,Albania,rural,2012,45.156
+country/ARM,Armenia,rural,2023,23.824
+country/AUS,Australia,rural,2024,10.713
+country/AUT,Austria,rural,2025,10.071
+country/BDI,Burundi,rural,2020,9.856
+country/BEL,Belgium,rural,2024,6.301
+country/BEN,Benin,rural,2022,12.758
+country/BFA,Burkina Faso,rural,2024,20.174
+country/BGD,Bangladesh,rural,2024,9.65
+country/BGR,Bulgaria,rural,2024,24.719
+country/BIH,Bosnia and Herzegovina,rural,2024,16.358
+country/BLR,Belarus,rural,2024,68.111
+country/BLZ,Belize,rural,2019,27.572
+country/BOL,Bolivia,rural,2024,8.505
+country/BRA,Brazil,rural,2025,26.509
+country/BRN,Brunei,rural,2024,20.768
+country/BTN,Bhutan,rural,2024,17.392
+country/BWA,Botswana,rural,2009,40.268
+country/CHE,Switzerland,rural,2025,5.559
+country/CHL,Chile,rural,2025,15.934
+country/CIV,Côte d'Ivoire,rural,2022,19.803
+country/CMR,Cameroon,rural,2021,27.721
+country/COD,Congo [DRC],rural,2020,28.106
+country/COG,Congo [Republic],rural,2005,21.139
+country/COK,Cook Islands,rural,2023,33.613
+country/COL,Colombia,rural,2025,28.08
+country/COM,Comoros,rural,2021,21.162
+country/CPV,Cape Verde,rural,2009,35.715
+country/CRI,Costa Rica,rural,2025,21.183
+country/CYP,Cyprus,rural,2024,14.675
+country/CZE,Czech Republic,rural,2023,5.962
+country/DEU,Germany,rural,2024,5.81
+country/DJI,Djibouti,rural,2017,78.553
+country/DNK,Denmark,rural,2024,8.721
+country/DOM,Dominican Republic,rural,2025,25.844
+country/ECU,Ecuador,rural,2025,14.98
+country/EGY,Egypt,rural,2024,25.217
+country/ESP,Spain,rural,2024,7.99
+country/EST,Estonia,rural,2024,11.288
+country/ETH,Ethiopia,rural,2021,16.517
+country/FIN,Finland,rural,2024,9.817
+country/FJI,Fiji,rural,2016,22.349
+country/FRA,France,rural,2024,10.88
+country/GAB,Gabon,rural,2024,38.978
+country/GBR,United Kingdom,rural,2019,9.558
+country/GEO,Georgia,rural,2024,18.641
+country/GHA,Ghana,rural,2024,22.282
+country/GIN,Guinea,rural,2019,41.917
+country/GMB,Gambia,rural,2025,37.226
+country/GNB,Guinea-Bissau,rural,2022,11.563
+country/GRC,Greece,rural,2025,15.922
+country/GTM,Guatemala,rural,2024,31.216
+country/GUY,Guyana,rural,2021,45.68
+country/HND,Honduras,rural,2025,35.892
+country/HRV,Croatia,rural,2024,10.368
+country/HTI,Haiti,rural,2012,19.102
+country/HUN,Hungary,rural,2024,15.336
+country/IDN,Indonesia,rural,2023,23.66
+country/IND,India,rural,2025,27.173
+country/IRL,Ireland,rural,2024,5.744
+country/IRN,Iran,rural,2011,47.293
+country/IRQ,Iraq,rural,2021,41.124
+country/ISL,Iceland,rural,2023,8.787
+country/ITA,Italy,rural,2024,10.536
+country/JAM,Jamaica,rural,2023,22.945
+country/JOR,Jordan,rural,2024,30.363
+country/KEN,Kenya,rural,2022,25.657
+country/KGZ,Kyrgyzstan,rural,2009,17.448
+country/KHM,Cambodia,rural,2023,6.924
+country/KIR,Kiribati,rural,2023,39.716
+country/KOR,South Korea,rural,2002,11.918
+country/LAO,Laos,rural,2022,23.366
+country/LBR,Liberia,rural,2017,40.997
+country/LKA,Sri Lanka,rural,2024,17.747
+country/LSO,Lesotho,rural,2024,41.162
+country/LTU,Lithuania,rural,2024,19.66
+country/LUX,Luxembourg,rural,2024,11.198
+country/LVA,Latvia,rural,2024,10.281
+country/MDA,Moldova,rural,2025,6.591
+country/MDG,Madagascar,rural,2022,23.904
+country/MEX,Mexico,rural,2025,23.807
+country/MHL,Marshall Islands,rural,2019,46.581
+country/MLI,Mali,rural,2024,30.968
+country/MLT,Malta,rural,2020,13.806
+country/MMR,Myanmar,rural,2020,15.784
+country/MNE,Montenegro,rural,2020,24.395
+country/MNG,Mongolia,rural,2024,10.499
+country/MOZ,Mozambique,rural,2022,13.629
+country/MRT,Mauritania,rural,2019,54.106
+country/MWI,Malawi,rural,2020,18.207
+country/MYS,Malaysia,rural,2000,25.582
+country/NAM,Namibia,rural,2018,30.71
+country/NER,Niger,rural,2022,13.084
+country/NGA,Nigeria,rural,2024,8.093
+country/NIC,Nicaragua,rural,2014,29.346
+country/NLD,Netherlands,rural,2024,3.957
+country/NOR,Norway,rural,2024,4.413
+country/NPL,Nepal,rural,2017,42.28
+country/PAK,Pakistan,rural,2025,28.44
+country/PAN,Panama,rural,2025,17.337
+country/PER,Peru,rural,2022,12.551
+country/PHL,Philippines,rural,2023,12.546
+country/PLW,Palau,rural,2023,18.937
+country/PNG,Papua New Guinea,rural,2022,27.713
+country/POL,Poland,rural,2025,11.615
+country/PRT,Portugal,rural,2024,8.261
+country/PRY,Paraguay,rural,2017,24.544
+country/PSE,Palestinian Territories,rural,2022,21.335
+country/ROU,Romania,rural,2024,24.676
+country/RUS,Russia,rural,2025,10.42
+country/RWA,Rwanda,rural,2025,14.257
+country/SDN,Sudan,rural,2022,55.082
+country/SEN,Senegal,rural,2024,43.894
+country/SLE,Sierra Leone,rural,2018,18.063
+country/SLV,El Salvador,rural,2023,26.834
+country/SOM,Somalia,rural,2022,52.26
+country/SRB,Serbia,rural,2025,11.76
+country/SSD,South Sudan,rural,2008,30.684
+country/STP,São Tomé and Príncipe,rural,2017,42.014
+country/SVN,Slovenia,rural,2024,6.893
+country/SWE,Sweden,rural,2024,5.26
+country/SWZ,Eswatini,rural,2023,37.183
+country/TGO,Togo,rural,2022,14.025
+country/THA,Thailand,rural,2024,14.993
+country/TJK,Tajikistan,rural,2009,42.638
+country/TLS,East Timor,rural,2022,31.001
+country/TON,Tonga,rural,2023,26.043
+country/TUN,Tunisia,rural,2023,30.608
+country/TUR,Turkey,rural,2013,31.955
+country/TZA,Tanzania,rural,2020,7.666
+country/UGA,Uganda,rural,2021,11.968
+country/URY,Uruguay,rural,2024,12.165
+country/USA,United States,rural,2025,14.092
+country/VNM,Vietnam,rural,2024,11.241
+country/VUT,Vanuatu,rural,2020,50.811
+country/WSM,Samoa,rural,2017,29.874
+country/YEM,Yemen,rural,2014,46.939
+country/ZAF,South Africa,rural,2024,39.164
+country/ZMB,Zambia,rural,2024,21.838
+country/ZWE,Zimbabwe,rural,2024,32.139
+country/AFG,Afghanistan,urban,2021,43.077
+country/AGO,Angola,urban,2025,30.128
+country/ALB,Albania,urban,2012,34.767
+country/ARM,Armenia,urban,2023,17.394
+country/AUS,Australia,urban,2024,7.603
+country/AUT,Austria,urban,2025,15.077
+country/BDI,Burundi,urban,2020,20.571
+country/BEL,Belgium,urban,2024,8.447
+country/BEN,Benin,urban,2022,15.973
+country/BFA,Burkina Faso,urban,2024,24.658
+country/BGD,Bangladesh,urban,2024,28.038
+country/BGR,Bulgaria,urban,2024,5.411
+country/BIH,Bosnia and Herzegovina,urban,2024,11.629
+country/BLR,Belarus,urban,2024,65.222
+country/BLZ,Belize,urban,2019,21.556
+country/BOL,Bolivia,urban,2024,7.882
+country/BRA,Brazil,urban,2025,17.663
+country/BRN,Brunei,urban,2024,18.456
+country/BTN,Bhutan,urban,2024,24.007
+country/BWA,Botswana,urban,2009,33.072
+country/CHE,Switzerland,urban,2025,7.267
+country/CHL,Chile,urban,2025,13.165
+country/CIV,Côte d'Ivoire,urban,2022,18.278
+country/CMR,Cameroon,urban,2021,20.069
+country/COD,Congo [DRC],urban,2020,37.959
+country/COG,Congo [Republic],urban,2005,34.602
+country/COK,Cook Islands,urban,2023,14.856
+country/COL,Colombia,urban,2025,19.952
+country/COM,Comoros,urban,2021,21.179
+country/CPV,Cape Verde,urban,2009,34.521
+country/CRI,Costa Rica,urban,2025,18.689
+country/CYP,Cyprus,urban,2024,12.858
+country/CZE,Czech Republic,urban,2023,7.653
+country/DEU,Germany,urban,2024,7.946
+country/DJI,Djibouti,urban,2017,48.147
+country/DNK,Denmark,urban,2024,6.191
+country/DOM,Dominican Republic,urban,2025,24.497
+country/ECU,Ecuador,urban,2025,19.064
+country/EGY,Egypt,urban,2024,21.876
+country/ESP,Spain,urban,2024,9.585
+country/EST,Estonia,urban,2024,9.698
+country/ETH,Ethiopia,urban,2021,20.744
+country/FIN,Finland,urban,2024,7.877
+country/FJI,Fiji,urban,2016,18.475
+country/FRA,France,urban,2024,12.923
+country/GAB,Gabon,urban,2024,18.758
+country/GBR,United Kingdom,urban,2019,11.421
+country/GEO,Georgia,urban,2024,12.468
+country/GHA,Ghana,urban,2024,25.185
+country/GIN,Guinea,urban,2019,24.348
+country/GMB,Gambia,urban,2025,35.996
+country/GNB,Guinea-Bissau,urban,2022,14.832
+country/GRC,Greece,urban,2025,9.287
+country/GTM,Guatemala,urban,2024,17.97
+country/GUY,Guyana,urban,2021,42.384
+country/HND,Honduras,urban,2025,23.52
+country/HRV,Croatia,urban,2024,6.864
+country/HTI,Haiti,urban,2012,22.897
+country/HUN,Hungary,urban,2024,7.171
+country/IDN,Indonesia,urban,2023,19.633
+country/IND,India,urban,2025,21.986
+country/IRL,Ireland,urban,2024,5.606
+country/IRN,Iran,urban,2011,38.156
+country/IRQ,Iraq,urban,2021,35.04
+country/ISL,Iceland,urban,2024,3.665
+country/ITA,Italy,urban,2024,12.226
+country/JAM,Jamaica,urban,2023,16.906
+country/JOR,Jordan,urban,2024,29.285
+country/KEN,Kenya,urban,2022,32.508
+country/KGZ,Kyrgyzstan,urban,2009,21.733
+country/KHM,Cambodia,urban,2023,5.472
+country/KIR,Kiribati,urban,2023,33.155
+country/KOR,South Korea,urban,2002,10.52
+country/LAO,Laos,urban,2022,20.475
+country/LBR,Liberia,urban,2017,39.286
+country/LKA,Sri Lanka,urban,2024,14.692
+country/LSO,Lesotho,urban,2024,33.023
+country/LTU,Lithuania,urban,2024,11.628
+country/LUX,Luxembourg,urban,2024,9.505
+country/LVA,Latvia,urban,2024,9.627
+country/MDA,Moldova,urban,2025,11.97
+country/MDG,Madagascar,urban,2022,25.922
+country/MEX,Mexico,urban,2025,14.149
+country/MHL,Marshall Islands,urban,2019,42.179
+country/MLI,Mali,urban,2024,28.702
+country/MLT,Malta,urban,2024,8.136
+country/MMR,Myanmar,urban,2020,13.199
+country/MNE,Montenegro,urban,2020,19.034
+country/MNG,Mongolia,urban,2024,9.668
+country/MOZ,Mozambique,urban,2022,28.046
+country/MRT,Mauritania,urban,2019,36.651
+country/MWI,Malawi,urban,2020,25.607
+country/MYS,Malaysia,urban,2000,15.48
+country/NAM,Namibia,urban,2018,33.453
+country/NER,Niger,urban,2022,24.505
+country/NGA,Nigeria,urban,2024,14.358
+country/NIC,Nicaragua,urban,2014,20.698
+country/NLD,Netherlands,urban,2024,4.151
+country/NOR,Norway,urban,2024,6.32
+country/NPL,Nepal,urban,2017,30.848
+country/PAK,Pakistan,urban,2025,28.655
+country/PAN,Panama,urban,2025,14.194
+country/PER,Peru,urban,2022,25.102
+country/PHL,Philippines,urban,2023,12.45
+country/PLW,Palau,urban,2023,9.179
+country/PNG,Papua New Guinea,urban,2022,27.579
+country/POL,Poland,urban,2025,8.753
+country/PRT,Portugal,urban,2024,7.621
+country/PRY,Paraguay,urban,2017,15.19
+country/PSE,Palestinian Territories,urban,2022,25.929
+country/ROU,Romania,urban,2024,11.032
+country/RUS,Russia,urban,2025,5.403
+country/RWA,Rwanda,urban,2025,17.699
+country/SDN,Sudan,urban,2022,28.951
+country/SEN,Senegal,urban,2024,28.655
+country/SLE,Sierra Leone,urban,2018,32.604
+country/SLV,El Salvador,urban,2023,17.932
+country/SOM,Somalia,urban,2022,50.402
+country/SRB,Serbia,urban,2025,14.984
+country/SSD,South Sudan,urban,2008,24.484
+country/STP,São Tomé and Príncipe,urban,2017,44.843
+country/SVN,Slovenia,urban,2024,7.311
+country/SWE,Sweden,urban,2024,5.681
+country/SWZ,Eswatini,urban,2023,34.684
+country/TGO,Togo,urban,2022,12.013
+country/THA,Thailand,urban,2024,9.908
+country/TJK,Tajikistan,urban,2009,40.948
+country/TLS,East Timor,urban,2022,25.185
+country/TON,Tonga,urban,2023,23.897
+country/TUN,Tunisia,urban,2023,18.752
+country/TUR,Turkey,urban,2013,26.407
+country/TZA,Tanzania,urban,2020,21.399
+country/UGA,Uganda,urban,2021,17.594
+country/URY,Uruguay,urban,2024,14.134
+country/USA,United States,urban,2025,11.092
+country/VNM,Vietnam,urban,2024,8.689
+country/VUT,Vanuatu,urban,2020,37.42
+country/WSM,Samoa,urban,2017,24.444
+country/YEM,Yemen,urban,2014,36.889
+country/ZAF,South Africa,urban,2024,33.202
+country/ZMB,Zambia,urban,2024,34.355
+country/ZWE,Zimbabwe,urban,2024,42.502

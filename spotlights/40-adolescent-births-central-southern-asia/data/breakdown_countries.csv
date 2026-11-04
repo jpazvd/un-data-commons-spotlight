@@ -1,0 +1,189 @@
+dcid,name,group,year,value
+country/AFG,Afghanistan,rural,2015,91.59499
+country/AGO,Angola,rural,2015,235.33357
+country/ALB,Albania,rural,2017,29.13968
+country/ARM,Armenia,rural,2015,39.10375
+country/AZE,Azerbaijan,rural,2006,54.05717
+country/BDI,Burundi,rural,2016,66.85668
+country/BEN,Benin,rural,2017,123.32092
+country/BFA,Burkina Faso,rural,2010,168.05757
+country/BGD,Bangladesh,rural,2019,93.33672
+country/BLZ,Belize,rural,2015,93.00314
+country/BOL,Bolivia,rural,2008,134.83417
+country/BRA,Brazil,rural,1996,120.91019
+country/CAF,Central African Republic,rural,2018,212.25117
+country/CIV,Côte d'Ivoire,rural,2016,181.383
+country/CMR,Cameroon,rural,2018,169.2373
+country/COD,Congo [DRC],rural,2017,141.53088
+country/COG,Congo [Republic],rural,2014,197.8802
+country/COL,Colombia,rural,2015,125.25588
+country/COM,Comoros,rural,2012,74.46312
+country/DOM,Dominican Republic,rural,2019,111.98914
+country/DZA,Algeria,rural,2018,20.32509
+country/EGY,Egypt,rural,2014,73.38647
+country/ETH,Ethiopia,rural,2019,93.64747
+country/GAB,Gabon,rural,2012,199.55742
+country/GHA,Ghana,rural,2017,103.15797
+country/GIN,Guinea,rural,2018,169.49234
+country/GMB,Gambia,rural,2019,103.87941
+country/GNB,Guinea-Bissau,rural,2018,125.38879
+country/GTM,Guatemala,rural,2014,115.78599
+country/GUY,Guyana,rural,2019,71.93615
+country/HND,Honduras,rural,2019,116.96523
+country/HTI,Haiti,rural,2016,72.7991
+country/IDN,Indonesia,rural,2017,56.05983
+country/IND,India,rural,2015,62.95371
+country/IRQ,Iraq,rural,2018,77.92115
+country/JOR,Jordan,rural,2017,21.27021
+country/KAZ,Kazakhstan,rural,1999,51.18599
+country/KEN,Kenya,rural,2014,113.14658
+country/KGZ,Kyrgyzstan,rural,2018,69.60271
+country/KHM,Cambodia,rural,2014,64.65919
+country/KIR,Kiribati,rural,2018,60.84395
+country/LAO,Laos,rural,2017,104.00643
+country/LBR,Liberia,rural,2019,183.54323
+country/LSO,Lesotho,rural,2018,106.90999
+country/MAR,Morocco,rural,2003,47.02866
+country/MDA,Moldova,rural,2012,46.81033
+country/MDG,Madagascar,rural,2018,163.71524
+country/MDV,Maldives,rural,2016,20.37447
+country/MKD,Macedonia [FYROM],rural,2018,13.67837
+country/MLI,Mali,rural,2018,185.37953
+country/MMR,Myanmar,rural,2015,40.88426
+country/MNG,Mongolia,rural,2018,70.05022
+country/MOZ,Mozambique,rural,2015,208.65973
+country/MRT,Mauritania,rural,2015,115.99644
+country/MWI,Malawi,rural,2019,139.72636
+country/NAM,Namibia,rural,2013,100.95423
+country/NER,Niger,rural,2012,234.29332
+country/NGA,Nigeria,rural,2018,158.36812
+country/NIC,Nicaragua,rural,2001,157.77765
+country/NPL,Nepal,rural,2019,80.54171
+country/PAK,Pakistan,rural,2017,49.9086
+country/PER,Peru,rural,2020,77.74342
+country/PHL,Philippines,rural,2017,63.7114
+country/PNG,Papua New Guinea,rural,2016,80.06802
+country/PRY,Paraguay,rural,2016,107.21159
+country/RWA,Rwanda,rural,2019,36.96005
+country/SDN,Sudan,rural,2014,105.80816
+country/SEN,Senegal,rural,2019,98.73235
+country/SLE,Sierra Leone,rural,2019,142.91542
+country/SLV,El Salvador,rural,2014,92.11224
+country/SOM,Somalia,rural,2006,144.74832
+country/SSD,South Sudan,rural,2010,155.14572
+country/STP,São Tomé and Príncipe,rural,2019,106.70444
+country/SUR,Suriname,rural,2018,110.11287
+country/SWZ,Eswatini,rural,2014,87.66792
+country/TCD,Chad,rural,2019,168.60318
+country/TGO,Togo,rural,2017,103.37503
+country/TJK,Tajikistan,rural,2017,60.09275
+country/TKM,Turkmenistan,rural,2019,30.30664
+country/TLS,East Timor,rural,2016,58.20856
+country/TON,Tonga,rural,2019,31.97129
+country/TUN,Tunisia,rural,2018,8.52897
+country/TUR,Turkey,rural,2013,47.83423
+country/TUV,Tuvalu,rural,2019,54.87805
+country/TZA,Tanzania,rural,2015,152.7076
+country/UGA,Uganda,rural,2016,149.4575
+country/UKR,Ukraine,rural,2007,49.53363
+country/UZB,Uzbekistan,rural,1996,55.68166
+country/VNM,Vietnam,rural,2013,52.41017
+country/WSM,Samoa,rural,2019,59.23952
+country/YEM,Yemen,rural,2013,77.08341
+country/ZAF,South Africa,rural,2016,89.36819
+country/ZMB,Zambia,rural,2018,174.63805
+country/ZWE,Zimbabwe,rural,2019,137.97911
+country/AFG,Afghanistan,urban,2015,73.28174
+country/AGO,Angola,urban,2015,138.06267
+country/ALB,Albania,urban,2017,18.5143
+country/ARM,Armenia,urban,2015,13.13156
+country/AZE,Azerbaijan,urban,2006,21.99273
+country/BDI,Burundi,urban,2016,45.24297
+country/BEN,Benin,urban,2017,86.88457
+country/BFA,Burkina Faso,urban,2010,69.33686
+country/BGD,Bangladesh,urban,2019,75.5751
+country/BLZ,Belize,urban,2015,69.71085
+country/BOL,Bolivia,urban,2008,68.20969
+country/BRA,Brazil,urban,1996,80.47321
+country/CAF,Central African Republic,urban,2018,139.39914
+country/CIV,Côte d'Ivoire,urban,2016,71.37494
+country/CMR,Cameroon,urban,2018,87.38667
+country/COD,Congo [DRC],urban,2017,81.94411
+country/COG,Congo [Republic],urban,2014,89.11528
+country/COL,Colombia,urban,2015,63.63254
+country/COM,Comoros,urban,2012,63.42396
+country/DOM,Dominican Republic,urban,2019,71.17076
+country/DZA,Algeria,urban,2018,9.76482
+country/EGY,Egypt,urban,2014,27.80355
+country/ETH,Ethiopia,urban,2019,51.5182
+country/GAB,Gabon,urban,2012,105.08206
+country/GHA,Ghana,urban,2017,51.41022
+country/GIN,Guinea,urban,2018,82.80814
+country/GMB,Gambia,urban,2019,51.41956
+country/GNB,Guinea-Bissau,urban,2018,51.07838
+country/GTM,Guatemala,urban,2014,64.32866
+country/GUY,Guyana,urban,2019,65.4829
+country/HND,Honduras,urban,2019,76.08765
+country/HTI,Haiti,urban,2016,43.25304
+country/IDN,Indonesia,urban,2017,26.04849
+country/IND,India,urban,2015,39.72989
+country/IRQ,Iraq,urban,2018,74.4602
+country/JOR,Jordan,urban,2017,29.43654
+country/KAZ,Kazakhstan,urban,1999,37.84344
+country/KEN,Kenya,urban,2014,83.12514
+country/KGZ,Kyrgyzstan,urban,2018,37.41072
+country/KHM,Cambodia,urban,2014,21.74702
+country/KIR,Kiribati,urban,2018,41.67905
+country/LAO,Laos,urban,2017,47.62109
+country/LBR,Liberia,urban,2019,110.80205
+country/LSO,Lesotho,urban,2018,55.98878
+country/MAR,Morocco,urban,2003,26.48945
+country/MDA,Moldova,urban,2012,23.29281
+country/MDG,Madagascar,urban,2018,99.5089
+country/MDV,Maldives,urban,2016,5.32073
+country/MKD,Macedonia [FYROM],urban,2018,35.82499
+country/MLI,Mali,urban,2018,113.76591
+country/MMR,Myanmar,urban,2015,28.06585
+country/MNG,Mongolia,urban,2018,44.53839
+country/MOZ,Mozambique,urban,2015,133.22653
+country/MRT,Mauritania,urban,2015,68.45506
+country/MWI,Malawi,urban,2019,68.55865
+country/NAM,Namibia,urban,2013,60.21659
+country/NER,Niger,urban,2012,117.87048
+country/NGA,Nigeria,urban,2018,65.13876
+country/NIC,Nicaragua,urban,2001,95.76574
+country/NPL,Nepal,urban,2019,63.46209
+country/PAK,Pakistan,urban,2017,39.59914
+country/PER,Peru,urban,2020,35.56568
+country/PHL,Philippines,urban,2017,41.74731
+country/PNG,Papua New Guinea,urban,2016,57.12902
+country/PRY,Paraguay,urban,2016,61.02573
+country/RWA,Rwanda,urban,2019,28.564
+country/SDN,Sudan,urban,2014,60.0922
+country/SEN,Senegal,urban,2019,40.85557
+country/SLE,Sierra Leone,urban,2019,68.38875
+country/SLV,El Salvador,urban,2014,65.19365
+country/SOM,Somalia,urban,2006,110.35439
+country/SSD,South Sudan,urban,2010,155.39963
+country/STP,São Tomé and Príncipe,urban,2019,86.77908
+country/SUR,Suriname,urban,2018,52.28153
+country/SWZ,Eswatini,urban,2014,67.83044
+country/TCD,Chad,urban,2019,115.76294
+country/TGO,Togo,urban,2017,59.1749
+country/TJK,Tajikistan,urban,2017,42.87154
+country/TKM,Turkmenistan,urban,2019,23.19717
+country/TLS,East Timor,urban,2016,21.08721
+country/TON,Tonga,urban,2019,24.67476
+country/TUN,Tunisia,urban,2018,7.03194
+country/TUR,Turkey,urban,2013,31.00463
+country/TUV,Tuvalu,urban,2019,34.78891
+country/TZA,Tanzania,urban,2015,81.47629
+country/UGA,Uganda,urban,2016,91.77798
+country/UKR,Ukraine,urban,2007,20.08013
+country/UZB,Uzbekistan,urban,1996,56.11541
+country/VNM,Vietnam,urban,2013,20.52135
+country/WSM,Samoa,urban,2019,46.11577
+country/YEM,Yemen,urban,2013,56.27123
+country/ZAF,South Africa,urban,2016,69.95763
+country/ZMB,Zambia,urban,2018,91.26146
+country/ZWE,Zimbabwe,urban,2019,69.27021

@@ -1,0 +1,172 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "none",
+  "value": null,
+  "year": null
+ },
+ "ok": true,
+ "kind": "level",
+ "place": "Small Island Developing States (SIDS)",
+ "last": {
+  "year": 2024,
+  "value": 21.3
+ },
+ "n": 29,
+ "ranked": [
+  [
+   "Papua New Guinea",
+   2024,
+   47.6
+  ],
+  [
+   "Timor-Leste",
+   2024,
+   45.4
+  ],
+  [
+   "Vanuatu",
+   2024,
+   31.0
+  ],
+  [
+   "Marshall Islands",
+   2024,
+   30.0
+  ],
+  [
+   "Solomon Islands",
+   2024,
+   29.8
+  ],
+  [
+   "Guinea-Bissau",
+   2024,
+   28.3
+  ],
+  [
+   "Haiti",
+   2024,
+   21.6
+  ],
+  [
+   "Comoros",
+   2024,
+   17.4
+  ],
+  [
+   "Nauru",
+   2024,
+   16.0
+  ],
+  [
+   "Kiribati",
+   2024,
+   14.7
+  ],
+  [
+   "Maldives",
+   2024,
+   14.2
+  ],
+  [
+   "Belize",
+   2024,
+   11.7
+  ],
+  [
+   "São Tomé and Príncipe",
+   2024,
+   10.0
+  ],
+  [
+   "Samoa",
+   2024,
+   8.4
+  ],
+  [
+   "Suriname",
+   2024,
+   8.0
+  ],
+  [
+   "Mauritius",
+   2024,
+   7.8
+  ],
+  [
+   "Trinidad and Tobago",
+   2024,
+   7.8
+  ],
+  [
+   "Cuba",
+   2024,
+   7.3
+  ],
+  [
+   "Fiji",
+   2024,
+   7.2
+  ],
+  [
+   "Guyana",
+   2024,
+   7.1
+  ],
+  [
+   "Jamaica",
+   2024,
+   6.9
+  ],
+  [
+   "Seychelles",
+   2024,
+   6.2
+  ],
+  [
+   "Barbados",
+   2024,
+   5.8
+  ],
+  [
+   "Dominican Republic",
+   2024,
+   5.6
+  ],
+  [
+   "Cabo Verde",
+   2024,
+   5.3
+  ],
+  [
+   "Tuvalu",
+   2024,
+   5.3
+  ],
+  [
+   "Saint Lucia",
+   2024,
+   2.8
+  ],
+  [
+   "Singapore",
+   2024,
+   2.8
+  ],
+  [
+   "Tonga",
+   2024,
+   1.6
+  ]
+ ],
+ "family": "stunting",
+ "what": "children under 5 who are stunted",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "UNICEF/WHO/World Bank JME",
+ "breakdown": "location",
+ "place_type": "grouping",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UNICEF Data Warehouse"
+}

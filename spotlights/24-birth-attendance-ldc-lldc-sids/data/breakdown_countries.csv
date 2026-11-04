@@ -1,0 +1,242 @@
+dcid,name,group,year,value
+country/AFG,Afghanistan,poorest,2023,42.6
+country/AGO,Angola,poorest,2024,17.2
+country/ALB,Albania,poorest,2018,99.2
+country/ARM,Armenia,poorest,2016,99.7
+country/AZE,Azerbaijan,poorest,2023,99.3
+country/BDI,Burundi,poorest,2017,77.4
+country/BEN,Benin,poorest,2022,68.8
+country/BFA,Burkina Faso,poorest,2021,90.2
+country/BGD,Bangladesh,poorest,2022,47
+country/BIH,Bosnia and Herzegovina,poorest,2012,100
+country/BLR,Belarus,poorest,2019,99.6
+country/BLZ,Belize,poorest,2016,92.9
+country/BOL,Bolivia,poorest,2012,57
+country/BTN,Bhutan,poorest,2023,71
+country/CAF,Central African Republic,poorest,2019,19.6
+country/CIV,Côte d'Ivoire,poorest,2021,67.4
+country/CMR,Cameroon,poorest,2018,28.5
+country/COD,Congo [DRC],poorest,2024,71.2
+country/COG,Congo [Republic],poorest,2015,82.6
+country/COL,Colombia,poorest,2025,99.2
+country/COM,Comoros,poorest,2012,66.3
+country/CPV,Cape Verde,poorest,2018,95.9
+country/CRI,Costa Rica,poorest,2018,99.3
+country/DOM,Dominican Republic,poorest,2019,97.2
+country/DZA,Algeria,poorest,2019,97.1
+country/ECU,Ecuador,poorest,2024,91.7
+country/EGY,Egypt,poorest,2021,92.4
+country/ERI,Eritrea,poorest,2010,8.6
+country/ETH,Ethiopia,poorest,2019,22
+country/FJI,Fiji,poorest,2021,99.5
+country/GAB,Gabon,poorest,2021,87.4
+country/GEO,Georgia,poorest,2005,95.1
+country/GHA,Ghana,poorest,2022,72.9
+country/GIN,Guinea,poorest,2018,26.5
+country/GMB,Gambia,poorest,2020,71.6
+country/GNB,Guinea-Bissau,poorest,2019,40.6
+country/GNQ,Equatorial Guinea,poorest,2011,48.1
+country/GTM,Guatemala,poorest,2015,37.4
+country/GUY,Guyana,poorest,2020,93.2
+country/HND,Honduras,poorest,2019,83
+country/HTI,Haiti,poorest,2017,14.2
+country/IDN,Indonesia,poorest,2017,74.5
+country/IND,India,poorest,2021,79.3
+country/IRN,Iran,poorest,2016,93.9
+country/IRQ,Iraq,poorest,2018,92.5
+country/JAM,Jamaica,poorest,2011,96.5
+country/JOR,Jordan,poorest,2023,100
+country/KAZ,Kazakhstan,poorest,2024,100
+country/KEN,Kenya,poorest,2022,69.3
+country/KGZ,Kyrgyzstan,poorest,2023,99.7
+country/KHM,Cambodia,poorest,2022,95.2
+country/KIR,Kiribati,poorest,2019,89.9
+country/LAO,Laos,poorest,2023,53.3
+country/LBR,Liberia,poorest,2020,76.4
+country/LBY,Libya,poorest,2025,97.7
+country/LKA,Sri Lanka,poorest,2016,99.2
+country/LSO,Lesotho,poorest,2024,81.4
+country/MAR,Morocco,poorest,2018,68.4
+country/MDA,Moldova,poorest,2012,97.7
+country/MDG,Madagascar,poorest,2021,19.4
+country/MDV,Maldives,poorest,2017,100
+country/MEX,Mexico,poorest,2015,91.9
+country/MHL,Marshall Islands,poorest,2007,67.8
+country/MKD,Macedonia [FYROM],poorest,2019,100
+country/MLI,Mali,poorest,2024,39.4
+country/MMR,Myanmar,poorest,2016,36.3
+country/MNE,Montenegro,poorest,2018,100
+country/MNG,Mongolia,poorest,2018,97.6
+country/MOZ,Mozambique,poorest,2023,45
+country/MRT,Mauritania,poorest,2021,41.9
+country/MWI,Malawi,poorest,2024,94
+country/NAM,Namibia,poorest,2013,72.7
+country/NER,Niger,poorest,2012,11.8
+country/NGA,Nigeria,poorest,2024,16.2
+country/NIC,Nicaragua,poorest,2007,41.8
+country/NPL,Nepal,poorest,2022,67
+country/NRU,Nauru,poorest,2007,97.4
+country/PAK,Pakistan,poorest,2019,47.5
+country/PAN,Panama,poorest,2015,84.2
+country/PER,Peru,poorest,2023,84.6
+country/PHL,Philippines,poorest,2022,72.7
+country/PNG,Papua New Guinea,poorest,2018,33.4
+country/PRK,North Korea,poorest,2017,98.9
+country/PRY,Paraguay,poorest,2016,87.9
+country/PSE,Palestinian Territories,poorest,2020,100
+country/RWA,Rwanda,poorest,2020,88.9
+country/SDN,Sudan,poorest,2014,47.9
+country/SEN,Senegal,poorest,2023,82.5
+country/SLB,Solomon Islands,poorest,2015,72
+country/SLE,Sierra Leone,poorest,2019,82.3
+country/SLV,El Salvador,poorest,2014,93.7
+country/SOM,Somalia,poorest,2019,9.7
+country/SRB,Serbia,poorest,2019,100
+country/SSD,South Sudan,poorest,2010,8
+country/STP,São Tomé and Príncipe,poorest,2019,96
+country/SUR,Suriname,poorest,2018,97.5
+country/SWZ,Eswatini,poorest,2022,85.4
+country/SYR,Syria,poorest,2006,74.9
+country/TCD,Chad,poorest,2019,23.1
+country/TGO,Togo,poorest,2017,36
+country/THA,Thailand,poorest,2019,97.9
+country/TJK,Tajikistan,poorest,2023,92.9
+country/TKM,Turkmenistan,poorest,2019,100
+country/TLS,East Timor,poorest,2016,26.2
+country/TON,Tonga,poorest,2019,96.2
+country/TTO,Trinidad and Tobago,poorest,2022,97
+country/TUN,Tunisia,poorest,2023,95.8
+country/TUR,Turkey,poorest,2018,97.6
+country/TUV,Tuvalu,poorest,2007,94.7
+country/TZA,Tanzania,poorest,2022,70.1
+country/UGA,Uganda,poorest,2022,82.5
+country/UKR,Ukraine,poorest,2012,99.4
+country/UZB,Uzbekistan,poorest,2022,97
+country/VEN,Venezuela,poorest,2013,99.4
+country/VNM,Vietnam,poorest,2014,73.4
+country/VUT,Vanuatu,poorest,2023,79.2
+country/WSM,Samoa,poorest,2020,83.1
+country/YEM,Yemen,poorest,2013,19.1
+country/ZAF,South Africa,poorest,2016,92.6
+country/ZMB,Zambia,poorest,2024,88.8
+country/ZWE,Zimbabwe,poorest,2024,73.1
+country/AFG,Afghanistan,richest,2023,93.4
+country/AGO,Angola,richest,2024,91.9
+country/ALB,Albania,richest,2018,100
+country/ARM,Armenia,richest,2016,100
+country/AZE,Azerbaijan,richest,2023,100
+country/BDI,Burundi,richest,2017,95.5
+country/BEN,Benin,richest,2022,95.3
+country/BFA,Burkina Faso,richest,2021,97.8
+country/BGD,Bangladesh,richest,2022,90.5
+country/BIH,Bosnia and Herzegovina,richest,2012,100
+country/BLR,Belarus,richest,2019,100
+country/BLZ,Belize,richest,2016,99.3
+country/BOL,Bolivia,richest,2012,98.6
+country/BTN,Bhutan,richest,2023,69.3
+country/CAF,Central African Republic,richest,2019,87.2
+country/CIV,Côte d'Ivoire,richest,2021,97.2
+country/CMR,Cameroon,richest,2018,97.9
+country/COD,Congo [DRC],richest,2024,99
+country/COG,Congo [Republic],richest,2015,99.2
+country/COL,Colombia,richest,2025,100
+country/COM,Comoros,richest,2012,92.7
+country/CPV,Cape Verde,richest,2018,99.8
+country/CRI,Costa Rica,richest,2018,98.1
+country/DOM,Dominican Republic,richest,2019,100
+country/DZA,Algeria,richest,2019,99.4
+country/ECU,Ecuador,richest,2024,99.2
+country/EGY,Egypt,richest,2021,99.8
+country/ERI,Eritrea,richest,2010,90.1
+country/ETH,Ethiopia,richest,2019,86.9
+country/FJI,Fiji,richest,2021,100
+country/GAB,Gabon,richest,2021,99.3
+country/GEO,Georgia,richest,2005,98.5
+country/GHA,Ghana,richest,2022,98.4
+country/GIN,Guinea,richest,2018,94.9
+country/GMB,Gambia,richest,2020,96.1
+country/GNB,Guinea-Bissau,richest,2019,91.1
+country/GNQ,Equatorial Guinea,richest,2011,87.7
+country/GTM,Guatemala,richest,2015,95.9
+country/GUY,Guyana,richest,2020,98.4
+country/HND,Honduras,richest,2019,100
+country/HTI,Haiti,richest,2017,82.3
+country/IDN,Indonesia,richest,2017,98.9
+country/IND,India,richest,2021,96.8
+country/IRN,Iran,richest,2016,97.9
+country/IRQ,Iraq,richest,2018,99.3
+country/JAM,Jamaica,richest,2011,100
+country/JOR,Jordan,richest,2023,100
+country/KAZ,Kazakhstan,richest,2024,100
+country/KEN,Kenya,richest,2022,98.8
+country/KGZ,Kyrgyzstan,richest,2023,100
+country/KHM,Cambodia,richest,2022,100
+country/KIR,Kiribati,richest,2019,92.1
+country/LAO,Laos,richest,2023,99.5
+country/LBR,Liberia,richest,2020,93.9
+country/LBY,Libya,richest,2025,99.9
+country/LKA,Sri Lanka,richest,2016,99.7
+country/LSO,Lesotho,richest,2024,93.7
+country/MAR,Morocco,richest,2018,97.8
+country/MDA,Moldova,richest,2012,98.6
+country/MDG,Madagascar,richest,2021,89.4
+country/MDV,Maldives,richest,2017,99.1
+country/MEX,Mexico,richest,2015,99.8
+country/MHL,Marshall Islands,richest,2007,99
+country/MKD,Macedonia [FYROM],richest,2019,100
+country/MLI,Mali,richest,2024,96.1
+country/MMR,Myanmar,richest,2016,97
+country/MNE,Montenegro,richest,2018,100
+country/MNG,Mongolia,richest,2018,100
+country/MOZ,Mozambique,richest,2023,96.7
+country/MRT,Mauritania,richest,2021,99.4
+country/MWI,Malawi,richest,2024,97.9
+country/NAM,Namibia,richest,2013,98.3
+country/NER,Niger,richest,2012,71
+country/NGA,Nigeria,richest,2024,91.7
+country/NIC,Nicaragua,richest,2007,98.5
+country/NPL,Nepal,richest,2022,97.4
+country/NRU,Nauru,richest,2007,97.5
+country/PAK,Pakistan,richest,2019,91.6
+country/PAN,Panama,richest,2015,96.6
+country/PER,Peru,richest,2023,99.8
+country/PHL,Philippines,richest,2022,99.1
+country/PNG,Papua New Guinea,richest,2018,91.1
+country/PRY,Paraguay,richest,2016,100
+country/PSE,Palestinian Territories,richest,2020,98.8
+country/RWA,Rwanda,richest,2020,99
+country/SDN,Sudan,richest,2014,98.7
+country/SEN,Senegal,richest,2023,99.4
+country/SLB,Solomon Islands,richest,2015,96.2
+country/SLE,Sierra Leone,richest,2019,95.9
+country/SLV,El Salvador,richest,2014,99.2
+country/SOM,Somalia,richest,2019,64.1
+country/SRB,Serbia,richest,2019,100
+country/SSD,South Sudan,richest,2010,41.1
+country/STP,São Tomé and Príncipe,richest,2019,97.9
+country/SUR,Suriname,richest,2018,99
+country/SWZ,Eswatini,richest,2022,96.1
+country/SYR,Syria,richest,2006,98.6
+country/TCD,Chad,richest,2019,71
+country/TGO,Togo,richest,2017,97.7
+country/THA,Thailand,richest,2019,99.2
+country/TJK,Tajikistan,richest,2023,99.5
+country/TKM,Turkmenistan,richest,2019,100
+country/TLS,East Timor,richest,2016,90.1
+country/TON,Tonga,richest,2019,100
+country/TTO,Trinidad and Tobago,richest,2022,99.8
+country/TUN,Tunisia,richest,2023,100
+country/TUR,Turkey,richest,2018,100
+country/TUV,Tuvalu,richest,2007,90
+country/TZA,Tanzania,richest,2022,98.2
+country/UGA,Uganda,richest,2022,97.2
+country/UKR,Ukraine,richest,2012,99.5
+country/UZB,Uzbekistan,richest,2022,100
+country/VEN,Venezuela,richest,2013,93.4
+country/VNM,Vietnam,richest,2014,100
+country/VUT,Vanuatu,richest,2023,100
+country/WSM,Samoa,richest,2020,93.6
+country/YEM,Yemen,richest,2013,80.8
+country/ZAF,South Africa,richest,2016,98.9
+country/ZMB,Zambia,richest,2024,98.6
+country/ZWE,Zimbabwe,richest,2024,97.2

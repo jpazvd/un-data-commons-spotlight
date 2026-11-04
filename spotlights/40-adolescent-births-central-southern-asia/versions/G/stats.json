@@ -1,0 +1,108 @@
+{
+ "frame": "G",
+ "ok": true,
+ "kind": "country_gaps",
+ "groups": [
+  "rural",
+  "urban"
+ ],
+ "n_gap_under_1": 1,
+ "place": "Central and Southern Asia",
+ "n": 11,
+ "n_a_worse": 10,
+ "n_b_worse": 1,
+ "n_equal": 0,
+ "years": [
+  1996,
+  2019
+ ],
+ "median_gap": 17.0796,
+ "gaps": [
+  [
+   "Kyrgyzstan",
+   2018,
+   69.6027,
+   37.4107,
+   32.192
+  ],
+  [
+   "India",
+   2015,
+   62.9537,
+   39.7299,
+   23.2238
+  ],
+  [
+   "Afghanistan",
+   2015,
+   91.595,
+   73.2817,
+   18.3132
+  ],
+  [
+   "Bangladesh",
+   2019,
+   93.3367,
+   75.5751,
+   17.7616
+  ],
+  [
+   "Tajikistan",
+   2017,
+   60.0928,
+   42.8715,
+   17.2212
+  ],
+  [
+   "Nepal",
+   2019,
+   80.5417,
+   63.4621,
+   17.0796
+  ],
+  [
+   "Maldives",
+   2016,
+   20.3745,
+   5.3207,
+   15.0537
+  ],
+  [
+   "Kazakhstan",
+   1999,
+   51.186,
+   37.8434,
+   13.3425
+  ],
+  [
+   "Pakistan",
+   2017,
+   49.9086,
+   39.5991,
+   10.3095
+  ],
+  [
+   "Turkmenistan",
+   2019,
+   30.3066,
+   23.1972,
+   7.1095
+  ],
+  [
+   "Uzbekistan",
+   1996,
+   55.6817,
+   56.1154,
+   -0.4337
+  ]
+ ],
+ "family": "abr",
+ "what": "births per 1,000 girls aged 15 to 19",
+ "unit": " per 1,000",
+ "better": "lower",
+ "custodian": "UN DESA Population Division and UNFPA",
+ "breakdown": "location",
+ "place_type": "region",
+ "stale_cutoff": 2020,
+ "breakdown_source": "WHO Global Health Observatory"
+}

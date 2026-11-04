@@ -1,0 +1,48 @@
+{
+ "frame": "D",
+ "ok": true,
+ "kind": "coverage",
+ "place": "Eastern and South-eastern Asia",
+ "n_with_data": 11,
+ "n_members": 16,
+ "n_members_with_data": 11,
+ "n_stale": 5,
+ "stale_cutoff": 2020,
+ "latest_year_max": 2023,
+ "latest_year_min": 2012,
+ "median_latest_year": 2021,
+ "by_year": [
+  [
+   2012,
+   1
+  ],
+  [
+   2016,
+   2
+  ],
+  [
+   2020,
+   2
+  ],
+  [
+   2021,
+   2
+  ],
+  [
+   2022,
+   3
+  ],
+  [
+   2023,
+   1
+  ]
+ ],
+ "family": "school_completion",
+ "what": "children completing primary school",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "UNESCO UIS",
+ "breakdown": "wealth",
+ "place_type": "region",
+ "breakdown_source": "UN SDG Global Database"
+}

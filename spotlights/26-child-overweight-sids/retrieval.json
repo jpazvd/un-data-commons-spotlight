@@ -1,0 +1,392 @@
+{
+  "topic": "P32",
+  "retrieved_on": "2026-11-01",
+  "indicator": {
+    "sdg_indicator": "2.2.2",
+    "sdg_series_codes": [
+      "SN_STA_OVWGT"
+    ],
+    "data_commons_variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4",
+    "variable_name": "Proportion of children moderately or severely overweight [Age=Under 5 years old]",
+    "data_commons_facet_id": "5810115657342770571",
+    "provenance_url": "https://unstats.un.org/sdgs/dataportal",
+    "unit": "undata/UNIT_MEASURE-PT_POP_M0T59",
+    "breakdown_variables": [
+      "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--R",
+      "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--U"
+    ]
+  },
+  "custodian": "UNICEF/WHO/World Bank JME",
+  "method_note": "Every value is copied unchanged from the UN System Data Commons responses saved under experiments/002-design-framing-time/data/raw/ (one file per call, named by raw_id). No aggregate is computed from country values. Membership of SDG regions comes from the Data Commons' own containment (under-five mortality calls); see scripts/spotlight002.py for regions composed of their subregions.",
+  "data_commons_calls": [
+    {
+      "tool": "get_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4",
+        "place_dcid": "Earth",
+        "date": "all"
+      },
+      "raw_id": "8915e2c205032e1e",
+      "result_at": "2026-11-01T10:37:37.509Z",
+      "saved_as": "data/world.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "e00ba53a59bbabea",
+      "result_at": "2026-11-01T10:37:38.383Z",
+      "saved_as": "data/countries_latest.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "UNGeoRegion",
+        "date": "range",
+        "date_range_start": "1990",
+        "date_range_end": "2026"
+      },
+      "raw_id": "805fcd96d9bc2241",
+      "result_at": "2026-11-01T10:37:39.238Z",
+      "saved_as": "data/place_series.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SN_STA_OVWGT.AGE--Y0T4",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "GeoRegion",
+        "date": "range",
+        "date_range_start": "1990",
+        "date_range_end": "2026"
+      },
+      "raw_id": "40efeca16cdd00cc",
+      "result_at": "2026-11-01T10:37:40.154Z",
+      "saved_as": "data/place_series.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--R",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "3122d029e30a2f44",
+      "result_at": "2026-11-01T10:37:41.416Z",
+      "saved_as": "data/breakdown_countries.csv"
+    },
+    {
+      "tool": "get_observations",
+      "args": {
+        "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--R",
+        "place_dcid": "Earth",
+        "date": "all"
+      },
+      "raw_id": "ff9d762bbf355238",
+      "result_at": "2026-11-01T10:37:41.790Z",
+      "saved_as": "data/breakdown_aggregates.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--R",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "UNGeoRegion",
+        "date": "range",
+        "date_range_start": "1990",
+        "date_range_end": "2026"
+      },
+      "raw_id": "82ea22f381cfd240",
+      "result_at": "2026-11-01T10:37:42.882Z",
+      "saved_as": "data/breakdown_aggregates.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--R",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "GeoRegion",
+        "date": "range",
+        "date_range_start": "1990",
+        "date_range_end": "2026"
+      },
+      "raw_id": "14f7e9eac1b7aede",
+      "result_at": "2026-11-01T10:37:43.957Z",
+      "saved_as": "data/breakdown_aggregates.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--U",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "287b2c25b79373e0",
+      "result_at": "2026-11-01T10:37:47.855Z",
+      "saved_as": "data/breakdown_countries.csv"
+    },
+    {
+      "tool": "get_observations",
+      "args": {
+        "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--U",
+        "place_dcid": "Earth",
+        "date": "all"
+      },
+      "raw_id": "9faeefd438a85574",
+      "result_at": "2026-11-01T10:37:48.167Z",
+      "saved_as": "data/breakdown_aggregates.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--U",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "UNGeoRegion",
+        "date": "range",
+        "date_range_start": "1990",
+        "date_range_end": "2026"
+      },
+      "raw_id": "4713ccf29379d419",
+      "result_at": "2026-11-01T10:37:49.215Z",
+      "saved_as": "data/breakdown_aggregates.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/who/NUT_ANTH_SH.AGE--Y0T4__EST_BASIS--SURVEY__NUT_STATUS--OVERWEIGHT__URBANIZATION--U",
+        "parent_place_dcid": "Earth",
+        "child_place_type": "GeoRegion",
+        "date": "range",
+        "date_range_start": "1990",
+        "date_range_end": "2026"
+      },
+      "raw_id": "181fc2ed83a83f2f",
+      "result_at": "2026-11-01T10:37:50.475Z",
+      "saved_as": "data/breakdown_aggregates.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "SubSaharanAfrica",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "50f37d75873987cb",
+      "result_at": "2026-11-01T10:38:01.208Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "LatinAmericaAndCaribbean",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "ed89aec745728c8f",
+      "result_at": "2026-11-01T10:38:06.744Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "undata-geo/G00145000",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "0b5c72e480cde0fa",
+      "result_at": "2026-11-01T10:32:52.574Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "AustraliaAndNewZealand",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "0bbaa3b9e3192998",
+      "result_at": "2026-11-01T10:38:07.943Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "undata-geo/G00404000",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "64a609abe5f9f433",
+      "result_at": "2026-11-01T10:38:09.588Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "undata-geo/G00403000",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "900c811570c0f5ca",
+      "result_at": "2026-11-01T10:38:10.216Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "undata-geo/G00405000",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "ca30c8b912e0c6e6",
+      "result_at": "2026-11-01T10:38:11.000Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "NorthernAfrica",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "47c94708c97b8519",
+      "result_at": "2026-11-01T11:21:39.425Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "WesternAsia",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "0352fc4fdab3ee53",
+      "result_at": "2026-11-01T11:21:40.721Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "CentralAsia",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "be2aaff19dfd1a3d",
+      "result_at": "2026-11-01T11:21:41.687Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "SouthernAsia",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "a48a2ec110099f2b",
+      "result_at": "2026-11-01T11:21:42.880Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "EasternAsia",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "3f245be36da9da20",
+      "result_at": "2026-11-01T11:21:45.219Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "SouthEasternAsia",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "32d9aafd623f2f83",
+      "result_at": "2026-11-01T11:21:45.877Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "NorthernEurope",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "69261efef0af5b79",
+      "result_at": "2026-11-01T11:21:54.079Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "WesternEurope",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "e7943d53c87dbeb9",
+      "result_at": "2026-11-01T11:21:54.940Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "SouthernEurope",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "75efe8ef8e8fc4b0",
+      "result_at": "2026-11-01T11:21:56.141Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "EasternEurope",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "508026d6cbf7334e",
+      "result_at": "2026-11-01T11:21:57.110Z",
+      "saved_as": "data/membership.csv"
+    },
+    {
+      "tool": "get_child_observations",
+      "args": {
+        "variable_dcid": "undata/sdg/SH_DYN_MORT.AGE--Y0T4",
+        "parent_place_dcid": "undata-geo/G00136000",
+        "child_place_type": "Country",
+        "date": "latest"
+      },
+      "raw_id": "a01f27c1c53e11ad",
+      "result_at": "2026-11-01T11:21:47.200Z",
+      "saved_as": "data/membership.csv"
+    }
+  ]
+}

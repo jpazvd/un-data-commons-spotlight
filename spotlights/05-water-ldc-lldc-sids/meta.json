@@ -1,0 +1,49 @@
+{
+  "spotlight": 5,
+  "slug": "05-water-ldc-lldc-sids",
+  "title": "Safely managed drinking water, LDCs, LLDCs and SIDS compared with the World",
+  "sdg_indicator": "6.1.1",
+  "retrieved_on": "2026-11-01",
+  "target_value": 100,
+  "target_year": 2030,
+  "target_basis": "SDG 6.1",
+  "experiment": {
+    "id": "002",
+    "proposal": "P05",
+    "family": "water",
+    "pace": 1,
+    "kind": "standard",
+    "place_type": "groupings",
+    "place": "LDCs, LLDCs and SIDS compared with the World",
+    "place_dcids": [
+      "undata-geo/G00404000",
+      "undata-geo/G00403000",
+      "undata-geo/G00405000",
+      "Earth"
+    ],
+    "breakdown": "none",
+    "frames_proposed": "T|L|G|D",
+    "feed_tag": "#EconSky",
+    "versions": [
+      {
+        "version": "5-T",
+        "frame": "T",
+        "design": "Ink",
+        "template": "templates/banner-ink.dc.html"
+      },
+      {
+        "version": "5-G",
+        "frame": "G",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "5-L",
+        "frame": "L",
+        "design": "D-light",
+        "template": "templates/banner-D-light.dc.html"
+      }
+    ],
+    "frames_supported": "T|L|G|D"
+  }
+}

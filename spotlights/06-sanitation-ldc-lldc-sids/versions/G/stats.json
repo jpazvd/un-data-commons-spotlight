@@ -1,0 +1,41 @@
+{
+ "frame": "G",
+ "ok": true,
+ "kind": "places_gap",
+ "year": 2024,
+ "places": [
+  {
+   "dcid": "undata-geo/G00404000",
+   "place": "LDCs",
+   "value": 27.023
+  },
+  {
+   "dcid": "undata-geo/G00403000",
+   "place": "LLDCs",
+   "value": 32.7922
+  },
+  {
+   "dcid": "undata-geo/G00405000",
+   "place": "SIDS",
+   "value": 42.0142
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "value": 58.4952
+  }
+ ],
+ "highest": "undata-geo/G00405000",
+ "lowest": "undata-geo/G00404000",
+ "difference": 14.9912,
+ "ratio": 1.5548,
+ "family": "sanitation",
+ "what": "people using safely managed sanitation",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "WHO/UNICEF JMP",
+ "breakdown": null,
+ "place_type": "groupings",
+ "stale_cutoff": 2020,
+ "breakdown_source": null
+}

@@ -1,0 +1,96 @@
+{
+ "frame": "D",
+ "ok": true,
+ "kind": "coverage",
+ "place": "World",
+ "n_with_data": 140,
+ "n_members": 194,
+ "n_members_with_data": 140,
+ "n_stale": 81,
+ "stale_cutoff": 2020,
+ "latest_year_max": 2025,
+ "latest_year_min": 2006,
+ "median_latest_year": 2019,
+ "by_year": [
+  [
+   2006,
+   3
+  ],
+  [
+   2007,
+   1
+  ],
+  [
+   2010,
+   3
+  ],
+  [
+   2011,
+   1
+  ],
+  [
+   2012,
+   7
+  ],
+  [
+   2013,
+   3
+  ],
+  [
+   2014,
+   2
+  ],
+  [
+   2015,
+   5
+  ],
+  [
+   2016,
+   10
+  ],
+  [
+   2017,
+   7
+  ],
+  [
+   2018,
+   13
+  ],
+  [
+   2019,
+   16
+  ],
+  [
+   2020,
+   10
+  ],
+  [
+   2021,
+   10
+  ],
+  [
+   2022,
+   17
+  ],
+  [
+   2023,
+   17
+  ],
+  [
+   2024,
+   12
+  ],
+  [
+   2025,
+   3
+  ]
+ ],
+ "family": "child_marriage_15",
+ "what": "women aged 20 to 24 first married or in union before 15",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "UNICEF",
+ "breakdown": null,
+ "place_type": "world",
+ "breakdown_source": null
+}

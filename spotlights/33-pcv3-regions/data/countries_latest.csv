@@ -1,0 +1,160 @@
+dcid,name,year,value
+country/AFG,Afghanistan,2024,57
+country/AGO,Angola,2024,62
+country/ALB,Albania,2024,81
+country/AND,Andorra,2024,96
+country/ARE,United Arab Emirates,2024,94
+country/ARG,Argentina,2024,79
+country/ARM,Armenia,2024,94
+country/AUS,Australia,2024,95
+country/AZE,Azerbaijan,2024,52
+country/BDI,Burundi,2024,88
+country/BEL,Belgium,2024,94
+country/BEN,Benin,2024,64
+country/BFA,Burkina Faso,2024,91
+country/BGD,Bangladesh,2024,97
+country/BGR,Bulgaria,2024,91
+country/BHR,Bahrain,2024,99
+country/BHS,Bahamas,2024,90
+country/BLZ,Belize,2024,39
+country/BOL,Bolivia,2024,59
+country/BRA,Brazil,2024,86
+country/BRB,Barbados,2024,94
+country/BTN,Bhutan,2024,98
+country/BWA,Botswana,2024,95
+country/CAF,Central African Republic,2024,42
+country/CAN,Canada,2024,85
+country/CHE,Switzerland,2024,91
+country/CHL,Chile,2024,93
+country/CIV,Côte d'Ivoire,2024,75
+country/CMR,Cameroon,2024,76
+country/COD,Congo [DRC],2024,63
+country/COG,Congo [Republic],2024,76
+country/COK,Cook Islands,2024,52
+country/COL,Colombia,2024,91
+country/CRI,Costa Rica,2024,99
+country/CYP,Cyprus,2024,82
+country/DEU,Germany,2024,75
+country/DJI,Djibouti,2024,76
+country/DNK,Denmark,2024,96
+country/DOM,Dominican Republic,2024,87
+country/DZA,Algeria,2024,90
+country/ECU,Ecuador,2024,71
+country/ERI,Eritrea,2024,95
+country/ESP,Spain,2024,92
+country/ETH,Ethiopia,2024,73
+country/FIN,Finland,2024,87
+country/FJI,Fiji,2024,92
+country/FRA,France,2024,96
+country/FSM,Federated States of Micronesia,2024,74
+country/GBR,United Kingdom,2024,89
+country/GEO,Georgia,2024,82
+country/GHA,Ghana,2024,96
+country/GMB,Gambia,2024,80
+country/GNB,Guinea-Bissau,2024,74
+country/GRC,Greece,2024,90
+country/GTM,Guatemala,2024,89
+country/GUY,Guyana,2024,98
+country/HND,Honduras,2024,75
+country/HRV,Croatia,2024,89
+country/HTI,Haiti,2024,45
+country/HUN,Hungary,2024,99
+country/IDN,Indonesia,2024,70
+country/IND,India,2024,95
+country/IRL,Ireland,2024,84
+country/IRN,Iran,2024,0
+country/IRQ,Iraq,2024,65
+country/ISL,Iceland,2024,93
+country/ISR,Israel,2024,94
+country/ITA,Italy,2024,90
+country/JPN,Japan,2024,91
+country/KAZ,Kazakhstan,2024,90
+country/KEN,Kenya,2024,89
+country/KGZ,Kyrgyzstan,2024,86
+country/KHM,Cambodia,2024,83
+country/KIR,Kiribati,2024,93
+country/KOR,South Korea,2024,97
+country/KWT,Kuwait,2024,96
+country/LAO,Laos,2024,63
+country/LBN,Lebanon,2024,67
+country/LBR,Liberia,2024,80
+country/LBY,Libya,2024,89
+country/LSO,Lesotho,2024,86
+country/LTU,Lithuania,2024,87
+country/LUX,Luxembourg,2024,97
+country/LVA,Latvia,2024,92
+country/MAR,Morocco,2024,77
+country/MDA,Moldova,2024,85
+country/MDG,Madagascar,2024,64
+country/MEX,Mexico,2024,76
+country/MHL,Marshall Islands,2024,62
+country/MKD,Macedonia [FYROM],2024,72
+country/MLI,Mali,2024,83
+country/MLT,Malta,2024,97
+country/MMR,Myanmar,2024,71
+country/MNG,Mongolia,2024,96
+country/MOZ,Mozambique,2024,55
+country/MRT,Mauritania,2024,85
+country/MUS,Mauritius,2024,95
+country/MWI,Malawi,2024,92
+country/MYS,Malaysia,2024,90
+country/NAM,Namibia,2024,76
+country/NER,Niger,2024,86
+country/NGA,Nigeria,2024,28
+country/NIU,Niue,2024,99
+country/NLD,Netherlands,2024,88
+country/NOR,Norway,2024,95
+country/NPL,Nepal,2024,96
+country/NRU,Nauru,2024,97
+country/NZL,New Zealand,2024,60
+country/OMN,Oman,2024,99
+country/PAK,Pakistan,2024,87
+country/PAN,Panama,2024,83
+country/PER,Peru,2024,82
+country/PHL,Philippines,2024,59
+country/PLW,Palau,2024,93
+country/PNG,Papua New Guinea,2024,41
+country/POL,Poland,2024,89
+country/PRT,Portugal,2024,98
+country/PRY,Paraguay,2024,91
+country/PSE,Palestinian Territories,2024,87
+country/QAT,Qatar,2024,96
+country/ROU,Romania,2024,78
+country/RUS,Russia,2024,94
+country/RWA,Rwanda,2024,98
+country/SAU,Saudi Arabia,2024,96
+country/SDN,Sudan,2024,40
+country/SEN,Senegal,2024,91
+country/SGP,Singapore,2024,91
+country/SLB,Solomon Islands,2024,88
+country/SLE,Sierra Leone,2024,93
+country/SLV,El Salvador,2024,96
+country/SMR,San Marino,2024,81
+country/SRB,Serbia,2024,85
+country/STP,São Tomé and Príncipe,2024,86
+country/SVK,Slovakia,2024,96
+country/SVN,Slovenia,2024,56
+country/SWE,Sweden,2024,94
+country/SWZ,Eswatini,2024,78
+country/SYC,Seychelles,2024,94
+country/TGO,Togo,2024,89
+country/TJK,Tajikistan,2024,96
+country/TKM,Turkmenistan,2024,99
+country/TLS,East Timor,2024,81
+country/TON,Tonga,2024,99
+country/TTO,Trinidad and Tobago,2024,91
+country/TUN,Tunisia,2024,97
+country/TUR,Turkey,2024,95
+country/TUV,Tuvalu,2024,97
+country/TZA,Tanzania,2024,82
+country/UGA,Uganda,2024,91
+country/URY,Uruguay,2024,96
+country/USA,United States,2024,84
+country/UZB,Uzbekistan,2024,94
+country/VEN,Venezuela,2024,0
+country/VUT,Vanuatu,2024,74
+country/WSM,Samoa,2024,75
+country/YEM,Yemen,2024,41
+country/ZAF,South Africa,2024,81
+country/ZMB,Zambia,2024,91
+country/ZWE,Zimbabwe,2024,91

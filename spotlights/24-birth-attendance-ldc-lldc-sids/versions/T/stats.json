@@ -1,0 +1,42 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "none",
+  "value": null,
+  "year": null
+ },
+ "ok": true,
+ "kind": "level_compared",
+ "year": 2025,
+ "places": [
+  {
+   "dcid": "undata-geo/G00404000",
+   "place": "LDCs",
+   "value": 76.6
+  },
+  {
+   "dcid": "undata-geo/G00403000",
+   "place": "LLDCs",
+   "value": 76.0
+  },
+  {
+   "dcid": "undata-geo/G00405000",
+   "place": "SIDS",
+   "value": 86.7
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "value": 87.2
+  }
+ ],
+ "family": "sba",
+ "what": "births attended by skilled health personnel",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "UNICEF and WHO",
+ "breakdown": "wealth",
+ "place_type": "groupings",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UNICEF Data Warehouse"
+}

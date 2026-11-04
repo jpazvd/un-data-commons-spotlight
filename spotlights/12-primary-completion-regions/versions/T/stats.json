@@ -1,0 +1,185 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "SDG 4.1",
+  "value": 100,
+  "year": 2030,
+  "kind": "universal"
+ },
+ "ok": true,
+ "kind": "pace_compared",
+ "places": [
+  {
+   "dcid": "SubSaharanAfrica",
+   "place": "Sub-Saharan Africa",
+   "first": {
+    "year": 2000,
+    "value": 46.3
+   },
+   "last": {
+    "year": 2024,
+    "value": 67.5
+   },
+   "observed_per_year": 0.8833,
+   "required_per_year": 5.4167,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 72.8,
+   "required_over_observed": 6.1321
+  },
+  {
+   "dcid": "undata-geo/G00103000",
+   "place": "N. Africa and W. Asia",
+   "first": {
+    "year": 2000,
+    "value": 74.4
+   },
+   "last": {
+    "year": 2024,
+    "value": 90.0
+   },
+   "observed_per_year": 0.65,
+   "required_per_year": 1.6667,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 93.9,
+   "required_over_observed": 2.5641
+  },
+  {
+   "dcid": "undata-geo/G00116000",
+   "place": "Central and S. Asia",
+   "first": {
+    "year": 2000,
+    "value": 67.5
+   },
+   "last": {
+    "year": 2024,
+    "value": 88.9
+   },
+   "observed_per_year": 0.8917,
+   "required_per_year": 1.85,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 94.25,
+   "required_over_observed": 2.0748
+  },
+  {
+   "dcid": "undata-geo/G00122000",
+   "place": "E. and S.-E. Asia",
+   "first": {
+    "year": 2000,
+    "value": 90.1
+   },
+   "last": {
+    "year": 2024,
+    "value": 98.1
+   },
+   "observed_per_year": 0.3333,
+   "required_per_year": 0.3167,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 100.1,
+   "required_over_observed": 0.95
+  },
+  {
+   "dcid": "LatinAmericaAndCaribbean",
+   "place": "Latin America, Caribbean",
+   "first": {
+    "year": 2000,
+    "value": 81.8
+   },
+   "last": {
+    "year": 2024,
+    "value": 93.6
+   },
+   "observed_per_year": 0.4917,
+   "required_per_year": 1.0667,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 96.55,
+   "required_over_observed": 2.1695
+  },
+  {
+   "dcid": "undata-geo/G00145000",
+   "place": "Oceania (excl. Aus., NZ)",
+   "first": {
+    "year": 2000,
+    "value": 60.3
+   },
+   "last": {
+    "year": 2024,
+    "value": 69.5
+   },
+   "observed_per_year": 0.3833,
+   "required_per_year": 5.0833,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 71.8,
+   "required_over_observed": 13.2609
+  },
+  {
+   "dcid": "AustraliaAndNewZealand",
+   "place": "Australia and NZ",
+   "first": {
+    "year": 2000,
+    "value": 99.1
+   },
+   "last": {
+    "year": 2024,
+    "value": 99.5
+   },
+   "observed_per_year": 0.0167,
+   "required_per_year": 0.0833,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 99.6,
+   "required_over_observed": 5.0
+  },
+  {
+   "dcid": "undata-geo/G00126000",
+   "place": "Europe and N. America",
+   "first": {
+    "year": 2000,
+    "value": 99.4
+   },
+   "last": {
+    "year": 2024,
+    "value": 99.8
+   },
+   "observed_per_year": 0.0167,
+   "required_per_year": 0.0333,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 99.9,
+   "required_over_observed": 2.0
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "first": {
+    "year": 2000,
+    "value": 77.3
+   },
+   "last": {
+    "year": 2024,
+    "value": 88.0
+   },
+   "observed_per_year": 0.4458,
+   "required_per_year": 2.0,
+   "trend": "towards target",
+   "years_left": 6,
+   "at_current_pace": 90.675,
+   "required_over_observed": 4.486
+  }
+ ],
+ "lead": "SubSaharanAfrica",
+ "family": "school_completion",
+ "what": "children completing primary school",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "UNESCO UIS",
+ "breakdown": "sex",
+ "place_type": "regions_compared",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UN SDG Global Database"
+}

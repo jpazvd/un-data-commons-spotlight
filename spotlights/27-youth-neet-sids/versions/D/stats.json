@@ -1,0 +1,72 @@
+{
+ "frame": "D",
+ "ok": true,
+ "kind": "coverage",
+ "place": "Small Island Developing States (SIDS)",
+ "n_with_data": 34,
+ "n_members": 39,
+ "n_members_with_data": 34,
+ "n_stale": 12,
+ "stale_cutoff": 2020,
+ "latest_year_max": 2024,
+ "latest_year_min": 2012,
+ "median_latest_year": 2022,
+ "by_year": [
+  [
+   2012,
+   1
+  ],
+  [
+   2013,
+   1
+  ],
+  [
+   2014,
+   1
+  ],
+  [
+   2016,
+   2
+  ],
+  [
+   2017,
+   1
+  ],
+  [
+   2018,
+   1
+  ],
+  [
+   2019,
+   4
+  ],
+  [
+   2020,
+   1
+  ],
+  [
+   2021,
+   3
+  ],
+  [
+   2022,
+   6
+  ],
+  [
+   2023,
+   6
+  ],
+  [
+   2024,
+   7
+  ]
+ ],
+ "family": "youth_neet",
+ "what": "young people aged 15 to 24 not in education, employment or training",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "ILO",
+ "breakdown": "location",
+ "place_type": "grouping",
+ "breakdown_source": "ILOSTAT"
+}

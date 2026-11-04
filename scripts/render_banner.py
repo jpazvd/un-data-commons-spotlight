@@ -5,8 +5,12 @@ Usage:
     python scripts/render_banner.py templates/banner-D-dark.dc.html   (renders any .dc.html file)
 
 Writes, beside the design:
-    banner.png (or <name>.png)   2400x1260 (2x), for LinkedIn and X
-    banner.jpg (or <name>.jpg)   1200x630, lightweight copy
+    banner.png (or <name>.png)   the artboard at 2x (2400x1260 for a 1200x630 design, 2400x2400 for a
+                                 1200x1200 template E design), for LinkedIn and X
+    banner.jpg (or <name>.jpg)   the artboard at 1x, lightweight copy
+
+The artboard size is read from the design's data-props "$preview" width and height (template D: 1200x630;
+template E: 1200x1200); a design without one renders at 1200x630.
 
 Requirements (see README):
     pip install -r requirements.txt && python -m playwright install chromium
@@ -16,6 +20,7 @@ Fonts are loaded from local files so the render is identical offline. The famili
 come from the design's <helmet> font link; a family missing from FONTS or from node_modules
 stops the render instead of falling back to a system font.
 """
+import json
 import os
 import pathlib
 import re
@@ -28,7 +33,23 @@ from playwright.sync_api import sync_playwright
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 NM = ROOT / "node_modules"
-W, H = 1200, 630
+DEFAULT_SIZE = (1200, 630)
+SIZES = {(1200, 630), (1200, 1200)}  # artboards the pipeline knows (template D, template E)
+
+
+def design_size(dc_html: str, name: str):
+    """(width, height) of the artboard from the design's "$preview" props; 1200x630 when absent."""
+    m = re.search(r'"\$preview"\s*:\s*(\{[^{}]*\})', dc_html)
+    if not m:
+        return DEFAULT_SIZE
+    try:
+        preview = json.loads(m.group(1))  # read by key: JSON property order is not significant
+        size = (int(preview["width"]), int(preview["height"]))
+    except (ValueError, KeyError, TypeError):
+        sys.exit(f"{name}: the \"$preview\" props must be an object with width and height")
+    if size not in SIZES:
+        sys.exit(f"{name}: artboard {size[0]}x{size[1]} is not one the pipeline renders ({sorted(SIZES)})")
+    return size
 
 # Local file for each family a design may request; {w} is the weight. Add new families here
 # and in package.json.
@@ -128,7 +149,9 @@ def main():
     fd, tmp = tempfile.mkstemp(prefix=f".{stem}.", suffix=".render.html", dir=folder)
     os.close(fd)
     page = pathlib.Path(tmp)
-    page.write_text(build_page(src.read_text(encoding="utf-8"), src.name), encoding="utf-8")
+    dc_html = src.read_text(encoding="utf-8")
+    W, H = design_size(dc_html, src.name)
+    page.write_text(build_page(dc_html, src.name), encoding="utf-8")
     png, jpg = folder / f"{stem}.png", folder / f"{stem}.jpg"
     try:
         with sync_playwright() as p:

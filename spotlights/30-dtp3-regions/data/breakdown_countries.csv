@@ -1,0 +1,215 @@
+dcid,name,group,year,value
+country/AFG,Afghanistan,poorest,2015,48.89169
+country/AGO,Angola,poorest,2015,21.38462
+country/ALB,Albania,poorest,2017,97.05953
+country/ARM,Armenia,poorest,2015,96.99913
+country/AZE,Azerbaijan,poorest,2006,59.83689
+country/BDI,Burundi,poorest,2016,96.29767
+country/BEN,Benin,poorest,2017,55.78325
+country/BFA,Burkina Faso,poorest,2010,83.40231
+country/BGD,Bangladesh,poorest,2017,94.46163
+country/BIH,Bosnia and Herzegovina,poorest,2011,90.58515
+country/BLR,Belarus,poorest,2005,100
+country/BLZ,Belize,poorest,2015,81.67694
+country/BOL,Bolivia,poorest,2008,85.68696
+country/BRA,Brazil,poorest,1996,65.6148
+country/CAF,Central African Republic,poorest,2018,20.57934
+country/CIV,Côte d'Ivoire,poorest,2016,54.75843
+country/CMR,Cameroon,poorest,2018,53.55732
+country/COD,Congo [DRC],poorest,2017,30.66747
+country/COG,Congo [Republic],poorest,2014,46.04551
+country/COL,Colombia,poorest,2010,84.92389
+country/COM,Comoros,poorest,2012,57.53651
+country/CRI,Costa Rica,poorest,2018,92.43903
+country/CUB,Cuba,poorest,2019,90.42206
+country/DOM,Dominican Republic,poorest,2019,55.64444
+country/DZA,Algeria,poorest,2018,55.80416
+country/ECU,Ecuador,poorest,2004,63.19957
+country/EGY,Egypt,poorest,2014,93.73123
+country/ETH,Ethiopia,poorest,2019,47.67001
+country/GAB,Gabon,poorest,2012,62.15585
+country/GHA,Ghana,poorest,2017,86.80153
+country/GIN,Guinea,poorest,2018,28.21046
+country/GMB,Gambia,poorest,2019,94.60183
+country/GNB,Guinea-Bissau,poorest,2018,82.79727
+country/GTM,Guatemala,poorest,2014,78.50085
+country/GUY,Guyana,poorest,2019,81.92516
+country/HND,Honduras,poorest,2019,92.05748
+country/HTI,Haiti,poorest,2016,43.44287
+country/IDN,Indonesia,poorest,2017,66.87356
+country/IND,India,poorest,2015,70.39388
+country/IRQ,Iraq,poorest,2018,55.56536
+country/JAM,Jamaica,poorest,2011,91.45437
+country/JOR,Jordan,poorest,2017,87.59615
+country/KAZ,Kazakhstan,poorest,2015,94.62487
+country/KEN,Kenya,poorest,2014,83.6549
+country/KGZ,Kyrgyzstan,poorest,2018,87.47368
+country/KHM,Cambodia,poorest,2014,71.62007
+country/KIR,Kiribati,poorest,2018,41.59423
+country/LAO,Laos,poorest,2017,40.57278
+country/LBR,Liberia,poorest,2019,59.7925
+country/LSO,Lesotho,poorest,2018,75.68296
+country/MAR,Morocco,poorest,2003,89.36094
+country/MDA,Moldova,poorest,2012,98.71844
+country/MDG,Madagascar,poorest,2018,38.99144
+country/MDV,Maldives,poorest,2016,85.1727
+country/MEX,Mexico,poorest,2015,69.20931
+country/MKD,Macedonia [FYROM],poorest,2018,90.09396
+country/MLI,Mali,poorest,2018,61.54788
+country/MMR,Myanmar,poorest,2015,49.80691
+country/MNE,Montenegro,poorest,2013,83.72807
+country/MNG,Mongolia,poorest,2018,91.27436
+country/MOZ,Mozambique,poorest,2015,73.90521
+country/MRT,Mauritania,poorest,2015,44.09793
+country/MWI,Malawi,poorest,2019,87.65072
+country/NAM,Namibia,poorest,2013,86.87568
+country/NER,Niger,poorest,2012,53.27843
+country/NGA,Nigeria,poorest,2018,25.54951
+country/NIC,Nicaragua,poorest,2006,88.92129
+country/NPL,Nepal,poorest,2019,82.71826
+country/PAK,Pakistan,poorest,2017,51.84854
+country/PAN,Panama,poorest,2013,77.71348
+country/PER,Peru,poorest,2020,76.57031
+country/PHL,Philippines,poorest,2017,67.3116
+country/PNG,Papua New Guinea,poorest,2016,21.19198
+country/PRY,Paraguay,poorest,2016,86.26739
+country/RWA,Rwanda,poorest,2019,98.52897
+country/SDN,Sudan,poorest,2014,48.83886
+country/SEN,Senegal,poorest,2019,83.1486
+country/SLE,Sierra Leone,poorest,2019,77.30137
+country/SLV,El Salvador,poorest,2014,94.5294
+country/SOM,Somalia,poorest,2006,5.3527
+country/SRB,Serbia,poorest,2019,80.62958
+country/SSD,South Sudan,poorest,2010,5.72031
+country/STP,São Tomé and Príncipe,poorest,2019,88.17882
+country/SUR,Suriname,poorest,2018,64.48828
+country/SWZ,Eswatini,poorest,2014,88.64789
+country/SYR,Syria,poorest,2006,63.27977
+country/TCD,Chad,poorest,2014,28.46031
+country/TGO,Togo,poorest,2017,74.00528
+country/THA,Thailand,poorest,2019,91.59219
+country/TJK,Tajikistan,poorest,2017,88.867
+country/TKM,Turkmenistan,poorest,2015,100
+country/TLS,East Timor,poorest,2016,48.0883
+country/TON,Tonga,poorest,2019,98.18015
+country/TTO,Trinidad and Tobago,poorest,2011,60.93747
+country/TUN,Tunisia,poorest,2018,95.43325
+country/TUR,Turkey,poorest,2013,79.03818
+country/TZA,Tanzania,poorest,2015,80.32532
+country/UGA,Uganda,poorest,2016,78.59066
+country/UKR,Ukraine,poorest,2012,66.39773
+country/UZB,Uzbekistan,poorest,2006,93.68133
+country/VNM,Vietnam,poorest,2013,80.599
+country/VUT,Vanuatu,poorest,2007,46.03671
+country/WSM,Samoa,poorest,2019,33.59356
+country/YEM,Yemen,poorest,2013,42.87855
+country/ZAF,South Africa,poorest,2016,74.18754
+country/ZMB,Zambia,poorest,2018,88.42662
+country/ZWE,Zimbabwe,poorest,2019,87.03647
+country/AFG,Afghanistan,richest,2015,70.35409
+country/AGO,Angola,richest,2015,62.98997
+country/ALB,Albania,richest,2017,100
+country/ARM,Armenia,richest,2015,95.18675
+country/AZE,Azerbaijan,richest,2006,83.37583
+country/BDI,Burundi,richest,2016,96.57193
+country/BEN,Benin,richest,2017,85.83091
+country/BFA,Burkina Faso,richest,2010,92.86647
+country/BGD,Bangladesh,richest,2017,97.68999
+country/BIH,Bosnia and Herzegovina,richest,2011,93.76817
+country/BLR,Belarus,richest,2005,99.41826
+country/BLZ,Belize,richest,2015,79.29878
+country/BOL,Bolivia,richest,2008,86.11168
+country/BRA,Brazil,richest,1996,81.93281
+country/CAF,Central African Republic,richest,2018,59.94139
+country/CIV,Côte d'Ivoire,richest,2016,83.84349
+country/CMR,Cameroon,richest,2018,89.09285
+country/COD,Congo [DRC],richest,2017,69.84473
+country/COG,Congo [Republic],richest,2014,74.58989
+country/COL,Colombia,richest,2010,92.47478
+country/COM,Comoros,richest,2012,83.50525
+country/CRI,Costa Rica,richest,2018,95.79386
+country/CUB,Cuba,richest,2019,97.41638
+country/DOM,Dominican Republic,richest,2019,66.12141
+country/DZA,Algeria,richest,2018,66.72931
+country/ECU,Ecuador,richest,2004,84.87087
+country/EGY,Egypt,richest,2014,99.10262
+country/ETH,Ethiopia,richest,2019,83.40344
+country/GAB,Gabon,richest,2012,71.82463
+country/GHA,Ghana,richest,2017,91.19866
+country/GIN,Guinea,richest,2018,54.59929
+country/GMB,Gambia,richest,2019,95.69757
+country/GNB,Guinea-Bissau,richest,2018,83.35757
+country/GTM,Guatemala,richest,2014,89.60826
+country/GUY,Guyana,richest,2019,91.37989
+country/HND,Honduras,richest,2019,91.20026
+country/HTI,Haiti,richest,2016,79.86978
+country/IDN,Indonesia,richest,2017,81.55937
+country/IND,India,richest,2015,85.65388
+country/IRQ,Iraq,richest,2018,85.7824
+country/JAM,Jamaica,richest,2011,92.92197
+country/JOR,Jordan,richest,2017,90.43539
+country/KAZ,Kazakhstan,richest,2015,85.64326
+country/KEN,Kenya,richest,2014,92.84224
+country/KGZ,Kyrgyzstan,richest,2018,73.39669
+country/KHM,Cambodia,richest,2014,96.19876
+country/KIR,Kiribati,richest,2018,53.29121
+country/LAO,Laos,richest,2017,72.85263
+country/LBR,Liberia,richest,2019,75.67533
+country/LSO,Lesotho,richest,2018,83.04427
+country/MAR,Morocco,richest,2003,98.15863
+country/MDA,Moldova,richest,2012,85.61891
+country/MDG,Madagascar,richest,2018,77.14012
+country/MDV,Maldives,richest,2016,79.75633
+country/MEX,Mexico,richest,2015,73.41172
+country/MKD,Macedonia [FYROM],richest,2018,82.44078
+country/MLI,Mali,richest,2018,81.68282
+country/MMR,Myanmar,richest,2015,84.39355
+country/MNE,Montenegro,richest,2013,86.62569
+country/MNG,Mongolia,richest,2018,88.50021
+country/MOZ,Mozambique,richest,2015,94.87646
+country/MRT,Mauritania,richest,2015,83.08012
+country/MWI,Malawi,richest,2019,95.3432
+country/NAM,Namibia,richest,2013,72.97931
+country/NER,Niger,richest,2012,84.35972
+country/NGA,Nigeria,richest,2018,81.89454
+country/NIC,Nicaragua,richest,2006,98.33051
+country/NPL,Nepal,richest,2019,85.93881
+country/PAK,Pakistan,richest,2017,91.03828
+country/PAN,Panama,richest,2013,93.90163
+country/PER,Peru,richest,2020,72.86455
+country/PHL,Philippines,richest,2017,89.92029
+country/PNG,Papua New Guinea,richest,2016,61.86217
+country/PRY,Paraguay,richest,2016,88.09339
+country/RWA,Rwanda,richest,2019,98.85302
+country/SDN,Sudan,richest,2014,88.54573
+country/SEN,Senegal,richest,2019,98.55614
+country/SLE,Sierra Leone,richest,2019,76.12251
+country/SLV,El Salvador,richest,2014,90.07315
+country/SOM,Somalia,richest,2006,28.58707
+country/SRB,Serbia,richest,2019,93.7722
+country/SSD,South Sudan,richest,2010,28.68918
+country/STP,São Tomé and Príncipe,richest,2019,99.52478
+country/SUR,Suriname,richest,2018,63.9357
+country/SWZ,Eswatini,richest,2014,96.16985
+country/SYR,Syria,richest,2006,81.46924
+country/TCD,Chad,richest,2014,45.00964
+country/TGO,Togo,richest,2017,82.55693
+country/THA,Thailand,richest,2019,85.79947
+country/TJK,Tajikistan,richest,2017,77.87236
+country/TKM,Turkmenistan,richest,2015,92.36938
+country/TLS,East Timor,richest,2016,72.42415
+country/TON,Tonga,richest,2019,91.84098
+country/TTO,Trinidad and Tobago,richest,2011,69.50241
+country/TUN,Tunisia,richest,2018,60.08529
+country/TUR,Turkey,richest,2013,90.28254
+country/TZA,Tanzania,richest,2015,95.36177
+country/UGA,Uganda,richest,2016,78.41266
+country/UKR,Ukraine,richest,2012,69.56006
+country/UZB,Uzbekistan,richest,2006,94.45506
+country/VNM,Vietnam,richest,2013,91.83219
+country/VUT,Vanuatu,richest,2007,66.91393
+country/WSM,Samoa,richest,2019,38.58731
+country/YEM,Yemen,richest,2013,83.73427
+country/ZAF,South Africa,richest,2016,62.16192
+country/ZMB,Zambia,richest,2018,95.98032
+country/ZWE,Zimbabwe,richest,2019,96.7078

@@ -1,0 +1,9 @@
+place_dcid,name,group,year,value
+Earth,World,rural,2025,28.393
+undata-geo/G00403000,Landlocked developing countries (LLDCs),rural,2025,38.522
+undata-geo/G00404000,Least developed countries (LDCs),rural,2025,41.883
+undata-geo/G00405000,Small Island Developing States (SIDS),rural,2025,27.211
+Earth,World,urban,2025,12.607
+undata-geo/G00403000,Landlocked developing countries (LLDCs),urban,2025,17.986
+undata-geo/G00404000,Least developed countries (LDCs),urban,2025,22.685
+undata-geo/G00405000,Small Island Developing States (SIDS),urban,2025,20.783

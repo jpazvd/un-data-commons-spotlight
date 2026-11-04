@@ -1,0 +1,46 @@
+{
+  "spotlight": 36,
+  "slug": "36-violent-discipline-world",
+  "title": "Violent discipline, World",
+  "sdg_indicator": "16.2.1",
+  "retrieved_on": "2026-11-01",
+  "target_value": 0,
+  "target_year": 2030,
+  "target_basis": "SDG 16.2",
+  "experiment": {
+    "id": "002",
+    "proposal": "P42",
+    "family": "violent_discipline",
+    "pace": 0,
+    "kind": "data gap",
+    "place_type": "world",
+    "place": "World",
+    "place_dcids": [
+      "Earth"
+    ],
+    "breakdown": "none",
+    "frames_proposed": "D1|D2|D3",
+    "feed_tag": "#PolicySky",
+    "versions": [
+      {
+        "version": "36-D1",
+        "frame": "D1",
+        "design": "D-light",
+        "template": "templates/banner-D-light.dc.html"
+      },
+      {
+        "version": "36-D2",
+        "frame": "D2",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "36-D3",
+        "frame": "D3",
+        "design": "Ink",
+        "template": "templates/banner-ink.dc.html"
+      }
+    ],
+    "frames_supported": "D1|D2|D3"
+  }
+}

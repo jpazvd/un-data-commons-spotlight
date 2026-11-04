@@ -1,0 +1,57 @@
+{
+ "frame": "T",
+ "target": {
+  "basis": "SDG 5.3",
+  "value": 0,
+  "year": 2030,
+  "kind": "elimination"
+ },
+ "ok": true,
+ "kind": "pace",
+ "place": "World",
+ "first": {
+  "year": 2005,
+  "value": 7.766
+ },
+ "last": {
+  "year": 2025,
+  "value": 4.165
+ },
+ "observed_per_year": -0.18,
+ "required_per_year": -0.833,
+ "trend": "towards target",
+ "years_left": 5,
+ "at_current_pace": 3.2648,
+ "required_over_observed": 4.6265,
+ "series": [
+  [
+   2005,
+   7.766
+  ],
+  [
+   2010,
+   6.965
+  ],
+  [
+   2015,
+   6.433
+  ],
+  [
+   2020,
+   5.185
+  ],
+  [
+   2025,
+   4.165
+  ]
+ ],
+ "family": "child_marriage_15",
+ "what": "women aged 20 to 24 first married or in union before 15",
+ "unit": "%",
+ "better": "lower",
+ "custodian": "UNICEF",
+ "breakdown": null,
+ "place_type": "world",
+ "stale_cutoff": 2020,
+ "breakdown_source": null
+}

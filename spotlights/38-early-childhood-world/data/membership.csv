@@ -1,0 +1,310 @@
+place_dcid,place_name,dcid,name
+SubSaharanAfrica,Sub-Saharan Africa,country/AGO,Angola
+SubSaharanAfrica,Sub-Saharan Africa,country/BDI,Burundi
+SubSaharanAfrica,Sub-Saharan Africa,country/BEN,Benin
+SubSaharanAfrica,Sub-Saharan Africa,country/BFA,Burkina Faso
+SubSaharanAfrica,Sub-Saharan Africa,country/BWA,Botswana
+SubSaharanAfrica,Sub-Saharan Africa,country/CAF,Central African Republic
+SubSaharanAfrica,Sub-Saharan Africa,country/CIV,Côte d'Ivoire
+SubSaharanAfrica,Sub-Saharan Africa,country/CMR,Cameroon
+SubSaharanAfrica,Sub-Saharan Africa,country/COD,Congo [DRC]
+SubSaharanAfrica,Sub-Saharan Africa,country/COG,Congo [Republic]
+SubSaharanAfrica,Sub-Saharan Africa,country/COM,Comoros
+SubSaharanAfrica,Sub-Saharan Africa,country/CPV,Cape Verde
+SubSaharanAfrica,Sub-Saharan Africa,country/DJI,Djibouti
+SubSaharanAfrica,Sub-Saharan Africa,country/ERI,Eritrea
+SubSaharanAfrica,Sub-Saharan Africa,country/ETH,Ethiopia
+SubSaharanAfrica,Sub-Saharan Africa,country/GAB,Gabon
+SubSaharanAfrica,Sub-Saharan Africa,country/GHA,Ghana
+SubSaharanAfrica,Sub-Saharan Africa,country/GIN,Guinea
+SubSaharanAfrica,Sub-Saharan Africa,country/GMB,Gambia
+SubSaharanAfrica,Sub-Saharan Africa,country/GNB,Guinea-Bissau
+SubSaharanAfrica,Sub-Saharan Africa,country/GNQ,Equatorial Guinea
+SubSaharanAfrica,Sub-Saharan Africa,country/KEN,Kenya
+SubSaharanAfrica,Sub-Saharan Africa,country/LBR,Liberia
+SubSaharanAfrica,Sub-Saharan Africa,country/LSO,Lesotho
+SubSaharanAfrica,Sub-Saharan Africa,country/MDG,Madagascar
+SubSaharanAfrica,Sub-Saharan Africa,country/MLI,Mali
+SubSaharanAfrica,Sub-Saharan Africa,country/MOZ,Mozambique
+SubSaharanAfrica,Sub-Saharan Africa,country/MRT,Mauritania
+SubSaharanAfrica,Sub-Saharan Africa,country/MUS,Mauritius
+SubSaharanAfrica,Sub-Saharan Africa,country/MWI,Malawi
+SubSaharanAfrica,Sub-Saharan Africa,country/NAM,Namibia
+SubSaharanAfrica,Sub-Saharan Africa,country/NER,Niger
+SubSaharanAfrica,Sub-Saharan Africa,country/NGA,Nigeria
+SubSaharanAfrica,Sub-Saharan Africa,country/RWA,Rwanda
+SubSaharanAfrica,Sub-Saharan Africa,country/SEN,Senegal
+SubSaharanAfrica,Sub-Saharan Africa,country/SLE,Sierra Leone
+SubSaharanAfrica,Sub-Saharan Africa,country/SOM,Somalia
+SubSaharanAfrica,Sub-Saharan Africa,country/SSD,South Sudan
+SubSaharanAfrica,Sub-Saharan Africa,country/STP,São Tomé and Príncipe
+SubSaharanAfrica,Sub-Saharan Africa,country/SWZ,Eswatini
+SubSaharanAfrica,Sub-Saharan Africa,country/SYC,Seychelles
+SubSaharanAfrica,Sub-Saharan Africa,country/TCD,Chad
+SubSaharanAfrica,Sub-Saharan Africa,country/TGO,Togo
+SubSaharanAfrica,Sub-Saharan Africa,country/TZA,Tanzania
+SubSaharanAfrica,Sub-Saharan Africa,country/UGA,Uganda
+SubSaharanAfrica,Sub-Saharan Africa,country/ZAF,South Africa
+SubSaharanAfrica,Sub-Saharan Africa,country/ZMB,Zambia
+SubSaharanAfrica,Sub-Saharan Africa,country/ZWE,Zimbabwe
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/ARG,Argentina
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/ATG,Antigua and Barbuda
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/BHS,Bahamas
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/BLZ,Belize
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/BOL,Bolivia
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/BRA,Brazil
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/BRB,Barbados
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/CHL,Chile
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/COL,Colombia
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/CRI,Costa Rica
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/CUB,Cuba
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/DMA,Dominica
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/DOM,Dominican Republic
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/ECU,Ecuador
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/GRD,Grenada
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/GTM,Guatemala
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/GUY,Guyana
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/HND,Honduras
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/HTI,Haiti
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/JAM,Jamaica
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/KNA,Saint Kitts and Nevis
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/LCA,Saint Lucia
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/MEX,Mexico
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/NIC,Nicaragua
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/PAN,Panama
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/PER,Peru
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/PRY,Paraguay
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/SLV,El Salvador
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/SUR,Suriname
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/TTO,Trinidad and Tobago
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/URY,Uruguay
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/VCT,Saint Vincent and the Grenadines
+LatinAmericaAndCaribbean,Latin America and the Caribbean,country/VEN,Venezuela
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/COK,Cook Islands
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/FJI,Fiji
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/FSM,Federated States of Micronesia
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/KIR,Kiribati
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/MHL,Marshall Islands
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/NIU,Niue
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/NRU,Nauru
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/PLW,Palau
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/PNG,Papua New Guinea
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/SLB,Solomon Islands
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/TON,Tonga
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/TUV,Tuvalu
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/VUT,Vanuatu
+undata-geo/G00145000,Oceania excluding Australia and New Zealand,country/WSM,Samoa
+AustraliaAndNewZealand,Australia and New Zealand,country/AUS,Australia
+AustraliaAndNewZealand,Australia and New Zealand,country/NZL,New Zealand
+undata-geo/G00404000,Least developed countries,country/AFG,Afghanistan
+undata-geo/G00404000,Least developed countries,country/AGO,Angola
+undata-geo/G00404000,Least developed countries,country/BDI,Burundi
+undata-geo/G00404000,Least developed countries,country/BEN,Benin
+undata-geo/G00404000,Least developed countries,country/BFA,Burkina Faso
+undata-geo/G00404000,Least developed countries,country/BGD,Bangladesh
+undata-geo/G00404000,Least developed countries,country/CAF,Central African Republic
+undata-geo/G00404000,Least developed countries,country/COD,Congo [DRC]
+undata-geo/G00404000,Least developed countries,country/COM,Comoros
+undata-geo/G00404000,Least developed countries,country/DJI,Djibouti
+undata-geo/G00404000,Least developed countries,country/ERI,Eritrea
+undata-geo/G00404000,Least developed countries,country/ETH,Ethiopia
+undata-geo/G00404000,Least developed countries,country/GIN,Guinea
+undata-geo/G00404000,Least developed countries,country/GMB,Gambia
+undata-geo/G00404000,Least developed countries,country/GNB,Guinea-Bissau
+undata-geo/G00404000,Least developed countries,country/HTI,Haiti
+undata-geo/G00404000,Least developed countries,country/KHM,Cambodia
+undata-geo/G00404000,Least developed countries,country/KIR,Kiribati
+undata-geo/G00404000,Least developed countries,country/LAO,Laos
+undata-geo/G00404000,Least developed countries,country/LBR,Liberia
+undata-geo/G00404000,Least developed countries,country/LSO,Lesotho
+undata-geo/G00404000,Least developed countries,country/MDG,Madagascar
+undata-geo/G00404000,Least developed countries,country/MLI,Mali
+undata-geo/G00404000,Least developed countries,country/MMR,Myanmar
+undata-geo/G00404000,Least developed countries,country/MOZ,Mozambique
+undata-geo/G00404000,Least developed countries,country/MRT,Mauritania
+undata-geo/G00404000,Least developed countries,country/MWI,Malawi
+undata-geo/G00404000,Least developed countries,country/NER,Niger
+undata-geo/G00404000,Least developed countries,country/NPL,Nepal
+undata-geo/G00404000,Least developed countries,country/RWA,Rwanda
+undata-geo/G00404000,Least developed countries,country/SDN,Sudan
+undata-geo/G00404000,Least developed countries,country/SEN,Senegal
+undata-geo/G00404000,Least developed countries,country/SLB,Solomon Islands
+undata-geo/G00404000,Least developed countries,country/SLE,Sierra Leone
+undata-geo/G00404000,Least developed countries,country/SOM,Somalia
+undata-geo/G00404000,Least developed countries,country/SSD,South Sudan
+undata-geo/G00404000,Least developed countries,country/TCD,Chad
+undata-geo/G00404000,Least developed countries,country/TGO,Togo
+undata-geo/G00404000,Least developed countries,country/TLS,East Timor
+undata-geo/G00404000,Least developed countries,country/TUV,Tuvalu
+undata-geo/G00404000,Least developed countries,country/TZA,Tanzania
+undata-geo/G00404000,Least developed countries,country/UGA,Uganda
+undata-geo/G00404000,Least developed countries,country/YEM,Yemen
+undata-geo/G00404000,Least developed countries,country/ZMB,Zambia
+undata-geo/G00403000,Landlocked developing countries,country/AFG,Afghanistan
+undata-geo/G00403000,Landlocked developing countries,country/ARM,Armenia
+undata-geo/G00403000,Landlocked developing countries,country/AZE,Azerbaijan
+undata-geo/G00403000,Landlocked developing countries,country/BDI,Burundi
+undata-geo/G00403000,Landlocked developing countries,country/BFA,Burkina Faso
+undata-geo/G00403000,Landlocked developing countries,country/BOL,Bolivia
+undata-geo/G00403000,Landlocked developing countries,country/BTN,Bhutan
+undata-geo/G00403000,Landlocked developing countries,country/BWA,Botswana
+undata-geo/G00403000,Landlocked developing countries,country/CAF,Central African Republic
+undata-geo/G00403000,Landlocked developing countries,country/ETH,Ethiopia
+undata-geo/G00403000,Landlocked developing countries,country/KAZ,Kazakhstan
+undata-geo/G00403000,Landlocked developing countries,country/KGZ,Kyrgyzstan
+undata-geo/G00403000,Landlocked developing countries,country/LAO,Laos
+undata-geo/G00403000,Landlocked developing countries,country/LSO,Lesotho
+undata-geo/G00403000,Landlocked developing countries,country/MDA,Moldova
+undata-geo/G00403000,Landlocked developing countries,country/MKD,Macedonia [FYROM]
+undata-geo/G00403000,Landlocked developing countries,country/MLI,Mali
+undata-geo/G00403000,Landlocked developing countries,country/MNG,Mongolia
+undata-geo/G00403000,Landlocked developing countries,country/MWI,Malawi
+undata-geo/G00403000,Landlocked developing countries,country/NER,Niger
+undata-geo/G00403000,Landlocked developing countries,country/NPL,Nepal
+undata-geo/G00403000,Landlocked developing countries,country/PRY,Paraguay
+undata-geo/G00403000,Landlocked developing countries,country/RWA,Rwanda
+undata-geo/G00403000,Landlocked developing countries,country/SSD,South Sudan
+undata-geo/G00403000,Landlocked developing countries,country/SWZ,Eswatini
+undata-geo/G00403000,Landlocked developing countries,country/TCD,Chad
+undata-geo/G00403000,Landlocked developing countries,country/TJK,Tajikistan
+undata-geo/G00403000,Landlocked developing countries,country/TKM,Turkmenistan
+undata-geo/G00403000,Landlocked developing countries,country/UGA,Uganda
+undata-geo/G00403000,Landlocked developing countries,country/UZB,Uzbekistan
+undata-geo/G00403000,Landlocked developing countries,country/ZMB,Zambia
+undata-geo/G00403000,Landlocked developing countries,country/ZWE,Zimbabwe
+undata-geo/G00405000,Small island developing states,country/ATG,Antigua and Barbuda
+undata-geo/G00405000,Small island developing states,country/BHS,Bahamas
+undata-geo/G00405000,Small island developing states,country/BLZ,Belize
+undata-geo/G00405000,Small island developing states,country/BRB,Barbados
+undata-geo/G00405000,Small island developing states,country/COK,Cook Islands
+undata-geo/G00405000,Small island developing states,country/COM,Comoros
+undata-geo/G00405000,Small island developing states,country/CPV,Cape Verde
+undata-geo/G00405000,Small island developing states,country/CUB,Cuba
+undata-geo/G00405000,Small island developing states,country/DMA,Dominica
+undata-geo/G00405000,Small island developing states,country/DOM,Dominican Republic
+undata-geo/G00405000,Small island developing states,country/FJI,Fiji
+undata-geo/G00405000,Small island developing states,country/FSM,Federated States of Micronesia
+undata-geo/G00405000,Small island developing states,country/GNB,Guinea-Bissau
+undata-geo/G00405000,Small island developing states,country/GRD,Grenada
+undata-geo/G00405000,Small island developing states,country/GUY,Guyana
+undata-geo/G00405000,Small island developing states,country/HTI,Haiti
+undata-geo/G00405000,Small island developing states,country/JAM,Jamaica
+undata-geo/G00405000,Small island developing states,country/KIR,Kiribati
+undata-geo/G00405000,Small island developing states,country/KNA,Saint Kitts and Nevis
+undata-geo/G00405000,Small island developing states,country/LCA,Saint Lucia
+undata-geo/G00405000,Small island developing states,country/MDV,Maldives
+undata-geo/G00405000,Small island developing states,country/MHL,Marshall Islands
+undata-geo/G00405000,Small island developing states,country/MUS,Mauritius
+undata-geo/G00405000,Small island developing states,country/NIU,Niue
+undata-geo/G00405000,Small island developing states,country/NRU,Nauru
+undata-geo/G00405000,Small island developing states,country/PLW,Palau
+undata-geo/G00405000,Small island developing states,country/PNG,Papua New Guinea
+undata-geo/G00405000,Small island developing states,country/SGP,Singapore
+undata-geo/G00405000,Small island developing states,country/SLB,Solomon Islands
+undata-geo/G00405000,Small island developing states,country/STP,São Tomé and Príncipe
+undata-geo/G00405000,Small island developing states,country/SUR,Suriname
+undata-geo/G00405000,Small island developing states,country/SYC,Seychelles
+undata-geo/G00405000,Small island developing states,country/TLS,East Timor
+undata-geo/G00405000,Small island developing states,country/TON,Tonga
+undata-geo/G00405000,Small island developing states,country/TTO,Trinidad and Tobago
+undata-geo/G00405000,Small island developing states,country/TUV,Tuvalu
+undata-geo/G00405000,Small island developing states,country/VCT,Saint Vincent and the Grenadines
+undata-geo/G00405000,Small island developing states,country/VUT,Vanuatu
+undata-geo/G00405000,Small island developing states,country/WSM,Samoa
+undata-geo/G00103000,Northern Africa and Western Asia,country/DZA,Algeria
+undata-geo/G00103000,Northern Africa and Western Asia,country/EGY,Egypt
+undata-geo/G00103000,Northern Africa and Western Asia,country/LBY,Libya
+undata-geo/G00103000,Northern Africa and Western Asia,country/MAR,Morocco
+undata-geo/G00103000,Northern Africa and Western Asia,country/SDN,Sudan
+undata-geo/G00103000,Northern Africa and Western Asia,country/TUN,Tunisia
+undata-geo/G00103000,Northern Africa and Western Asia,country/ARE,United Arab Emirates
+undata-geo/G00103000,Northern Africa and Western Asia,country/ARM,Armenia
+undata-geo/G00103000,Northern Africa and Western Asia,country/AZE,Azerbaijan
+undata-geo/G00103000,Northern Africa and Western Asia,country/BHR,Bahrain
+undata-geo/G00103000,Northern Africa and Western Asia,country/CYP,Cyprus
+undata-geo/G00103000,Northern Africa and Western Asia,country/GEO,Georgia
+undata-geo/G00103000,Northern Africa and Western Asia,country/IRQ,Iraq
+undata-geo/G00103000,Northern Africa and Western Asia,country/ISR,Israel
+undata-geo/G00103000,Northern Africa and Western Asia,country/JOR,Jordan
+undata-geo/G00103000,Northern Africa and Western Asia,country/KWT,Kuwait
+undata-geo/G00103000,Northern Africa and Western Asia,country/LBN,Lebanon
+undata-geo/G00103000,Northern Africa and Western Asia,country/OMN,Oman
+undata-geo/G00103000,Northern Africa and Western Asia,country/PSE,Palestinian Territories
+undata-geo/G00103000,Northern Africa and Western Asia,country/QAT,Qatar
+undata-geo/G00103000,Northern Africa and Western Asia,country/SAU,Saudi Arabia
+undata-geo/G00103000,Northern Africa and Western Asia,country/SYR,Syria
+undata-geo/G00103000,Northern Africa and Western Asia,country/TUR,Turkey
+undata-geo/G00103000,Northern Africa and Western Asia,country/YEM,Yemen
+undata-geo/G00116000,Central and Southern Asia,country/KAZ,Kazakhstan
+undata-geo/G00116000,Central and Southern Asia,country/KGZ,Kyrgyzstan
+undata-geo/G00116000,Central and Southern Asia,country/TJK,Tajikistan
+undata-geo/G00116000,Central and Southern Asia,country/TKM,Turkmenistan
+undata-geo/G00116000,Central and Southern Asia,country/UZB,Uzbekistan
+undata-geo/G00116000,Central and Southern Asia,country/AFG,Afghanistan
+undata-geo/G00116000,Central and Southern Asia,country/BGD,Bangladesh
+undata-geo/G00116000,Central and Southern Asia,country/BTN,Bhutan
+undata-geo/G00116000,Central and Southern Asia,country/IND,India
+undata-geo/G00116000,Central and Southern Asia,country/IRN,Iran
+undata-geo/G00116000,Central and Southern Asia,country/LKA,Sri Lanka
+undata-geo/G00116000,Central and Southern Asia,country/MDV,Maldives
+undata-geo/G00116000,Central and Southern Asia,country/NPL,Nepal
+undata-geo/G00116000,Central and Southern Asia,country/PAK,Pakistan
+undata-geo/G00122000,Eastern and South-eastern Asia,country/CHN,China
+undata-geo/G00122000,Eastern and South-eastern Asia,country/JPN,Japan
+undata-geo/G00122000,Eastern and South-eastern Asia,country/KOR,South Korea
+undata-geo/G00122000,Eastern and South-eastern Asia,country/MNG,Mongolia
+undata-geo/G00122000,Eastern and South-eastern Asia,country/PRK,North Korea
+undata-geo/G00122000,Eastern and South-eastern Asia,country/BRN,Brunei
+undata-geo/G00122000,Eastern and South-eastern Asia,country/IDN,Indonesia
+undata-geo/G00122000,Eastern and South-eastern Asia,country/KHM,Cambodia
+undata-geo/G00122000,Eastern and South-eastern Asia,country/LAO,Laos
+undata-geo/G00122000,Eastern and South-eastern Asia,country/MMR,Myanmar
+undata-geo/G00122000,Eastern and South-eastern Asia,country/MYS,Malaysia
+undata-geo/G00122000,Eastern and South-eastern Asia,country/PHL,Philippines
+undata-geo/G00122000,Eastern and South-eastern Asia,country/SGP,Singapore
+undata-geo/G00122000,Eastern and South-eastern Asia,country/THA,Thailand
+undata-geo/G00122000,Eastern and South-eastern Asia,country/TLS,East Timor
+undata-geo/G00122000,Eastern and South-eastern Asia,country/VNM,Vietnam
+undata-geo/G00126000,Europe and Northern America,country/EST,Estonia
+undata-geo/G00126000,Europe and Northern America,country/FIN,Finland
+undata-geo/G00126000,Europe and Northern America,country/GBR,United Kingdom
+undata-geo/G00126000,Europe and Northern America,country/IRL,Ireland
+undata-geo/G00126000,Europe and Northern America,country/ISL,Iceland
+undata-geo/G00126000,Europe and Northern America,country/LTU,Lithuania
+undata-geo/G00126000,Europe and Northern America,country/LVA,Latvia
+undata-geo/G00126000,Europe and Northern America,country/NOR,Norway
+undata-geo/G00126000,Europe and Northern America,country/SWE,Sweden
+undata-geo/G00126000,Europe and Northern America,country/AUT,Austria
+undata-geo/G00126000,Europe and Northern America,country/BEL,Belgium
+undata-geo/G00126000,Europe and Northern America,country/CHE,Switzerland
+undata-geo/G00126000,Europe and Northern America,country/DEU,Germany
+undata-geo/G00126000,Europe and Northern America,country/FRA,France
+undata-geo/G00126000,Europe and Northern America,country/LUX,Luxembourg
+undata-geo/G00126000,Europe and Northern America,country/MCO,Monaco
+undata-geo/G00126000,Europe and Northern America,country/NLD,Netherlands
+undata-geo/G00126000,Europe and Northern America,country/ALB,Albania
+undata-geo/G00126000,Europe and Northern America,country/AND,Andorra
+undata-geo/G00126000,Europe and Northern America,country/BIH,Bosnia and Herzegovina
+undata-geo/G00126000,Europe and Northern America,country/ESP,Spain
+undata-geo/G00126000,Europe and Northern America,country/GRC,Greece
+undata-geo/G00126000,Europe and Northern America,country/HRV,Croatia
+undata-geo/G00126000,Europe and Northern America,country/ITA,Italy
+undata-geo/G00126000,Europe and Northern America,country/MKD,Macedonia [FYROM]
+undata-geo/G00126000,Europe and Northern America,country/MLT,Malta
+undata-geo/G00126000,Europe and Northern America,country/MNE,Montenegro
+undata-geo/G00126000,Europe and Northern America,country/PRT,Portugal
+undata-geo/G00126000,Europe and Northern America,country/SMR,San Marino
+undata-geo/G00126000,Europe and Northern America,country/SRB,Serbia
+undata-geo/G00126000,Europe and Northern America,country/SVN,Slovenia
+undata-geo/G00126000,Europe and Northern America,country/BGR,Bulgaria
+undata-geo/G00126000,Europe and Northern America,country/BLR,Belarus
+undata-geo/G00126000,Europe and Northern America,country/CZE,Czech Republic
+undata-geo/G00126000,Europe and Northern America,country/HUN,Hungary
+undata-geo/G00126000,Europe and Northern America,country/MDA,Moldova
+undata-geo/G00126000,Europe and Northern America,country/POL,Poland
+undata-geo/G00126000,Europe and Northern America,country/ROU,Romania
+undata-geo/G00126000,Europe and Northern America,country/RUS,Russia
+undata-geo/G00126000,Europe and Northern America,country/SVK,Slovakia
+undata-geo/G00126000,Europe and Northern America,country/UKR,Ukraine
+undata-geo/G00126000,Europe and Northern America,country/CAN,Canada
+undata-geo/G00126000,Europe and Northern America,country/USA,United States

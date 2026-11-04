@@ -1,0 +1,51 @@
+{
+ "frame": "L",
+ "ok": true,
+ "kind": "trend",
+ "place": "Landlocked developing countries (LLDCs)",
+ "first": {
+  "year": 2020,
+  "value": 32.4045
+ },
+ "last": {
+  "year": 2025,
+  "value": 28.425
+ },
+ "change": -3.9795,
+ "per_year": -0.7959,
+ "series": [
+  [
+   2020,
+   32.40447
+  ],
+  [
+   2021,
+   32.39205
+  ],
+  [
+   2022,
+   28.24232
+  ],
+  [
+   2023,
+   28.33499
+  ],
+  [
+   2024,
+   28.43942
+  ],
+  [
+   2025,
+   28.425
+  ]
+ ],
+ "family": "women_local_gov",
+ "what": "seats in local government held by women",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "UN Women",
+ "breakdown": null,
+ "place_type": "grouping",
+ "stale_cutoff": 2020,
+ "breakdown_source": null
+}

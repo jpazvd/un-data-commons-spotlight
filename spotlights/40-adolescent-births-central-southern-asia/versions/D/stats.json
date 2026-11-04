@@ -1,0 +1,52 @@
+{
+ "frame": "D",
+ "ok": true,
+ "kind": "coverage",
+ "place": "Central and Southern Asia",
+ "n_with_data": 14,
+ "n_members": 14,
+ "n_members_with_data": 14,
+ "n_stale": 5,
+ "stale_cutoff": 2020,
+ "latest_year_max": 2023,
+ "latest_year_min": 2015,
+ "median_latest_year": 2021,
+ "by_year": [
+  [
+   2015,
+   1
+  ],
+  [
+   2018,
+   1
+  ],
+  [
+   2019,
+   1
+  ],
+  [
+   2020,
+   2
+  ],
+  [
+   2021,
+   4
+  ],
+  [
+   2022,
+   1
+  ],
+  [
+   2023,
+   4
+  ]
+ ],
+ "family": "abr",
+ "what": "births per 1,000 girls aged 15 to 19",
+ "unit": " per 1,000",
+ "better": "lower",
+ "custodian": "UN DESA Population Division and UNFPA",
+ "breakdown": "location",
+ "place_type": "region",
+ "breakdown_source": "WHO Global Health Observatory"
+}

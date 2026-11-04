@@ -1,0 +1,46 @@
+{
+  "spotlight": 9,
+  "slug": "09-sanitation-ldcs",
+  "title": "Safely managed sanitation, Least developed countries (LDCs), by location",
+  "sdg_indicator": "6.2.1",
+  "retrieved_on": "2026-11-01",
+  "target_value": 100,
+  "target_year": 2030,
+  "target_basis": "SDG 6.2",
+  "experiment": {
+    "id": "002",
+    "proposal": "P09",
+    "family": "sanitation",
+    "pace": 1,
+    "kind": "standard",
+    "place_type": "grouping",
+    "place": "Least developed countries (LDCs)",
+    "place_dcids": [
+      "undata-geo/G00404000"
+    ],
+    "breakdown": "location",
+    "frames_proposed": "T|L|G|D",
+    "feed_tag": "#EconSky",
+    "versions": [
+      {
+        "version": "9-D",
+        "frame": "D",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "9-L",
+        "frame": "L",
+        "design": "Ink",
+        "template": "templates/banner-ink.dc.html"
+      },
+      {
+        "version": "9-T",
+        "frame": "T",
+        "design": "D-light",
+        "template": "templates/banner-D-light.dc.html"
+      }
+    ],
+    "frames_supported": "T|L|G|D"
+  }
+}

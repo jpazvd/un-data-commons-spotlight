@@ -1,0 +1,319 @@
+dcid,name,group,year,value
+country/AFG,Afghanistan,female,2022,35.94693
+country/AGO,Angola,female,2023,54.88991
+country/ALB,Albania,female,2017,95.9861
+country/ARG,Argentina,female,2010,93.81141
+country/ARM,Armenia,female,2023,100
+country/AUS,Australia,female,2018,99.41
+country/AUT,Austria,female,2021,99.17
+country/AZE,Azerbaijan,female,2023,98.48557
+country/BDI,Burundi,female,2017,54.11842
+country/BEL,Belgium,female,2021,97.705
+country/BEN,Benin,female,2022,49.36142
+country/BFA,Burkina Faso,female,2021,62.13933
+country/BGD,Bangladesh,female,2022,92.97844
+country/BGR,Bulgaria,female,2021,99.14
+country/BIH,Bosnia and Herzegovina,female,2012,99.89095
+country/BLR,Belarus,female,2019,100
+country/BLZ,Belize,female,2015,96.7332
+country/BOL,Bolivia,female,2024,98.87805
+country/BRA,Brazil,female,2024,98.09703
+country/BRB,Barbados,female,2012,99.46783
+country/BTN,Bhutan,female,2022,92.14128
+country/BWA,Botswana,female,2023,97.85003
+country/CAF,Central African Republic,female,2019,23.86257
+country/CAN,Canada,female,2010,99.66
+country/CHE,Switzerland,female,2021,99.475
+country/CHL,Chile,female,2022,99.2
+country/CHN,China,female,2018,97.38264
+country/CIV,Côte d'Ivoire,female,2021,64.07131
+country/CMR,Cameroon,female,2018,73.17079
+country/COD,Congo [DRC],female,2023,70.19786
+country/COG,Congo [Republic],female,2015,82.01903
+country/COL,Colombia,female,2024,98.47709
+country/COM,Comoros,female,2022,84.87932
+country/CRI,Costa Rica,female,2024,99.7
+country/CUB,Cuba,female,2019,99.84061
+country/CYP,Cyprus,female,2021,97.795
+country/DEU,Germany,female,2020,97.9
+country/DJI,Djibouti,female,2017,77.90222
+country/DNK,Denmark,female,2021,99.59
+country/DOM,Dominican Republic,female,2024,91.53112
+country/DZA,Algeria,female,2019,95.59985
+country/ECU,Ecuador,female,2024,98.14718
+country/EGY,Egypt,female,2022,96.2
+country/ESP,Spain,female,2021,98.985
+country/EST,Estonia,female,2021,100
+country/ETH,Ethiopia,female,2022,52.85546
+country/FIN,Finland,female,2021,99.585
+country/FJI,Fiji,female,2021,98.87966
+country/FRA,France,female,2021,99.33
+country/GAB,Gabon,female,2017,80.57
+country/GBR,United Kingdom,female,2019,99.88
+country/GEO,Georgia,female,2018,99.90824
+country/GHA,Ghana,female,2024,79.07147
+country/GIN,Guinea,female,2018,39.07736
+country/GMB,Gambia,female,2023,69.35975
+country/GNB,Guinea-Bissau,female,2022,39.23447
+country/GNQ,Equatorial Guinea,female,2000,43.18
+country/GRC,Greece,female,2021,99.5
+country/GTM,Guatemala,female,2024,85.64766
+country/GUY,Guyana,female,2019,99.16664
+country/HND,Honduras,female,2024,89.92
+country/HRV,Croatia,female,2021,99.825
+country/HTI,Haiti,female,2017,57.77634
+country/HUN,Hungary,female,2021,99.26
+country/IDN,Indonesia,female,2022,99.26
+country/IND,India,female,2019,94.42809
+country/IRQ,Iraq,female,2018,73.1966
+country/ISR,Israel,female,2018,100
+country/ITA,Italy,female,2021,99.75
+country/JAM,Jamaica,female,2022,99.66046
+country/JOR,Jordan,female,2023,97.02942
+country/KAZ,Kazakhstan,female,2024,99.85539
+country/KEN,Kenya,female,2024,92.9528
+country/KGZ,Kyrgyzstan,female,2023,99.34371
+country/KHM,Cambodia,female,2021,87.33632
+country/KIR,Kiribati,female,2018,96.45159
+country/KOR,South Korea,female,2012,100
+country/LAO,Laos,female,2023,87.92756
+country/LBN,Lebanon,female,2018,95.98564
+country/LBR,Liberia,female,2019,32.69349
+country/LCA,Saint Lucia,female,2012,100
+country/LKA,Sri Lanka,female,2023,99.71636
+country/LSO,Lesotho,female,2024,94.79191
+country/LTU,Lithuania,female,2021,99.62
+country/LUX,Luxembourg,female,2021,98.48
+country/LVA,Latvia,female,2021,100
+country/MAR,Morocco,female,2010,69.2848
+country/MDA,Moldova,female,2012,99.47757
+country/MDG,Madagascar,female,2021,53.55435
+country/MDV,Maldives,female,2017,99.12962
+country/MEX,Mexico,female,2024,97.85165
+country/MKD,Macedonia [FYROM],female,2018,99.64169
+country/MLI,Mali,female,2024,46.21645
+country/MMR,Myanmar,female,2016,84.39792
+country/MNE,Montenegro,female,2018,98.52727
+country/MNG,Mongolia,female,2020,97.73908
+country/MOZ,Mozambique,female,2022,54.58895
+country/MRT,Mauritania,female,2015,53.23781
+country/MWI,Malawi,female,2020,54.02106
+country/NAM,Namibia,female,2015,89.65
+country/NER,Niger,female,2022,31.98557
+country/NGA,Nigeria,female,2024,76.49162
+country/NIC,Nicaragua,female,2014,84.9
+country/NOR,Norway,female,2021,100
+country/NPL,Nepal,female,2021,85.42619
+country/NRU,Nauru,female,2023,91.39785
+country/PAK,Pakistan,female,2021,56.32747
+country/PAN,Panama,female,2023,97.1
+country/PER,Peru,female,2024,98.9096
+country/PHL,Philippines,female,2022,97.92061
+country/PNG,Papua New Guinea,female,2022,69.53
+country/POL,Poland,female,2020,98.47
+country/PRI,Puerto Rico,female,2024,99.16457
+country/PRT,Portugal,female,2021,99.395
+country/PRY,Paraguay,female,2024,97.44716
+country/PSE,Palestinian Territories,female,2019,99.5052
+country/QAT,Qatar,female,2023,100
+country/ROU,Romania,female,2021,98.545
+country/RUS,Russia,female,2022,100
+country/RWA,Rwanda,female,2022,69.34479
+country/SDN,Sudan,female,2014,64.43813
+country/SEN,Senegal,female,2023,57.58543
+country/SLE,Sierra Leone,female,2019,70.60753
+country/SLV,El Salvador,female,2023,94.1
+country/SOM,Somalia,female,2023,46.88305
+country/SRB,Serbia,female,2019,98.88828
+country/SSD,South Sudan,female,2010,18.27363
+country/STP,São Tomé and Príncipe,female,2019,92.10557
+country/SUR,Suriname,female,2022,95.0856
+country/SVN,Slovenia,female,2021,99.61
+country/SWE,Sweden,female,2021,99.66
+country/SWZ,Eswatini,female,2022,84.91515
+country/SYR,Syria,female,2006,94.73919
+country/TCA,Turks and Caicos Islands,female,2019,100
+country/TCD,Chad,female,2019,23.12793
+country/TGO,Togo,female,2022,76.20865
+country/THA,Thailand,female,2022,99.64023
+country/TJK,Tajikistan,female,2023,99.3874
+country/TKM,Turkmenistan,female,2019,99.28766
+country/TLS,East Timor,female,2016,84.82214
+country/TON,Tonga,female,2019,98.64032
+country/TTO,Trinidad and Tobago,female,2022,99.51403
+country/TUN,Tunisia,female,2023,94.91922
+country/TUR,Turkey,female,2022,97.64
+country/TUV,Tuvalu,female,2019,100
+country/TZA,Tanzania,female,2022,79.20145
+country/UGA,Uganda,female,2024,43.31423
+country/UKR,Ukraine,female,2013,99.2674
+country/URY,Uruguay,female,2024,99.48226
+country/USA,United States,female,2024,99.61115
+country/UZB,Uzbekistan,female,2022,99.70242
+country/VEN,Venezuela,female,2014,95.3
+country/VNM,Vietnam,female,2021,98.55174
+country/VUT,Vanuatu,female,2023,83.74271
+country/WSM,Samoa,female,2019,99.17286
+country/YEM,Yemen,female,2023,64.75653
+country/ZAF,South Africa,female,2024,98.38247
+country/ZMB,Zambia,female,2024,76.25424
+country/ZWE,Zimbabwe,female,2019,91.62107
+country/AFG,Afghanistan,male,2022,53.28957
+country/AGO,Angola,male,2023,55.62819
+country/ALB,Albania,male,2017,94.8116
+country/ARG,Argentina,male,2010,91.55851
+country/ARM,Armenia,male,2023,99.95857
+country/AUS,Australia,male,2018,99.735
+country/AUT,Austria,male,2021,98.825
+country/AZE,Azerbaijan,male,2023,98.9501
+country/BDI,Burundi,male,2017,45.99796
+country/BEL,Belgium,male,2021,97.7
+country/BEN,Benin,male,2022,51.37455
+country/BFA,Burkina Faso,male,2021,58.43113
+country/BGD,Bangladesh,male,2022,83.28728
+country/BGR,Bulgaria,male,2021,98.84
+country/BIH,Bosnia and Herzegovina,male,2012,99.58797
+country/BLR,Belarus,male,2019,100
+country/BLZ,Belize,male,2015,95.63588
+country/BOL,Bolivia,male,2024,98.9342
+country/BRA,Brazil,male,2024,97.177
+country/BRB,Barbados,male,2012,97.47688
+country/BTN,Bhutan,male,2022,86.81368
+country/BWA,Botswana,male,2023,95.41617
+country/CAF,Central African Republic,male,2019,30.1695
+country/CAN,Canada,male,2010,99.84
+country/CHE,Switzerland,male,2021,99.23
+country/CHL,Chile,male,2022,99.3
+country/CHN,China,male,2018,98.08371
+country/CIV,Côte d'Ivoire,male,2021,66.34925
+country/CMR,Cameroon,male,2018,74.8758
+country/COD,Congo [DRC],male,2023,69.78334
+country/COG,Congo [Republic],male,2015,78.73362
+country/COL,Colombia,male,2024,96.10827
+country/COM,Comoros,male,2022,78.22972
+country/CRI,Costa Rica,male,2024,99.43872
+country/CUB,Cuba,male,2019,99.5
+country/CYP,Cyprus,male,2018,98.005
+country/DEU,Germany,male,2013,98.255
+country/DJI,Djibouti,male,2017,84.24924
+country/DNK,Denmark,male,2021,99.265
+country/DOM,Dominican Republic,male,2024,88.62814
+country/DZA,Algeria,male,2019,92.61951
+country/ECU,Ecuador,male,2024,98.10962
+country/EGY,Egypt,male,2022,96.03
+country/ESP,Spain,male,2021,98.26
+country/EST,Estonia,male,2021,99.47
+country/ETH,Ethiopia,male,2022,56.09574
+country/FIN,Finland,male,2021,100
+country/FJI,Fiji,male,2021,98.03321
+country/FRA,France,male,2021,98.94
+country/GAB,Gabon,male,2017,70.97
+country/GBR,United Kingdom,male,2019,99.715
+country/GEO,Georgia,male,2018,99.90456
+country/GHA,Ghana,male,2024,76.22138
+country/GIN,Guinea,male,2018,52.34442
+country/GMB,Gambia,male,2023,54.56135
+country/GNB,Guinea-Bissau,male,2022,38.13658
+country/GNQ,Equatorial Guinea,male,2000,41.39
+country/GRC,Greece,male,2021,98.565
+country/GTM,Guatemala,male,2024,84.19022
+country/GUY,Guyana,male,2019,97.3454
+country/HND,Honduras,male,2024,86.26206
+country/HRV,Croatia,male,2021,99.745
+country/HTI,Haiti,male,2017,48.16162
+country/HUN,Hungary,male,2021,99.15
+country/IDN,Indonesia,male,2022,98.84
+country/IND,India,male,2019,93.88668
+country/IRQ,Iraq,male,2018,77.94348
+country/ISR,Israel,male,2018,100
+country/ITA,Italy,male,2021,99.635
+country/JAM,Jamaica,male,2022,98.74296
+country/JOR,Jordan,male,2023,96.10292
+country/KAZ,Kazakhstan,male,2024,99.15632
+country/KEN,Kenya,male,2024,88.61779
+country/KGZ,Kyrgyzstan,male,2023,99.55511
+country/KHM,Cambodia,male,2021,77.5751
+country/KIR,Kiribati,male,2018,92.13564
+country/KOR,South Korea,male,2012,100
+country/LAO,Laos,male,2023,87.39276
+country/LBN,Lebanon,male,2018,97.71724
+country/LBR,Liberia,male,2019,28.64793
+country/LCA,Saint Lucia,male,2012,99.244
+country/LKA,Sri Lanka,male,2023,99.50523
+country/LSO,Lesotho,male,2024,81.86652
+country/LTU,Lithuania,male,2021,99.475
+country/LUX,Luxembourg,male,2021,98.04
+country/LVA,Latvia,male,2021,99.415
+country/MAR,Morocco,male,2010,69.50133
+country/MDA,Moldova,male,2012,98.72204
+country/MDG,Madagascar,male,2021,46.03663
+country/MDV,Maldives,male,2017,97.17427
+country/MEX,Mexico,male,2024,97.42233
+country/MKD,Macedonia [FYROM],male,2018,97.02458
+country/MLI,Mali,male,2024,48.83334
+country/MMR,Myanmar,male,2016,81.8054
+country/MNE,Montenegro,male,2018,94.51942
+country/MNG,Mongolia,male,2020,97.2218
+country/MOZ,Mozambique,male,2022,54.14595
+country/MRT,Mauritania,male,2015,63.57275
+country/MWI,Malawi,male,2020,44.86843
+country/NAM,Namibia,male,2015,84.99
+country/NER,Niger,male,2022,39.04244
+country/NGA,Nigeria,male,2024,78.0637
+country/NIC,Nicaragua,male,2014,67
+country/NOR,Norway,male,2021,100
+country/NPL,Nepal,male,2021,86.95075
+country/NRU,Nauru,male,2023,89.38053
+country/PAK,Pakistan,male,2021,63.46215
+country/PAN,Panama,male,2023,97.5
+country/PER,Peru,male,2024,99.06984
+country/PHL,Philippines,male,2022,94.07372
+country/PNG,Papua New Guinea,male,2022,65.89
+country/POL,Poland,male,2020,97.725
+country/PRI,Puerto Rico,male,2024,98.66432
+country/PRT,Portugal,male,2021,99.26
+country/PRY,Paraguay,male,2024,96.18285
+country/PSE,Palestinian Territories,male,2019,99.4132
+country/QAT,Qatar,male,2023,100
+country/ROU,Romania,male,2021,97.585
+country/RUS,Russia,male,2022,99.53
+country/RWA,Rwanda,male,2022,55.98039
+country/SDN,Sudan,male,2014,66.45132
+country/SEN,Senegal,male,2023,47.38765
+country/SLE,Sierra Leone,male,2019,68.35447
+country/SLV,El Salvador,male,2023,88.8
+country/SOM,Somalia,male,2023,52.96426
+country/SRB,Serbia,male,2019,100
+country/SSD,South Sudan,male,2010,31.67302
+country/STP,São Tomé and Príncipe,male,2019,82.17218
+country/SUR,Suriname,male,2022,90.45243
+country/SVN,Slovenia,male,2021,99.72
+country/SWE,Sweden,male,2021,99.15
+country/SWZ,Eswatini,male,2022,74.90296
+country/SYR,Syria,male,2006,96.40603
+country/TCA,Turks and Caicos Islands,male,2019,97.92864
+country/TCD,Chad,male,2019,30.36958
+country/TGO,Togo,male,2022,82.06856
+country/THA,Thailand,male,2022,98.02291
+country/TJK,Tajikistan,male,2023,98.58908
+country/TKM,Turkmenistan,male,2019,99.41743
+country/TLS,East Timor,male,2016,76.86149
+country/TON,Tonga,male,2019,97.79141
+country/TTO,Trinidad and Tobago,male,2022,98.72425
+country/TUN,Tunisia,male,2023,90.54656
+country/TUR,Turkey,male,2022,97.765
+country/TUV,Tuvalu,male,2019,100
+country/TZA,Tanzania,male,2022,70.10761
+country/UGA,Uganda,male,2024,33.92824
+country/UKR,Ukraine,male,2013,99.89616
+country/URY,Uruguay,male,2024,99.33007
+country/USA,United States,male,2024,99.58172
+country/UZB,Uzbekistan,male,2022,99.71454
+country/VEN,Venezuela,male,2014,92.9
+country/VNM,Vietnam,male,2021,98.04855
+country/VUT,Vanuatu,male,2023,79.37845
+country/WSM,Samoa,male,2019,97.0252
+country/YEM,Yemen,male,2023,71.32933
+country/ZAF,South Africa,male,2024,96.73991
+country/ZMB,Zambia,male,2024,72.21151
+country/ZWE,Zimbabwe,male,2019,86.35518

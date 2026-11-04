@@ -1,0 +1,23 @@
+{
+ "frame": "G",
+ "ok": true,
+ "kind": "groups",
+ "groups": [
+  "rural",
+  "urban"
+ ],
+ "dcid": "undata-geo/G00103000",
+ "place": "N. Africa and W. Asia",
+ "year": 2024,
+ "rural": 45.0111,
+ "urban": 69.7352,
+ "family": "sanitation",
+ "what": "people using safely managed sanitation",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "WHO/UNICEF JMP",
+ "breakdown": "location",
+ "place_type": "region",
+ "stale_cutoff": 2020,
+ "breakdown_source": "UN SDG Global Database"
+}

@@ -1,0 +1,46 @@
+{
+  "spotlight": 16,
+  "slug": "16-water-world",
+  "title": "Safely managed drinking water, World",
+  "sdg_indicator": "6.1.1",
+  "retrieved_on": "2026-11-01",
+  "target_value": 100,
+  "target_year": 2030,
+  "target_basis": "SDG 6.1",
+  "experiment": {
+    "id": "002",
+    "proposal": "P16",
+    "family": "water",
+    "pace": 1,
+    "kind": "standard",
+    "place_type": "world",
+    "place": "World",
+    "place_dcids": [
+      "Earth"
+    ],
+    "breakdown": "none",
+    "frames_proposed": "T|L|D",
+    "feed_tag": "#EconSky",
+    "versions": [
+      {
+        "version": "16-L",
+        "frame": "L",
+        "design": "Ink",
+        "template": "templates/banner-ink.dc.html"
+      },
+      {
+        "version": "16-T",
+        "frame": "T",
+        "design": "D-dark",
+        "template": "templates/banner-D-dark.dc.html"
+      },
+      {
+        "version": "16-D",
+        "frame": "D",
+        "design": "D-light",
+        "template": "templates/banner-D-light.dc.html"
+      }
+    ],
+    "frames_supported": "T|L|D"
+  }
+}

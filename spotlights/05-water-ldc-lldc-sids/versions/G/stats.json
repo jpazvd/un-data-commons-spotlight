@@ -1,0 +1,41 @@
+{
+ "frame": "G",
+ "ok": true,
+ "kind": "places_gap",
+ "year": 2024,
+ "places": [
+  {
+   "dcid": "undata-geo/G00404000",
+   "place": "LDCs",
+   "value": 38.7702
+  },
+  {
+   "dcid": "undata-geo/G00403000",
+   "place": "LLDCs",
+   "value": 36.9052
+  },
+  {
+   "dcid": "undata-geo/G00405000",
+   "place": "SIDS",
+   "value": 57.4573
+  },
+  {
+   "dcid": "Earth",
+   "place": "World",
+   "value": 73.7352
+  }
+ ],
+ "highest": "undata-geo/G00405000",
+ "lowest": "undata-geo/G00403000",
+ "difference": 20.5521,
+ "ratio": 1.5569,
+ "family": "water",
+ "what": "people using safely managed drinking water",
+ "unit": "%",
+ "better": "higher",
+ "custodian": "WHO/UNICEF JMP",
+ "breakdown": null,
+ "place_type": "groupings",
+ "stale_cutoff": 2020,
+ "breakdown_source": null
+}

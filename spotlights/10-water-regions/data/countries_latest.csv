@@ -1,0 +1,164 @@
+dcid,name,year,value
+country/AFG,Afghanistan,2024,30.55472183
+country/ALB,Albania,2024,70.79373932
+country/AND,Andorra,2024,90.63999939
+country/ARE,United Arab Emirates,2024,98.64131927
+country/ARM,Armenia,2024,82.07282257
+country/ASM,American Samoa,2024,90.53833771
+country/AUT,Austria,2024,98.8915329
+country/AZE,Azerbaijan,2024,57.81182861
+country/BEL,Belgium,2024,99.5471344
+country/BEN,Benin,2024,17.69683266
+country/BES,"Bonaire, Sint Eustatius and Saba",2024,100
+country/BGD,Bangladesh,2024,59.12542725
+country/BGR,Bulgaria,2024,96.20707703
+country/BHR,Bahrain,2024,98.90397644
+country/BIH,Bosnia and Herzegovina,2024,86.40010834
+country/BLM,Saint Barthélemy,2024,100
+country/BLR,Belarus,2024,93.05975342
+country/BRA,Brazil,2024,88.6239624
+country/BTN,Bhutan,2024,65.59421539
+country/BWA,Botswana,2024,63.29104233
+country/CAF,Central African Republic,2024,6.217487812
+country/CAN,Canada,2024,96.89031982
+country/CHE,Switzerland,2024,96.69999695
+country/CHL,Chile,2024,97.81705475
+country/CIV,Côte d'Ivoire,2024,36.44893646
+country/COD,Congo [DRC],2024,11.87264824
+country/COG,Congo [Republic],2021,45.8748436
+country/COL,Colombia,2024,74.33930206
+country/CRI,Costa Rica,2024,80.50007629
+country/CYP,Cyprus,2024,99.72110748
+country/CZE,Czech Republic,2024,98.14487457
+country/DEU,Germany,2024,99.91729736
+country/DNK,Denmark,2024,99.91883087
+country/DOM,Dominican Republic,2024,45.33240891
+country/DZA,Algeria,2024,69.02918243
+country/ECU,Ecuador,2024,69.88700104
+country/EGY,Egypt,2024,78.94015503
+country/ESP,Spain,2024,99.45846558
+country/EST,Estonia,2024,98.94390869
+country/ETH,Ethiopia,2024,13.54720116
+country/FIN,Finland,2024,99.64679718
+country/FJI,Fiji,2024,42.11074829
+country/FRA,France,2024,99.71269989
+country/GBR,United Kingdom,2024,99.82295227
+country/GEO,Georgia,2024,70.52661133
+country/GHA,Ghana,2024,42.94139099
+country/GIB,Gibraltar,2024,100
+country/GLP,Guadeloupe,2024,96.65287781
+country/GMB,Gambia,2024,48.17900467
+country/GNB,Guinea-Bissau,2024,23.98501587
+country/GRC,Greece,2024,96.68615723
+country/GRD,Grenada,2017,89.91767883
+country/GTM,Guatemala,2024,48.7871933
+country/GUF,French Guiana,2024,92.23724365
+country/GUM,Guam,2024,93.99715424
+country/GUY,Guyana,2024,67.17443848
+country/HKG,Hong Kong,2024,100
+country/HND,Honduras,2024,65.51622009
+country/HRV,Croatia,2024,87.2682724
+country/HUN,Hungary,2024,100
+country/IDN,Indonesia,2024,30.46097755
+country/IMN,Isle of Man,2024,99.91059875
+country/IND,India,2024,76.44219208
+country/IRL,Ireland,2024,96.12500763
+country/IRN,Iran,2024,94.41220856
+country/IRQ,Iraq,2024,59.82724762
+country/ISL,Iceland,2024,100
+country/ISR,Israel,2024,99.46199036
+country/ITA,Italy,2024,96.75843811
+country/JEY,Jersey,2024,92.8451767
+country/JOR,Jordan,2024,88.95030212
+country/JPN,Japan,2024,98.72702789
+country/KAZ,Kazakhstan,2024,91.54541779
+country/KGZ,Kyrgyzstan,2024,73.88130188
+country/KHM,Cambodia,2024,29.98557663
+country/KIR,Kiribati,2024,15.08794117
+country/KOR,South Korea,2024,99.28266907
+country/KWT,Kuwait,2024,100
+country/LAO,Laos,2024,35.18772125
+country/LBN,Lebanon,2024,47.70000076
+country/LIE,Liechtenstein,2024,100
+country/LKA,Sri Lanka,2024,46.93297195
+country/LSO,Lesotho,2024,31.32024193
+country/LTU,Lithuania,2024,96.73357391
+country/LUX,Luxembourg,2024,99.65305328
+country/LVA,Latvia,2024,97.01140594
+country/MAC,Macau,2024,100
+country/MAF,Saint Martin,2024,96.62548065
+country/MAR,Morocco,2024,79.98180389
+country/MCO,Monaco,2024,100
+country/MDA,Moldova,2024,75.81588745
+country/MDG,Madagascar,2024,22.05599403
+country/MEX,Mexico,2024,42.96663284
+country/MKD,Macedonia [FYROM],2024,80.7905426
+country/MLT,Malta,2024,99.82676697
+country/MMR,Myanmar,2024,59.72397614
+country/MNE,Montenegro,2024,85.50091553
+country/MNG,Mongolia,2024,43.36072159
+country/MNP,Northern Mariana Islands,2024,81.45454407
+country/MOZ,Mozambique,2024,27.54294586
+country/MTQ,Martinique,2024,98.98405457
+country/MWI,Malawi,2024,18.18165398
+country/MYS,Malaysia,2024,94.70036316
+country/MYT,Mayotte,2023,92.46110535
+country/NCL,New Caledonia,2024,96.86528778
+country/NGA,Nigeria,2024,29.90459824
+country/NIU,Niue,2024,92.95602417
+country/NLD,Netherlands,2024,99.95950317
+country/NOR,Norway,2024,99.06248474
+country/NPL,Nepal,2024,16.48688507
+country/NRU,Nauru,2024,18.66316223
+country/NZL,New Zealand,2024,100
+country/OMN,Oman,2024,91.1011734
+country/PAK,Pakistan,2024,44.97373581
+country/PER,Peru,2024,49.42839813
+country/PHL,Philippines,2024,48.48405838
+country/PLW,Palau,2024,90.77521515
+country/POL,Poland,2024,88.67554474
+country/PRI,Puerto Rico,2024,98.94026184
+country/PRK,North Korea,2023,66.61213684
+country/PRT,Portugal,2024,95.21734619
+country/PRY,Paraguay,2024,64.36472321
+country/PSE,Palestinian Territories,2024,80.64201355
+country/PYF,French Polynesia,2024,90.44871521
+country/QAT,Qatar,2024,95.34524536
+country/REU,Réunion,2024,95.6969223
+country/ROU,Romania,2024,82.18299103
+country/RUS,Russia,2024,76.26072693
+country/SEN,Senegal,2024,27.19314003
+country/SGP,Singapore,2024,100
+country/SHN,Saint Helena,2024,98.39427185
+country/SLE,Sierra Leone,2024,10.89538383
+country/SMR,San Marino,2024,99.99999237
+country/SPM,Saint Pierre and Miquelon,2024,96.03833771
+country/SRB,Serbia,2024,74.96726227
+country/STP,São Tomé and Príncipe,2024,36.68003845
+country/SUR,Suriname,2024,55.84724045
+country/SVK,Slovakia,2024,99.57155609
+country/SVN,Slovenia,2024,99.57459259
+country/SWE,Sweden,2024,99.76079559
+country/SWZ,Eswatini,2024,38.21653748
+country/SYC,Seychelles,2024,64.70223236
+country/TCA,Turks and Caicos Islands,2024,47.04991913
+country/TCD,Chad,2024,6.340826511
+country/TGO,Togo,2024,20.52323532
+country/TJK,Tajikistan,2024,65.10807037
+country/TKM,Turkmenistan,2024,94.85354614
+country/TON,Tonga,2024,29.59845352
+country/TTO,Trinidad and Tobago,2024,69.3692627
+country/TUN,Tunisia,2024,64.97810364
+country/TUV,Tuvalu,2024,8.722550392
+country/TZA,Tanzania,2024,31.3253994
+country/UGA,Uganda,2024,18.09712219
+country/UKR,Ukraine,2024,87.86837769
+country/USA,United States,2024,97.56768799
+country/UZB,Uzbekistan,2024,81.92950439
+country/VIR,U.S. Virgin Islands,2024,98.6774826
+country/VNM,Vietnam,2024,58.58083725
+country/VUT,Vanuatu,2024,19.19708443
+country/WLF,Wallis and Futuna,2024,68.89931488
+country/WSM,Samoa,2024,62.50194168
+country/ZAF,South Africa,2024,68.00756073
+country/ZWE,Zimbabwe,2024,25.46056366
