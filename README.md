@@ -53,10 +53,31 @@ text, and the code that re-derives every number from that data and renders every
 Banners: T, L, G and D are a version's headline framing (what it would take, the long view, behind the average, the
 data behind it; D1 to D3 are the three data versions of a data-gap topic), with the banner design in brackets.
 
+## How this repository is organised
+
+| Folder or file | What it holds |
+| --- | --- |
+| `spotlights/<NN-slug>/` | One folder per Spotlight: the data as retrieved, the calls that retrieved it, every number, the banners and the post text. Open a folder to see its banners |
+| `scripts/` | The code: `reproduce.py` re-derives every number, `render_banner.py` renders a banner from its design source, `fetch_sdg_api.py` compares a snapshot with the SDG API today; the others draw the designs |
+| `templates/` | The banner designs |
+| `LICENSE`, `LICENSE-CONTENT.md` | Code: MIT. Banners, captions and text: CC BY 4.0 |
+| `CITATION.cff` | How to cite |
+| `requirements.txt`, `package.json`, `package-lock.json` | What the code needs: Python packages and the pinned banner fonts |
+
+**Finding a banner.** Spotlights 01 to 04 have one banner, in the Spotlight folder
+(`spotlights/03-women-in-parliament/banner.png`). Spotlights 05 to 40 have one per version, in
+`spotlights/<NN-slug>/versions/<F>/` (`spotlights/05-water-ldc-lldc-sids/versions/T/banner.png`), where F is the
+framing: T, L, G, D, or D1 to D3. Each banner is a `banner.png` (2x) and a `banner.jpg` (1x), drawn from its
+`banner.dc.html`.
+
+This repository is published from a private development repository, where every change is reviewed by pull request
+before it reaches this one.
+
 ## What each Spotlight folder holds
 
 ```
 spotlights/<NN-slug>/
+  README.md                   The banner(s) as they were posted, with links to everything below
   data/                       The data exactly as retrieved: world.csv, countries_latest.csv and, for comparisons,
                               the regional, group and breakdown series used
   meta.json                   SDG indicator and series code, dimensions, Data Commons variable, custodian,
@@ -66,7 +87,7 @@ spotlights/<NN-slug>/
   stats.json                  Every number on the banner                         (Spotlights 01 to 04)
   banner.png / banner.jpg     The banner, and banner.dc.html, its design source  (Spotlights 01 to 04)
   captions.md                 Post text for LinkedIn, X and Bluesky, and the comments posted with it
-  versions/<F>/               Spotlights 05 to 40: one folder per version, each with its own stats.json, banner,
+  versions/<F>/               Spotlights 05 to 40: one folder per version, each with its own README.md, stats.json, banner,
                               captions.md and alt.txt (alternative text)
 ```
 
